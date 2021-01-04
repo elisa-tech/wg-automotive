@@ -9,6 +9,19 @@ The connection to the Battery is necessary to safely deal with low charge levels
 
 Cyclic communication will be necessary, otherwise switch on/off commands can be missed.
 
+# tabletest
+| Parameter  | Value  |
+|:-:|:-:|
+| ASIL  | D  |
+| Type  | Requirement|
+
+# Safety concept
+# hallo ich bin SGAnd a third Safety goal, why not
+* [TSR][QM]asdf
+    * [TSR][QM]asdf
+        * [Information][]asdf
+* [FSR][QM]fdsa
+
 ## Inputs
 1. Telltale request
 1. Battery state
@@ -124,7 +137,7 @@ Concept draft based on presentation from Haraki-sans slides on the AGL cluster a
 [add diagram from google doc](https://docs.google.com/document/d/1GQ9FwFEJz9hLjhK_xTEi2DVBmgU2DBnX/edit#heading=h.wueqcivtw8fx)
 
 * [ASIL B] The <Telltale requester> shall send the telltale request containing the information to show or not every 100 ms.
-* [ASIL B] The Ignition shall send the Ignition status every 100ms.
+    * [ASIL B] The Ignition shall send the Ignition status every 100ms.
 * [ASIL B] The Battery shall send the battery status every 100ms.
 * [QM] The Cluster controller shall provide the telltale request status to the Image generator every **x ms**.
 * [QM] The Image generator shall embed the requested telltales into the the Image.
