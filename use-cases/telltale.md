@@ -1,3 +1,6 @@
+<details><summary markdown="span">System definition</summary>
+<p>
+ 
 # System definition
 The item telltale handles displaying safety relevant warning signs called "telltales" to the driver on the instrument cluster display, in case requested by other systems of the car.
 
@@ -9,21 +12,44 @@ The connection to the Battery is necessary to safely deal with low charge levels
 
 Cyclic communication will be necessary, otherwise switch on/off commands can be missed.
 
+<details><summary markdown="span">Inputs</summary>
+<p>
+
 ## Inputs
 1. Telltale request
 1. Battery state
 1. Ignition state
 
+</p>
+</details>
+<details><summary markdown="span">Outputs</summary>
+<p>
+
 ## Outputs
 None?
+
+</p>
+</details>
+<details><summary markdown="span">Safe States</summary>
+<p>
 
 ## Safe States
 The safe state of the system is defined by the screen switched off/black. The system is allowed to transition out of the safe state, after Ignition change.
 
 _[Further point to discuss, could also be allowed to recover if certain underlying transient faults are no more, i.e. corrupted communication between requester and cluster controller]_
 
+</p>
+</details>
+<details><summary markdown="span">Schematic</summary>
+<p>
+
 ## Schematic
 [add diagram from google doc](https://docs.google.com/document/d/1GQ9FwFEJz9hLjhK_xTEi2DVBmgU2DBnX/edit#heading=h.wcfczcs05qi2)
+
+</p>
+</details>
+<details><summary markdown="span">Assumptions</summary>
+<p>
 
 ## Assumptions
 It is assumed that the HW of the cluster controller has to be systematically capable in the sense that it either performs correctly or switches itself off, which results in the display not receiving image data and the kill line being pulled down. This implies existence of a window watchdog to ensure there is no temporal misbehaviour.
@@ -32,7 +58,16 @@ Besides the safety relevant telltale functionality, unrelated QM software runs o
 
 It is assumed that the High level Safety requirements have ASIL B assigned, since that is the integrity level, typically required for instrument clusters in commercial vehicles.
 
+</p>
+</details>
+<details><summary markdown="span">High level safety requirements</summary>
+<p>
+
 ## High level Safety requirements 
+
+<details><summary markdown="span">HLSR_1 ASIL B</summary>
+<p>
+
 ### HLSR_1 ASIL B
 While the ignition is on and while <warning condition is fulfilled> the System shall display the driver warning within 200 ms or transition to the safe state <Display black> within 200 ms.
 
@@ -42,16 +77,35 @@ Need to discuss if Ignition=on is necessary here, if the system is probably not 
 
 Information: In Haraki-sans design, the condition is not safety relevant, we leave it in for now, but general consensus is that it is probably not necessary.
 
+</p>
+</details>
+<details><summary markdown="span">HLSR_2 ASIL B</summary>
+<p>
+
 ### HLSR_2 ASIL B
 The system shall transition into the safe state within 100ms, if an unmotivated telltale is shown.
 
 Information: The timing is derived from the temporal resolution of the human eye, flickering shorter than 100ms is not perceived.
+
+</p>
+</details>
+<details><summary markdown="span">HLSR_3 ASIL B</summary>
+<p>
 
 ### HLSR_3 ASIL B
 The system shall inform the telltale requester of the status of the telltale (displayed/safe state).
 
 Information: We cover this requirement mainly to broaden the solution space of projects.
 
+</p>
+</details>
+</p>
+</details>
+</p>
+</details>
+
+<details><summary markdown>Functional Safety Concept</summary>
+<p>
 
 # Functional Safety Concept
 ## HLSR_1 ASIL B
@@ -69,6 +123,11 @@ Information: We cover this requirement mainly to broaden the solution space of p
 * [ASIL B] The cluster controller shall send a status message to the telltale requester (displayed/safe state).
 * [ASIL B] The chain between telltale request sent and status message received back shall be less than **x ms**.
 
+</p>
+</details>
+
+<details><summary markdown>Technical Safety Concept [DRAFT]</summary>
+<p>
 
 # Technical Safety Concept **_[DRAFT]_**
 At this point we have to decide how the system shall be designed between Cluster controller and display.
@@ -112,6 +171,11 @@ _[to be addressed]_
 ## HLSR_3
 _[to be addressed]_
 
+</p>
+</details>
+
+<details><summary markdown>Technical Safety Concept based on Haraki-sans design</summary>
+<p>
 
 # Technical Safety Concept based on Haraki-sans design
 Concept draft based on presentation from Haraki-sans slides on the AGL cluster architecture.
@@ -172,3 +236,6 @@ HLSR_2 is mostly covered by the HSLR_1 concept. Once telltales have been request
 
 ## HLSR_3 [ASIL B]
 _[to be addressed]_
+
+</p>
+</details>
