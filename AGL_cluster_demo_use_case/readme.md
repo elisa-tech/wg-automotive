@@ -1,4 +1,9 @@
+# Freeplane and Safety Plugin
+The Safety concept map has been created with the mindmap tool freeplane https://www.freeplane.org/wiki/index.php/Home
+It's also recommended to install the Safety Concept addon https://github.com/Jochen-Kall/Safety_concept_tool to ensure correct display of the Safety properties and easier modification of the map. It is not strictly necessary just to view the map though.
+
 # How to identify changed Requirements in a Safety Concept Mindmap
+
 The .mm file format is .xml based, and every node has a hidden Property "MODIFIED" encoding the date and time of the last modification.
 This means that any change in a node implies a change of the "MODIFIED" Property allowing us to extract the IDs of changed requirements using git, which can easily be done with a little bit of bash juggling:
 
