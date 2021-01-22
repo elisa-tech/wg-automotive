@@ -1,8 +1,8 @@
 <map version="freeplane 1.8.0">
 <!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
 <attribute_registry SHOW_ATTRIBUTES="hide"/>
-<node TEXT="Safety concept Cluster Display use case" LOCALIZED_STYLE_REF="default" FOLDED="false" ID="ID_273763478" CREATED="1609081280555" MODIFIED="1610709876802" STYLE="oval"><hook NAME="MapStyle" zoom="0.386">
-    <properties show_icon_for_attributes="false" fit_to_viewport="false" show_note_icons="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff"/>
+<node TEXT="Safety concept Cluster Display use case" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" FOLDED="false" ID="ID_273763478" CREATED="1609081280555" MODIFIED="1610894422559"><hook NAME="MapStyle" zoom="0.566">
+    <properties fit_to_viewport="false" show_icon_for_attributes="false" show_note_icons="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff"/>
 
 <map_styles>
 <stylenode LOCALIZED_TEXT="styles.root_node" STYLE="oval" UNIFORM_SHAPE="true" VGAP_QUANTITY="24.0 pt">
@@ -53,6 +53,9 @@
     <conditional_style ACTIVE="true" STYLE_REF="ASIL A" LAST="false">
         <attribute_compare_condition VALUE="A" ATTRIBUTE="ASIL" COMPARATION_RESULT="0" SUCCEED="true"/>
     </conditional_style>
+    <conditional_style ACTIVE="true" STYLE_REF="ASIL A[A]" LAST="false">
+        <attribute_compare_condition VALUE="A[A]" ATTRIBUTE="ASIL" COMPARATION_RESULT="0" SUCCEED="true"/>
+    </conditional_style>
     <conditional_style ACTIVE="true" STYLE_REF="ASIL A[B]" LAST="false">
         <attribute_compare_condition VALUE="A[B]" ATTRIBUTE="ASIL" COMPARATION_RESULT="0" SUCCEED="true"/>
     </conditional_style>
@@ -65,6 +68,9 @@
     <conditional_style ACTIVE="true" STYLE_REF="ASIL B" LAST="false">
         <attribute_compare_condition VALUE="B" ATTRIBUTE="ASIL" COMPARATION_RESULT="0" SUCCEED="true"/>
     </conditional_style>
+    <conditional_style ACTIVE="true" STYLE_REF="ASIL B[B]" LAST="false">
+        <attribute_compare_condition VALUE="B[B]" ATTRIBUTE="ASIL" COMPARATION_RESULT="0" SUCCEED="true"/>
+    </conditional_style>
     <conditional_style ACTIVE="true" STYLE_REF="ASIL B[C]" LAST="false">
         <attribute_compare_condition VALUE="B[C]" ATTRIBUTE="ASIL" COMPARATION_RESULT="0" SUCCEED="true"/>
     </conditional_style>
@@ -74,11 +80,17 @@
     <conditional_style ACTIVE="true" STYLE_REF="ASIL C" LAST="false">
         <attribute_compare_condition VALUE="C" ATTRIBUTE="ASIL" COMPARATION_RESULT="0" SUCCEED="true"/>
     </conditional_style>
+    <conditional_style ACTIVE="true" STYLE_REF="ASIL C[C]" LAST="false">
+        <attribute_compare_condition VALUE="C[C]" ATTRIBUTE="ASIL" COMPARATION_RESULT="0" SUCCEED="true"/>
+    </conditional_style>
     <conditional_style ACTIVE="true" STYLE_REF="ASIL C[D]" LAST="false">
         <attribute_compare_condition VALUE="C[D]" ATTRIBUTE="ASIL" COMPARATION_RESULT="0" SUCCEED="true"/>
     </conditional_style>
     <conditional_style ACTIVE="true" STYLE_REF="ASIL D" LAST="false">
         <attribute_compare_condition VALUE="D" ATTRIBUTE="ASIL" COMPARATION_RESULT="0" SUCCEED="true"/>
+    </conditional_style>
+    <conditional_style ACTIVE="true" STYLE_REF="ASIL D[D]" LAST="false">
+        <attribute_compare_condition VALUE="D[D]" ATTRIBUTE="ASIL" COMPARATION_RESULT="0" SUCCEED="true"/>
     </conditional_style>
     <conditional_style ACTIVE="true" STYLE_REF="QM" LAST="false">
         <attribute_compare_condition VALUE="QM" ATTRIBUTE="ASIL" COMPARATION_RESULT="0" SUCCEED="true"/>
@@ -139,6 +151,10 @@
 <icon BUILTIN="ASIL_A"/>
 <edge COLOR="#007c00"/>
 </stylenode>
+<stylenode TEXT="ASIL A[A]">
+<icon BUILTIN="ASIL_A[A]"/>
+<edge COLOR="#007c00"/>
+</stylenode>
 <stylenode TEXT="ASIL A[B]">
 <icon BUILTIN="ASIL_A[B]"/>
 <edge COLOR="#007c00"/>
@@ -155,6 +171,10 @@
 <icon BUILTIN="ASIL_B"/>
 <edge COLOR="#007c00"/>
 </stylenode>
+<stylenode TEXT="ASIL B[B]">
+<icon BUILTIN="ASIL_B[B]"/>
+<edge COLOR="#007c00"/>
+</stylenode>
 <stylenode TEXT="ASIL B[C]">
 <icon BUILTIN="ASIL_B[C]"/>
 <edge COLOR="#007c00"/>
@@ -167,12 +187,20 @@
 <icon BUILTIN="ASIL_C"/>
 <edge COLOR="#007c00"/>
 </stylenode>
+<stylenode TEXT="ASIL C[C]">
+<icon BUILTIN="ASIL_C[C]"/>
+<edge COLOR="#007c00"/>
+</stylenode>
 <stylenode TEXT="ASIL C[D]">
 <icon BUILTIN="ASIL_C[D]"/>
 <edge COLOR="#007c00"/>
 </stylenode>
 <stylenode TEXT="ASIL D">
 <icon BUILTIN="ASIL_D"/>
+<edge COLOR="#007c00"/>
+</stylenode>
+<stylenode TEXT="ASIL D[D]">
+<icon BUILTIN="ASIL_D[D]"/>
 <edge COLOR="#007c00"/>
 </stylenode>
 <stylenode TEXT="SZ" STYLE="wide_hexagon">
@@ -199,8 +227,13 @@
 <icon BUILTIN="SW"/>
 <edge COLOR="#007c00"/>
 </stylenode>
-<stylenode TEXT="Warning" BACKGROUND_COLOR="#ff3333" STYLE="rectangle" BORDER_COLOR_LIKE_EDGE="false" BORDER_COLOR="#0066ff">
+<stylenode TEXT="Warning" BACKGROUND_COLOR="#ff0033" STYLE="rectangle" BORDER_COLOR_LIKE_EDGE="false" BORDER_COLOR="#0066ff">
 <icon BUILTIN="button_cancel"/>
+<edge COLOR="#007c00"/>
+</stylenode>
+<stylenode TEXT="Source code Tag" ICON_SIZE="12.0 pt" BACKGROUND_COLOR="#cccccc" STYLE="narrow_hexagon" BORDER_COLOR_LIKE_EDGE="false" BORDER_COLOR="#0066ff">
+<icon BUILTIN="very_positive"/>
+<font NAME="L M Mono Caps10" BOLD="true"/>
 <edge COLOR="#007c00"/>
 </stylenode>
 </stylenode>
@@ -231,221 +264,221 @@
 </stylenode>
 </map_styles>
 </hook>
-<hook NAME="AutomaticEdgeColor" COUNTER="44" RULE="ON_BRANCH_CREATION"/>
-<node TEXT="while requested, the system shall display the driver warning within 200 ms or transition to the safe state within 200 ms." STYLE_REF="Requirement" POSITION="right" ID="ID_971613141" CREATED="1609106418278" MODIFIED="1610703679723" HGAP_QUANTITY="19.99999982118607 pt" VSHIFT_QUANTITY="2.9999999105930186 pt">
+<hook NAME="AutomaticEdgeColor" COUNTER="54" RULE="ON_BRANCH_CREATION"/>
+<node TEXT="while requested, the system shall display the driver warning within 200 ms or transition to the safe state within 200 ms." STYLE_REF="Requirement" POSITION="right" ID="ID_971613141" CREATED="1609106418278" MODIFIED="1610897196058" HGAP_QUANTITY="19.99999982118607 pt" VSHIFT_QUANTITY="2.9999999105930186 pt">
 <attribute NAME="ASIL" VALUE="B"/>
 <attribute NAME="Type" VALUE="SZ"/>
 <attribute NAME="Allocation" VALUE=""/>
-<node TEXT="Information: “while ” means that, if the telltale request persists/is repeated, the system has to continue to display the telltale." STYLE_REF="Requirement" ID="ID_1502911625" CREATED="1609087027838" MODIFIED="1610703679727">
+<node TEXT="Information: “while ” means that, if the telltale request persists/is repeated, the system has to continue to display the telltale." STYLE_REF="Requirement" ID="ID_1502911625" CREATED="1609087027838" MODIFIED="1610897196059">
 <attribute NAME="ASIL" VALUE=""/>
 <attribute NAME="Type" VALUE="Information"/>
 </node>
-<node TEXT="The 200 ms include the time needed for the request to reach the Cluster demo. This is considered in the frequency of the cyclic communication." STYLE_REF="Requirement" ID="ID_1052985289" CREATED="1609428730544" MODIFIED="1610703679732">
+<node TEXT="The 200 ms include the time needed for the request to reach the Cluster demo. This is considered in the frequency of the cyclic communication." STYLE_REF="Requirement" ID="ID_1052985289" CREATED="1609428730544" MODIFIED="1610897196061">
 <attribute NAME="ASIL" VALUE=""/>
 <attribute NAME="Type" VALUE="Information"/>
 </node>
-<node TEXT="The Telltale requester shall send a request cyclically controlling whether a telltale is needed to be shown or not." STYLE_REF="Requirement" ID="ID_1780168904" CREATED="1609154124607" MODIFIED="1610703679735">
+<node TEXT="The Telltale requester shall send a request cyclically controlling whether a telltale is needed to be shown or not." STYLE_REF="Requirement" ID="ID_1780168904" CREATED="1609154124607" MODIFIED="1610897196063">
 <attribute NAME="ASIL" VALUE="B"/>
 <attribute NAME="Type" VALUE="FSR"/>
 <attribute NAME="Allocation" VALUE="Telltale-requester"/>
-<node TEXT="The Telltale requester shall send the telltale request message every 200 ms" STYLE_REF="Requirement" ID="ID_736988533" CREATED="1610617420206" MODIFIED="1610703679739">
+<node TEXT="The Telltale requester shall send the telltale request message every 200 ms" STYLE_REF="Requirement" ID="ID_736988533" CREATED="1610617420206" MODIFIED="1610897196066">
 <attribute NAME="Type" VALUE="TSR"/>
 <attribute NAME="ASIL" VALUE="B"/>
 <attribute NAME="Allocation" VALUE="Telltale-requester"/>
 </node>
-<node TEXT="The Telltale request message shall contain a boolean &quot;telltale_request&quot; = 0 if the telltale is not requested and 1 if the telltale is requested" STYLE_REF="Requirement" ID="ID_529767340" CREATED="1610617528540" MODIFIED="1610703679741">
+<node TEXT="The Telltale request message shall contain a boolean &quot;telltale_request&quot; = 0 if the telltale is not requested and 1 if the telltale is requested" STYLE_REF="Requirement" ID="ID_529767340" CREATED="1610617528540" MODIFIED="1610897196068">
 <attribute NAME="Type" VALUE="TSR"/>
 <attribute NAME="ASIL" VALUE="B"/>
 <attribute NAME="Allocation" VALUE="Telltale-requester"/>
 </node>
-<node TEXT="The Telltale request message shall be E2E protected with E2E Protocol xxx" STYLE_REF="Requirement" ID="ID_950923064" CREATED="1610617442339" MODIFIED="1610703679743">
+<node TEXT="The Telltale request message shall be E2E protected with E2E Protocol xxx" STYLE_REF="Requirement" ID="ID_950923064" CREATED="1610617442339" MODIFIED="1610897196069">
 <attribute NAME="Type" VALUE="TSR"/>
 <attribute NAME="ASIL" VALUE="B"/>
 <attribute NAME="Allocation" VALUE="Telltale-requester"/>
-<node TEXT="We don&apos;t specify this in all detail here, Message counter and CRC is needed" STYLE_REF="Requirement" ID="ID_1340201467" CREATED="1610617507393" MODIFIED="1610703679744">
+<node TEXT="We don&apos;t specify this in all detail here, Message counter and CRC is needed" STYLE_REF="Requirement" ID="ID_1340201467" CREATED="1610617507393" MODIFIED="1610897196070">
 <attribute NAME="Type" VALUE="Information"/>
 </node>
 </node>
 </node>
-<node TEXT="All inputs from outside the system, the cluster controller uses to determine whether a requested telltale is shown shall be E2E protected against data corruption out of order transmission and message loss" STYLE_REF="Requirement" ID="ID_883554261" CREATED="1609428983812" MODIFIED="1610703679746">
+<node TEXT="All inputs from outside the system, the cluster controller uses to determine whether a requested telltale is shown shall be E2E protected against data corruption out of order transmission and message loss" STYLE_REF="Requirement" ID="ID_883554261" CREATED="1609428983812" MODIFIED="1610897196072">
 <attribute NAME="ASIL" VALUE="B"/>
 <attribute NAME="Type" VALUE="FSR"/>
-<node TEXT="The Cluster controller shall monitor messages from the Telltale requester" STYLE_REF="Requirement" ID="ID_1807969240" CREATED="1610617925379" MODIFIED="1610703679747">
+<node TEXT="The Cluster controller shall monitor messages from the Telltale requester" STYLE_REF="Requirement" ID="ID_1807969240" CREATED="1610617925379" MODIFIED="1610897196075">
 <attribute NAME="Type" VALUE="TSR"/>
 <attribute NAME="ASIL" VALUE="B"/>
 <attribute NAME="Allocation" VALUE="Cluster Controller"/>
 </node>
-<node TEXT="The Cluster controller shall check the telltale request message for E2E miss" STYLE_REF="Requirement" ID="ID_199781775" CREATED="1610617974658" MODIFIED="1610703679748">
+<node TEXT="The Cluster controller shall check the telltale request message for E2E miss" STYLE_REF="Requirement" ID="ID_199781775" CREATED="1610617974658" MODIFIED="1610897196078">
 <attribute NAME="Type" VALUE="TSR"/>
 <attribute NAME="ASIL" VALUE="B"/>
 <attribute NAME="Allocation" VALUE="Cluster Controller"/>
 <node ID="ID_1822634618" TREE_ID="ID_1340201467"/>
 </node>
-<node TEXT="If the cluster controller determines an E2E miss in the tell tale request message, the cluster controller shall transition the system into the safe state" STYLE_REF="Requirement" ID="ID_1213070481" CREATED="1610618005875" MODIFIED="1610703679748">
+<node TEXT="If the cluster controller determines an E2E miss in the tell tale request message, the cluster controller shall transition the system into the safe state" STYLE_REF="Requirement" ID="ID_1213070481" CREATED="1610618005875" MODIFIED="1610897196081">
 <attribute NAME="Type" VALUE="TSR"/>
 <attribute NAME="ASIL" VALUE="B"/>
 <attribute NAME="Allocation" VALUE="Cluster Controller"/>
 </node>
-<node TEXT="The Cluster controler shall check all additional inputs from outside the system, the Cluster controller needs to decide whether a requested telltale is displayed for E2E miss" STYLE_REF="Requirement" ID="ID_1404407311" CREATED="1610654302938" MODIFIED="1610703679748">
+<node TEXT="The Cluster controler shall check all additional inputs from outside the system, the Cluster controller needs to decide whether a requested telltale is displayed for E2E miss" STYLE_REF="Requirement" ID="ID_1404407311" CREATED="1610654302938" MODIFIED="1610897196083">
 <attribute NAME="Type" VALUE="TSR"/>
 <attribute NAME="ASIL" VALUE="B"/>
 <attribute NAME="Allocation" VALUE="Not Allocated"/>
-<node TEXT="The Safety-Signal-Source shall check the additional inputs for E2E misses" STYLE_REF="Requirement" ID="ID_114212614" CREATED="1609431592950" MODIFIED="1610703679748">
+<node TEXT="The Safety-Signal-Source shall check the additional inputs for E2E misses" STYLE_REF="Requirement" ID="ID_114212614" CREATED="1609431592950" MODIFIED="1610897196085">
 <attribute NAME="ASIL" VALUE="B"/>
 <attribute NAME="Type" VALUE="SW"/>
 <attribute NAME="Allocation" VALUE="Safety-Signal-source"/>
-<node TEXT="This refers not only to the telltale request messages from the telltale requester, but also all further inputs the safety-signal source needs to decide whether the requested telltale is displayed or not, e.g. input from a HW checker element, or Image data flowing back from the display" STYLE_REF="Requirement" ID="ID_1017729133" CREATED="1610623331702" MODIFIED="1610703679749">
+<node TEXT="This refers not only to the telltale request messages from the telltale requester, but also all further inputs the safety-signal source needs to decide whether the requested telltale is displayed or not, e.g. input from a HW checker element, or Image data flowing back from the display" STYLE_REF="Requirement" ID="ID_1017729133" CREATED="1610623331702" MODIFIED="1610897196086">
 <attribute NAME="Type" VALUE="Information"/>
 <attribute NAME="ASIL" VALUE=""/>
 <attribute NAME="Allocation" VALUE=""/>
 </node>
 </node>
 </node>
-<node TEXT="If the cluster controller determines an E2E miss in an additional input needed for telltale verification, the cluster controller shall transition the system into the safe state" STYLE_REF="Requirement" ID="ID_1264174165" CREATED="1610700002683" MODIFIED="1610703679749">
+<node TEXT="If the cluster controller determines an E2E miss in an additional input needed for telltale verification, the cluster controller shall transition the system into the safe state" STYLE_REF="Requirement" ID="ID_1264174165" CREATED="1610700002683" MODIFIED="1610897196087">
 <attribute NAME="Type" VALUE="TSR"/>
 <attribute NAME="ASIL" VALUE="B"/>
 <attribute NAME="Allocation" VALUE="Cluster Controller"/>
-<node TEXT="On E2E miss of any input to Safety-signal-source, Safety-signal-source shall request &quot;Safe state&quot; from the safety-app" STYLE_REF="Requirement" ID="ID_1488369061" CREATED="1609431616377" MODIFIED="1610703679749">
+<node TEXT="On E2E miss of any input to Safety-signal-source, Safety-signal-source shall request &quot;Safe state&quot; from the safety-app" STYLE_REF="Requirement" ID="ID_1488369061" CREATED="1609431616377" MODIFIED="1610897196089">
 <attribute NAME="ASIL" VALUE="B"/>
 <attribute NAME="Type" VALUE="SW"/>
 <attribute NAME="Allocation" VALUE="Safety-Signal-source"/>
 </node>
 </node>
 </node>
-<node TEXT="The Instrument cluster shall display the requested telltale or transition to the safe state" STYLE_REF="Requirement" ID="ID_1579674255" CREATED="1609154144484" MODIFIED="1610703679750">
+<node TEXT="The Instrument cluster shall display the requested telltale or transition to the safe state" STYLE_REF="Requirement" ID="ID_1579674255" CREATED="1609154144484" MODIFIED="1610897196090">
 <attribute NAME="ASIL" VALUE="B"/>
 <attribute NAME="Type" VALUE="FSR"/>
-<node TEXT="We implement this by splitting into a QM path rendering the Display and a Safety path checking whether the requested telltale is shown or not" STYLE_REF="Requirement" ID="ID_1284231708" CREATED="1609429731106" MODIFIED="1610703679751">
+<node TEXT="We implement this by splitting into a QM path rendering the Display and a Safety path checking whether the requested telltale is shown or not" STYLE_REF="Requirement" ID="ID_1284231708" CREATED="1609429731106" MODIFIED="1610897196092">
 <attribute NAME="ASIL" VALUE=""/>
 <attribute NAME="Type" VALUE="Information"/>
 </node>
-<node TEXT="The Instrument Cluster shall render the cluster display image within 70ms of the instrument Cluster receiving the message" STYLE_REF="Requirement" ID="ID_205232490" CREATED="1610125989843" MODIFIED="1610703679751">
+<node TEXT="The Instrument Cluster shall render the cluster display image within 70ms of the instrument Cluster receiving the message" STYLE_REF="Requirement" ID="ID_205232490" CREATED="1610125989843" MODIFIED="1610897196095">
 <attribute NAME="Type" VALUE="TSR"/>
 <attribute NAME="ASIL" VALUE="QM[B]"/>
 <attribute NAME="Allocation" VALUE="Telltale-requester"/>
-<node TEXT="The QT app shall render the image within 70ms of the cluster controller receiving the message" STYLE_REF="Requirement" ID="ID_499334358" CREATED="1609430956929" MODIFIED="1610703679751">
+<node TEXT="The QT app shall render the image within 70ms of the cluster controller receiving the message" STYLE_REF="Requirement" ID="ID_499334358" CREATED="1609430956929" MODIFIED="1610897196100">
 <attribute NAME="ASIL" VALUE="QM[B]"/>
 <attribute NAME="Type" VALUE="SW"/>
 <attribute NAME="Allocation" VALUE="QT Application"/>
 </node>
 </node>
-<node TEXT="The Instrument Cluster shall determine, whether the requested telltale is displayed" STYLE_REF="Requirement" ID="ID_874940663" CREATED="1610203034090" MODIFIED="1610703679752">
+<node TEXT="The Instrument Cluster shall determine, whether the requested telltale is displayed" STYLE_REF="Requirement" ID="ID_874940663" CREATED="1610203034090" MODIFIED="1610897196102">
 <attribute NAME="Type" VALUE="TSR"/>
 <attribute NAME="ASIL" VALUE="B"/>
 <attribute NAME="Allocation" VALUE="Cluster Controller"/>
-<node TEXT="Safety-signal source part of the control flow" STYLE_REF="Requirement" ID="ID_994205752" CREATED="1609431861307" MODIFIED="1610703679752">
+<node TEXT="Safety-signal source part of the control flow" STYLE_REF="Requirement" ID="ID_994205752" CREATED="1609431861307" MODIFIED="1610897196103">
 <attribute NAME="ASIL" VALUE=""/>
 <attribute NAME="Type" VALUE="Information"/>
 </node>
-<node TEXT="The safety-signal-source shall determine, whether the requested telltale is shown" STYLE_REF="Requirement" ID="ID_745377459" CREATED="1609429843792" MODIFIED="1610703679752">
+<node TEXT="The safety-signal-source shall determine, whether the requested telltale is shown" STYLE_REF="Requirement" ID="ID_745377459" CREATED="1609429843792" MODIFIED="1610897196105">
 <attribute NAME="ASIL" VALUE="B"/>
 <attribute NAME="Type" VALUE="SW"/>
 <attribute NAME="Allocation" VALUE="Safety-Signal-source"/>
 </node>
-<node TEXT="If the requested telltale is not shown, the Safety-signal-source shall request &quot;Safe state&quot; from the safety app." STYLE_REF="Requirement" ID="ID_1088404633" CREATED="1609431675235" MODIFIED="1610703679752">
+<node TEXT="If the requested telltale is not shown, the Safety-signal-source shall request &quot;Safe state&quot; from the safety app." STYLE_REF="Requirement" ID="ID_1088404633" CREATED="1609431675235" MODIFIED="1610897196106">
 <attribute NAME="ASIL" VALUE="B"/>
 <attribute NAME="Type" VALUE="SW"/>
 <attribute NAME="Allocation" VALUE="Telltale-requester"/>
 </node>
-<node TEXT="The safety-signal source shall cyclically send the safety status message to the safety app" STYLE_REF="Requirement" ID="ID_382560048" CREATED="1609431951169" MODIFIED="1610703679752">
+<node TEXT="The safety-signal source shall cyclically send the safety status message to the safety app" STYLE_REF="Requirement" ID="ID_382560048" CREATED="1609431951169" MODIFIED="1610897196107">
 <attribute NAME="ASIL" VALUE="QM[B]"/>
 <attribute NAME="Type" VALUE="SW"/>
 <attribute NAME="Allocation" VALUE="Safety-Signal-source"/>
 </node>
-<node TEXT="Communication from the Safety signal source to the Safety App shall be E2E protected" STYLE_REF="Requirement" ID="ID_70275415" CREATED="1609432146314" MODIFIED="1610703679752">
+<node TEXT="Communication from the Safety signal source to the Safety App shall be E2E protected" STYLE_REF="Requirement" ID="ID_70275415" CREATED="1609432146314" MODIFIED="1610897196108">
 <attribute NAME="ASIL" VALUE="B"/>
 <attribute NAME="Type" VALUE="SW"/>
 <attribute NAME="Allocation" VALUE="Safety-Signal-source"/>
-<node TEXT="We don&apos;t specify this in all detail here, Message counter and CRC is needed" STYLE_REF="Requirement" ID="ID_1259502493" CREATED="1610617507393" MODIFIED="1610703679752">
+<node TEXT="We don&apos;t specify this in all detail here, Message counter and CRC is needed" STYLE_REF="Requirement" ID="ID_1259502493" CREATED="1610617507393" MODIFIED="1610897196109">
 <attribute NAME="Type" VALUE="Information"/>
 </node>
 </node>
-<node TEXT="The results of the Safety signal source workload shall deterministically depend on the inputs" STYLE_REF="Requirement" ID="ID_1639133793" CREATED="1609432250721" MODIFIED="1610703679752">
+<node TEXT="The results of the Safety signal source workload shall deterministically depend on the inputs" STYLE_REF="Requirement" ID="ID_1639133793" CREATED="1609432250721" MODIFIED="1610897196109">
 <attribute NAME="ASIL" VALUE="B"/>
 <attribute NAME="Type" VALUE="SW"/>
 <attribute NAME="Allocation" VALUE="Telltale-requester"/>
-<node TEXT="This implies freedom from spatial interference between the safety-signal-source / safety app and the rest of the (Operating) system, if taken at face value. The formulation is deliberate, the Architecture Workgroup is analysing all potential ways such interference could happen, we then revisit this requirement to refine it regarding safety mechanisms on the application level handling the determined interference scenarios, where possible to avoid putting undue burden on the kernel." STYLE_REF="Requirement" ID="ID_220738134" CREATED="1609432347425" MODIFIED="1610703679753">
+<node TEXT="This implies freedom from spatial interference between the safety-signal-source / safety app and the rest of the (Operating) system, if taken at face value. The formulation is deliberate, the Architecture Workgroup is analysing all potential ways such interference could happen, we then revisit this requirement to refine it regarding safety mechanisms on the application level handling the determined interference scenarios, where possible to avoid putting undue burden on the kernel." STYLE_REF="Requirement" ID="ID_220738134" CREATED="1609432347425" MODIFIED="1610897196110">
 <attribute NAME="ASIL" VALUE=""/>
 <attribute NAME="Type" VALUE="Information"/>
 </node>
-<node TEXT="Hardware faults are out of scope, see assumptions" STYLE_REF="Requirement" ID="ID_1937203672" CREATED="1609432645149" MODIFIED="1610703679753">
+<node TEXT="Hardware faults are out of scope, see assumptions" STYLE_REF="Requirement" ID="ID_1937203672" CREATED="1609432645149" MODIFIED="1610897196111">
 <attribute NAME="ASIL" VALUE=""/>
 <attribute NAME="Type" VALUE="Information"/>
 </node>
-<node TEXT="Temporal interference is not relevant here, since the watchdog transitions the system into the safe state, if execution takes too long." STYLE_REF="Requirement" ID="ID_991487171" CREATED="1609432698331" MODIFIED="1610703679753">
+<node TEXT="Temporal interference is not relevant here, since the watchdog transitions the system into the safe state, if execution takes too long." STYLE_REF="Requirement" ID="ID_991487171" CREATED="1609432698331" MODIFIED="1610897196112">
 <attribute NAME="ASIL" VALUE=""/>
 <attribute NAME="Type" VALUE="Information"/>
 </node>
 </node>
 </node>
-<node TEXT="If the requested telltale is not displayed, the instrument cluster shall transition the system to the safe state by not triggering the external watchdog" STYLE_REF="Requirement" ID="ID_1791854442" CREATED="1610203085715" MODIFIED="1610703679753">
+<node TEXT="If the requested telltale is not displayed, the instrument cluster shall transition the system to the safe state by not triggering the external watchdog" STYLE_REF="Requirement" ID="ID_1791854442" CREATED="1610203085715" MODIFIED="1610897196112">
 <attribute NAME="Type" VALUE="TSR"/>
 <attribute NAME="ASIL" VALUE="B"/>
 <attribute NAME="Allocation" VALUE="Cluster Controller"/>
-<node TEXT="Safety App portion of the Control Flow" STYLE_REF="Requirement" ID="ID_538932640" CREATED="1609431908398" MODIFIED="1610703679753">
+<node TEXT="Safety App portion of the Control Flow" STYLE_REF="Requirement" ID="ID_538932640" CREATED="1609431908398" MODIFIED="1610897196113">
 <attribute NAME="ASIL" VALUE=""/>
 <attribute NAME="Type" VALUE="Information"/>
 </node>
-<node TEXT="The Safety App shall check the Communication from Safety Signal Source for E2E misses" STYLE_REF="Requirement" ID="ID_563434302" CREATED="1609432787604" MODIFIED="1610703679753">
+<node TEXT="The Safety App shall check the Communication from Safety Signal Source for E2E misses" STYLE_REF="Requirement" ID="ID_563434302" CREATED="1609432787604" MODIFIED="1610897196114">
 <attribute NAME="ASIL" VALUE="B"/>
 <attribute NAME="Type" VALUE="SW"/>
 <attribute NAME="Allocation" VALUE="Safety App"/>
 </node>
-<node TEXT="The Safety App shall pet the external watchdog, if and only if the cyclic message from the safety signal source passes the E2E check and does not request &quot;safe state&quot;" STYLE_REF="Requirement" ID="ID_1726916053" CREATED="1609432835072" MODIFIED="1610703679753">
+<node TEXT="The Safety App shall pet the external watchdog, if and only if the cyclic message from the safety signal source passes the E2E check and does not request &quot;safe state&quot;" STYLE_REF="Requirement" ID="ID_1726916053" CREATED="1609432835072" MODIFIED="1610897196115">
 <attribute NAME="ASIL" VALUE="B"/>
 <attribute NAME="Type" VALUE="SW"/>
 <attribute NAME="Allocation" VALUE="Telltale-requester"/>
 </node>
-<node TEXT="The results of the Safety-app workload shall deterministically depend on the inputs" STYLE_REF="Requirement" ID="ID_971824356" CREATED="1609432250721" MODIFIED="1610703679753">
+<node TEXT="The results of the Safety-app workload shall deterministically depend on the inputs" STYLE_REF="Requirement" ID="ID_971824356" CREATED="1609432250721" MODIFIED="1610897196116">
 <attribute NAME="ASIL" VALUE="B"/>
 <attribute NAME="Type" VALUE="SW"/>
 <attribute NAME="Allocation" VALUE="Safety App"/>
-<node TEXT="This implies freedom from spatial interference between the safety-signal-source / safety app and the rest of the (Operating) system, if taken at face value. The formulation is deliberate, the Architecture Workgroup is analysing all potential ways such interference could happen, we then revisit this requirement to refine it regarding safety mechanisms on the application level handling the determined interference scenarios, where possible to avoid putting undue burden on the kernel." STYLE_REF="Requirement" ID="ID_1459030927" CREATED="1609432347425" MODIFIED="1610703679753">
+<node TEXT="This implies freedom from spatial interference between the safety-signal-source / safety app and the rest of the (Operating) system, if taken at face value. The formulation is deliberate, the Architecture Workgroup is analysing all potential ways such interference could happen, we then revisit this requirement to refine it regarding safety mechanisms on the application level handling the determined interference scenarios, where possible to avoid putting undue burden on the kernel." STYLE_REF="Requirement" ID="ID_1459030927" CREATED="1609432347425" MODIFIED="1610897196116">
 <attribute NAME="ASIL" VALUE=""/>
 <attribute NAME="Type" VALUE="Information"/>
 </node>
-<node TEXT="Hardware faults are out of scope, see assumptions" STYLE_REF="Requirement" ID="ID_722885474" CREATED="1609432645149" MODIFIED="1610703679753">
+<node TEXT="Hardware faults are out of scope, see assumptions" STYLE_REF="Requirement" ID="ID_722885474" CREATED="1609432645149" MODIFIED="1610897196118">
 <attribute NAME="ASIL" VALUE=""/>
 <attribute NAME="Type" VALUE="Information"/>
 </node>
-<node TEXT="Temporal interference is not relevant here, since the watchdog transitions the system into the safe state, if execution takes too long." STYLE_REF="Requirement" ID="ID_560329904" CREATED="1609432698331" MODIFIED="1610703679754">
+<node TEXT="Temporal interference is not relevant here, since the watchdog transitions the system into the safe state, if execution takes too long." STYLE_REF="Requirement" ID="ID_560329904" CREATED="1609432698331" MODIFIED="1610897196118">
 <attribute NAME="ASIL" VALUE=""/>
 <attribute NAME="Type" VALUE="Information"/>
 </node>
 </node>
 </node>
-<node TEXT="If the watchdog is not triggered within 200ms, it shall transition the system to the safet state" STYLE_REF="Requirement" ID="ID_998490846" CREATED="1610698701000" MODIFIED="1610703679754">
+<node TEXT="If the watchdog is not triggered within 200ms, it shall transition the system to the safet state" STYLE_REF="Requirement" ID="ID_998490846" CREATED="1610698701000" MODIFIED="1610897196119">
 <attribute NAME="Type" VALUE="TSR"/>
 <attribute NAME="ASIL" VALUE="B"/>
 <attribute NAME="Allocation" VALUE="Watchdog"/>
-<node TEXT="Watchdog part of the control flow" STYLE_REF="Requirement" ID="ID_1409122909" CREATED="1609431908398" MODIFIED="1610703679754">
+<node TEXT="Watchdog part of the control flow" STYLE_REF="Requirement" ID="ID_1409122909" CREATED="1609431908398" MODIFIED="1610897196120">
 <attribute NAME="ASIL" VALUE=""/>
 <attribute NAME="Type" VALUE="Information"/>
 </node>
-<node TEXT="Timing allocation considerations:&#xa;The timings for rendering and telltale verification are not safety relevant, since the watchdog transitions to the system to the safe state, if the chain takes too long." STYLE_REF="Requirement" ID="ID_1337523371" CREATED="1609430707841" MODIFIED="1610703679754">
+<node TEXT="Timing allocation considerations:&#xa;The timings for rendering and telltale verification are not safety relevant, since the watchdog transitions to the system to the safe state, if the chain takes too long." STYLE_REF="Requirement" ID="ID_1337523371" CREATED="1609430707841" MODIFIED="1610897196123">
 <attribute NAME="ASIL" VALUE=""/>
 <attribute NAME="Type" VALUE="Information"/>
-<node TEXT="Signal sending including rendering by QT app: 100ms. We assume the time delay between the requester sending the message, and the cluster demo receiving it is less than 30ms, leaving 70ms for the rendering" STYLE_REF="Requirement" ID="ID_865269483" CREATED="1609433185494" MODIFIED="1610703679754">
-<attribute NAME="ASIL" VALUE=""/>
-<attribute NAME="Type" VALUE="Information"/>
-</node>
-<node TEXT="Display check inklusive WD trigger: 50ms" STYLE_REF="Requirement" ID="ID_1226012594" CREATED="1609433217685" MODIFIED="1610703679754">
+<node TEXT="Signal sending including rendering by QT app: 100ms. We assume the time delay between the requester sending the message, and the cluster demo receiving it is less than 30ms, leaving 70ms for the rendering" STYLE_REF="Requirement" ID="ID_865269483" CREATED="1609433185494" MODIFIED="1610897196128">
 <attribute NAME="ASIL" VALUE=""/>
 <attribute NAME="Type" VALUE="Information"/>
 </node>
-<node TEXT="Watchdog logic inclusive backlight killing: 50ms" STYLE_REF="Requirement" ID="ID_322365118" CREATED="1609433239777" MODIFIED="1610703679755">
+<node TEXT="Display check inklusive WD trigger: 50ms" STYLE_REF="Requirement" ID="ID_1226012594" CREATED="1609433217685" MODIFIED="1610897196132">
+<attribute NAME="ASIL" VALUE=""/>
+<attribute NAME="Type" VALUE="Information"/>
+</node>
+<node TEXT="Watchdog logic inclusive backlight killing: 50ms" STYLE_REF="Requirement" ID="ID_322365118" CREATED="1609433239777" MODIFIED="1610897196133">
 <attribute NAME="ASIL" VALUE=""/>
 <attribute NAME="Type" VALUE="Information"/>
 </node>
 </node>
-<node TEXT="The watchdog shall disable the backlight of the Cluster Display within 50ms, if it is not triggered within 150ms." STYLE_REF="Requirement" ID="ID_1266688002" CREATED="1609429267081" MODIFIED="1610703679755">
+<node TEXT="The watchdog shall disable the backlight of the Cluster Display within 50ms, if it is not triggered within 150ms." STYLE_REF="Requirement" ID="ID_1266688002" CREATED="1609429267081" MODIFIED="1611331002531">
 <attribute NAME="ASIL" VALUE="B"/>
 <attribute NAME="Type" VALUE="SW"/>
 <attribute NAME="Allocation" VALUE="Telltale-requester"/>
 </node>
 </node>
 </node>
-<node TEXT="The chain between Telltale request sent and display/safe state shall be less than 200ms." STYLE_REF="Requirement" ID="ID_922972509" CREATED="1609428685902" MODIFIED="1610703679756" LINK="#at(:~Sys:Telltale-requester)">
+<node TEXT="The chain between Telltale request sent and display/safe state shall be less than 200ms." STYLE_REF="Requirement" ID="ID_922972509" CREATED="1609428685902" MODIFIED="1611331002531" LINK="#at(:~Sys:Telltale-requester)">
 <attribute NAME="ASIL" VALUE="B"/>
 <attribute NAME="Type" VALUE="FSR"/>
 <node ID="ID_1197920546" TREE_ID="ID_1337523371">
@@ -453,7 +486,7 @@
 <node ID="ID_980166321" TREE_ID="ID_1226012594"/>
 <node ID="ID_450743490" TREE_ID="ID_322365118"/>
 </node>
-<node TEXT="The Telltale request message shall be sent every 200 ms" STYLE_REF="Requirement" ID="ID_190273872" CREATED="1609429199215" MODIFIED="1610703679757">
+<node TEXT="The Telltale request message shall be sent every 200 ms" STYLE_REF="Requirement" ID="ID_190273872" CREATED="1609429199215" MODIFIED="1610897196138">
 <attribute NAME="ASIL" VALUE="B"/>
 <attribute NAME="Type" VALUE="TSR"/>
 <attribute NAME="Allocation" VALUE="Telltale-requester"/>
@@ -461,7 +494,7 @@
 <node ID="ID_571758931" TREE_ID="ID_205232490">
 <node ID="ID_207710874" TREE_ID="ID_499334358"/>
 </node>
-<node TEXT="Verification of telltale shown shall be performed within 50ms" STYLE_REF="Requirement" ID="ID_1787478473" CREATED="1609430913281" MODIFIED="1610703679757">
+<node TEXT="Verification of telltale shown shall be performed within 50ms" STYLE_REF="Requirement" ID="ID_1787478473" CREATED="1609430913281" MODIFIED="1610897196140">
 <attribute NAME="ASIL" VALUE="QM[B]"/>
 <attribute NAME="Type" VALUE="TSR"/>
 <attribute NAME="Allocation" VALUE="Cluster Controller"/>
@@ -477,11 +510,11 @@
 </node>
 </node>
 </node>
-<node TEXT="The system shall transition to the safe state within 100ms of the display showing an unrequested telltale for longer than 100 ms" STYLE_REF="Requirement" POSITION="right" ID="ID_888816481" CREATED="1609433460805" MODIFIED="1610703679758">
+<node TEXT="The system shall transition to the safe state within 100ms of the display showing an unrequested telltale for longer than 100 ms" STYLE_REF="Requirement" POSITION="right" ID="ID_888816481" CREATED="1609433460805" MODIFIED="1610897196142">
 <attribute NAME="ASIL" VALUE="B"/>
 <attribute NAME="Type" VALUE="SZ"/>
 <attribute NAME="Allocation" VALUE=""/>
-<node TEXT="We need to discuss this, this might not work with the frequency of 200ms we have in SZ1, it will if we relax it a little bit to around 120ms, see" STYLE_REF="Requirement" ID="ID_575915779" CREATED="1609495380329" MODIFIED="1610703679759">
+<node TEXT="We need to discuss this, this might not work with the frequency of 200ms we have in SZ1, it will if we relax it a little bit to around 120ms, see" STYLE_REF="Requirement" ID="ID_575915779" CREATED="1609495380329" MODIFIED="1610897196143">
 <attribute NAME="ASIL" VALUE=""/>
 <attribute NAME="Type" VALUE="Information"/>
 </node>
@@ -507,24 +540,24 @@
 <node ID="ID_1562874415" TREE_ID="ID_1488369061"/>
 </node>
 </node>
-<node TEXT="The instrument cluster shall transition to the safe state within 50ms, if an unrequested telltale is displayed for more than 100 ms" STYLE_REF="Requirement" ID="ID_1967724661" CREATED="1609623643138" MODIFIED="1610703679760">
+<node TEXT="The instrument cluster shall transition to the safe state within 50ms, if an unrequested telltale is displayed for more than 100 ms" STYLE_REF="Requirement" ID="ID_1967724661" CREATED="1609623643138" MODIFIED="1610897196144">
 <attribute NAME="Type" VALUE="FSR"/>
 <attribute NAME="ASIL" VALUE="B"/>
 <node ID="ID_464783880" TREE_ID="ID_1284231708"/>
 <node ID="ID_1234093641" TREE_ID="ID_205232490">
 <node ID="ID_1721681830" TREE_ID="ID_499334358"/>
 </node>
-<node TEXT="All Inputs the Cluster controller needs to decide whether a un requested telltale is displayed shall be E2E protected" STYLE_REF="Requirement" ID="ID_142142357" CREATED="1610654302938" MODIFIED="1610703679760">
+<node TEXT="All Inputs the Cluster controller needs to decide whether a un requested telltale is displayed shall be E2E protected" STYLE_REF="Requirement" ID="ID_142142357" CREATED="1610654302938" MODIFIED="1610897196145">
 <attribute NAME="Type" VALUE="TSR"/>
 <attribute NAME="ASIL" VALUE="B"/>
 <attribute NAME="Allocation" VALUE="Not Allocated"/>
 </node>
-<node TEXT="The Instrument Cluster shall determine, if a not requested telltale is displayed for more than 100ms" STYLE_REF="Requirement" ID="ID_1824391227" CREATED="1610203034090" MODIFIED="1610703679760">
+<node TEXT="The Instrument Cluster shall determine, if a not requested telltale is displayed for more than 100ms" STYLE_REF="Requirement" ID="ID_1824391227" CREATED="1610203034090" MODIFIED="1610897196146">
 <attribute NAME="Type" VALUE="TSR"/>
 <attribute NAME="ASIL" VALUE="B"/>
 <attribute NAME="Allocation" VALUE="Cluster Controller"/>
 </node>
-<node TEXT="If a unrequested telltale is shown for more than 100ms the instrument cluster shall transition the system to the safe state by not triggering the external watchdog" STYLE_REF="Requirement" ID="ID_1623141656" CREATED="1610660961446" MODIFIED="1610703679760">
+<node TEXT="If a unrequested telltale is shown for more than 100ms the instrument cluster shall transition the system to the safe state by not triggering the external watchdog" STYLE_REF="Requirement" ID="ID_1623141656" CREATED="1610660961446" MODIFIED="1610897196147">
 <attribute NAME="Type" VALUE="TSR"/>
 <attribute NAME="ASIL" VALUE="B"/>
 <attribute NAME="Allocation" VALUE="Telltale-requester"/>
@@ -552,7 +585,7 @@
 </node>
 </node>
 </node>
-<node TEXT="![system](http://www.plantuml.com/plantuml/proxy?cache=no&amp;src=https://raw.githubusercontent.com/Jochen-Kall/wg-automotive/master/AGL_cluster_demo_use_case/Architecture/Sequence-Diagram/Sequence_diagram.puml)" STYLE_REF="Requirement" POSITION="left" ID="ID_1203473398" CREATED="1609690458394" MODIFIED="1610703679765" LINK="https://github.com/Jochen-Kall/wg-automotive/blob/master/AGL_cluster_demo_use_case/Architecture/Sequence-Diagram/Sequence_diagram.md">
+<node TEXT="![system](http://www.plantuml.com/plantuml/proxy?cache=no&amp;src=https://raw.githubusercontent.com/Jochen-Kall/wg-automotive/master/AGL_cluster_demo_use_case/Architecture/Sequence-Diagram/Sequence_diagram.puml)" STYLE_REF="Requirement" POSITION="left" ID="ID_1203473398" CREATED="1609690458394" MODIFIED="1610897196150" LINK="https://github.com/Jochen-Kall/wg-automotive/blob/master/AGL_cluster_demo_use_case/Architecture/Sequence-Diagram/Sequence_diagram.md">
 <attribute NAME="Type" VALUE="Information"/>
 <attribute NAME="ASIL" VALUE=""/>
 </node>
@@ -572,6 +605,20 @@
 </node>
 <node TEXT="HW Architectural Elements" ID="ID_983665653" CREATED="1610478772917" MODIFIED="1610703679768">
 <node TEXT="Dummy" ID="ID_1264197492" CREATED="1610478968566" MODIFIED="1610703679768"/>
+</node>
+</node>
+<node TEXT="Source code monitoring" POSITION="left" ID="ID_197895921" CREATED="1610823383222" MODIFIED="1610880288222" HGAP_QUANTITY="7.25000020116567 pt" VSHIFT_QUANTITY="35.249998949468164 pt">
+<edge COLOR="#00ff00"/>
+<attribute_layout NAME_WIDTH="68.99999794363981 pt" VALUE_WIDTH="248.99999257922195 pt"/>
+<attribute NAME="Github link" VALUE="https://github.com/Jochen-Kall/Safety-app/"/>
+<attribute NAME="revision" VALUE="8db75d886c915efc16e481e3fb63a09fd6e10eb6"/>
+<node TEXT="Local Repository" ID="ID_1158912197" CREATED="1610880491236" MODIFIED="1610881409679">
+<node TEXT="Safety-app" ID="ID_302688013" CREATED="1611330979915" MODIFIED="1611330979915" LINK="../../Safety-app/"/>
+</node>
+<node TEXT="files" ID="ID_608165453" CREATED="1610880473633" MODIFIED="1610880475535">
+<node TEXT="Safety-signal-source.c" ID="ID_1396962989" CREATED="1611330996065" MODIFIED="1611330996065" LINK="../../Safety-app/Safety-signal-source.c"/>
+<node TEXT="control-app.c" ID="ID_1717445163" CREATED="1611330996065" MODIFIED="1611330996065" LINK="../../Safety-app/control-app.c"/>
+<node TEXT="safety-app.c" ID="ID_1170074676" CREATED="1611330996065" MODIFIED="1611330996065" LINK="../../Safety-app/safety-app.c"/>
 </node>
 </node>
 </node>
