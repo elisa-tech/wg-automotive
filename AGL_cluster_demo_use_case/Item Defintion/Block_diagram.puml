@@ -1,0 +1,28 @@
+' Functional perspective Cluster Demo application
+@startuml
+[Telltale Requester]
+together {
+[Display]
+[Backlight]
+}
+[Watchdog]
+package "System" {
+[Request handling]
+[Image generation]
+[Telltale checking]
+[Safe State trigger]
+}
+
+[Telltale Requester] --> [Request handling] : Telltale Request
+[Request handling] --> [Image generation]
+[Request handling] --> [Telltale checking]
+
+[Image generation] --> [Display]
+[Telltale checking] --> [Safe State trigger]
+[Display] --> [Telltale checking]
+
+[Safe State trigger] --> [Watchdog] : pet
+[Watchdog] --> [Backlight] : kill line
+[Display] -- [Backlight]
+@enduml
+

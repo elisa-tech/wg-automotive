@@ -264,7 +264,7 @@
 </stylenode>
 </map_styles>
 </hook>
-<hook NAME="AutomaticEdgeColor" COUNTER="54" RULE="ON_BRANCH_CREATION"/>
+<hook NAME="AutomaticEdgeColor" COUNTER="58" RULE="ON_BRANCH_CREATION"/>
 <node TEXT="while requested, the system shall display the driver warning within 200 ms or transition to the safe state within 200 ms." STYLE_REF="Requirement" POSITION="right" ID="ID_971613141" CREATED="1609106418278" MODIFIED="1610897196058" HGAP_QUANTITY="19.99999982118607 pt" VSHIFT_QUANTITY="2.9999999105930186 pt">
 <attribute NAME="ASIL" VALUE="B"/>
 <attribute NAME="Type" VALUE="SZ"/>
@@ -585,9 +585,18 @@
 </node>
 </node>
 </node>
-<node TEXT="![system](http://www.plantuml.com/plantuml/proxy?cache=no&amp;src=https://raw.githubusercontent.com/Jochen-Kall/wg-automotive/master/AGL_cluster_demo_use_case/Architecture/Sequence-Diagram/Sequence_diagram.puml)" STYLE_REF="Requirement" POSITION="left" ID="ID_1203473398" CREATED="1609690458394" MODIFIED="1610897196150" LINK="https://github.com/Jochen-Kall/wg-automotive/blob/master/AGL_cluster_demo_use_case/Architecture/Sequence-Diagram/Sequence_diagram.md">
-<attribute NAME="Type" VALUE="Information"/>
-<attribute NAME="ASIL" VALUE=""/>
+<node TEXT="Schematics" POSITION="left" ID="ID_978806181" CREATED="1613405528934" MODIFIED="1613405539459">
+<edge COLOR="#7c7c00"/>
+<node TEXT="Block Diagram" ID="ID_1033798428" CREATED="1613407435806" MODIFIED="1613407440809">
+<node TEXT="Block_Diagram.png" ID="ID_423120046" CREATED="1613407410936" MODIFIED="1613407447776">
+<hook URI="Telltale_concept_files/Block_Diagram.png" SIZE="0.9478673" NAME="ExternalObject"/>
+</node>
+</node>
+<node TEXT="Sequence Diagram" ID="ID_381179464" CREATED="1613409316160" MODIFIED="1613409323142">
+<node TEXT="Sequence_Diagram.png" ID="ID_781270333" CREATED="1613409337309" MODIFIED="1613409337309">
+<hook URI="Telltale_concept_files/Sequence_Diagram.png" SIZE="0.5314438" NAME="ExternalObject"/>
+</node>
+</node>
 </node>
 <node TEXT="Architecture" POSITION="left" ID="ID_1988403535" CREATED="1609881073321" MODIFIED="1610703679766" HGAP_QUANTITY="76.99999812245375 pt" VSHIFT_QUANTITY="217.49999351799508 pt">
 <edge COLOR="#0000ff"/>
@@ -596,11 +605,12 @@
 <node TEXT="Cluster Controller" ID="ID_1992686079" CREATED="1609881092272" MODIFIED="1610703679766"/>
 <node TEXT="Display" ID="ID_1852933542" CREATED="1609881244846" MODIFIED="1610703679767"/>
 <node TEXT="Watchdog" ID="ID_1997024973" CREATED="1609881274280" MODIFIED="1610703679767"/>
+<node TEXT="Backlight" ID="ID_964016906" CREATED="1613404054705" MODIFIED="1613404057375"/>
 </node>
 <node TEXT="SW Architectural Elements" ID="ID_1297553272" CREATED="1609881131483" MODIFIED="1610703679767">
 <node TEXT="Safety-Signal-source" ID="ID_1659037005" CREATED="1609881203148" MODIFIED="1610703679767"/>
-<node TEXT="Safety App" ID="ID_288712896" CREATED="1609881213584" MODIFIED="1610703679767"/>
-<node TEXT="QT Application" ID="ID_1100078027" CREATED="1609881218794" MODIFIED="1610703679768"/>
+<node TEXT="Safety-App" ID="ID_288712896" CREATED="1609881213584" MODIFIED="1613404557676"/>
+<node TEXT="QT-Application" ID="ID_1100078027" CREATED="1609881218794" MODIFIED="1613404563025"/>
 <node TEXT="Kernel" ID="ID_531273097" CREATED="1610125811665" MODIFIED="1610703679768"/>
 </node>
 <node TEXT="HW Architectural Elements" ID="ID_983665653" CREATED="1610478772917" MODIFIED="1610703679768">

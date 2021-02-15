@@ -1,21 +1,20 @@
 @startuml
 'skinparam wrapWidth 200
 box "Linux"
-participant "Safety signal source" order 10
+participant "Safety-Signal-source" order 10
 participant "Safety App" order 20
 end box
 participant "Watchdog" order 30
 participant "Backlight" order 40
 
-
-activate "Safety signal source"
+activate "Safety-Signal-source"
 activate "Watchdog"
-"Safety signal source" -> "Safety signal source": Determine  Safety status
-note left of "Safety signal source":FM-001: Spatial Interference \n-> Status determination wrong   
-"Safety signal source" -> "Safety App": Send cyclic Safety status Message
-note left of "Safety signal source":FM-002: Spatial Interference \n-> Message corrupted
-note left of "Safety signal source":FM-003: Temporal Interference \n-> Message too early/late/missing
-deactivate "Safety signal source"
+"Safety-Signal-source" -> "Safety-Signal-source": Determine  Safety status
+note left of "Safety-Signal-source":FM-001: Spatial Interference \n-> Status determination wrong   
+"Safety-Signal-source" -> "Safety App": Send cyclic Safety status Message
+note left of "Safety-Signal-source":FM-002: Spatial Interference \n-> Message corrupted
+note left of "Safety-Signal-source":FM-003: Temporal Interference \n-> Message too early/late/missing
+deactivate "Safety-Signal-source"
 activate "Safety App"
 "Safety App" -> "Safety App": Check E2E
 note left of "Safety App":FM-004: Spatial Interference \n-> E2E check false negative

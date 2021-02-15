@@ -1,0 +1,14 @@
+' Functional perspective Cluster Demo application
+@startuml
+package "Linux" {
+[Image generation]
+[Telltale checking]
+[Safe State trigger]
+}
+[Watchdog]
+
+[Telltale checking] --> [Safe State trigger] : cyclic communication
+[Telltale checking] --> [Image generation] : Corruption trigger
+[Safe State trigger] --> [Watchdog] : pet
+@enduml
+
