@@ -10,10 +10,12 @@ In this use case, to the end of getting something running, no specific Hardware 
 The demo runs on a X86-64 target within QEMU [todo: check] with an emulated HW watchdog [currently softdog, will be changed soon]
 
 ## System Behaviour
-### Block Diagram 
+### Block Diagram nominal function
 Nominal function absent of safety mechanisms
-
+![system](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/Jochen-Kall/wg-automotive/master/Cluster_Display_Use_Case_v2/Item_Defintion/Block_diagram_nominal.puml)
+### Block Diagram Including Safety Checking
 Block diagram including safety mechanisms
+![system](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/Jochen-Kall/wg-automotive/master/Cluster_Display_Use_Case_v2/Item_Defintion/Block_diagram_with_safety.puml)
 
 ## Safety Goals and Safe State
 No hara (hazard analysis and risc assessment) was performed for the system. Instead we assume the following safety goals as given:
