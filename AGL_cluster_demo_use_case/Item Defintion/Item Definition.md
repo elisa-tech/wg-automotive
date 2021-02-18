@@ -23,12 +23,22 @@ The display of telltales in particular is safety critical, since telltales are a
 In this use case, to the end of getting something running, no specific Hardware is considered. 
 The demo runs on a X86-64 target within QEMU [todo: check] with an emulated HW watchdog [currently softdog, will be changed soon]
 
-## Block Diagram
+## System Behaviour
+### Block Diagram 
 The idealized version we base our concept work on, thus is not fully reflected in the implementation of our demo.
 Our concept work uses the following block diagram
 [todo add Block_diagram.puml]
 whereas the part implemented (to some extend) in the demo is
 [todo add Block_diagram_demo.puml]
+
+## Safety Goals and Safe State
+No hara (hazard analysis and risc assessment) was performed for the system. Instead we assume the following safety goals as given:
+### Safety Goal 1
+While requested, the system shall display the driver warning within 200 ms or transition to the safe state within 200 ms.
+### Safety Goal 2
+The system shall transition to the safe state within 100ms of the display showing an unrequested telltale for longer than 100 ms
+### Safe State
+The system wide Safe state is defined as display backlight switched off / black screen.
 
 ## Interfaces
 We only describe the interfacese for the idealized version, the demo version does not have any after all.

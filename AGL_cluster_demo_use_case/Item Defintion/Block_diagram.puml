@@ -1,27 +1,29 @@
-' Functional perspective Cluster Demo application
+' Functional and SW architecture perspective Cluster Demo application
 @startuml
 [Telltale Requester]
+package "Instrument Cluster" {
 together {
 [Display]
 [Backlight]
 }
 [Watchdog]
-package "System" {
+package "Cluster Controller" {
 [Request handling]
-[Image generation]
-[Telltale checking]
-[Safe State trigger]
+[QT-Application]
+[Safety-Signal-source]
+[Safety-App]
+}
 }
 
 [Telltale Requester] --> [Request handling] : Telltale Request
-[Request handling] --> [Image generation]
-[Request handling] --> [Telltale checking]
+[Request handling] --> [QT-Application]
+[Request handling] --> [Safety-Signal-source]
 
-[Image generation] --> [Display]
-[Telltale checking] --> [Safe State trigger]
-[Display] --> [Telltale checking]
+[QT-Application] --> [Display] : Image_out
+[Safety-Signal-source] --> [Safety-App]
+[Display] --> [Safety-Signal-source] : Image_in
 
-[Safe State trigger] --> [Watchdog] : pet
+[Safety-App] --> [Watchdog] : pet
 [Watchdog] --> [Backlight] : kill line
 [Display] -- [Backlight]
 @enduml

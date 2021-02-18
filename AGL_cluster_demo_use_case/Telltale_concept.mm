@@ -1,8 +1,11 @@
 <map version="freeplane 1.8.0">
 <!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
 <attribute_registry SHOW_ATTRIBUTES="hide"/>
-<node TEXT="Safety concept Cluster Display use case" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" FOLDED="false" ID="ID_273763478" CREATED="1609081280555" MODIFIED="1610894422559"><hook NAME="MapStyle" zoom="0.566">
-    <properties fit_to_viewport="false" show_icon_for_attributes="false" show_note_icons="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff"/>
+<node TEXT="Safety concept Cluster Display use case" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" FOLDED="false" ID="ID_273763478" CREATED="1609081280555" MODIFIED="1613493286397">
+<attribute NAME="FuSi-Addon-version" VALUE="0,4" OBJECT="org.freeplane.features.format.FormattedNumber|0.4"/>
+<attribute NAME="Enable Tainting" VALUE="false"/>
+<hook NAME="MapStyle" zoom="0.685">
+    <properties show_icon_for_attributes="false" fit_to_viewport="false" show_note_icons="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff"/>
 
 <map_styles>
 <stylenode LOCALIZED_TEXT="styles.root_node" STYLE="oval" UNIFORM_SHAPE="true" VGAP_QUANTITY="24.0 pt">
@@ -33,17 +36,6 @@
 </stylenode>
 <stylenode LOCALIZED_TEXT="styles.important">
 <icon BUILTIN="yes"/>
-</stylenode>
-<stylenode TEXT="Teststyle" COLOR="#cc00cc" STYLE="wide_hexagon" NUMBERED="false">
-<edge COLOR="#00ff00"/>
-<cloud COLOR="#ffcc66" SHAPE="ARC"/>
-<hook NAME="NodeConditionalStyles">
-    <conditional_style ACTIVE="true" LOCALIZED_STYLE_REF="AutomaticLayout.level,1" LAST="false">
-        <attribute_compare_condition VALUE="FSR" ATTRIBUTE="Type" COMPARATION_RESULT="0" SUCCEED="true"/>
-    </conditional_style>
-</hook>
-<attribute NAME="ASIL" VALUE=""/>
-<attribute NAME="Type" VALUE="FSR"/>
 </stylenode>
 <stylenode TEXT="Requirement">
 <edge COLOR="#007c00"/>
@@ -124,6 +116,15 @@
     </conditional_style>
     <conditional_style ACTIVE="true" STYLE_REF="SW" LAST="false">
         <attribute_compare_condition VALUE="SW" ATTRIBUTE="Type" COMPARATION_RESULT="0" SUCCEED="true"/>
+    </conditional_style>
+    <conditional_style ACTIVE="true" STYLE_REF="Tainted_by_child" LAST="false">
+        <attribute_exists_condition ATTRIBUTE="Tainted_by_child"/>
+    </conditional_style>
+    <conditional_style ACTIVE="true" STYLE_REF="Tainted_by_parent" LAST="false">
+        <attribute_exists_condition ATTRIBUTE="Tainted_by_parent"/>
+    </conditional_style>
+    <conditional_style ACTIVE="true" STYLE_REF="Shared" LAST="false">
+        <attribute_compare_condition VALUE="true" ATTRIBUTE="Shared" COMPARATION_RESULT="0" SUCCEED="true"/>
     </conditional_style>
 </hook>
 </stylenode>
@@ -236,6 +237,17 @@
 <font NAME="L M Mono Caps10" BOLD="true"/>
 <edge COLOR="#007c00"/>
 </stylenode>
+<stylenode TEXT="Tainted_by_child" STYLE="rectangle" BORDER_WIDTH="3.0 px" BORDER_COLOR_LIKE_EDGE="false" BORDER_COLOR="#0000ff" BORDER_DASH="CLOSE_DOTS">
+<icon BUILTIN="revision"/>
+<edge COLOR="#007c00"/>
+</stylenode>
+<stylenode TEXT="Tainted_by_parent" STYLE="rectangle" BORDER_WIDTH="3.0 px" BORDER_COLOR_LIKE_EDGE="false" BORDER_COLOR="#ff0000" BORDER_DASH="CLOSE_DOTS">
+<icon BUILTIN="revision-red"/>
+<edge COLOR="#007c00"/>
+</stylenode>
+<stylenode TEXT="Shared" BACKGROUND_COLOR="#ffcc99">
+<edge COLOR="#007c00"/>
+</stylenode>
 </stylenode>
 <stylenode LOCALIZED_TEXT="styles.AutomaticLayout" POSITION="right" STYLE="bubble">
 <stylenode LOCALIZED_TEXT="AutomaticLayout.level.root" COLOR="#000000" STYLE="oval" SHAPE_HORIZONTAL_MARGIN="10.0 pt" SHAPE_VERTICAL_MARGIN="10.0 pt">
@@ -264,7 +276,7 @@
 </stylenode>
 </map_styles>
 </hook>
-<hook NAME="AutomaticEdgeColor" COUNTER="58" RULE="ON_BRANCH_CREATION"/>
+<hook NAME="AutomaticEdgeColor" COUNTER="57" RULE="ON_BRANCH_CREATION"/>
 <node TEXT="while requested, the system shall display the driver warning within 200 ms or transition to the safe state within 200 ms." STYLE_REF="Requirement" POSITION="right" ID="ID_971613141" CREATED="1609106418278" MODIFIED="1610897196058" HGAP_QUANTITY="19.99999982118607 pt" VSHIFT_QUANTITY="2.9999999105930186 pt">
 <attribute NAME="ASIL" VALUE="B"/>
 <attribute NAME="Type" VALUE="SZ"/>
@@ -300,9 +312,11 @@
 </node>
 </node>
 </node>
-<node TEXT="All inputs from outside the system, the cluster controller uses to determine whether a requested telltale is shown shall be E2E protected against data corruption out of order transmission and message loss" STYLE_REF="Requirement" ID="ID_883554261" CREATED="1609428983812" MODIFIED="1610897196072">
+<node TEXT="All inputs from outside the system, the cluster controller uses to determine whether a requested telltale is shown shall be E2E protected against data corruption out of order transmission and message loss" STYLE_REF="Requirement" ID="ID_883554261" CREATED="1609428983812" MODIFIED="1613493256414">
 <attribute NAME="ASIL" VALUE="B"/>
 <attribute NAME="Type" VALUE="FSR"/>
+<attribute NAME="Allocation" VALUE="Telltale-requester"/>
+<attribute NAME="Shared" VALUE="= node.getCountNodesSharingContent()&gt;0"/>
 <node TEXT="The Cluster controller shall monitor messages from the Telltale requester" STYLE_REF="Requirement" ID="ID_1807969240" CREATED="1610617925379" MODIFIED="1610897196075">
 <attribute NAME="Type" VALUE="TSR"/>
 <attribute NAME="ASIL" VALUE="B"/>
@@ -314,10 +328,14 @@
 <attribute NAME="Allocation" VALUE="Cluster Controller"/>
 <node ID="ID_1822634618" TREE_ID="ID_1340201467"/>
 </node>
-<node TEXT="If the cluster controller determines an E2E miss in the tell tale request message, the cluster controller shall transition the system into the safe state" STYLE_REF="Requirement" ID="ID_1213070481" CREATED="1610618005875" MODIFIED="1610897196081">
+<node TEXT="If the cluster controller determines an E2E miss in the tell tale request message, the cluster controller shall transition the system into the safe state" STYLE_REF="Requirement" ID="ID_1213070481" CREATED="1610618005875" MODIFIED="1613493250297">
 <attribute NAME="Type" VALUE="TSR"/>
 <attribute NAME="ASIL" VALUE="B"/>
-<attribute NAME="Allocation" VALUE="Cluster Controller"/>
+<attribute NAME="Allocation" VALUE="Telltale-requester"/>
+<attribute NAME="ASIL_sc" VALUE="B"/>
+<attribute NAME="Type_sc" VALUE="TSR"/>
+<attribute NAME="Allocation_sc" VALUE="Cluster Controller"/>
+<attribute NAME="Shared" VALUE="= node.getCountNodesSharingContent()&gt;0"/>
 </node>
 <node TEXT="The Cluster controler shall check all additional inputs from outside the system, the Cluster controller needs to decide whether a requested telltale is displayed for E2E miss" STYLE_REF="Requirement" ID="ID_1404407311" CREATED="1610654302938" MODIFIED="1610897196083">
 <attribute NAME="Type" VALUE="TSR"/>
@@ -447,17 +465,25 @@
 </node>
 </node>
 </node>
-<node TEXT="If the watchdog is not triggered within 200ms, it shall transition the system to the safet state" STYLE_REF="Requirement" ID="ID_998490846" CREATED="1610698701000" MODIFIED="1610897196119">
+<node TEXT="If the watchdog is not triggered within 200ms, it shall transition the system to the safet state" STYLE_REF="Requirement" ID="ID_998490846" CREATED="1610698701000" MODIFIED="1613492509103">
 <attribute NAME="Type" VALUE="TSR"/>
 <attribute NAME="ASIL" VALUE="B"/>
-<attribute NAME="Allocation" VALUE="Watchdog"/>
-<node TEXT="Watchdog part of the control flow" STYLE_REF="Requirement" ID="ID_1409122909" CREATED="1609431908398" MODIFIED="1610897196120">
+<attribute NAME="Allocation" VALUE="Telltale-requester"/>
+<attribute NAME="ASIL_sc" VALUE="B"/>
+<attribute NAME="Type_sc" VALUE="TSR"/>
+<attribute NAME="Allocation_sc" VALUE="Watchdog"/>
+<attribute NAME="Shared" VALUE="= node.getCountNodesSharingContent()&gt;0"/>
+<node TEXT="Watchdog part of the control flow" STYLE_REF="Requirement" ID="ID_1409122909" CREATED="1609431908398" MODIFIED="1613492494719">
 <attribute NAME="ASIL" VALUE=""/>
 <attribute NAME="Type" VALUE="Information"/>
+<attribute NAME="Allocation" VALUE=""/>
+<attribute NAME="Shared" VALUE="= node.getCountNodesSharingContent()&gt;0"/>
 </node>
-<node TEXT="Timing allocation considerations:&#xa;The timings for rendering and telltale verification are not safety relevant, since the watchdog transitions to the system to the safe state, if the chain takes too long." STYLE_REF="Requirement" ID="ID_1337523371" CREATED="1609430707841" MODIFIED="1610897196123">
+<node TEXT="Timing allocation considerations:&#xa;The timings for rendering and telltale verification are not safety relevant, since the watchdog transitions to the system to the safe state, if the chain takes too long." STYLE_REF="Requirement" ID="ID_1337523371" CREATED="1609430707841" MODIFIED="1613492499586">
 <attribute NAME="ASIL" VALUE=""/>
 <attribute NAME="Type" VALUE="Information"/>
+<attribute NAME="Allocation" VALUE=""/>
+<attribute NAME="Shared" VALUE="= node.getCountNodesSharingContent()&gt;0"/>
 <node TEXT="Signal sending including rendering by QT app: 100ms. We assume the time delay between the requester sending the message, and the cluster demo receiving it is less than 30ms, leaving 70ms for the rendering" STYLE_REF="Requirement" ID="ID_865269483" CREATED="1609433185494" MODIFIED="1610897196128">
 <attribute NAME="ASIL" VALUE=""/>
 <attribute NAME="Type" VALUE="Information"/>
@@ -471,16 +497,22 @@
 <attribute NAME="Type" VALUE="Information"/>
 </node>
 </node>
-<node TEXT="The watchdog shall disable the backlight of the Cluster Display within 50ms, if it is not triggered within 150ms." STYLE_REF="Requirement" ID="ID_1266688002" CREATED="1609429267081" MODIFIED="1611331002531">
+<node TEXT="The watchdog shall disable the backlight of the Cluster Display within 50ms, if it is not triggered within 150ms." STYLE_REF="Requirement" ID="ID_1266688002" CREATED="1609429267081" MODIFIED="1613492503872">
 <attribute NAME="ASIL" VALUE="B"/>
 <attribute NAME="Type" VALUE="SW"/>
-<attribute NAME="Allocation" VALUE="Telltale-requester"/>
+<attribute NAME="Allocation" VALUE="Safety-Signal-source"/>
+<attribute NAME="Allocation_sc" VALUE="Telltale-requester"/>
+<attribute NAME="Type_sc" VALUE="SW"/>
+<attribute NAME="ASIL_sc" VALUE="B"/>
+<attribute NAME="Shared" VALUE="= node.getCountNodesSharingContent()&gt;0"/>
 </node>
 </node>
 </node>
-<node TEXT="The chain between Telltale request sent and display/safe state shall be less than 200ms." STYLE_REF="Requirement" ID="ID_922972509" CREATED="1609428685902" MODIFIED="1611331002531" LINK="#at(:~Sys:Telltale-requester)">
+<node TEXT="The chain between Telltale request sent and display/safe state shall be less than 200ms." STYLE_REF="Requirement" ID="ID_922972509" CREATED="1609428685902" MODIFIED="1613493267363" LINK="#at(:~Sys:Telltale-requester)">
 <attribute NAME="ASIL" VALUE="B"/>
 <attribute NAME="Type" VALUE="FSR"/>
+<attribute NAME="Allocation" VALUE="Telltale-requester"/>
+<attribute NAME="Shared" VALUE="= node.getCountNodesSharingContent()&gt;0"/>
 <node ID="ID_1197920546" TREE_ID="ID_1337523371">
 <node ID="ID_1916288361" TREE_ID="ID_865269483"/>
 <node ID="ID_980166321" TREE_ID="ID_1226012594"/>

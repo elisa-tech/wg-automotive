@@ -1,14 +1,19 @@
 ' Functional perspective Cluster Demo application
 @startuml
-package "Linux" {
-[Image generation]
-[Telltale checking]
-[Safe State trigger]
-}
+package "Instrument Cluster" {
 [Watchdog]
+package "Cluster Controller" {
+[QT-Application]
+[Safety-Signal-source]
+[Safety-App]
+}
+}
 
-[Telltale checking] --> [Safe State trigger] : cyclic communication
-[Telltale checking] --> [Image generation] : Corruption trigger
-[Safe State trigger] --> [Watchdog] : pet
+[Safety-Signal-source] --> [Safety-App]
+
+[Safety-App] --> [Watchdog] : pet
+
+[Safety-App] --> [QT-Application] : Corruption trigger
 @enduml
+
 

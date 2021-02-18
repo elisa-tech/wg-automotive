@@ -2,7 +2,7 @@
 'skinparam wrapWidth 200
 box "Linux"
 participant "Safety-Signal-source" order 10
-participant "Safety App" order 20
+participant "Safety-App" order 20
 end box
 participant "Watchdog" order 30
 participant "Backlight" order 40
@@ -11,20 +11,20 @@ activate "Safety-Signal-source"
 activate "Watchdog"
 "Safety-Signal-source" -> "Safety-Signal-source": Determine  Safety status
 note left of "Safety-Signal-source":FM-001: Spatial Interference \n-> Status determination wrong   
-"Safety-Signal-source" -> "Safety App": Send cyclic Safety status Message
+"Safety-Signal-source" -> "Safety-App": Send cyclic Safety status Message
 note left of "Safety-Signal-source":FM-002: Spatial Interference \n-> Message corrupted
 note left of "Safety-Signal-source":FM-003: Temporal Interference \n-> Message too early/late/missing
 deactivate "Safety-Signal-source"
-activate "Safety App"
-"Safety App" -> "Safety App": Check E2E
-note left of "Safety App":FM-004: Spatial Interference \n-> E2E check false negative
+activate "Safety-App"
+"Safety-App" -> "Safety-App": Check E2E
+note left of "Safety-App":FM-004: Spatial Interference \n-> E2E check false negative
 alt E2E check passes
-"Safety App" -> "Safety App": Check Safety Signal
-note left of "Safety App":FM-005: Spatial Interference \n-> Safety signal check corrupted
+"Safety-App" -> "Safety-App": Check Safety Signal
+note left of "Safety-App":FM-005: Spatial Interference \n-> Safety signal check corrupted
 alt Safety signal OK
-"Safety App" -> "Watchdog": Pet watchdog
-note left of "Safety App":FM-006: Spatial Interference \n-> Message corrupted
-note left of "Safety App":FM-007: Temporal Interference \n-> Message too early/late/missing
+"Safety-App" -> "Watchdog": Pet watchdog
+note left of "Safety-App":FM-006: Spatial Interference \n-> Message corrupted
+note left of "Safety-App":FM-007: Temporal Interference \n-> Message too early/late/missing
 "Watchdog" -> "Watchdog": watchdog check
 else Safety signal NOK
 "Watchdog" -> "Watchdog": watchdog check
