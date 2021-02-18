@@ -1,0 +1,82 @@
+' Functional perspective Cluster Demo application
+@startuml
+skinparam linetype polyline
+skinparam linetype ortho
+skinparam componentStyle rectangle
+[Telltale Requester]
+together {
+[Display]
+[Backlight]
+}
+' [Power Source]
+'[Watchdog]
+package "SOC" {
+[Request handling]
+
+package "Safety checking 15Hz (HW/SW)" as pkg_Safety_checking {
+[Telltale checking]
+[HDMI Decoding]
+}
+
+package "Rendering (HW/SW)" as pkg_Rendering {
+[QM Plane Rendering]
+[Safety Plane Rendering]
+[Plane Storage] #Aqua
+}
+
+package "Autonomous Merge Pipeline 60Hz (HW)" as pkg_DC #grey {
+    [Plane Blending]
+    [HDMI Interface]
+    [Configuration Data]  #Aqua
+} 
+
+}
+
+package "Logical constraint" #green {
+    [Synchronization] as Synchronization
+}
+
+'pkg_Rendering -[#blue,bold,dotted]- pkg_DC : Synchronization
+
+note top of Synchronization :  Rendering and Merging \npipeline and Safety checking need to be synchronized
+
+[Synchronization] .[dotted,#blue]. pkg_DC
+[Synchronization] .[dotted,#blue]. pkg_Rendering
+'[Synchronization] .[dotted,#blue]. pkg_Safety_checking
+
+' schauen ob wir Synchronisierung visualisiert bekommen
+' package symbole ausblenden
+' Schauen ob wir relative anordnung
+
+'Power source
+'[Power Source] -[#blue]- SOC
+'[Power Source] -[#blue]- [Display]
+'[Power Source] -[#blue]- [Watchdog]
+'[Power Source] -[#blue]- [Backlight]
+
+' Autonomous Plane blender
+[Plane Blending] ..> [Plane Storage] : Polling
+[Plane Blending] --> [HDMI Interface]
+[HDMI Interface] -down-> [Display]
+[Configuration Data] .. [Plane Blending] 
+
+' Request handling
+[Telltale Requester] --> [Request handling] : Telltale Request
+[Request handling] --> [QM Plane Rendering]
+[Request handling] --> [Safety Plane Rendering]
+[Request handling] --> [Telltale checking]
+
+'Rendering
+[QM Plane Rendering] --> [Plane Storage]
+[Safety Plane Rendering] --> [Plane Storage]
+
+'Safety checking
+[HDMI Interface] --> [HDMI Decoding]
+[HDMI Decoding] --> [Telltale checking]
+[Telltale checking] --> [Watchdog] : pet
+
+'Watchdog
+[Watchdog] --> [Backlight] : kill line
+[Display] -- [Backlight]
+@enduml
+
