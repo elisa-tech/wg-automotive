@@ -2,7 +2,7 @@
 @startuml
 skinparam linetype polyline
 skinparam linetype ortho
-[Telltale Requester]
+[Telltale Requester] as TT_requester
 together {
 [Display]
 [Backlight]
@@ -12,11 +12,6 @@ together {
 package "SOC" {
 [Request handling]
 
-'package "Safety checking 15Hz (HW/SW)" {
-'[Telltale checking]
-'[HDMI Decoding]
-'}
-
 package "Rendering (HW/SW)" as pkg_Rendering {
 [QM Plane Rendering]
 '[Safety Plane Rendering]
@@ -25,7 +20,7 @@ package "Rendering (HW/SW)" as pkg_Rendering {
 
 package "Autonomous Merge Pipeline 60Hz (HW)" as pkg_DC {
     [Plane Blending]
-    [HDMI Interface]
+    [HW Display Interface] as HW_Display_interface
     [Configuration Data]  #Aqua
 }
 
@@ -56,12 +51,12 @@ note top of Synchronization :  Rendering and Merging \npipeline need to be synch
 
 ' Autonomous Plane blender
 [Plane Blending] ..> [Plane Storage] : Polling
-[Plane Blending] --> [HDMI Interface]
-[HDMI Interface] --> [Display]
+[Plane Blending] --> HW_Display_interface
+HW_Display_interface --> [Display]
 [Configuration Data] .. [Plane Blending] 
 
 ' Request handling
-[Telltale Requester] --> [Request handling] : Telltale Request
+TT_requester --> [Request handling] : Telltale Request
 [Request handling] --> [QM Plane Rendering]
 '[Request handling] --> [Safety Plane Rendering]
 '[Request handling] --> [Telltale checking]
