@@ -18,7 +18,7 @@ package "Rendering (HW/SW)" as pkg_Rendering {
 [Plane Storage] #Aqua
 }
 
-package "Autonomous Merge Pipeline 60Hz (HW)" as pkg_DC {
+package "Autonomous Merge Pipeline 60Hz (HW)" as pkg_DC #grey  {
     [Plane Blending]
     [HW Display Interface] as HW_Display_interface
     [Configuration Data]  #Aqua

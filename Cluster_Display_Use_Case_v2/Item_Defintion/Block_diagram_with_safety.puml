@@ -15,7 +15,7 @@ package "SOC" {
 
 package "Safety checking 15Hz (HW/SW)" as pkg_Safety_checking {
 [Telltale checking]
-[HDMI Decoding]
+[Image Decoding] as image_decoding
 }
 
 package "Rendering (HW/SW)" as pkg_Rendering {
@@ -26,7 +26,7 @@ package "Rendering (HW/SW)" as pkg_Rendering {
 
 package "Autonomous Merge Pipeline 60Hz (HW)" as pkg_DC #grey {
     [Plane Blending]
-    [HDMI Interface]
+    [HW Interface] as hw_interface
     [Configuration Data]  #Aqua
 } 
 
@@ -56,8 +56,8 @@ note top of Synchronization :  Rendering and Merging \npipeline and Safety check
 
 ' Autonomous Plane blender
 [Plane Blending] ..> [Plane Storage] : Polling
-[Plane Blending] --> [HDMI Interface]
-[HDMI Interface] -down-> [Display]
+[Plane Blending] --> hw_interface
+hw_interface -down-> [Display]
 [Configuration Data] .. [Plane Blending] 
 
 ' Request handling
@@ -71,8 +71,8 @@ note top of Synchronization :  Rendering and Merging \npipeline and Safety check
 [Safety Plane Rendering] --> [Plane Storage]
 
 'Safety checking
-[HDMI Interface] --> [HDMI Decoding]
-[HDMI Decoding] --> [Telltale checking]
+hw_interface --> image_decoding
+image_decoding --> [Telltale checking]
 [Telltale checking] --> [Watchdog] : pet
 
 'Watchdog
