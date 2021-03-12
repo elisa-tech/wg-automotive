@@ -7,8 +7,10 @@ This document describes the assumptions and predefinitions of the ELISA Automoti
   - [Hardware](#hardware)
   - [System Behaviour](#system-behaviour)
     - [Operational states](#operational-states)
+      - [State and state change diagram](#state-and-state-change-diagram)
     - [Block Diagram nominal function](#block-diagram-nominal-function)
     - [Block Diagram Including Safety Checking](#block-diagram-including-safety-checking)
+    - [Sequence diagrams nominal function during state normal Operation](#sequence-diagrams-nominal-function-during-state-normal-operation)
     - [Do we need description of the architectural elements here already?](#do-we-need-description-of-the-architectural-elements-here-already)
   - [Safety Goals and Safe State](#safety-goals-and-safe-state)
     - [Safety Goal 1](#safety-goal-1)
@@ -40,20 +42,22 @@ The system operates in three states
   * Transition to normale Operation once everything is in order
 * Normal Operation
 * [Potentially degraded operation with CPU generated plane]
+* [Potentially windwown state]
+  * No safety assertions
+* [Potentially off state]
 * Safe state
   * Black screen
-[todo] drawing, Transitions 
-* Startup -> Normal Operation
-* Startup -> Safe state
-* Normal operation -> Safe state
-* Safe State -> Startup (on Ignition change maybe?)
-
+#### State and state change diagram
+![system](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/Jochen-Kall/wg-automotive/master/Cluster_Display_Use_Case_v2/Item_Defintion/Operational_states.puml)
 ### Block Diagram nominal function
 Nominal function absent of safety mechanisms
 ![system](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/Jochen-Kall/wg-automotive/master/Cluster_Display_Use_Case_v2/Item_Defintion/Block_diagram_nominal.puml)
 ### Block Diagram Including Safety Checking
 Block diagram including safety mechanisms
 ![system](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/Jochen-Kall/wg-automotive/master/Cluster_Display_Use_Case_v2/Item_Defintion/Block_diagram_with_safety.puml)
+
+### Sequence diagrams nominal function during state normal Operation
+![system](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/Jochen-Kall/wg-automotive/master/Cluster_Display_Use_Case_v2/Item_Defintion/Sequence_diagram_nominal.puml)
 ### Do we need description of the architectural elements here already?
 
 ## Safety Goals and Safe State
