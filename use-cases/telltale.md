@@ -117,11 +117,11 @@ _[to be addressed]_
 Concept draft based on presentation from Haraki-sans slides on the AGL cluster architecture.
 
 ## Schematic
-[add diagram from google doc](https://docs.google.com/document/d/1GQ9FwFEJz9hLjhK_xTEi2DVBmgU2DBnX/edit#heading=h.s9l1u8ej5yf4)
+![tsc-schematic](images/tsc-schematic.png)
 
 ## HLSR_1 [ASIL B]
 ### Normal Operation
-[add diagram from google doc](https://docs.google.com/document/d/1GQ9FwFEJz9hLjhK_xTEi2DVBmgU2DBnX/edit#heading=h.wueqcivtw8fx)
+![tsc-schematic](images/tsc-schematic.png)
 
 * [ASIL B] The <Telltale requester> shall send the telltale request containing the information to show or not every 100 ms.
 * [ASIL B] The Ignition shall send the Ignition status every 100ms.
@@ -135,14 +135,14 @@ Concept draft based on presentation from Haraki-sans slides on the AGL cluster a
 
 
 ### Diagnostics Image generator
-[add diagram from google doc](https://docs.google.com/document/d/1GQ9FwFEJz9hLjhK_xTEi2DVBmgU2DBnX/edit#heading=h.4wr6wqtrkx5r)
+![tsc-diagnostics-image-generator](images/tsc-diagnostics-image-generator.png)
 
 * [ASIL B] The Cluster Controller shall check the Telltale CRC from the Image generator against the expected CRC according to the telltale request.
 * [ASIL B] If the Telltale CRC from the Image generator is not as expected, the Cluster controller shall pass on the Telltale information to the Display IC and command degradation.
 * [ASIL B] While the Display IC receives a degradation command, it shall ignore the output of the Image generator and generate the Image itself instead.
 
 ### Diagnostics TFT
-[add diagram from google doc](https://docs.google.com/document/d/1GQ9FwFEJz9hLjhK_xTEi2DVBmgU2DBnX/edit#heading=h.p1p5z8rqlfdz)
+![tsc-diagnostics-tft](images/tsc-diagnostics-tft.png)
 
 * [QM] The TFT shall provide self diagnostics results to the Display IC.
 * [QM] The TFT shall provide the image shown to the Display IC.
@@ -151,7 +151,7 @@ Concept draft based on presentation from Haraki-sans slides on the AGL cluster a
 * [ASIL B] The Cluster controller shall pull down the Backlight kill line, if the Display controller requests transition to the safe state.
 
 ### Diagnostics Communication
-[add diagram from google doc](https://docs.google.com/document/d/1GQ9FwFEJz9hLjhK_xTEi2DVBmgU2DBnX/edit#heading=h.clkblt4ymneq)
+![tsc-diagnostics-communication](images/tsc-diagnostics-communication.png)
 
 * [ASIL B] The communication between <Telltale requester> /Ignition / Battery shall be E2E protected (CRC and message counter).
 * [ASIL B] If the Cluster controller does not receive a new telltale request after 100 ms, it shall transition to the safe state by pulling down the Backlight kill pin.
