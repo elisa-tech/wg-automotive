@@ -6,18 +6,17 @@ skinparam componentStyle rectangle
 
 [Startup] as S_startup
 [Normal Operation] as S_normal
-[Degraded Operation] as S_degraded
+'[Degraded Operation] as S_degraded
 [Safe State] as S_safe_state
-
 
 S_startup --> S_safe_state
 S_startup --> S_normal
 
-S_normal --> S_degraded
+'S_normal --> S_degraded
 S_normal --> S_safe_state
 
-S_degraded --> S_normal
-S_degraded --> S_safe_state
+'S_degraded --> S_normal
+'S_degraded --> S_safe_state
 
 S_safe_state ..> S_startup : Reset
 

@@ -10,8 +10,9 @@ This document describes the assumptions and predefinitions of the ELISA Automoti
       - [State and state change diagram](#state-and-state-change-diagram)
     - [Block Diagram nominal function](#block-diagram-nominal-function)
     - [Block Diagram Including Safety Checking](#block-diagram-including-safety-checking)
+    - [Block description](#block-description)
     - [Sequence diagrams nominal function during state normal Operation](#sequence-diagrams-nominal-function-during-state-normal-operation)
-    - [Do we need description of the architectural elements here already?](#do-we-need-description-of-the-architectural-elements-here-already)
+    - [Sequece diagram including telltacle checking during normale Operation](#sequece-diagram-including-telltacle-checking-during-normale-operation)
   - [Safety Goals and Safe State](#safety-goals-and-safe-state)
     - [Safety Goal 1](#safety-goal-1)
     - [Safety Goal 2](#safety-goal-2)
@@ -28,6 +29,11 @@ The display of telltales in particular is safety critical, since telltales are a
 * We assume the Display displays image data fed into it with ASIL B integrity, i.e. we do not consider display monitoring of any sort, a backwards path from the Display etc.
 * The HW video interface is kept variable in this design at this point.
 * We assume the system is reliably supplied with energy.
+* We do not consider a degradation state, it can always be added at a later stage. A degradation state would only complicate the system without giving us additional insights.
+* We do not consider a specific "off" state since the black display coincides with the safe state.
+* We do not consider a windown/shutdown state, it can be added at a later stage withoutout much changes to the system as it is. A windown state would complicate the system without analytical benefit, same as the degradation state.
+* [todo, done to be confirmed] no degraded state in first analysis, document argument. 
+* We assume monolithic rendering of one all in one plane, opposed to several planes. That does limit the opportunities for telltale checking to checks after the merging pipeline, but is in line with the QT based AGL cluster demo.
 
 ## Hardware
 In this use case, to the end of getting something running, no specific Hardware is considered. 
@@ -39,26 +45,70 @@ The system operates in three states
 * Startup
   * No safety assertions
   * Image output suppressed
-  * Transition to normale Operation once everything is in order
+  * Transition to normal Operation once everything is in order
 * Normal Operation
-* [Potentially degraded operation with CPU generated plane]
-* [Potentially windwown state]
-  * No safety assertions
-* [Potentially off state]
 * Safe state
   * Black screen
 #### State and state change diagram
 ![system](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/Jochen-Kall/wg-automotive/master/Cluster_Display_Use_Case_v2/Item_Defintion/Operational_states.puml)
 ### Block Diagram nominal function
-Nominal function absent of safety mechanisms
+Nominal function absent of safety mechanisms.
+
 ![system](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/Jochen-Kall/wg-automotive/master/Cluster_Display_Use_Case_v2/Item_Defintion/Block_diagram_nominal.puml)
+
+[todo, done] add message high level name between blocks
+[todo, done] consider surrounding rendering, add block to diagram
+keep it aligned with AGL
+[todo, done] reflect non safety rendering control (speedometer rpm etc) Also add source/control of what to show (speedometer etc). 
+[todo, done] document rationale to keep this aligned with AGL monolithic rendering instead of multiple seperate planes
+[todo] sanity check allocation to AGL cluster demo parts possible?
 ### Block Diagram Including Safety Checking
 Block diagram including safety mechanisms
+
 ![system](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/Jochen-Kall/wg-automotive/master/Cluster_Display_Use_Case_v2/Item_Defintion/Block_diagram_with_safety.puml)
+
+[todo] get the diagram aligned with the changed nominal functionality diagram
+
+### Block description
+* Telltale requester
+  * ID: TT_requester
+  * Description: Source of safety relevant telltale requests. Sends cyclically an E2E protected request indicating whether the telltale shall be displayed or not.
+* Display
+  * ID: AE_Display
+  * Displays the image data delivered through the HW Display interface.
+  * The Display of the image data is provided with sufficient Safety Integrity level, see assumption
+* Backlight
+  * ID: AE_Backlight
+  * Illuminates the Display, Backlight off by means of kill line is used to transition the safe state.
+* Request handling/Display State arbitration
+  * ID: AE_Request_handling 
+  * Function block receiving Telltale requests as well as non safety relevant Information to be displayed in the cluster display. Function block determines the state of the instruments to be rendered and sends that information to the Renderer.
+* QM Plane Rendering
+  * ID: AE_Rendering
+  * Rendering of the image, either by CPU rasterizer or GPU. Rendered Plane is stored in Plane storage.
+* Plane Storage
+  * ID: AE_Plane_Storage
+  * Storage for rendered Plane.
+* Configuration Data
+  * ID: AE_Merge_Pipeline_Configuration_Data
+  * Configuration data of the merger, things like alpha/color correction upscaling etc
+* Plane Blending
+  * ID: AE_Plane_Blending
+  * Plane blending in HW, image postprocessing, color correction etc
+* HW Display Interface
+  * ID: AE_HW_Display_interface
+  * Physical HW display interface
 
 ### Sequence diagrams nominal function during state normal Operation
 ![system](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/Jochen-Kall/wg-automotive/master/Cluster_Display_Use_Case_v2/Item_Defintion/Sequence_diagram_nominal.puml)
-### Do we need description of the architectural elements here already?
+
+[Todo] Reflect changes in the Block diagrams
+
+### Sequece diagram including telltacle checking during normale Operation
+![system](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/Jochen-Kall/wg-automotive/master/Cluster_Display_Use_Case_v2/Item_Defintion/Sequence_diagram_safety.puml)
+
+[Todo] Reflect changes in the Block diagrams
+
 
 ## Safety Goals and Safe State
 No hara (hazard analysis and risc assessment) was performed for the system. Instead we assume the following safety goals as given:
