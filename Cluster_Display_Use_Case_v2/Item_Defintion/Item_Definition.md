@@ -2,25 +2,25 @@
 This document describes the assumptions and predefinitions of the ELISA Automotive workgroup cluster demo use case, and defines terms and identifiers to be used in the rest of the documents.
 
 - [Scope](#scope)
-  - [Description](#description)
-  - [Assumptions](#assumptions)
-  - [Hardware](#hardware)
-  - [System Behaviour](#system-behaviour)
-    - [Operational states](#operational-states)
-      - [State and state change diagram](#state-and-state-change-diagram)
-    - [Block Diagram nominal function](#block-diagram-nominal-function)
-    - [Block Diagram Including Safety Checking](#block-diagram-including-safety-checking)
-    - [Block description](#block-description)
-    - [Sequence diagrams nominal function during state normal Operation](#sequence-diagrams-nominal-function-during-state-normal-operation)
-    - [Sequece diagram including telltacle checking during normale Operation](#sequece-diagram-including-telltacle-checking-during-normale-operation)
-  - [Safety Goals and Safe State](#safety-goals-and-safe-state)
-    - [Safety Goal 1](#safety-goal-1)
-    - [Safety Goal 2](#safety-goal-2)
-    - [Safe State](#safe-state)
-  - [Interfaces](#interfaces)
-    - [Telltale request](#telltale-request)
-    - [Watchdog petting](#watchdog-petting)
-    - [Image out](#image-out)
+	- [Description](#description)
+	- [Assumptions](#assumptions)
+	- [Hardware](#hardware)
+	- [System Behaviour](#system-behaviour)
+		- [Operational states](#operational-states)
+			- [State and state change diagram](#state-and-state-change-diagram)
+		- [Block Diagram nominal function](#block-diagram-nominal-function)
+		- [Block Diagram Including Safety Checking](#block-diagram-including-safety-checking)
+		- [Block description](#block-description)
+		- [Sequence diagrams nominal function during state normal Operation](#sequence-diagrams-nominal-function-during-state-normal-operation)
+		- [Sequece diagram including telltacle checking during normale Operation](#sequece-diagram-including-telltacle-checking-during-normale-operation)
+	- [Safety Goals and Safe State](#safety-goals-and-safe-state)
+		- [Safety Goal 1](#safety-goal-1)
+		- [Safety Goal 2](#safety-goal-2)
+		- [Safe State](#safe-state)
+	- [Interfaces](#interfaces)
+		- [Telltale request](#telltale-request)
+		- [Watchdog petting](#watchdog-petting)
+		- [Image out](#image-out)
 
 ## Description
 In general, the Cluster Display shows the instruments behind the drivers wheel, including but not limited to speedometer, fuel level, Direction indicator, and telltales.
@@ -50,11 +50,11 @@ The system operates in three states
 * Safe state
   * Black screen
 #### State and state change diagram
-![system](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/Jochen-Kall/wg-automotive/master/Cluster_Display_Use_Case_v2/Item_Defintion/Operational_states.puml)
+![system](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/Jochen-Kall/wg-automotive/Cluster_display_v2/Cluster_Display_Use_Case_v2/Item_Defintion/Operational_states.puml)
 ### Block Diagram nominal function
 Nominal function absent of safety mechanisms.
 
-![system](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/Jochen-Kall/wg-automotive/master/Cluster_Display_Use_Case_v2/Item_Defintion/Block_diagram_nominal.puml)
+![system](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/Jochen-Kall/wg-automotive/Cluster_display_v2/Cluster_Display_Use_Case_v2/Item_Defintion/Block_diagram_nominal.puml)
 
 [todo, done] add message high level name between blocks
 [todo, done] consider surrounding rendering, add block to diagram
@@ -65,7 +65,7 @@ keep it aligned with AGL
 ### Block Diagram Including Safety Checking
 Block diagram including safety mechanisms
 
-![system](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/Jochen-Kall/wg-automotive/master/Cluster_Display_Use_Case_v2/Item_Defintion/Block_diagram_with_safety.puml)
+![system](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/Jochen-Kall/wg-automotive/Cluster_display_v2/Cluster_Display_Use_Case_v2/Item_Defintion/Block_diagram_with_safety.puml)
 
 [todo] get the diagram aligned with the changed nominal functionality diagram
 
@@ -100,12 +100,12 @@ Block diagram including safety mechanisms
   * Physical HW display interface
 
 ### Sequence diagrams nominal function during state normal Operation
-![system](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/Jochen-Kall/wg-automotive/master/Cluster_Display_Use_Case_v2/Item_Defintion/Sequence_diagram_nominal.puml)
+![system](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/Jochen-Kall/wg-automotive/Cluster_display_v2/Cluster_Display_Use_Case_v2/Item_Defintion/Sequence_diagram_nominal.puml)
 
 [Todo] Reflect changes in the Block diagrams
 
 ### Sequece diagram including telltacle checking during normale Operation
-![system](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/Jochen-Kall/wg-automotive/master/Cluster_Display_Use_Case_v2/Item_Defintion/Sequence_diagram_safety.puml)
+![system](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/Jochen-Kall/wg-automotive/Cluster_display_v2/Cluster_Display_Use_Case_v2/Item_Defintion/Sequence_diagram_safety.puml)
 
 [Todo] Reflect changes in the Block diagrams
 
