@@ -2,25 +2,25 @@
 This document describes the assumptions and predefinitions of the ELISA Automotive workgroup cluster demo use case, and defines terms and identifiers to be used in the rest of the documents.
 
 - [Scope](#scope)
-	- [Description](#description)
-	- [Assumptions](#assumptions)
-	- [Hardware](#hardware)
-	- [System Behaviour](#system-behaviour)
-		- [Operational states](#operational-states)
-			- [State and state change diagram](#state-and-state-change-diagram)
-		- [Block Diagram nominal function](#block-diagram-nominal-function)
-		- [Block Diagram Including Safety Checking](#block-diagram-including-safety-checking)
-		- [Block description](#block-description)
-		- [Sequence diagrams nominal function during state normal Operation](#sequence-diagrams-nominal-function-during-state-normal-operation)
-		- [Sequece diagram including telltacle checking during normale Operation](#sequece-diagram-including-telltacle-checking-during-normale-operation)
-	- [Safety Goals and Safe State](#safety-goals-and-safe-state)
-		- [Safety Goal 1](#safety-goal-1)
-		- [Safety Goal 2](#safety-goal-2)
-		- [Safe State](#safe-state)
-	- [Interfaces](#interfaces)
-		- [Telltale request](#telltale-request)
-		- [Watchdog petting](#watchdog-petting)
-		- [Image out](#image-out)
+  - [Description](#description)
+  - [Assumptions](#assumptions)
+  - [Hardware](#hardware)
+  - [System Behaviour](#system-behaviour)
+    - [Operational states](#operational-states)
+      - [State and state change diagram](#state-and-state-change-diagram)
+    - [Block Diagram nominal function](#block-diagram-nominal-function)
+    - [Block Diagram Including Safety Checking](#block-diagram-including-safety-checking)
+    - [Block description](#block-description)
+    - [Sequence diagrams nominal function during state normal Operation](#sequence-diagrams-nominal-function-during-state-normal-operation)
+    - [Sequece diagram including telltacle checking during normale Operation](#sequece-diagram-including-telltacle-checking-during-normale-operation)
+  - [Safety Goals and Safe State](#safety-goals-and-safe-state)
+    - [Safety Goal 1](#safety-goal-1)
+    - [Safety Goal 2](#safety-goal-2)
+    - [Safe State](#safe-state)
+  - [Interfaces](#interfaces)
+    - [Telltale request](#telltale-request)
+    - [Watchdog petting](#watchdog-petting)
+    - [Image out](#image-out)
 
 ## Description
 In general, the Cluster Display shows the instruments behind the drivers wheel, including but not limited to speedometer, fuel level, Direction indicator, and telltales.
@@ -32,8 +32,13 @@ The display of telltales in particular is safety critical, since telltales are a
 * We do not consider a degradation state, it can always be added at a later stage. A degradation state would only complicate the system without giving us additional insights.
 * We do not consider a specific "off" state since the black display coincides with the safe state.
 * We do not consider a windown/shutdown state, it can be added at a later stage withoutout much changes to the system as it is. A windown state would complicate the system without analytical benefit, same as the degradation state.
-* [todo, done to be confirmed] no degraded state in first analysis, document argument. 
-* We assume monolithic rendering of one all in one plane, opposed to several planes. That does limit the opportunities for telltale checking to checks after the merging pipeline, but is in line with the QT based AGL cluster demo.
+* We assume monolithic rendering of one all in one plane, opposed to several planes. That does limit the opportunities for telltale checking to checks after the merging pipeline, but is in line with the QT based AGL cluster demo. 
+  * [todo] document the train of thought, adding complexity, but does not help with the safety argument.
+  * Might be necessary at some point to achieve the level of diagnostic coverage
+  * goes right back to degradation mode
+* [todo] Formulate all telltales according to highest ASIL (max B) 
+There are diferent types of tell tales indicating different information i.e. battery level or engine temperature which may have different ASIL level assigned. We limit our analysis to the worst case, seen as ASIL-B. 
+* [todo] Add explanation regarding multiple qm planes, degradation etc, no change safety wise
 
 ## Hardware
 In this use case, to the end of getting something running, no specific Hardware is considered. 
@@ -56,11 +61,9 @@ Nominal function absent of safety mechanisms.
 
 ![system](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/Jochen-Kall/wg-automotive/Cluster_display_v2/Cluster_Display_Use_Case_v2/Item_Defintion/Block_diagram_nominal.puml)
 
-[todo, done] add message high level name between blocks
-[todo, done] consider surrounding rendering, add block to diagram
-keep it aligned with AGL
-[todo, done] reflect non safety rendering control (speedometer rpm etc) Also add source/control of what to show (speedometer etc). 
-[todo, done] document rationale to keep this aligned with AGL monolithic rendering instead of multiple seperate planes
+![Alt text](test)
+<img src="./Images/Blockdiagram.SVG">
+
 [todo] sanity check allocation to AGL cluster demo parts possible?
 ### Block Diagram Including Safety Checking
 Block diagram including safety mechanisms
@@ -68,6 +71,8 @@ Block diagram including safety mechanisms
 ![system](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/Jochen-Kall/wg-automotive/Cluster_display_v2/Cluster_Display_Use_Case_v2/Item_Defintion/Block_diagram_with_safety.puml)
 
 [todo] get the diagram aligned with the changed nominal functionality diagram
+
+[todo] assumption checking is triggered, hw checker provides an answer -> HW spec still under NDA.
 
 ### Block description
 * Telltale requester
