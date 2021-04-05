@@ -33,12 +33,13 @@ The display of telltales in particular is safety critical, since telltales are a
 * We do not consider a specific "off" state since the black display coincides with the safe state.
 * We do not consider a windown/shutdown state, it can be added at a later stage withoutout much changes to the system as it is. A windown state would complicate the system without analytical benefit, same as the degradation state.
 * We assume monolithic rendering of one all in one plane, opposed to several planes. That does limit the opportunities for telltale checking to checks after the merging pipeline, but is in line with the QT based AGL cluster demo. 
-  * [todo] document the train of thought, adding complexity, but does not help with the safety argument.
-  * Might be necessary at some point to achieve the level of diagnostic coverage
-  * goes right back to degradation mode
-* [todo] Formulate all telltales according to highest ASIL (max B) 
-There are diferent types of tell tales indicating different information i.e. battery level or engine temperature which may have different ASIL level assigned. We limit our analysis to the worst case, seen as ASIL-B. 
-* [todo] Add explanation regarding multiple qm planes, degradation etc, no change safety wise
+  * [todo, done] document the train of thought, adding complexity, but does not help with the safety argument.
+  * Rationale: The more sophisticated model including several rendering planes might be necessary at some point to achieve sufficient diagnostic coverage, depending on the HW metrics of the Telltale checker element, since checking on rendering plane level allows to pinpoint the source of a malfunction with higher precision. 
+    * Non Monolithic rendering also is prerequisite for a potential degradation mode, should we at some point extend the use case to include it (see above)
+    * From a purely safety perspective, we do however not gain any additional insights, since the safety responsibility is allocated to the HW telltale checker
+* [todo, done] Formulate all telltales according to highest ASIL (max B)
+* There are diferent types of tell tales indicating different information i.e. battery level or engine temperature which may have different ASIL level assigned. We limit our analysis to the worst case, seen as ASIL-B. 
+* [todo, done] Add explanation regarding multiple qm planes, degradation etc, no change safety wise. See above assumption regarding monolithic rendering
 
 ## Hardware
 In this use case, to the end of getting something running, no specific Hardware is considered. 
