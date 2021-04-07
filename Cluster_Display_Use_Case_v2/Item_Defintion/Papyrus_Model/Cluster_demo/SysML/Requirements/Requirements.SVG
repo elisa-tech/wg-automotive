@@ -384,10 +384,10 @@
                 <path d="M230 112 L312 112 L312 128 L230 128 L230 112 Z"/>
             </clipPath>
             <clipPath clipPathUnits="userSpaceOnUse" id="clipPath105">
-                <path d="M219 127 L324 127 L324 143 L219 143 L219 127 Z"/>
+                <path d="M254 127 L288 127 L288 143 L254 143 L254 127 Z"/>
             </clipPath>
             <clipPath clipPathUnits="userSpaceOnUse" id="clipPath106">
-                <path d="M254 142 L288 142 L288 158 L254 158 L254 142 Z"/>
+                <path d="M219 142 L324 142 L324 158 L219 158 L219 142 Z"/>
             </clipPath>
             <clipPath clipPathUnits="userSpaceOnUse" id="clipPath107">
                 <path d="M210 157 L332 157 L332 196 L210 196 L210 157 Z"/>
@@ -429,10 +429,10 @@
                 <path d="M870 112 L952 112 L952 128 L870 128 L870 112 Z"/>
             </clipPath>
             <clipPath clipPathUnits="userSpaceOnUse" id="clipPath120">
-                <path d="M859 127 L964 127 L964 143 L859 143 L859 127 Z"/>
+                <path d="M891 127 L931 127 L931 143 L891 143 L891 127 Z"/>
             </clipPath>
             <clipPath clipPathUnits="userSpaceOnUse" id="clipPath121">
-                <path d="M891 142 L931 142 L931 158 L891 158 L891 142 Z"/>
+                <path d="M859 142 L964 142 L964 158 L859 158 L859 142 Z"/>
             </clipPath>
             <clipPath clipPathUnits="userSpaceOnUse" id="clipPath122">
                 <path d="M850 157 L972 157 L972 196 L850 196 L850 157 Z"/>
@@ -628,8 +628,8 @@
             <rect x="470" y="110" clip-path="url(#clipPath102)" fill="none" width="240" rx="0" ry="0" height="120"/>
             <rect x="210" y="110" clip-path="url(#clipPath103)" fill="url(#linearGradient13)" width="121" height="121" stroke="none"/>
             <text x="231" font-size="12" y="125" clip-path="url(#clipPath104)" font-family="'Dialog'" stroke="none" xml:space="preserve">«Stereotype»</text>
-            <text x="220" font-size="12" y="140" clip-path="url(#clipPath105)" font-family="'Dialog'" stroke="none" xml:space="preserve">(StandardProfile)</text>
-            <text x="255" font-size="12" y="155" clip-path="url(#clipPath106)" font-family="'Dialog'" stroke="none" xml:space="preserve">Trace</text>
+            <text x="255" font-size="12" y="140" clip-path="url(#clipPath105)" font-family="'Dialog'" stroke="none" xml:space="preserve">Trace</text>
+            <text x="220" font-size="12" y="155" clip-path="url(#clipPath106)" font-family="'Dialog'" stroke="none" xml:space="preserve">(StandardProfile)</text>
             <line clip-path="url(#clipPath107)" fill="none" x1="210" x2="331" y1="158" y2="158"/>
             <line clip-path="url(#clipPath108)" fill="none" x1="210" x2="331" y1="196" y2="196"/>
             <rect x="210" y="110" clip-path="url(#clipPath109)" fill="none" width="120" rx="0" ry="0" height="120"/>
@@ -644,8 +644,8 @@
             <rect x="810" y="670" clip-path="url(#clipPath117)" fill="none" width="360" rx="0" ry="0" height="100"/>
             <rect x="850" y="110" clip-path="url(#clipPath118)" fill="url(#linearGradient15)" width="121" height="121" stroke="none"/>
             <text x="871" font-size="12" y="125" clip-path="url(#clipPath119)" font-family="'Dialog'" stroke="none" xml:space="preserve">«Stereotype»</text>
-            <text x="860" font-size="12" y="140" clip-path="url(#clipPath120)" font-family="'Dialog'" stroke="none" xml:space="preserve">(StandardProfile)</text>
-            <text x="892" font-size="12" y="155" clip-path="url(#clipPath121)" font-family="'Dialog'" stroke="none" xml:space="preserve">Refine</text>
+            <text x="892" font-size="12" y="140" clip-path="url(#clipPath120)" font-family="'Dialog'" stroke="none" xml:space="preserve">Refine</text>
+            <text x="860" font-size="12" y="155" clip-path="url(#clipPath121)" font-family="'Dialog'" stroke="none" xml:space="preserve">(StandardProfile)</text>
             <line clip-path="url(#clipPath122)" fill="none" x1="850" x2="971" y1="158" y2="158"/>
             <line clip-path="url(#clipPath123)" fill="none" x1="850" x2="971" y1="196" y2="196"/>
             <rect x="850" y="110" clip-path="url(#clipPath124)" fill="none" width="120" rx="0" ry="0" height="120"/>

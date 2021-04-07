@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:Blocks="http://www.eclipse.org/papyrus/sysml/1.6/SysML/Blocks" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http://www.eclipse.org/papyrus/sysml/1.6/SysML/Blocks http://www.eclipse.org/papyrus/sysml/1.6/SysML#//blocks">
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:Blocks="http://www.eclipse.org/papyrus/sysml/1.6/SysML/Blocks" xmlns:PortsAndFlows="http://www.eclipse.org/papyrus/sysml/1.6/SysML/PortsAndFlows" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http://www.eclipse.org/papyrus/sysml/1.6/SysML/Blocks http://www.eclipse.org/papyrus/sysml/1.6/SysML#//blocks http://www.eclipse.org/papyrus/sysml/1.6/SysML/PortsAndFlows http://www.eclipse.org/papyrus/sysml/1.6/SysML#//portsandflows">
   <uml:Model xmi:id="_nxnVIIsQEeuPJ7aTKKVL3Q" name="Cluster_demo">
     <packagedElement xmi:type="uml:Actor" xmi:id="_plkUIIsSEeuPJ7aTKKVL3Q" name="Telltale Requester"/>
     <packagedElement xmi:type="uml:Actor" xmi:id="_QYMQQIsTEeuPJ7aTKKVL3Q" name="Non Safety Instrument Cluster state sources"/>
@@ -8,17 +8,13 @@
       <packagedElement xmi:type="uml:Class" xmi:id="_zR3k4IsTEeuPJ7aTKKVL3Q" name="Configuration Data"/>
       <packagedElement xmi:type="uml:Class" xmi:id="_5bmjQIsTEeuPJ7aTKKVL3Q" name="HW Display Interface"/>
       <packagedElement xmi:type="uml:Class" xmi:id="_2h-8sIsREeuPJ7aTKKVL3Q" name="Cluster Display System" classifierBehavior="_Z0k8sI04Eeuk8vyAo9tizA">
-        <ownedAttribute xmi:type="uml:Port" xmi:id="_QqdIIIsXEeuPJ7aTKKVL3Q" name="Telltale Requests" aggregation="composite"/>
         <ownedAttribute xmi:type="uml:Port" xmi:id="_XdpTMIsXEeuPJ7aTKKVL3Q" name="Non Safety cluster state" aggregation="composite"/>
-        <ownedAttribute xmi:type="uml:Property" xmi:id="_hvG78IsXEeuPJ7aTKKVL3Q" name="request Handling" type="_7cgV8IsREeuPJ7aTKKVL3Q"/>
-        <ownedAttribute xmi:type="uml:Property" xmi:id="_zU8KMIsXEeuPJ7aTKKVL3Q" name="rendering" type="_BqGgoIsSEeuPJ7aTKKVL3Q"/>
-        <ownedAttribute xmi:type="uml:Property" xmi:id="_HxX8sIsZEeuPJ7aTKKVL3Q" name="plane Storage" type="_fOGxEIsSEeuPJ7aTKKVL3Q"/>
-        <ownedAttribute xmi:type="uml:Property" xmi:id="_hE9voIzAEeuk8vyAo9tizA" name="autonomous Merge Pipeline 60Hz (HW)" type="_RWPpYIsSEeuPJ7aTKKVL3Q"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_hvG78IsXEeuPJ7aTKKVL3Q" name="request Handling" type="_7cgV8IsREeuPJ7aTKKVL3Q" aggregation="composite"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_zU8KMIsXEeuPJ7aTKKVL3Q" name="rendering" type="_BqGgoIsSEeuPJ7aTKKVL3Q" aggregation="composite"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_HxX8sIsZEeuPJ7aTKKVL3Q" name="plane Storage" type="_fOGxEIsSEeuPJ7aTKKVL3Q" aggregation="composite"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_hE9voIzAEeuk8vyAo9tizA" name="autonomous Merge Pipeline 60Hz (HW)" type="_RWPpYIsSEeuPJ7aTKKVL3Q" aggregation="composite"/>
         <ownedAttribute xmi:type="uml:Port" xmi:id="_AIAJ4IzBEeuk8vyAo9tizA" name="HW Display Interface" type="_5bmjQIsTEeuPJ7aTKKVL3Q"/>
-        <ownedConnector xmi:type="uml:Connector" xmi:id="_mt_QwIsXEeuPJ7aTKKVL3Q" name="Connector4">
-          <end xmi:type="uml:ConnectorEnd" xmi:id="_muBtAIsXEeuPJ7aTKKVL3Q" role="_QqdIIIsXEeuPJ7aTKKVL3Q"/>
-          <end xmi:type="uml:ConnectorEnd" xmi:id="_muBtAYsXEeuPJ7aTKKVL3Q" role="_hvG78IsXEeuPJ7aTKKVL3Q"/>
-        </ownedConnector>
+        <ownedAttribute xmi:type="uml:Port" xmi:id="_C0KO8JZVEeuyzZwGkznfrA" name="Telltale Request" type="_ujv7sJZSEeuyzZwGkznfrA" aggregation="composite"/>
         <ownedConnector xmi:type="uml:Connector" xmi:id="_nsx0QIsXEeuPJ7aTKKVL3Q" name="Connector5">
           <end xmi:type="uml:ConnectorEnd" xmi:id="_nsybUIsXEeuPJ7aTKKVL3Q" role="_XdpTMIsXEeuPJ7aTKKVL3Q"/>
           <end xmi:type="uml:ConnectorEnd" xmi:id="_nsybUYsXEeuPJ7aTKKVL3Q" role="_hvG78IsXEeuPJ7aTKKVL3Q"/>
@@ -39,6 +35,10 @@
           <end xmi:type="uml:ConnectorEnd" xmi:id="_HAu8QIzBEeuk8vyAo9tizA" role="_hE9voIzAEeuk8vyAo9tizA"/>
           <end xmi:type="uml:ConnectorEnd" xmi:id="_HAvjUIzBEeuk8vyAo9tizA" role="_AIAJ4IzBEeuk8vyAo9tizA"/>
         </ownedConnector>
+        <ownedConnector xmi:type="uml:Connector" xmi:id="_JK-nEJZVEeuyzZwGkznfrA" name="Connector16">
+          <end xmi:type="uml:ConnectorEnd" xmi:id="_JK_OIJZVEeuyzZwGkznfrA" role="_C0KO8JZVEeuyzZwGkznfrA"/>
+          <end xmi:type="uml:ConnectorEnd" xmi:id="_JK_OIZZVEeuyzZwGkznfrA" role="_hvG78IsXEeuPJ7aTKKVL3Q"/>
+        </ownedConnector>
         <ownedBehavior xmi:type="uml:Interaction" xmi:id="_Z0k8sI04Eeuk8vyAo9tizA" name="Interaction14">
           <ownedAttribute xmi:type="uml:Property" xmi:id="_d5kcII04Eeuk8vyAo9tizA" name="" type="_plkUIIsSEeuPJ7aTKKVL3Q"/>
           <ownedAttribute xmi:type="uml:Property" xmi:id="_eeHToI04Eeuk8vyAo9tizA" name="" type="_QYMQQIsTEeuPJ7aTKKVL3Q"/>
@@ -48,13 +48,12 @@
           <ownedAttribute xmi:type="uml:Property" xmi:id="_qwBxMI04Eeuk8vyAo9tizA" name="" type="_RWPpYIsSEeuPJ7aTKKVL3Q"/>
           <ownedAttribute xmi:type="uml:Property" xmi:id="_8glMQI05Eeuk8vyAo9tizA" name="" type="_BqGgoIsSEeuPJ7aTKKVL3Q"/>
           <ownedAttribute xmi:type="uml:Property" xmi:id="_YHihMI06Eeuk8vyAo9tizA" name="" type="_NRyqkIsUEeuPJ7aTKKVL3Q"/>
-          <lifeline xmi:type="uml:Lifeline" xmi:id="_d5jOAI04Eeuk8vyAo9tizA" name="" represents="_d5kcII04Eeuk8vyAo9tizA" coveredBy="_tSkxAI05Eeuk8vyAo9tizA"/>
+          <lifeline xmi:type="uml:Lifeline" xmi:id="_d5jOAI04Eeuk8vyAo9tizA" represents="_d5kcII04Eeuk8vyAo9tizA" coveredBy="_tSkxAI05Eeuk8vyAo9tizA"/>
           <lifeline xmi:type="uml:Lifeline" xmi:id="_eeGskI04Eeuk8vyAo9tizA" name="" represents="_eeHToI04Eeuk8vyAo9tizA" coveredBy="_yu2zgI05Eeuk8vyAo9tizA"/>
           <lifeline xmi:type="uml:Lifeline" xmi:id="_iSouII04Eeuk8vyAo9tizA" name="" represents="_iSpVMI04Eeuk8vyAo9tizA" coveredBy="_tSkxAY05Eeuk8vyAo9tizA _yu4BoI05Eeuk8vyAo9tizA __i0OMI05Eeuk8vyAo9tizA _wBCiYI05Eeuk8vyAo9tizA"/>
           <lifeline xmi:type="uml:Lifeline" xmi:id="_j_WHkI04Eeuk8vyAo9tizA" name="" represents="_mZ8hwI04Eeuk8vyAo9tizA" coveredBy="_FgGsAI06Eeuk8vyAo9tizA _LwVT8Y06Eeuk8vyAo9tizA"/>
-          <lifeline xmi:type="uml:Lifeline" xmi:id="_qwBKII04Eeuk8vyAo9tizA" name="" represents="_qwBxMI04Eeuk8vyAo9tizA" coveredBy="_LwVT8I06Eeuk8vyAo9tizA _a_p90I06Eeuk8vyAo9tizA _K2fh4I06Eeuk8vyAo9tizA"/>
+          <lifeline xmi:type="uml:Lifeline" xmi:id="_qwBKII04Eeuk8vyAo9tizA" name="" represents="_qwBxMI04Eeuk8vyAo9tizA" coveredBy="_LwVT8I06Eeuk8vyAo9tizA"/>
           <lifeline xmi:type="uml:Lifeline" xmi:id="_8gklMI05Eeuk8vyAo9tizA" name="" represents="_8glMQI05Eeuk8vyAo9tizA" coveredBy="__i0OMY05Eeuk8vyAo9tizA _FgFd4I06Eeuk8vyAo9tizA _D2XHAI06Eeuk8vyAo9tizA"/>
-          <lifeline xmi:type="uml:Lifeline" xmi:id="_YHh6II06Eeuk8vyAo9tizA" represents="_YHihMI06Eeuk8vyAo9tizA" coveredBy="_a_qk4I06Eeuk8vyAo9tizA _dJKoAI06Eeuk8vyAo9tizA _dJKA8I06Eeuk8vyAo9tizA"/>
           <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_tSkxAI05Eeuk8vyAo9tizA" name="Message12SendEvent" covered="_d5jOAI04Eeuk8vyAo9tizA" message="_tSkJ8I05Eeuk8vyAo9tizA"/>
           <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_tSkxAY05Eeuk8vyAo9tizA" name="Message12ReceiveEvent" covered="_iSouII04Eeuk8vyAo9tizA" message="_tSkJ8I05Eeuk8vyAo9tizA"/>
           <fragment xmi:type="uml:ActionExecutionSpecification" xmi:id="_wBCiYI05Eeuk8vyAo9tizA" name="ActionExecutionSpecification15" covered="_iSouII04Eeuk8vyAo9tizA" finish="__i0OMI05Eeuk8vyAo9tizA" start="_tSkxAY05Eeuk8vyAo9tizA"/>
@@ -66,31 +65,21 @@
           <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_FgFd4I06Eeuk8vyAo9tizA" name="Message26SendEvent" covered="_8gklMI05Eeuk8vyAo9tizA" message="_FgEPwI06Eeuk8vyAo9tizA"/>
           <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_FgGsAI06Eeuk8vyAo9tizA" name="Message26ReceiveEvent" covered="_j_WHkI04Eeuk8vyAo9tizA" message="_FgEPwI06Eeuk8vyAo9tizA"/>
           <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_LwVT8I06Eeuk8vyAo9tizA" name="Message31SendEvent" covered="_qwBKII04Eeuk8vyAo9tizA" message="_LwUs4I06Eeuk8vyAo9tizA"/>
-          <fragment xmi:type="uml:ActionExecutionSpecification" xmi:id="_K2fh4I06Eeuk8vyAo9tizA" name="ActionExecutionSpecification28" covered="_qwBKII04Eeuk8vyAo9tizA" finish="_a_p90I06Eeuk8vyAo9tizA" start="_LwVT8I06Eeuk8vyAo9tizA"/>
           <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_LwVT8Y06Eeuk8vyAo9tizA" name="Message31ReceiveEvent" covered="_j_WHkI04Eeuk8vyAo9tizA" message="_LwUs4I06Eeuk8vyAo9tizA"/>
-          <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_a_p90I06Eeuk8vyAo9tizA" name="Message35SendEvent" covered="_qwBKII04Eeuk8vyAo9tizA" message="_a_pWwI06Eeuk8vyAo9tizA"/>
-          <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_a_qk4I06Eeuk8vyAo9tizA" name="Message35ReceiveEvent" covered="_YHh6II06Eeuk8vyAo9tizA" message="_a_pWwI06Eeuk8vyAo9tizA"/>
-          <fragment xmi:type="uml:ActionExecutionSpecification" xmi:id="_dJKA8I06Eeuk8vyAo9tizA" name="ActionExecutionSpecification37" covered="_YHh6II06Eeuk8vyAo9tizA" finish="_dJKoAI06Eeuk8vyAo9tizA" start="_a_qk4I06Eeuk8vyAo9tizA"/>
-          <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_dJKoAI06Eeuk8vyAo9tizA" name="ActionExecutionSpecification37Finish" covered="_YHh6II06Eeuk8vyAo9tizA" execution="_dJKA8I06Eeuk8vyAo9tizA"/>
           <message xmi:type="uml:Message" xmi:id="_tSkJ8I05Eeuk8vyAo9tizA" name="telltale request" messageSort="asynchCall" receiveEvent="_tSkxAY05Eeuk8vyAo9tizA" sendEvent="_tSkxAI05Eeuk8vyAo9tizA"/>
           <message xmi:type="uml:Message" xmi:id="_yu1lYI05Eeuk8vyAo9tizA" name="non safety status" messageSort="asynchCall" receiveEvent="_yu4BoI05Eeuk8vyAo9tizA" sendEvent="_yu2zgI05Eeuk8vyAo9tizA"/>
           <message xmi:type="uml:Message" xmi:id="__iznII05Eeuk8vyAo9tizA" name="Target Rendering State" messageSort="asynchCall" receiveEvent="__i0OMY05Eeuk8vyAo9tizA" sendEvent="__i0OMI05Eeuk8vyAo9tizA"/>
           <message xmi:type="uml:Message" xmi:id="_FgEPwI06Eeuk8vyAo9tizA" name="Rendered Bitmap" messageSort="asynchCall" receiveEvent="_FgGsAI06Eeuk8vyAo9tizA" sendEvent="_FgFd4I06Eeuk8vyAo9tizA"/>
           <message xmi:type="uml:Message" xmi:id="_LwUs4I06Eeuk8vyAo9tizA" name="Polling" messageSort="asynchCall" receiveEvent="_LwVT8Y06Eeuk8vyAo9tizA" sendEvent="_LwVT8I06Eeuk8vyAo9tizA"/>
-          <message xmi:type="uml:Message" xmi:id="_a_pWwI06Eeuk8vyAo9tizA" name="Bit Stream" messageSort="asynchCall" receiveEvent="_a_qk4I06Eeuk8vyAo9tizA" sendEvent="_a_p90I06Eeuk8vyAo9tizA"/>
         </ownedBehavior>
       </packagedElement>
       <packagedElement xmi:type="uml:Class" xmi:id="_7cgV8IsREeuPJ7aTKKVL3Q" name="Request Handling"/>
       <packagedElement xmi:type="uml:Class" xmi:id="_BqGgoIsSEeuPJ7aTKKVL3Q" name="Rendering"/>
       <packagedElement xmi:type="uml:Class" xmi:id="_RWPpYIsSEeuPJ7aTKKVL3Q" name="Autonomous Merge Pipeline 60Hz (HW)">
         <ownedAttribute xmi:type="uml:Port" xmi:id="_SlETYIzHEeuk8vyAo9tizA" name="HW Display Interface" type="_5bmjQIsTEeuPJ7aTKKVL3Q"/>
-        <ownedAttribute xmi:type="uml:Property" xmi:id="_nU2KkIzGEeuk8vyAo9tizA" name="configuration Data" type="_zR3k4IsTEeuPJ7aTKKVL3Q"/>
-        <ownedAttribute xmi:type="uml:Property" xmi:id="_Ps8PsIzHEeuk8vyAo9tizA" name="plane Blending" type="_1BTTgIzGEeuk8vyAo9tizA"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_Ps8PsIzHEeuk8vyAo9tizA" name="plane Blending" type="_1BTTgIzGEeuk8vyAo9tizA" aggregation="composite"/>
         <ownedAttribute xmi:type="uml:Port" xmi:id="_XbkvUIzHEeuk8vyAo9tizA" name="Plane Data polling" aggregation="composite"/>
-        <ownedConnector xmi:type="uml:Connector" xmi:id="_Ur_joIzHEeuk8vyAo9tizA" name="Connector4">
-          <end xmi:type="uml:ConnectorEnd" xmi:id="_UsAKsIzHEeuk8vyAo9tizA" role="_nU2KkIzGEeuk8vyAo9tizA"/>
-          <end xmi:type="uml:ConnectorEnd" xmi:id="_UsAxwIzHEeuk8vyAo9tizA" role="_Ps8PsIzHEeuk8vyAo9tizA"/>
-        </ownedConnector>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_wNNbkJZMEeuyzZwGkznfrA" name="configuration Data" type="_zR3k4IsTEeuPJ7aTKKVL3Q" aggregation="composite"/>
         <ownedConnector xmi:type="uml:Connector" xmi:id="_V8aCoIzHEeuk8vyAo9tizA" name="Connector5">
           <end xmi:type="uml:ConnectorEnd" xmi:id="_V8apsIzHEeuk8vyAo9tizA" role="_Ps8PsIzHEeuk8vyAo9tizA"/>
           <end xmi:type="uml:ConnectorEnd" xmi:id="_V8apsYzHEeuk8vyAo9tizA" role="_SlETYIzHEeuk8vyAo9tizA"/>
@@ -98,6 +87,10 @@
         <ownedConnector xmi:type="uml:Connector" xmi:id="_bVVPIIzHEeuk8vyAo9tizA" name="Connector7">
           <end xmi:type="uml:ConnectorEnd" xmi:id="_bVXEUIzHEeuk8vyAo9tizA" role="_Ps8PsIzHEeuk8vyAo9tizA"/>
           <end xmi:type="uml:ConnectorEnd" xmi:id="_bVXEUYzHEeuk8vyAo9tizA" role="_XbkvUIzHEeuk8vyAo9tizA"/>
+        </ownedConnector>
+        <ownedConnector xmi:type="uml:Connector" xmi:id="_zvzYkJZMEeuyzZwGkznfrA" name="Connector7">
+          <end xmi:type="uml:ConnectorEnd" xmi:id="_zv1NwJZMEeuyzZwGkznfrA" role="_wNNbkJZMEeuyzZwGkznfrA"/>
+          <end xmi:type="uml:ConnectorEnd" xmi:id="_zv1NwZZMEeuyzZwGkznfrA" role="_Ps8PsIzHEeuk8vyAo9tizA"/>
         </ownedConnector>
       </packagedElement>
       <packagedElement xmi:type="uml:Class" xmi:id="_fOGxEIsSEeuPJ7aTKKVL3Q" name="Plane Storage"/>
@@ -175,6 +168,26 @@
         <ownedEnd xmi:type="uml:Property" xmi:id="_mngnkIsSEeuPJ7aTKKVL3Q" type="_2h-8sIsREeuPJ7aTKKVL3Q" association="_mnfZcIsSEeuPJ7aTKKVL3Q"/>
       </packagedElement>
     </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_W-zHIJdkEeu2naE3CcG5Ew" name="Interfaces">
+      <packagedElement xmi:type="uml:Interface" xmi:id="_ujv7sJZSEeuyzZwGkznfrA" name="IF_Telltale_requests">
+        <ownedReception xmi:type="uml:Reception" xmi:id="_YY20kJZXEeuyzZwGkznfrA" name="Receive Telltale Request" signal="_zdAsgJZZEeuyzZwGkznfrA"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Interface" xmi:id="_cx_YUJdlEeu2naE3CcG5Ew" name="IF_non_safety_cluster_display_Request">
+        <ownedReception xmi:type="uml:Reception" xmi:id="_MlYU4JdnEeu2naE3CcG5Ew" name="receive_QM_cluster_display_Request" signal="_qDDT0JdnEeu2naE3CcG5Ew"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Interface" xmi:id="_k5WhAJdlEeu2naE3CcG5Ew" name="IF_image_out">
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_bEpkYJdzEeu2naE3CcG5Ew" name="send_bit_stream" concurrency="concurrent"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Signal" xmi:id="_zdAsgJZZEeuyzZwGkznfrA" name="SI_Telltale_Request">
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_zdAsgZZZEeuyzZwGkznfrA" name="Telltale_Status"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_zdAsgpZZEeuyzZwGkznfrA" name="E2E_Data"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Signal" xmi:id="_qDDT0JdnEeu2naE3CcG5Ew" name="SI_QM_cluster_display_request">
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_qDDT0ZdnEeu2naE3CcG5Ew" name="Data"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Dependency" xmi:id="_4BGsoJdzEeu2naE3CcG5Ew" client="_cx_YUJdlEeu2naE3CcG5Ew" supplier="_qDDT0JdnEeu2naE3CcG5Ew"/>
+      <packagedElement xmi:type="uml:Dependency" xmi:id="_4uNqQJdzEeu2naE3CcG5Ew" client="_ujv7sJZSEeuyzZwGkznfrA" supplier="_zdAsgJZZEeuyzZwGkznfrA"/>
+    </packagedElement>
     <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_nyhUEIsQEeuPJ7aTKKVL3Q">
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_nyiiMIsQEeuPJ7aTKKVL3Q" source="http://www.eclipse.org/uml2/2.0.0/UML">
         <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#/"/>
@@ -251,4 +264,5 @@
   <Blocks:Block xmi:id="_5bo_gIsTEeuPJ7aTKKVL3Q" base_Class="_5bmjQIsTEeuPJ7aTKKVL3Q"/>
   <Blocks:Block xmi:id="_NR1t4IsUEeuPJ7aTKKVL3Q" base_Class="_NRyqkIsUEeuPJ7aTKKVL3Q"/>
   <Blocks:Block xmi:id="_1BYzEIzGEeuk8vyAo9tizA" base_Class="_1BTTgIzGEeuk8vyAo9tizA"/>
+  <PortsAndFlows:ProxyPort xmi:id="_C0UnAJZVEeuyzZwGkznfrA" base_Port="_C0KO8JZVEeuyzZwGkznfrA"/>
 </xmi:XMI>
