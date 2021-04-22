@@ -5,6 +5,7 @@ skinparam linetype ortho
 skinparam componentStyle rectangle
 [Telltale Requester] as TT_requester
 [Non Safety \nInstrument cluster \nstate sources] as other_inputs
+
 together {
 [Display] as AE_Display
 [Backlight] as AE_Backlight
@@ -13,7 +14,6 @@ together {
 '[Watchdog]
 package "SOC" {
 [Request handling  /\nDisplay State arbitration] as AE_Request_handling
-
 
 package "Rendering (HW/SW)" as pkg_Rendering {
 [QM Plane Rendering] as AE_Rendering
@@ -27,6 +27,9 @@ package "Autonomous Merge Pipeline 60Hz (HW)" as pkg_DC #grey  {
     [Configuration Data] as AE_Merge_Pipeline_Configuration_Data #Aqua
 }
 
+
+[Initialization] as AE_Initialization
+
 }
 
 package "Logical constraint" #green {
@@ -34,6 +37,7 @@ package "Logical constraint" #green {
 }
 
 'pkg_Rendering -[#blue,bold,dotted]- pkg_DC : Synchronization
+
 
 note top of Synchronization :  Rendering and Merging \npipeline need to be synchronized
 
@@ -60,7 +64,7 @@ AE_Merge_Pipeline_Configuration_Data .. AE_Plane_Blending
 
 ' Request handling
 other_inputs --> AE_Request_handling : "Non safety display inputs \n (car speed for speedometer, rpm, etc)"
-TT_requester --> AE_Request_handling : Telltale Request
+TT_requester -left-> AE_Request_handling : Telltale Request
 
 
 AE_Request_handling --> AE_Rendering: Target Rendering State
@@ -80,5 +84,7 @@ AE_Rendering --> AE_Plane_Storage: Rendered Bitmap
 'Watchdog
 '[Watchdog] --> AE_Backlight : kill line
 AE_Display -- AE_Backlight
+
+AE_Initialization -- AE_Merge_Pipeline_Configuration_Data
 @enduml
 

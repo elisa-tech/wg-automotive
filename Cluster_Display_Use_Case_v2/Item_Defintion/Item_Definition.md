@@ -33,13 +33,13 @@ The display of telltales in particular is safety critical, since telltales are a
 * We do not consider a specific "off" state since the black display coincides with the safe state.
 * We do not consider a windown/shutdown state, it can be added at a later stage withoutout much changes to the system as it is. A windown state would complicate the system without analytical benefit, same as the degradation state.
 * We assume monolithic rendering of one all in one plane, opposed to several planes. That does limit the opportunities for telltale checking to checks after the merging pipeline, but is in line with the QT based AGL cluster demo. 
-  * [todo, done] document the train of thought, adding complexity, but does not help with the safety argument.
   * Rationale: The more sophisticated model including several rendering planes might be necessary at some point to achieve sufficient diagnostic coverage, depending on the HW metrics of the Telltale checker element, since checking on rendering plane level allows to pinpoint the source of a malfunction with higher precision. 
     * Non Monolithic rendering also is prerequisite for a potential degradation mode, should we at some point extend the use case to include it (see above)
-    * From a purely safety perspective, we do however not gain any additional insights, since the safety responsibility is allocated to the HW telltale checker
-* [todo, done] Formulate all telltales according to highest ASIL (max B)
-* There are diferent types of tell tales indicating different information i.e. battery level or engine temperature which may have different ASIL level assigned. We limit our analysis to the worst case, seen as ASIL-B. 
-* [todo, done] Add explanation regarding multiple qm planes, degradation etc, no change safety wise. See above assumption regarding monolithic rendering
+    * From a safety design perspective, we do not assume that the more complex multi plane variant gives us any additional insights.
+    * [todo, done] Formulate design with two components, one checking HW or SW and one monitor in SW, to keep it a Linux use case
+* We separate the telltale checking functionally to the monitoring/reaction, this enables us to transition from a HW based checker to SW based checker without having to rework the concept completely. 
+* There are diferent types of tell tales indicating different information i.e. battery level or engine temperature which may have different ASIL level assigned. We limit our analysis to the worst case, seen as ASIL-B.
+* [todo, confirm formulation] We assume, that the cyclical message coming in contains the already arbitrated requestet telltale status for all safety relevant telltales. 
 
 ## Hardware
 In this use case, to the end of getting something running, no specific Hardware is considered. 
@@ -56,7 +56,9 @@ The system operates in three states
 * Safe state
   * Black screen
 #### State and state change diagram
-![system](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/Jochen-Kall/wg-automotive/Cluster_display_v2/Cluster_Display_Use_Case_v2/Item_Defintion/Operational_states.puml)
+![Alt text](Cluster Display State diagram)
+<img src="./Papyrus_Model/Cluster_demo/Cluster_demo/Blocks/ClusterDisplayStateMachine.SVG">
+
 ### Block Diagram nominal function
 Nominal function absent of safety mechanisms.
 
@@ -72,7 +74,10 @@ Block diagram including safety mechanisms
 ![system](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/Jochen-Kall/wg-automotive/Cluster_display_v2/Cluster_Display_Use_Case_v2/Item_Defintion/Block_diagram_with_safety.puml)
 
 [todo] get the diagram aligned with the changed nominal functionality diagram
-
+[todo] add MOnitoring block
+[todo] add initialization block to configure the merge pipeline
+[todo] reflect checker being in HW or SW
+ 
 [todo] assumption checking is triggered, hw checker provides an answer -> HW spec still under NDA.
 
 ### Block description
@@ -121,6 +126,7 @@ No hara (hazard analysis and risc assessment) was performed for the system. Inst
 ### Safety Goal 1
 <!-- While requested, the system shall display the driver warning within 200 ms or transition to the safe state within 200 ms. -->
 While a safety relevant telltale is requested, the system shall display the telltale to human perception within within 200ms
+* Info: Timing is debateable, could be relaxed if necessary, does not impact the safety concept (much)
 * Info: The safe state of the system cluster display is the black screen.
 * Info: "to human perception" means, the periods during which the system does not display the telltale are shorter, than what humans can discern (tbd ms)
 * Info: A telltale is considered requested, as soon as telltale request message is received

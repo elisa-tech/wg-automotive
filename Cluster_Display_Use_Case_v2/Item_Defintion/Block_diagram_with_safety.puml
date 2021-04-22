@@ -3,32 +3,37 @@
 skinparam linetype polyline
 skinparam linetype ortho
 skinparam componentStyle rectangle
-[Telltale Requester]
+[Telltale Requester] as TT_requester
+[Non Safety \nInstrument cluster \nstate sources] as other_inputs
+
 together {
-[Display]
-[Backlight]
+[Display] as AE_Display
+[Backlight] as AE_Backlight
 }
 ' [Power Source]
 '[Watchdog]
 package "SOC" {
-[Request handling]
+[Request handling  /\nDisplay State arbitration] as AE_Request_handling
+
+package "Rendering (HW/SW)" as pkg_Rendering {
+[QM Plane Rendering] as AE_Rendering
+'[Safety Plane Rendering]
+[Plane Storage] as AE_Plane_Storage #Aqua
+}
+
+package "Autonomous Merge Pipeline 60Hz (HW)" as pkg_DC #grey  {
+    [Plane Blending] as AE_Plane_Blending
+    [HW Display Interface] as AE_HW_Display_interface
+    [Configuration Data] as AE_Merge_Pipeline_Configuration_Data #Aqua
+}
 
 package "Safety checking 15Hz (HW/SW)" as pkg_Safety_checking {
 [Telltale checking]
 [Image Decoding] as image_decoding
 }
 
-package "Rendering (HW/SW)" as pkg_Rendering {
-[QM Plane Rendering]
-[Safety Plane Rendering]
-[Plane Storage] #Aqua
-}
+[Initialization] as Initialization
 
-package "Autonomous Merge Pipeline 60Hz (HW)" as pkg_DC #grey {
-    [Plane Blending]
-    [HW Display Interface] as hw_interface
-    [Configuration Data]  #Aqua
-} 
 
 }
 
@@ -38,11 +43,13 @@ package "Logical constraint" #green {
 
 'pkg_Rendering -[#blue,bold,dotted]- pkg_DC : Synchronization
 
-note top of Synchronization :  Rendering and Merging \npipeline and Safety checking need to be synchronized
+
+note top of Synchronization :  Rendering and Merging \npipeline need to be synchronized
 
 [Synchronization] .[dotted,#blue]. pkg_DC
 [Synchronization] .[dotted,#blue]. pkg_Rendering
-'[Synchronization] .[dotted,#blue]. pkg_Safety_checking
+'"Autonomous Merge Pipeline 60Hz (HW)" -- "Rendering (HW/SW)"
+
 
 ' schauen ob wir Synchronisierung visualisiert bekommen
 ' package symbole ausblenden
@@ -52,31 +59,36 @@ note top of Synchronization :  Rendering and Merging \npipeline and Safety check
 '[Power Source] -[#blue]- SOC
 '[Power Source] -[#blue]- [Display]
 '[Power Source] -[#blue]- [Watchdog]
-'[Power Source] -[#blue]- [Backlight]
+'[Power Source] -[#blue]- AE_Backlight
 
 ' Autonomous Plane blender
-[Plane Blending] ..> [Plane Storage] : Polling
-[Plane Blending] --> hw_interface
-hw_interface -down-> [Display]
-[Configuration Data] .. [Plane Blending] 
+AE_Plane_Blending ..> AE_Plane_Storage : Polling
+AE_Plane_Blending --> AE_HW_Display_interface : Post Processed Image: \n Scaling, alpha and color correction etc
+AE_HW_Display_interface --> AE_Display: Bit Stream
+'AE_Merge_Pipeline_Configuration_Data .. AE_Plane_Blending
 
 ' Request handling
-[Telltale Requester] --> [Request handling] : Telltale Request
-[Request handling] --> [QM Plane Rendering]
-[Request handling] --> [Safety Plane Rendering]
-[Request handling] --> [Telltale checking]
+other_inputs --> AE_Request_handling : "Non safety display inputs \n (car speed for speedometer, rpm, etc)"
+TT_requester -left-> AE_Request_handling : Telltale Request
+
+
+AE_Request_handling --> AE_Rendering: Target Rendering State
+'[Request handling] --> [Safety Plane Rendering]
+'[Request handling] --> [Telltale checking]
 
 'Rendering
-[QM Plane Rendering] --> [Plane Storage]
-[Safety Plane Rendering] --> [Plane Storage]
+AE_Rendering --> AE_Plane_Storage: Rendered Bitmap
+'[Safety Plane Rendering] --> AE_Plane_Storage
 
 'Safety checking
-hw_interface --> image_decoding
+AE_HW_Display_interface --> image_decoding
 image_decoding --> [Telltale checking]
 [Telltale checking] --> [Watchdog] : pet
 
 'Watchdog
-[Watchdog] --> [Backlight] : kill line
-[Display] -- [Backlight]
+[Watchdog] --> AE_Backlight : kill line
+AE_Display -- AE_Backlight
+
+Initialization -- AE_Merge_Pipeline_Configuration_Data
 @enduml
 
