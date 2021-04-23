@@ -384,10 +384,10 @@
                 <path d="M236 112 L307 112 L307 129 L236 129 L236 112 Z"/>
             </clipPath>
             <clipPath clipPathUnits="userSpaceOnUse" id="clipPath105">
-                <path d="M256 128 L286 128 L286 145 L256 145 L256 128 Z"/>
+                <path d="M226 128 L317 128 L317 145 L226 145 L226 128 Z"/>
             </clipPath>
             <clipPath clipPathUnits="userSpaceOnUse" id="clipPath106">
-                <path d="M226 144 L317 144 L317 161 L226 161 L226 144 Z"/>
+                <path d="M256 144 L286 144 L286 161 L256 161 L256 144 Z"/>
             </clipPath>
             <clipPath clipPathUnits="userSpaceOnUse" id="clipPath107">
                 <path d="M210 160 L332 160 L332 197 L210 197 L210 160 Z"/>
@@ -429,10 +429,10 @@
                 <path d="M876 112 L947 112 L947 129 L876 129 L876 112 Z"/>
             </clipPath>
             <clipPath clipPathUnits="userSpaceOnUse" id="clipPath120">
-                <path d="M893 128 L929 128 L929 145 L893 145 L893 128 Z"/>
+                <path d="M866 128 L957 128 L957 145 L866 145 L866 128 Z"/>
             </clipPath>
             <clipPath clipPathUnits="userSpaceOnUse" id="clipPath121">
-                <path d="M866 144 L957 144 L957 161 L866 161 L866 144 Z"/>
+                <path d="M893 144 L929 144 L929 161 L893 161 L893 144 Z"/>
             </clipPath>
             <clipPath clipPathUnits="userSpaceOnUse" id="clipPath122">
                 <path d="M850 160 L972 160 L972 197 L850 197 L850 160 Z"/>
@@ -626,8 +626,8 @@
             <rect x="470" y="110" clip-path="url(#clipPath102)" fill="none" width="240" rx="0" ry="0" height="120"/>
             <rect x="210" y="110" clip-path="url(#clipPath103)" fill="url(#linearGradient13)" width="121" height="121" stroke="none"/>
             <text xml:space="preserve" x="237" y="126" clip-path="url(#clipPath104)" stroke="none">«Stereotype»</text>
-            <text xml:space="preserve" x="257" y="142" clip-path="url(#clipPath105)" stroke="none">Trace</text>
-            <text xml:space="preserve" x="227" y="158" clip-path="url(#clipPath106)" stroke="none">(StandardProfile)</text>
+            <text xml:space="preserve" x="227" y="142" clip-path="url(#clipPath105)" stroke="none">(StandardProfile)</text>
+            <text xml:space="preserve" x="257" y="158" clip-path="url(#clipPath106)" stroke="none">Trace</text>
             <line clip-path="url(#clipPath107)" fill="none" x1="210" x2="331" y1="161" y2="161"/>
             <line clip-path="url(#clipPath108)" fill="none" x1="210" x2="331" y1="197" y2="197"/>
             <rect x="210" y="110" clip-path="url(#clipPath109)" fill="none" width="120" rx="0" ry="0" height="120"/>
@@ -642,8 +642,8 @@
             <rect x="810" y="670" clip-path="url(#clipPath117)" fill="none" width="360" rx="0" ry="0" height="100"/>
             <rect x="850" y="110" clip-path="url(#clipPath118)" fill="url(#linearGradient15)" width="121" height="121" stroke="none"/>
             <text xml:space="preserve" x="877" y="126" clip-path="url(#clipPath119)" stroke="none">«Stereotype»</text>
-            <text xml:space="preserve" x="894" y="142" clip-path="url(#clipPath120)" stroke="none">Refine</text>
-            <text xml:space="preserve" x="867" y="158" clip-path="url(#clipPath121)" stroke="none">(StandardProfile)</text>
+            <text xml:space="preserve" x="867" y="142" clip-path="url(#clipPath120)" stroke="none">(StandardProfile)</text>
+            <text xml:space="preserve" x="894" y="158" clip-path="url(#clipPath121)" stroke="none">Refine</text>
             <line clip-path="url(#clipPath122)" fill="none" x1="850" x2="971" y1="161" y2="161"/>
             <line clip-path="url(#clipPath123)" fill="none" x1="850" x2="971" y1="197" y2="197"/>
             <rect x="850" y="110" clip-path="url(#clipPath124)" fill="none" width="120" rx="0" ry="0" height="120"/>

@@ -29,6 +29,7 @@ package "Autonomous Merge Pipeline 60Hz (HW)" as pkg_DC #grey  {
 
 package "Safety checking 15Hz (HW/SW)" as pkg_Safety_checking {
 [Telltale checking]
+[Safety Monitor] as AE_Safety_Monitor
 [Image Decoding] as image_decoding
 }
 
@@ -82,8 +83,10 @@ AE_Rendering --> AE_Plane_Storage: Rendered Bitmap
 
 'Safety checking
 AE_HW_Display_interface --> image_decoding
+AE_Request_handling --> [Telltale checking]: Requested Telltale Information
 image_decoding --> [Telltale checking]
-[Telltale checking] --> [Watchdog] : pet
+[Telltale checking] -> AE_Safety_Monitor
+AE_Safety_Monitor --> [Watchdog] : pet
 
 'Watchdog
 [Watchdog] --> AE_Backlight : kill line

@@ -406,10 +406,10 @@
                 <path d="M-1 -1 L1362 -1 L1362 1096 L-1 1096 L-1 -1 Z"/>
             </clipPath>
             <clipPath clipPathUnits="userSpaceOnUse" id="clipPath115">
-                <path d="M305 381 L316 381 L316 400 L305 400 L305 381 Z"/>
+                <path d="M245 381 L256 381 L256 400 L245 400 L245 381 Z"/>
             </clipPath>
             <clipPath clipPathUnits="userSpaceOnUse" id="clipPath116">
-                <path d="M325 381 L336 381 L336 400 L325 400 L325 381 Z"/>
+                <path d="M365 381 L376 381 L376 400 L365 400 L365 381 Z"/>
             </clipPath>
             <clipPath clipPathUnits="userSpaceOnUse" id="clipPath117">
                 <path d="M418 300 L437 300 L437 311 L418 311 L418 300 Z"/>
@@ -436,7 +436,7 @@
                 <path d="M693 500 L712 500 L712 511 L693 511 L693 500 Z"/>
             </clipPath>
             <clipPath clipPathUnits="userSpaceOnUse" id="clipPath125">
-                <path d="M405 381 L416 381 L416 400 L405 400 L405 381 Z"/>
+                <path d="M305 381 L316 381 L316 400 L305 400 L305 381 Z"/>
             </clipPath>
         </defs>
         <g fill="url(#linearGradient1)" font-family="'Segoe UI'" stroke-linejoin="round" stroke="url(#linearGradient1)" stroke-width="0" stroke-miterlimit="0">
@@ -576,16 +576,12 @@
             <line clip-path="url(#clipPath111)" fill="none" x1="250" x2="350" y1="834" y2="834"/>
             <line clip-path="url(#clipPath112)" fill="none" x1="250" x2="350" y1="867" y2="867"/>
             <rect x="250" y="765" clip-path="url(#clipPath113)" fill="none" width="99" rx="0" ry="0" height="116"/>
-            <line clip-path="url(#clipPath114)" fill="none" text-rendering="optimizeLegibility" x1="310" x2="310" y1="382" y2="484"/>
-            <line clip-path="url(#clipPath114)" fill="none" text-rendering="optimizeLegibility" x1="310" x2="250" y1="484" y2="484"/>
-            <line clip-path="url(#clipPath114)" fill="none" text-rendering="optimizeLegibility" x1="250" x2="250" y1="484" y2="585"/>
-            <polygon text-rendering="optimizeLegibility" clip-path="url(#clipPath115)" points=" 310 382 314 390 310 398 306 390" stroke="none"/>
-            <polygon text-rendering="optimizeLegibility" fill="none" clip-path="url(#clipPath115)" points=" 310 382 314 390 310 398 306 390"/>
-            <line clip-path="url(#clipPath114)" fill="none" text-rendering="optimizeLegibility" x1="330" x2="330" y1="382" y2="565"/>
-            <line clip-path="url(#clipPath114)" fill="none" text-rendering="optimizeLegibility" x1="330" x2="370" y1="565" y2="565"/>
-            <line clip-path="url(#clipPath114)" fill="none" text-rendering="optimizeLegibility" x1="370" x2="370" y1="565" y2="585"/>
-            <polygon text-rendering="optimizeLegibility" clip-path="url(#clipPath116)" points=" 330 382 334 390 330 398 326 390" stroke="none"/>
-            <polygon text-rendering="optimizeLegibility" fill="none" clip-path="url(#clipPath116)" points=" 330 382 334 390 330 398 326 390"/>
+            <line clip-path="url(#clipPath114)" fill="none" text-rendering="optimizeLegibility" x1="250" x2="250" y1="382" y2="585"/>
+            <polygon text-rendering="optimizeLegibility" clip-path="url(#clipPath115)" points=" 250 382 254 390 250 398 246 390" stroke="none"/>
+            <polygon text-rendering="optimizeLegibility" fill="none" clip-path="url(#clipPath115)" points=" 250 382 254 390 250 398 246 390"/>
+            <line clip-path="url(#clipPath114)" fill="none" text-rendering="optimizeLegibility" x1="370" x2="370" y1="382" y2="585"/>
+            <polygon text-rendering="optimizeLegibility" clip-path="url(#clipPath116)" points=" 370 382 374 390 370 398 366 390" stroke="none"/>
+            <polygon text-rendering="optimizeLegibility" fill="none" clip-path="url(#clipPath116)" points=" 370 382 374 390 370 398 366 390"/>
             <line clip-path="url(#clipPath114)" fill="none" text-rendering="optimizeLegibility" x1="419" x2="830" y1="305" y2="305"/>
             <line clip-path="url(#clipPath114)" fill="none" text-rendering="optimizeLegibility" x1="830" x2="830" y1="305" y2="425"/>
             <polygon text-rendering="optimizeLegibility" clip-path="url(#clipPath117)" points=" 419 305 427 301 435 305 427 309" stroke="none"/>
@@ -624,11 +620,10 @@
             <line clip-path="url(#clipPath114)" fill="none" text-rendering="optimizeLegibility" x1="390" x2="390" y1="1025" y2="702" stroke-dasharray="6.6,3.3"/>
             <line clip-path="url(#clipPath114)" fill="none" text-rendering="optimizeLegibility" x1="530" x2="510" y1="1025" y2="702" stroke-dasharray="6.6,3.3"/>
             <line clip-path="url(#clipPath114)" fill="none" text-rendering="optimizeLegibility" x1="690" x2="790" y1="1025" y2="542" stroke-dasharray="6.6,3.3"/>
-            <line clip-path="url(#clipPath114)" fill="none" text-rendering="optimizeLegibility" x1="410" x2="410" y1="382" y2="565"/>
-            <line clip-path="url(#clipPath114)" fill="none" text-rendering="optimizeLegibility" x1="410" x2="310" y1="565" y2="565"/>
+            <line clip-path="url(#clipPath114)" fill="none" text-rendering="optimizeLegibility" x1="310" x2="310" y1="382" y2="565"/>
             <line clip-path="url(#clipPath114)" fill="none" text-rendering="optimizeLegibility" x1="310" x2="310" y1="565" y2="765"/>
-            <polygon text-rendering="optimizeLegibility" clip-path="url(#clipPath125)" points=" 410 382 414 390 410 398 406 390" stroke="none"/>
-            <polygon text-rendering="optimizeLegibility" fill="none" clip-path="url(#clipPath125)" points=" 410 382 414 390 410 398 406 390"/>
+            <polygon text-rendering="optimizeLegibility" clip-path="url(#clipPath125)" points=" 310 382 314 390 310 398 306 390" stroke="none"/>
+            <polygon text-rendering="optimizeLegibility" fill="none" clip-path="url(#clipPath125)" points=" 310 382 314 390 310 398 306 390"/>
             <line clip-path="url(#clipPath114)" fill="none" text-rendering="optimizeLegibility" x1="350" x2="850" y1="825" y2="825"/>
             <line clip-path="url(#clipPath114)" fill="none" text-rendering="optimizeLegibility" x1="850" x2="850" y1="825" y2="742"/>
         </g>

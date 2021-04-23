@@ -66,7 +66,6 @@ AE_Merge_Pipeline_Configuration_Data .. AE_Plane_Blending
 other_inputs --> AE_Request_handling : "Non safety display inputs \n (car speed for speedometer, rpm, etc)"
 TT_requester -left-> AE_Request_handling : Telltale Request
 
-
 AE_Request_handling --> AE_Rendering: Target Rendering State
 '[Request handling] --> [Safety Plane Rendering]
 '[Request handling] --> [Telltale checking]

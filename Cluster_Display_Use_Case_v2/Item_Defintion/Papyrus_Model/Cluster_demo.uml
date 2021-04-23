@@ -1,13 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:Blocks="http://www.eclipse.org/papyrus/sysml/1.6/SysML/Blocks" xmlns:PortsAndFlows="http://www.eclipse.org/papyrus/sysml/1.6/SysML/PortsAndFlows" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http://www.eclipse.org/papyrus/sysml/1.6/SysML/Blocks http://www.eclipse.org/papyrus/sysml/1.6/SysML#//blocks http://www.eclipse.org/papyrus/sysml/1.6/SysML/PortsAndFlows http://www.eclipse.org/papyrus/sysml/1.6/SysML#//portsandflows">
   <uml:Model xmi:id="_nxnVIIsQEeuPJ7aTKKVL3Q" name="Cluster_demo">
+    <ownedComment xmi:type="uml:Comment" xmi:id="_ADjVMKNeEeumRJVBi2M15w">
+      <body>SOC / System Scope&#xD;
+</body>
+    </ownedComment>
+    <ownedComment xmi:type="uml:Comment" xmi:id="_mrGCsKNeEeumRJVBi2M15w">
+      <body>Autonomous Merge Pipeline (HW)</body>
+    </ownedComment>
+    <ownedComment xmi:type="uml:Comment" xmi:id="_eck3IKQkEeumRJVBi2M15w" annotatedElement="_RWPpYIsSEeuPJ7aTKKVL3Q _BqGgoIsSEeuPJ7aTKKVL3Q _fOGxEIsSEeuPJ7aTKKVL3Q _zU8KMIsXEeuPJ7aTKKVL3Q _HxX8sIsZEeuPJ7aTKKVL3Q _hE9voIzAEeuk8vyAo9tizA">
+      <body>Syncronization needs to be designed into the system between Plane rendering and the Autonomous merge Pipeline via Plane Storage</body>
+    </ownedComment>
     <packagedElement xmi:type="uml:Actor" xmi:id="_plkUIIsSEeuPJ7aTKKVL3Q" name="Telltale Requester"/>
     <packagedElement xmi:type="uml:Actor" xmi:id="_QYMQQIsTEeuPJ7aTKKVL3Q" name="Non Safety Instrument Cluster state sources"/>
     <packagedElement xmi:type="uml:Package" xmi:id="_4mQdYIsYEeuPJ7aTKKVL3Q" name="Blocks">
       <packagedElement xmi:type="uml:Class" xmi:id="_NRyqkIsUEeuPJ7aTKKVL3Q" name="Display"/>
       <packagedElement xmi:type="uml:Class" xmi:id="_zR3k4IsTEeuPJ7aTKKVL3Q" name="Configuration Data"/>
       <packagedElement xmi:type="uml:Class" xmi:id="_5bmjQIsTEeuPJ7aTKKVL3Q" name="HW Display Interface"/>
-      <packagedElement xmi:type="uml:Class" xmi:id="_2h-8sIsREeuPJ7aTKKVL3Q" name="Cluster Display System" classifierBehavior="_Z0k8sI04Eeuk8vyAo9tizA">
+      <packagedElement xmi:type="uml:Class" xmi:id="_2h-8sIsREeuPJ7aTKKVL3Q" name="Cluster Display System Nominal Function" classifierBehavior="_Z0k8sI04Eeuk8vyAo9tizA">
         <ownedAttribute xmi:type="uml:Port" xmi:id="_XdpTMIsXEeuPJ7aTKKVL3Q" name="Non Safety cluster state" aggregation="composite"/>
         <ownedAttribute xmi:type="uml:Property" xmi:id="_hvG78IsXEeuPJ7aTKKVL3Q" name="request Handling" type="_7cgV8IsREeuPJ7aTKKVL3Q" aggregation="composite"/>
         <ownedAttribute xmi:type="uml:Property" xmi:id="_zU8KMIsXEeuPJ7aTKKVL3Q" name="rendering" type="_BqGgoIsSEeuPJ7aTKKVL3Q" aggregation="composite"/>
@@ -23,7 +33,7 @@
           <end xmi:type="uml:ConnectorEnd" xmi:id="_-4EkQIsZEeuPJ7aTKKVL3Q" role="_hvG78IsXEeuPJ7aTKKVL3Q"/>
           <end xmi:type="uml:ConnectorEnd" xmi:id="_-4FLUIsZEeuPJ7aTKKVL3Q" role="_zU8KMIsXEeuPJ7aTKKVL3Q"/>
         </ownedConnector>
-        <ownedConnector xmi:type="uml:Connector" xmi:id="__7Ti4IsZEeuPJ7aTKKVL3Q" name="Connector9">
+        <ownedConnector xmi:type="uml:Connector" xmi:id="__7Ti4IsZEeuPJ7aTKKVL3Q" name="Rendered Bitmap">
           <end xmi:type="uml:ConnectorEnd" xmi:id="__7UJ8IsZEeuPJ7aTKKVL3Q" role="_zU8KMIsXEeuPJ7aTKKVL3Q"/>
           <end xmi:type="uml:ConnectorEnd" xmi:id="__7UJ8YsZEeuPJ7aTKKVL3Q" role="_HxX8sIsZEeuPJ7aTKKVL3Q"/>
         </ownedConnector>
@@ -116,7 +126,6 @@
       </packagedElement>
       <packagedElement xmi:type="uml:Class" xmi:id="_fOGxEIsSEeuPJ7aTKKVL3Q" name="Plane Storage"/>
       <packagedElement xmi:type="uml:Class" xmi:id="_1BTTgIzGEeuk8vyAo9tizA" name="Plane Blending"/>
-      <packagedElement xmi:type="uml:TimeObservation" xmi:id="_Mc0sUJ3qEeumRJVBi2M15w" name="TimeObservation11" event="_CmCPcJ0QEeumRJVBi2M15w"/>
     </packagedElement>
     <packagedElement xmi:type="uml:Package" xmi:id="_eFaJEIzSEeuk8vyAo9tizA" name="Part relations">
       <packagedElement xmi:type="uml:Association" xmi:id="_8BeKoIzGEeuk8vyAo9tizA" memberEnd="_8Bgm4IzGEeuk8vyAo9tizA _8BhN8IzGEeuk8vyAo9tizA">
@@ -238,6 +247,21 @@
       <ownedEnd xmi:type="uml:Property" xmi:id="_7S2AkJ0NEeumRJVBi2M15w" name="rendering" type="_BqGgoIsSEeuPJ7aTKKVL3Q" association="_7S1ZgJ0NEeumRJVBi2M15w"/>
       <ownedEnd xmi:type="uml:Property" xmi:id="_7S2AkZ0NEeumRJVBi2M15w" name="request handling" type="_7cgV8IsREeuPJ7aTKKVL3Q" association="_7S1ZgJ0NEeumRJVBi2M15w"/>
     </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_3_IukKQoEeumRJVBi2M15w" name="Initialisation"/>
+    <packagedElement xmi:type="uml:Association" xmi:id="_BSGuwKQpEeumRJVBi2M15w" memberEnd="_BSHV0qQpEeumRJVBi2M15w _BSH84KQpEeumRJVBi2M15w">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_BSHV0KQpEeumRJVBi2M15w" source="org.eclipse.papyrus">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_BSHV0aQpEeumRJVBi2M15w" key="nature" value="UML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_BSHV0qQpEeumRJVBi2M15w" name="initialisation" type="_3_IukKQoEeumRJVBi2M15w" aggregation="composite" association="_BSGuwKQpEeumRJVBi2M15w"/>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_BSH84KQpEeumRJVBi2M15w" name="cluster display system" type="_2h-8sIsREeuPJ7aTKKVL3Q" association="_BSGuwKQpEeumRJVBi2M15w"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_JtnigKQpEeumRJVBi2M15w" memberEnd="_JtoJkqQpEeumRJVBi2M15w _JtpXsKQpEeumRJVBi2M15w">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_JtoJkKQpEeumRJVBi2M15w" source="org.eclipse.papyrus">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_JtoJkaQpEeumRJVBi2M15w" key="nature" value="UML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_JtoJkqQpEeumRJVBi2M15w" name="configuration data" type="_zR3k4IsTEeuPJ7aTKKVL3Q" association="_JtnigKQpEeumRJVBi2M15w"/>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_JtpXsKQpEeumRJVBi2M15w" name="initialisation" type="_3_IukKQoEeumRJVBi2M15w" association="_JtnigKQpEeumRJVBi2M15w"/>
+    </packagedElement>
     <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_nyhUEIsQEeuPJ7aTKKVL3Q">
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_nyiiMIsQEeuPJ7aTKKVL3Q" source="http://www.eclipse.org/uml2/2.0.0/UML">
         <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#/"/>
@@ -315,4 +339,5 @@
   <Blocks:Block xmi:id="_NR1t4IsUEeuPJ7aTKKVL3Q" base_Class="_NRyqkIsUEeuPJ7aTKKVL3Q"/>
   <Blocks:Block xmi:id="_1BYzEIzGEeuk8vyAo9tizA" base_Class="_1BTTgIzGEeuk8vyAo9tizA"/>
   <PortsAndFlows:ProxyPort xmi:id="_C0UnAJZVEeuyzZwGkznfrA" base_Port="_C0KO8JZVEeuyzZwGkznfrA"/>
+  <Blocks:Block xmi:id="_3_O1MKQoEeumRJVBi2M15w" base_Class="_3_IukKQoEeumRJVBi2M15w"/>
 </xmi:XMI>

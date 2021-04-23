@@ -36,7 +36,7 @@ The display of telltales in particular is safety critical, since telltales are a
   * Rationale: The more sophisticated model including several rendering planes might be necessary at some point to achieve sufficient diagnostic coverage, depending on the HW metrics of the Telltale checker element, since checking on rendering plane level allows to pinpoint the source of a malfunction with higher precision. 
     * Non Monolithic rendering also is prerequisite for a potential degradation mode, should we at some point extend the use case to include it (see above)
     * From a safety design perspective, we do not assume that the more complex multi plane variant gives us any additional insights.
-    * [todo, done] Formulate design with two components, one checking HW or SW and one monitor in SW, to keep it a Linux use case
+    * [todo, done, recheck once more] Formulate design with two components, one checking HW or SW and one monitor in SW, to keep it a Linux use case
 * We separate the telltale checking functionally to the monitoring/reaction, this enables us to transition from a HW based checker to SW based checker without having to rework the concept completely. 
 * There are diferent types of tell tales indicating different information i.e. battery level or engine temperature which may have different ASIL level assigned. We limit our analysis to the worst case, seen as ASIL-B.
 * [todo, confirm formulation] We assume, that the cyclical message coming in contains the already arbitrated requestet telltale status for all safety relevant telltales. 
@@ -65,7 +65,7 @@ Nominal function absent of safety mechanisms.
 ![system](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/Jochen-Kall/wg-automotive/Cluster_display_v2/Cluster_Display_Use_Case_v2/Item_Defintion/Block_diagram_nominal.puml)
 
 ![Alt text](test)
-<img src="./Images/Blockdiagram.SVG">
+<img src="./Papyrus_Model/Cluster_demo/Cluster_demo/Blockdiagram_nominal.SVG">
 
 [todo] sanity check allocation to AGL cluster demo parts possible?
 ### Block Diagram Including Safety Checking
@@ -73,12 +73,24 @@ Block diagram including safety mechanisms
 
 ![system](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/Jochen-Kall/wg-automotive/Cluster_display_v2/Cluster_Display_Use_Case_v2/Item_Defintion/Block_diagram_with_safety.puml)
 
-[todo] get the diagram aligned with the changed nominal functionality diagram
-[todo] add MOnitoring block
-[todo] add initialization block to configure the merge pipeline
-[todo] reflect checker being in HW or SW
+Plantuml gets into more and more trouble here to find an acceptable diagram layout...
+-> papyrus, but it doesn't let me draw boxes like that
+[todo] reflect checker being in HW or SW 
  
 [todo] assumption checking is triggered, hw checker provides an answer -> HW spec still under NDA.
+
+Plane storage as NUMA 
+  dedicated graphics memory allocation typically
+  Region blocked for GPU memory
+  dedicated memory hardware would be very expensive
+  maybe chip level protection mechanisms (HW)
+    All SOCs have there specialties, should typically be there.
+
+clarifying watchdog and Display can be HW / SW 
+could be WD interface and Display interface 
+
+potentially as subcomponents of our Safety Monitor block
+
 
 ### Block description
 * Telltale requester
