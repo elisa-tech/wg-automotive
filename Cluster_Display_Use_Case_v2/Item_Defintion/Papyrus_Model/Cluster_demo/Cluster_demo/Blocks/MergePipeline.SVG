@@ -87,10 +87,10 @@
                 <path d="M-1 -1 L805 -1 L805 496 L-1 496 L-1 -1 Z"/>
             </clipPath>
             <clipPath clipPathUnits="userSpaceOnUse" id="clipPath22">
-                <path d="M351 163 L484 163 L484 180 L351 180 L351 163 Z"/>
+                <path d="M457 324 L782 324 L782 341 L457 341 L457 324 Z"/>
             </clipPath>
             <clipPath clipPathUnits="userSpaceOnUse" id="clipPath23">
-                <path d="M457 324 L782 324 L782 341 L457 341 L457 324 Z"/>
+                <path d="M351 163 L484 163 L484 180 L351 180 L351 163 Z"/>
             </clipPath>
         </defs>
         <g fill="url(#linearGradient1)" font-family="'Segoe UI'" stroke-linejoin="round" stroke="url(#linearGradient1)" stroke-width="0" stroke-miterlimit="0">
@@ -116,16 +116,16 @@
             <rect x="10" y="190" clip-path="url(#clipPath18)" fill="url(#linearGradient5)" width="20" height="20" stroke="none"/>
             <rect x="10" y="190" clip-path="url(#clipPath19)" fill="none" width="19" rx="0" ry="0" height="19"/>
             <text xml:space="preserve" x="40" y="163" clip-path="url(#clipPath20)" stroke="none"> + Plane Data polling: &lt;Undefined&gt; [1]</text>
-            <line clip-path="url(#clipPath21)" fill="none" text-rendering="optimizeLegibility" x1="398" x2="397" y1="131" y2="211"/>
-            <text x="352" y="177" clip-path="url(#clipPath22)" text-rendering="optimizeLegibility" stroke="none" xml:space="preserve">Read Configuration Data</text>
-            <line clip-path="url(#clipPath21)" fill="none" text-rendering="optimizeLegibility" x1="397" x2="377" y1="251" y2="401"/>
-            <text x="458" y="338" clip-path="url(#clipPath23)" text-rendering="optimizeLegibility" stroke="none" xml:space="preserve">Post Processed Image: Scaling, alpha and color correction etc</text>
             <line clip-path="url(#clipPath21)" fill="none" text-rendering="optimizeLegibility" x1="280" x2="30" y1="231" y2="201"/>
             <line clip-path="url(#clipPath21)" fill="none" text-rendering="optimizeLegibility" x1="397" x2="377" y1="251" y2="401"/>
-            <text x="458" y="338" clip-path="url(#clipPath23)" text-rendering="optimizeLegibility" stroke="none" xml:space="preserve">Post Processed Image: Scaling, alpha and color correction etc</text>
+            <text x="458" y="338" clip-path="url(#clipPath22)" text-rendering="optimizeLegibility" stroke="none" xml:space="preserve">Post Processed Image: Scaling, alpha and color correction etc</text>
+            <line clip-path="url(#clipPath21)" fill="none" text-rendering="optimizeLegibility" x1="398" x2="397" y1="131" y2="211"/>
+            <text x="352" y="177" clip-path="url(#clipPath23)" text-rendering="optimizeLegibility" stroke="none" xml:space="preserve">Read Configuration Data</text>
+            <line clip-path="url(#clipPath21)" fill="none" text-rendering="optimizeLegibility" x1="397" x2="377" y1="251" y2="401"/>
+            <text x="458" y="338" clip-path="url(#clipPath22)" text-rendering="optimizeLegibility" stroke="none" xml:space="preserve">Post Processed Image: Scaling, alpha and color correction etc</text>
             <line clip-path="url(#clipPath21)" fill="none" text-rendering="optimizeLegibility" x1="280" x2="30" y1="231" y2="201"/>
             <line clip-path="url(#clipPath21)" fill="none" text-rendering="optimizeLegibility" x1="398" x2="397" y1="131" y2="211"/>
-            <text x="352" y="177" clip-path="url(#clipPath22)" text-rendering="optimizeLegibility" stroke="none" xml:space="preserve">Read Configuration Data</text>
+            <text x="352" y="177" clip-path="url(#clipPath23)" text-rendering="optimizeLegibility" stroke="none" xml:space="preserve">Read Configuration Data</text>
         </g>
     </g>
     <rect x="20" y="10" fill-opacity="0" width="641" id="Display Controller 60Hz (HW)" height="401" stroke-opacity="0"/>

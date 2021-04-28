@@ -72,16 +72,16 @@
                 <path d="M359 289 L534 289 L534 331 L359 331 L359 289 Z"/>
             </clipPath>
             <clipPath clipPathUnits="userSpaceOnUse" id="clipPath13">
-                <path d="M100 570 L100 609 L531 609 L531 570 Z"/>
+                <path d="M100 570 L100 609 L475 609 L475 570 Z"/>
             </clipPath>
             <clipPath clipPathUnits="userSpaceOnUse" id="clipPath14">
-                <path d="M100 581 L533 581 L533 599 L100 599 L100 581 Z"/>
+                <path d="M100 581 L477 581 L477 599 L100 599 L100 581 Z"/>
             </clipPath>
             <clipPath clipPathUnits="userSpaceOnUse" id="clipPath15">
-                <path d="M125 581 L528 581 L528 598 L125 598 L125 581 Z"/>
+                <path d="M125 581 L472 581 L472 598 L125 598 L125 581 Z"/>
             </clipPath>
             <clipPath clipPathUnits="userSpaceOnUse" id="clipPath16">
-                <path d="M99 569 L533 569 L533 611 L99 611 L99 569 Z"/>
+                <path d="M99 569 L477 569 L477 611 L99 611 L99 569 Z"/>
             </clipPath>
             <clipPath clipPathUnits="userSpaceOnUse" id="clipPath17">
                 <path d="M20 45 L702 45 L702 712 L20 712 L20 45 Z"/>
@@ -135,7 +135,7 @@
                 <path d="M479 229 L600 229 L600 246 L479 246 L479 229 Z"/>
             </clipPath>
             <clipPath clipPathUnits="userSpaceOnUse" id="clipPath34">
-                <path d="M490 594 L815 594 L815 611 L490 611 L490 594 Z"/>
+                <path d="M460 570 L785 570 L785 587 L460 587 L460 570 Z"/>
             </clipPath>
         </defs>
         <g fill="url(#linearGradient1)" font-family="'Segoe UI'" stroke-linejoin="round" stroke="url(#linearGradient1)" stroke-width="0" stroke-miterlimit="0">
@@ -153,10 +153,10 @@
             <image x="367" y="302" clip-path="url(#clipPath10)" width="16" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAA00lEQVR42mNgGAWM&#13;&#10;ICJr1qH/pGqclmYH1ssCIn7/+ccwI8OeaM0ZMw/C2WADfgIN+At0Q8rUfRDR/zC3&#13;&#10;obGBYE62E8Ov339RDfjx6w/DHyjdne2G0+aSqbsZ/gAN/I5uwPefQAP+gWiIhCAL&#13;&#10;Ugj9R9Bgi/5D1KMY8A0o8Qso8e03ROL3f4g+EMEI88Z/hDoMA77/+gvW9P3HH4bI&#13;&#10;pvXYowtkKNC0P1CDUA0A2gwKxJUNgWCFyIGGHJAg6g/YK2hhAApVt/KVCOcyoIUB&#13;&#10;SqpBExv6AAAA13L8DwBmYwAAAABJRU5ErkJggg==" xlink:type="simple" xlink:actuate="onLoad" height="16" preserveAspectRatio="none" xlink:show="embed"/>
             <text xml:space="preserve" x="386" y="315" clip-path="url(#clipPath11)" stroke="none"> + rendering: Rendering [1]</text>
             <rect x="360" y="290" clip-path="url(#clipPath12)" fill="none" width="172" rx="0" ry="0" height="39"/>
-            <rect x="100" y="570" clip-path="url(#clipPath13)" fill="url(#linearGradient4)" width="432" height="40" stroke="none"/>
+            <rect x="100" y="570" clip-path="url(#clipPath13)" fill="url(#linearGradient4)" width="376" height="40" stroke="none"/>
             <image x="107" y="582" clip-path="url(#clipPath14)" width="16" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAA00lEQVR42mNgGAWM&#13;&#10;ICJr1qH/pGqclmYH1ssCIn7/+ccwI8OeaM0ZMw/C2WADfgIN+At0Q8rUfRDR/zC3&#13;&#10;obGBYE62E8Ov339RDfjx6w/DHyjdne2G0+aSqbsZ/gAN/I5uwPefQAP+gWiIhCAL&#13;&#10;Ugj9R9Bgi/5D1KMY8A0o8Qso8e03ROL3f4g+EMEI88Z/hDoMA77/+gvW9P3HH4bI&#13;&#10;pvXYowtkKNC0P1CDUA0A2gwKxJUNgWCFyIGGHJAg6g/YK2hhAApVt/KVCOcyoIUB&#13;&#10;SqpBExv6AAAA13L8DwBmYwAAAABJRU5ErkJggg==" xlink:type="simple" xlink:actuate="onLoad" height="16" preserveAspectRatio="none" xlink:show="embed"/>
-            <text xml:space="preserve" x="126" y="595" clip-path="url(#clipPath15)" stroke="none"> + autonomous Merge Pipeline 60Hz (HW): Display Controller 60Hz (HW) [1]</text>
-            <rect x="100" y="570" clip-path="url(#clipPath16)" fill="none" width="431" rx="0" ry="0" height="39"/>
+            <text xml:space="preserve" x="126" y="595" clip-path="url(#clipPath15)" stroke="none"> + Display Controller 60Hz (HW): Display Controller 60Hz (HW) [1]</text>
+            <rect x="100" y="570" clip-path="url(#clipPath16)" fill="none" width="375" rx="0" ry="0" height="39"/>
             <line clip-path="url(#clipPath17)" fill="none" x1="20" x2="701" y1="46" y2="46"/>
             <rect x="20" y="10" clip-path="url(#clipPath18)" fill="none" width="680" rx="0" ry="0" height="700"/>
             <rect x="10" y="170" clip-path="url(#clipPath19)" fill="url(#linearGradient5)" width="20" height="20" stroke="none"/>
@@ -182,26 +182,26 @@
             <line clip-path="url(#clipPath31)" fill="none" x1="700" x2="700" y1="230" y2="230"/>
             <line clip-path="url(#clipPath31)" fill="none" x1="928" x2="928" y1="230" y2="242"/>
             <line clip-path="url(#clipPath31)" fill="none" x1="928" x2="941" y1="242" y2="242"/>
-            <line clip-path="url(#clipPath32)" fill="none" text-rendering="optimizeLegibility" x1="460" x2="460" y1="175" y2="290"/>
-            <text x="480" y="243" clip-path="url(#clipPath33)" text-rendering="optimizeLegibility" stroke="none" xml:space="preserve">Target Rendering State</text>
             <line clip-path="url(#clipPath32)" fill="none" text-rendering="optimizeLegibility" x1="30" x2="340" y1="135" y2="135"/>
-            <line clip-path="url(#clipPath32)" fill="none" text-rendering="optimizeLegibility" x1="400" x2="518" y1="610" y2="703"/>
-            <text x="491" y="608" clip-path="url(#clipPath34)" text-rendering="optimizeLegibility" stroke="none" xml:space="preserve">Post Processed Image: Scaling, alpha and color correction etc</text>
+            <line clip-path="url(#clipPath32)" fill="none" text-rendering="optimizeLegibility" x1="460" x2="460" y1="175" y2="290"/>
+            <text x="480" y="243" clip-path="url(#clipPath33)" text-rendering="optimizeLegibility" stroke="none" xml:space="preserve">Target Rendering State</text>
+            <line clip-path="url(#clipPath32)" fill="none" text-rendering="optimizeLegibility" x1="360" x2="518" y1="610" y2="704"/>
+            <text x="461" y="584" clip-path="url(#clipPath34)" text-rendering="optimizeLegibility" stroke="none" xml:space="preserve">Post Processed Image: Scaling, alpha and color correction etc</text>
             <line clip-path="url(#clipPath32)" fill="none" text-rendering="optimizeLegibility" x1="30" x2="340" y1="175" y2="175"/>
             <line clip-path="url(#clipPath32)" fill="none" text-rendering="optimizeLegibility" x1="30" x2="340" y1="175" y2="175"/>
             <line clip-path="url(#clipPath32)" fill="none" text-rendering="optimizeLegibility" x1="460" x2="460" y1="175" y2="290"/>
             <text x="480" y="243" clip-path="url(#clipPath33)" text-rendering="optimizeLegibility" stroke="none" xml:space="preserve">Target Rendering State</text>
-            <line clip-path="url(#clipPath32)" fill="none" text-rendering="optimizeLegibility" x1="400" x2="518" y1="610" y2="703"/>
-            <text x="491" y="608" clip-path="url(#clipPath34)" text-rendering="optimizeLegibility" stroke="none" xml:space="preserve">Post Processed Image: Scaling, alpha and color correction etc</text>
+            <line clip-path="url(#clipPath32)" fill="none" text-rendering="optimizeLegibility" x1="360" x2="518" y1="610" y2="704"/>
+            <text x="461" y="584" clip-path="url(#clipPath34)" text-rendering="optimizeLegibility" stroke="none" xml:space="preserve">Post Processed Image: Scaling, alpha and color correction etc</text>
             <line clip-path="url(#clipPath32)" fill="none" text-rendering="optimizeLegibility" x1="30" x2="340" y1="135" y2="135"/>
             <line clip-path="url(#clipPath32)" fill="none" text-rendering="optimizeLegibility" x1="700" x2="533" y1="270" y2="310" stroke-dasharray="6.6,3.3"/>
-            <line clip-path="url(#clipPath32)" fill="none" text-rendering="optimizeLegibility" x1="780" x2="532" y1="331" y2="590" stroke-dasharray="6.6,3.3"/>
+            <line clip-path="url(#clipPath32)" fill="none" text-rendering="optimizeLegibility" x1="780" x2="476" y1="331" y2="590" stroke-dasharray="6.6,3.3"/>
         </g>
     </g>
     <rect x="20" y="10" fill-opacity="0" width="681" id="Cluster Display System Nominal Function" height="701" stroke-opacity="0"/>
     <rect x="338" y="135" fill-opacity="0" width="229" id="request Handling" height="40" stroke-opacity="0"/>
     <rect x="360" y="290" fill-opacity="0" width="173" id="rendering" height="40" stroke-opacity="0"/>
-    <rect x="100" y="570" fill-opacity="0" width="432" id="autonomous Merge Pipeline 60Hz (HW)" height="40" stroke-opacity="0"/>
+    <rect x="100" y="570" fill-opacity="0" width="376" id="Display Controller 60Hz (HW)" height="40" stroke-opacity="0"/>
     <rect x="10" y="170" fill-opacity="0" width="20" id="Non Safety cluster state" height="20" stroke-opacity="0"/>
     <rect x="518" y="701" fill-opacity="0" width="20" id="HW Display Interface" height="20" stroke-opacity="0"/>
     <rect x="10" y="120" fill-opacity="0" width="20" id="Telltale Request" height="20" stroke-opacity="0"/>

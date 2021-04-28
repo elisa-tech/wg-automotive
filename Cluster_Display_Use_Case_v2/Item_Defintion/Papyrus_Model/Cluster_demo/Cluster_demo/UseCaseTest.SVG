@@ -253,22 +253,22 @@
                 <path d="M-1 -1 L1247 -1 L1247 922 L-1 922 L-1 -1 Z"/>
             </clipPath>
             <clipPath clipPathUnits="userSpaceOnUse" id="clipPath68">
-                <path d="M581 419 L639 419 L639 436 L581 436 L581 419 Z"/>
+                <path d="M687 512 L746 512 L746 529 L687 529 L687 512 Z"/>
             </clipPath>
             <clipPath clipPathUnits="userSpaceOnUse" id="clipPath69">
-                <path d="M659 692 L774 692 L774 709 L659 709 L659 692 Z"/>
+                <path d="M96 472 L217 472 L217 489 L96 489 L96 472 Z"/>
             </clipPath>
             <clipPath clipPathUnits="userSpaceOnUse" id="clipPath70">
                 <path d="M596 622 L636 622 L636 639 L596 639 L596 622 Z"/>
             </clipPath>
             <clipPath clipPathUnits="userSpaceOnUse" id="clipPath71">
-                <path d="M96 472 L217 472 L217 489 L96 489 L96 472 Z"/>
+                <path d="M581 419 L639 419 L639 436 L581 436 L581 419 Z"/>
             </clipPath>
             <clipPath clipPathUnits="userSpaceOnUse" id="clipPath72">
-                <path d="M317 542 L358 542 L358 559 L317 559 L317 542 Z"/>
+                <path d="M659 692 L774 692 L774 709 L659 709 L659 692 Z"/>
             </clipPath>
             <clipPath clipPathUnits="userSpaceOnUse" id="clipPath73">
-                <path d="M687 512 L746 512 L746 529 L687 529 L687 512 Z"/>
+                <path d="M317 542 L358 542 L358 559 L317 559 L317 542 Z"/>
             </clipPath>
             <clipPath clipPathUnits="userSpaceOnUse" id="clipPath74">
                 <path d="M22 176 L106 176 L106 193 L22 193 L22 176 Z"/>
@@ -349,34 +349,34 @@
             <text xml:space="preserve" x="1127" y="742" clip-path="url(#clipPath64)" stroke="none">Display</text>
             <line clip-path="url(#clipPath65)" fill="none" x1="1036" x2="1236" y1="746" y2="746"/>
             <rect x="1036" y="710" clip-path="url(#clipPath66)" fill="none" width="199" rx="0" ry="0" height="155"/>
-            <line clip-path="url(#clipPath67)" fill="none" text-rendering="optimizeLegibility" x1="574" x2="676" y1="370" y2="410"/>
-            <text x="582" y="433" clip-path="url(#clipPath68)" text-rendering="optimizeLegibility" stroke="none" xml:space="preserve">Set Config</text>
-            <line clip-path="url(#clipPath67)" fill="none" text-rendering="optimizeLegibility" x1="756" x2="756" y1="671" y2="730"/>
-            <text x="660" y="706" clip-path="url(#clipPath69)" text-rendering="optimizeLegibility" stroke="none" xml:space="preserve">Postprocessed Image</text>
+            <line clip-path="url(#clipPath67)" fill="none" text-rendering="optimizeLegibility" x1="756" x2="756" y1="491" y2="550"/>
+            <text x="688" y="526" clip-path="url(#clipPath68)" text-rendering="optimizeLegibility" stroke="none" xml:space="preserve">Use config</text>
+            <line clip-path="url(#clipPath67)" fill="none" text-rendering="optimizeLegibility" x1="196" x2="196" y1="431" y2="530"/>
+            <text x="97" y="486" clip-path="url(#clipPath69)" text-rendering="optimizeLegibility" stroke="none" xml:space="preserve">Target Rendering State</text>
             <line clip-path="url(#clipPath67)" fill="none" text-rendering="optimizeLegibility" x1="557" x2="676" y1="590" y2="590"/>
             <text x="597" y="636" clip-path="url(#clipPath70)" text-rendering="optimizeLegibility" stroke="none" xml:space="preserve">Polling</text>
-            <line clip-path="url(#clipPath67)" fill="none" text-rendering="optimizeLegibility" x1="196" x2="196" y1="431" y2="530"/>
-            <text x="97" y="486" clip-path="url(#clipPath71)" text-rendering="optimizeLegibility" stroke="none" xml:space="preserve">Target Rendering State</text>
+            <line clip-path="url(#clipPath67)" fill="none" text-rendering="optimizeLegibility" x1="574" x2="676" y1="370" y2="410"/>
+            <text x="582" y="433" clip-path="url(#clipPath71)" text-rendering="optimizeLegibility" stroke="none" xml:space="preserve">Set Config</text>
+            <line clip-path="url(#clipPath67)" fill="none" text-rendering="optimizeLegibility" x1="756" x2="756" y1="671" y2="730"/>
+            <text x="660" y="706" clip-path="url(#clipPath72)" text-rendering="optimizeLegibility" stroke="none" xml:space="preserve">Postprocessed Image</text>
             <line clip-path="url(#clipPath67)" fill="none" text-rendering="optimizeLegibility" x1="376" x2="297" y1="590" y2="590"/>
-            <text x="318" y="556" clip-path="url(#clipPath72)" text-rendering="optimizeLegibility" stroke="none" xml:space="preserve">Bitmap</text>
-            <line clip-path="url(#clipPath67)" fill="none" text-rendering="optimizeLegibility" x1="756" x2="756" y1="491" y2="550"/>
-            <text x="688" y="526" clip-path="url(#clipPath73)" text-rendering="optimizeLegibility" stroke="none" xml:space="preserve">Use config</text>
+            <text x="318" y="556" clip-path="url(#clipPath73)" text-rendering="optimizeLegibility" stroke="none" xml:space="preserve">Bitmap</text>
             <line clip-path="url(#clipPath67)" fill="none" text-rendering="optimizeLegibility" x1="86" x2="116" y1="70" y2="290"/>
             <text x="23" y="190" clip-path="url(#clipPath74)" text-rendering="optimizeLegibility" stroke="none" xml:space="preserve">Telltale Request</text>
             <line clip-path="url(#clipPath67)" fill="none" text-rendering="optimizeLegibility" x1="316" x2="236" y1="60" y2="290"/>
             <text x="195" y="169" clip-path="url(#clipPath75)" text-rendering="optimizeLegibility" stroke="none" xml:space="preserve">non safety inputs</text>
             <line clip-path="url(#clipPath67)" fill="none" text-rendering="optimizeLegibility" x1="196" x2="196" y1="431" y2="530"/>
-            <text x="97" y="486" clip-path="url(#clipPath71)" text-rendering="optimizeLegibility" stroke="none" xml:space="preserve">Target Rendering State</text>
+            <text x="97" y="486" clip-path="url(#clipPath69)" text-rendering="optimizeLegibility" stroke="none" xml:space="preserve">Target Rendering State</text>
             <line clip-path="url(#clipPath67)" fill="none" text-rendering="optimizeLegibility" x1="376" x2="297" y1="590" y2="590"/>
-            <text x="318" y="556" clip-path="url(#clipPath72)" text-rendering="optimizeLegibility" stroke="none" xml:space="preserve">Bitmap</text>
+            <text x="318" y="556" clip-path="url(#clipPath73)" text-rendering="optimizeLegibility" stroke="none" xml:space="preserve">Bitmap</text>
             <line clip-path="url(#clipPath67)" fill="none" text-rendering="optimizeLegibility" x1="557" x2="676" y1="590" y2="590"/>
             <text x="597" y="636" clip-path="url(#clipPath70)" text-rendering="optimizeLegibility" stroke="none" xml:space="preserve">Polling</text>
             <line clip-path="url(#clipPath67)" fill="none" text-rendering="optimizeLegibility" x1="756" x2="756" y1="671" y2="730"/>
-            <text x="660" y="706" clip-path="url(#clipPath69)" text-rendering="optimizeLegibility" stroke="none" xml:space="preserve">Postprocessed Image</text>
+            <text x="660" y="706" clip-path="url(#clipPath72)" text-rendering="optimizeLegibility" stroke="none" xml:space="preserve">Postprocessed Image</text>
             <line clip-path="url(#clipPath67)" fill="none" text-rendering="optimizeLegibility" x1="574" x2="676" y1="370" y2="410"/>
-            <text x="582" y="433" clip-path="url(#clipPath68)" text-rendering="optimizeLegibility" stroke="none" xml:space="preserve">Set Config</text>
+            <text x="582" y="433" clip-path="url(#clipPath71)" text-rendering="optimizeLegibility" stroke="none" xml:space="preserve">Set Config</text>
             <line clip-path="url(#clipPath67)" fill="none" text-rendering="optimizeLegibility" x1="756" x2="756" y1="491" y2="550"/>
-            <text x="688" y="526" clip-path="url(#clipPath73)" text-rendering="optimizeLegibility" stroke="none" xml:space="preserve">Use config</text>
+            <text x="688" y="526" clip-path="url(#clipPath68)" text-rendering="optimizeLegibility" stroke="none" xml:space="preserve">Use config</text>
             <line clip-path="url(#clipPath67)" fill="none" text-rendering="optimizeLegibility" x1="883" x2="1036" y1="790" y2="790"/>
             <text x="932" y="836" clip-path="url(#clipPath76)" text-rendering="optimizeLegibility" stroke="none" xml:space="preserve">Bit Stream</text>
         </g>

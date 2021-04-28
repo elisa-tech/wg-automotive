@@ -19,7 +19,7 @@
         <ownedAttribute xmi:type="uml:Port" xmi:id="_XdpTMIsXEeuPJ7aTKKVL3Q" name="Non Safety cluster state" aggregation="composite"/>
         <ownedAttribute xmi:type="uml:Property" xmi:id="_hvG78IsXEeuPJ7aTKKVL3Q" name="request Handling" visibility="protected" aggregation="composite"/>
         <ownedAttribute xmi:type="uml:Property" xmi:id="_zU8KMIsXEeuPJ7aTKKVL3Q" name="rendering" type="_BqGgoIsSEeuPJ7aTKKVL3Q" aggregation="composite"/>
-        <ownedAttribute xmi:type="uml:Property" xmi:id="_hE9voIzAEeuk8vyAo9tizA" name="autonomous Merge Pipeline 60Hz (HW)" type="_RWPpYIsSEeuPJ7aTKKVL3Q" aggregation="composite"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_hE9voIzAEeuk8vyAo9tizA" name="Display Controller 60Hz (HW)" type="_RWPpYIsSEeuPJ7aTKKVL3Q" aggregation="composite"/>
         <ownedAttribute xmi:type="uml:Port" xmi:id="_AIAJ4IzBEeuk8vyAo9tizA" name="HW Display Interface" type="_5bmjQIsTEeuPJ7aTKKVL3Q"/>
         <ownedAttribute xmi:type="uml:Port" xmi:id="_C0KO8JZVEeuyzZwGkznfrA" name="Telltale Request" type="_ujv7sJZSEeuyzZwGkznfrA" aggregation="composite"/>
         <ownedConnector xmi:type="uml:Connector" xmi:id="_nsx0QIsXEeuPJ7aTKKVL3Q" name="Connector5">
@@ -126,6 +126,8 @@
       <packagedElement xmi:type="uml:InformationFlow" xmi:id="_MP7RcKf-EeusHPjO30UE5Q" name="TargetRenderingState" informationSource="_7YYCUKf5EeuBUJaVpKwxFg" informationTarget="_BqGgoIsSEeuPJ7aTKKVL3Q"/>
       <packagedElement xmi:type="uml:InformationFlow" xmi:id="_Q7g20Kf-EeusHPjO30UE5Q" name="Rendered Bitmap" informationSource="_BqGgoIsSEeuPJ7aTKKVL3Q" informationTarget="_Ro7BUKf8EeuBUJaVpKwxFg"/>
       <packagedElement xmi:type="uml:InformationFlow" xmi:id="_VIemgKf-EeusHPjO30UE5Q" name="Polling" informationSource="_Ro7BUKf8EeuBUJaVpKwxFg" informationTarget="_1BTTgIzGEeuk8vyAo9tizA"/>
+      <packagedElement xmi:type="uml:InformationFlow" xmi:id="_9KzHkKgMEeusHPjO30UE5Q" name="TelltaleRequest" informationSource="_C0KO8JZVEeuyzZwGkznfrA" informationTarget="_7YYCUKf5EeuBUJaVpKwxFg"/>
+      <packagedElement xmi:type="uml:InformationFlow" xmi:id="_DGb_kKgNEeusHPjO30UE5Q" name="Non Safety State request" informationSource="_XdpTMIsXEeuPJ7aTKKVL3Q" informationTarget="_7YYCUKf5EeuBUJaVpKwxFg"/>
     </packagedElement>
     <packagedElement xmi:type="uml:Package" xmi:id="_eFaJEIzSEeuk8vyAo9tizA" name="Part relations">
       <packagedElement xmi:type="uml:Association" xmi:id="_8BeKoIzGEeuk8vyAo9tizA" memberEnd="_8Bgm4IzGEeuk8vyAo9tizA _8BhN8IzGEeuk8vyAo9tizA">
@@ -424,4 +426,7 @@
   <PortsAndFlows:ItemFlow xmi:id="_MP9tsKf-EeusHPjO30UE5Q" base_InformationFlow="_MP7RcKf-EeusHPjO30UE5Q"/>
   <PortsAndFlows:ItemFlow xmi:id="_Q7jTEKf-EeusHPjO30UE5Q" base_InformationFlow="_Q7g20Kf-EeusHPjO30UE5Q"/>
   <PortsAndFlows:ItemFlow xmi:id="_VIhCwKf-EeusHPjO30UE5Q" base_InformationFlow="_VIemgKf-EeusHPjO30UE5Q"/>
+  <PortsAndFlows:ItemFlow xmi:id="_R73qIKgKEeusHPjO30UE5Q"/>
+  <PortsAndFlows:ItemFlow xmi:id="_9K08wKgMEeusHPjO30UE5Q" base_InformationFlow="_9KzHkKgMEeusHPjO30UE5Q"/>
+  <PortsAndFlows:ItemFlow xmi:id="_DGdNsKgNEeusHPjO30UE5Q" base_InformationFlow="_DGb_kKgNEeusHPjO30UE5Q"/>
 </xmi:XMI>
