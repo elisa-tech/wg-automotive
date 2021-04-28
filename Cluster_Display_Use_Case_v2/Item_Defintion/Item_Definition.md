@@ -67,6 +67,7 @@ Nominal function absent of safety mechanisms.
 ![Alt text](test)
 <img src="./Papyrus_Model/Cluster_demo/Cluster_demo/Blockdiagram_nominal.SVG">
 
+
 [todo] sanity check allocation to AGL cluster demo parts possible?
 ### Block Diagram Including Safety Checking
 Block diagram including safety mechanisms

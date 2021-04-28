@@ -88,16 +88,16 @@
                 <path d="M339 449 L553 449 L553 491 L339 491 L339 449 Z"/>
             </clipPath>
             <clipPath clipPathUnits="userSpaceOnUse" id="clipPath17">
-                <path d="M100 570 L100 609 L589 609 L589 570 Z"/>
+                <path d="M100 570 L100 609 L531 609 L531 570 Z"/>
             </clipPath>
             <clipPath clipPathUnits="userSpaceOnUse" id="clipPath18">
-                <path d="M100 581 L591 581 L591 599 L100 599 L100 581 Z"/>
+                <path d="M100 581 L533 581 L533 599 L100 599 L100 581 Z"/>
             </clipPath>
             <clipPath clipPathUnits="userSpaceOnUse" id="clipPath19">
-                <path d="M125 581 L586 581 L586 598 L125 598 L125 581 Z"/>
+                <path d="M125 581 L528 581 L528 598 L125 598 L125 581 Z"/>
             </clipPath>
             <clipPath clipPathUnits="userSpaceOnUse" id="clipPath20">
-                <path d="M99 569 L591 569 L591 611 L99 611 L99 569 Z"/>
+                <path d="M99 569 L533 569 L533 611 L99 611 L99 569 Z"/>
             </clipPath>
             <clipPath clipPathUnits="userSpaceOnUse" id="clipPath21">
                 <path d="M20 45 L702 45 L702 712 L20 712 L20 45 Z"/>
@@ -148,16 +148,16 @@
                 <path d="M-1 -1 L952 -1 L952 776 L-1 776 L-1 -1 Z"/>
             </clipPath>
             <clipPath clipPathUnits="userSpaceOnUse" id="clipPath37">
-                <path d="M517 630 L842 630 L842 647 L517 647 L517 630 Z"/>
-            </clipPath>
-            <clipPath clipPathUnits="userSpaceOnUse" id="clipPath38">
-                <path d="M448 518 L488 518 L488 535 L448 535 L448 518 Z"/>
-            </clipPath>
-            <clipPath clipPathUnits="userSpaceOnUse" id="clipPath39">
                 <path d="M479 229 L600 229 L600 246 L479 246 L479 229 Z"/>
             </clipPath>
-            <clipPath clipPathUnits="userSpaceOnUse" id="clipPath40">
+            <clipPath clipPathUnits="userSpaceOnUse" id="clipPath38">
                 <path d="M458 389 L552 389 L552 406 L458 406 L458 389 Z"/>
+            </clipPath>
+            <clipPath clipPathUnits="userSpaceOnUse" id="clipPath39">
+                <path d="M428 526 L468 526 L468 543 L428 543 L428 526 Z"/>
+            </clipPath>
+            <clipPath clipPathUnits="userSpaceOnUse" id="clipPath40">
+                <path d="M490 594 L815 594 L815 611 L490 611 L490 594 Z"/>
             </clipPath>
         </defs>
         <g fill="url(#linearGradient1)" font-family="'Segoe UI'" stroke-linejoin="round" stroke="url(#linearGradient1)" stroke-width="0" stroke-miterlimit="0">
@@ -179,10 +179,10 @@
             <image x="347" y="462" clip-path="url(#clipPath14)" width="16" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAA00lEQVR42mNgGAWM&#13;&#10;ICJr1qH/pGqclmYH1ssCIn7/+ccwI8OeaM0ZMw/C2WADfgIN+At0Q8rUfRDR/zC3&#13;&#10;obGBYE62E8Ov339RDfjx6w/DHyjdne2G0+aSqbsZ/gAN/I5uwPefQAP+gWiIhCAL&#13;&#10;Ugj9R9Bgi/5D1KMY8A0o8Qso8e03ROL3f4g+EMEI88Z/hDoMA77/+gvW9P3HH4bI&#13;&#10;pvXYowtkKNC0P1CDUA0A2gwKxJUNgWCFyIGGHJAg6g/YK2hhAApVt/KVCOcyoIUB&#13;&#10;SqpBExv6AAAA13L8DwBmYwAAAABJRU5ErkJggg==" xlink:type="simple" xlink:actuate="onLoad" height="16" preserveAspectRatio="none" xlink:show="embed"/>
             <text xml:space="preserve" x="366" y="475" clip-path="url(#clipPath15)" stroke="none"> + plane Storage: Plane Storage [1]</text>
             <rect x="340" y="450" clip-path="url(#clipPath16)" fill="none" width="211" rx="0" ry="0" height="39"/>
-            <rect x="100" y="570" clip-path="url(#clipPath17)" fill="url(#linearGradient5)" width="490" height="40" stroke="none"/>
+            <rect x="100" y="570" clip-path="url(#clipPath17)" fill="url(#linearGradient5)" width="432" height="40" stroke="none"/>
             <image x="107" y="582" clip-path="url(#clipPath18)" width="16" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAA00lEQVR42mNgGAWM&#13;&#10;ICJr1qH/pGqclmYH1ssCIn7/+ccwI8OeaM0ZMw/C2WADfgIN+At0Q8rUfRDR/zC3&#13;&#10;obGBYE62E8Ov339RDfjx6w/DHyjdne2G0+aSqbsZ/gAN/I5uwPefQAP+gWiIhCAL&#13;&#10;Ugj9R9Bgi/5D1KMY8A0o8Qso8e03ROL3f4g+EMEI88Z/hDoMA77/+gvW9P3HH4bI&#13;&#10;pvXYowtkKNC0P1CDUA0A2gwKxJUNgWCFyIGGHJAg6g/YK2hhAApVt/KVCOcyoIUB&#13;&#10;SqpBExv6AAAA13L8DwBmYwAAAABJRU5ErkJggg==" xlink:type="simple" xlink:actuate="onLoad" height="16" preserveAspectRatio="none" xlink:show="embed"/>
-            <text xml:space="preserve" x="126" y="595" clip-path="url(#clipPath19)" stroke="none"> + autonomous Merge Pipeline 60Hz (HW): Autonomous Merge Pipeline 60Hz (HW) [1]</text>
-            <rect x="100" y="570" clip-path="url(#clipPath20)" fill="none" width="489" rx="0" ry="0" height="39"/>
+            <text xml:space="preserve" x="126" y="595" clip-path="url(#clipPath19)" stroke="none"> + autonomous Merge Pipeline 60Hz (HW): Display Controller 60Hz (HW) [1]</text>
+            <rect x="100" y="570" clip-path="url(#clipPath20)" fill="none" width="431" rx="0" ry="0" height="39"/>
             <line clip-path="url(#clipPath21)" fill="none" x1="20" x2="701" y1="46" y2="46"/>
             <rect x="20" y="10" clip-path="url(#clipPath22)" fill="none" width="680" rx="0" ry="0" height="700"/>
             <rect x="10" y="170" clip-path="url(#clipPath23)" fill="url(#linearGradient6)" width="20" height="20" stroke="none"/>
@@ -208,36 +208,36 @@
             <line clip-path="url(#clipPath35)" fill="none" x1="700" x2="700" y1="230" y2="230"/>
             <line clip-path="url(#clipPath35)" fill="none" x1="928" x2="928" y1="230" y2="242"/>
             <line clip-path="url(#clipPath35)" fill="none" x1="928" x2="941" y1="242" y2="242"/>
-            <line clip-path="url(#clipPath36)" fill="none" text-rendering="optimizeLegibility" x1="440" x2="519" y1="610" y2="701"/>
-            <text x="518" y="644" clip-path="url(#clipPath37)" text-rendering="optimizeLegibility" stroke="none" xml:space="preserve">Post Processed Image: Scaling, alpha and color correction etc</text>
-            <line clip-path="url(#clipPath36)" fill="none" text-rendering="optimizeLegibility" x1="440" x2="460" y1="490" y2="570"/>
-            <text x="449" y="532" clip-path="url(#clipPath38)" text-rendering="optimizeLegibility" stroke="none" xml:space="preserve">Polling</text>
+            <line clip-path="url(#clipPath36)" fill="none" text-rendering="optimizeLegibility" x1="460" x2="460" y1="175" y2="290"/>
+            <text x="480" y="243" clip-path="url(#clipPath37)" text-rendering="optimizeLegibility" stroke="none" xml:space="preserve">Target Rendering State</text>
+            <line clip-path="url(#clipPath36)" fill="none" text-rendering="optimizeLegibility" x1="460" x2="440" y1="330" y2="450"/>
+            <text x="459" y="403" clip-path="url(#clipPath38)" text-rendering="optimizeLegibility" stroke="none" xml:space="preserve">Rendered Bitmap</text>
+            <line clip-path="url(#clipPath36)" fill="none" text-rendering="optimizeLegibility" x1="440" x2="420" y1="490" y2="570"/>
+            <text x="429" y="540" clip-path="url(#clipPath39)" text-rendering="optimizeLegibility" stroke="none" xml:space="preserve">Polling</text>
+            <line clip-path="url(#clipPath36)" fill="none" text-rendering="optimizeLegibility" x1="30" x2="340" y1="175" y2="175"/>
             <line clip-path="url(#clipPath36)" fill="none" text-rendering="optimizeLegibility" x1="30" x2="340" y1="135" y2="135"/>
-            <line clip-path="url(#clipPath36)" fill="none" text-rendering="optimizeLegibility" x1="460" x2="460" y1="175" y2="290"/>
-            <text x="480" y="243" clip-path="url(#clipPath39)" text-rendering="optimizeLegibility" stroke="none" xml:space="preserve">Target Rendering State</text>
-            <line clip-path="url(#clipPath36)" fill="none" text-rendering="optimizeLegibility" x1="460" x2="440" y1="330" y2="450"/>
-            <text x="459" y="403" clip-path="url(#clipPath40)" text-rendering="optimizeLegibility" stroke="none" xml:space="preserve">Rendered Bitmap</text>
-            <line clip-path="url(#clipPath36)" fill="none" text-rendering="optimizeLegibility" x1="30" x2="340" y1="175" y2="175"/>
+            <line clip-path="url(#clipPath36)" fill="none" text-rendering="optimizeLegibility" x1="400" x2="518" y1="610" y2="703"/>
+            <text x="491" y="608" clip-path="url(#clipPath40)" text-rendering="optimizeLegibility" stroke="none" xml:space="preserve">Post Processed Image: Scaling, alpha and color correction etc</text>
             <line clip-path="url(#clipPath36)" fill="none" text-rendering="optimizeLegibility" x1="30" x2="340" y1="175" y2="175"/>
             <line clip-path="url(#clipPath36)" fill="none" text-rendering="optimizeLegibility" x1="460" x2="460" y1="175" y2="290"/>
-            <text x="480" y="243" clip-path="url(#clipPath39)" text-rendering="optimizeLegibility" stroke="none" xml:space="preserve">Target Rendering State</text>
+            <text x="480" y="243" clip-path="url(#clipPath37)" text-rendering="optimizeLegibility" stroke="none" xml:space="preserve">Target Rendering State</text>
             <line clip-path="url(#clipPath36)" fill="none" text-rendering="optimizeLegibility" x1="460" x2="440" y1="330" y2="450"/>
-            <text x="459" y="403" clip-path="url(#clipPath40)" text-rendering="optimizeLegibility" stroke="none" xml:space="preserve">Rendered Bitmap</text>
-            <line clip-path="url(#clipPath36)" fill="none" text-rendering="optimizeLegibility" x1="440" x2="460" y1="490" y2="570"/>
-            <text x="449" y="532" clip-path="url(#clipPath38)" text-rendering="optimizeLegibility" stroke="none" xml:space="preserve">Polling</text>
-            <line clip-path="url(#clipPath36)" fill="none" text-rendering="optimizeLegibility" x1="440" x2="519" y1="610" y2="701"/>
-            <text x="518" y="644" clip-path="url(#clipPath37)" text-rendering="optimizeLegibility" stroke="none" xml:space="preserve">Post Processed Image: Scaling, alpha and color correction etc</text>
+            <text x="459" y="403" clip-path="url(#clipPath38)" text-rendering="optimizeLegibility" stroke="none" xml:space="preserve">Rendered Bitmap</text>
+            <line clip-path="url(#clipPath36)" fill="none" text-rendering="optimizeLegibility" x1="440" x2="420" y1="490" y2="570"/>
+            <text x="429" y="540" clip-path="url(#clipPath39)" text-rendering="optimizeLegibility" stroke="none" xml:space="preserve">Polling</text>
+            <line clip-path="url(#clipPath36)" fill="none" text-rendering="optimizeLegibility" x1="400" x2="518" y1="610" y2="703"/>
+            <text x="491" y="608" clip-path="url(#clipPath40)" text-rendering="optimizeLegibility" stroke="none" xml:space="preserve">Post Processed Image: Scaling, alpha and color correction etc</text>
             <line clip-path="url(#clipPath36)" fill="none" text-rendering="optimizeLegibility" x1="30" x2="340" y1="135" y2="135"/>
             <line clip-path="url(#clipPath36)" fill="none" text-rendering="optimizeLegibility" x1="700" x2="533" y1="270" y2="310" stroke-dasharray="6.6,3.3"/>
             <line clip-path="url(#clipPath36)" fill="none" text-rendering="optimizeLegibility" x1="720" x2="552" y1="331" y2="470" stroke-dasharray="6.6,3.3"/>
-            <line clip-path="url(#clipPath36)" fill="none" text-rendering="optimizeLegibility" x1="780" x2="590" y1="331" y2="590" stroke-dasharray="6.6,3.3"/>
+            <line clip-path="url(#clipPath36)" fill="none" text-rendering="optimizeLegibility" x1="780" x2="532" y1="331" y2="590" stroke-dasharray="6.6,3.3"/>
         </g>
     </g>
     <rect x="20" y="10" fill-opacity="0" width="681" id="Cluster Display System Nominal Function" height="701" stroke-opacity="0"/>
     <rect x="338" y="135" fill-opacity="0" width="253" id="request Handling" height="40" stroke-opacity="0"/>
     <rect x="360" y="290" fill-opacity="0" width="173" id="rendering" height="40" stroke-opacity="0"/>
     <rect x="340" y="450" fill-opacity="0" width="212" id="plane Storage" height="40" stroke-opacity="0"/>
-    <rect x="100" y="570" fill-opacity="0" width="490" id="autonomous Merge Pipeline 60Hz (HW)" height="40" stroke-opacity="0"/>
+    <rect x="100" y="570" fill-opacity="0" width="432" id="autonomous Merge Pipeline 60Hz (HW)" height="40" stroke-opacity="0"/>
     <rect x="10" y="170" fill-opacity="0" width="20" id="Non Safety cluster state" height="20" stroke-opacity="0"/>
     <rect x="518" y="701" fill-opacity="0" width="20" id="HW Display Interface" height="20" stroke-opacity="0"/>
     <rect x="10" y="120" fill-opacity="0" width="20" id="Telltale Request" height="20" stroke-opacity="0"/>

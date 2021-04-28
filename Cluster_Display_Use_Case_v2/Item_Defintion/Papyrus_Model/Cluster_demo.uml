@@ -6,7 +6,7 @@
 </body>
     </ownedComment>
     <ownedComment xmi:type="uml:Comment" xmi:id="_mrGCsKNeEeumRJVBi2M15w">
-      <body>Autonomous Merge Pipeline (HW)</body>
+      <body>Display Controller (HW)</body>
     </ownedComment>
     <ownedComment xmi:type="uml:Comment" xmi:id="_eck3IKQkEeumRJVBi2M15w" annotatedElement="_RWPpYIsSEeuPJ7aTKKVL3Q _BqGgoIsSEeuPJ7aTKKVL3Q _fOGxEIsSEeuPJ7aTKKVL3Q _zU8KMIsXEeuPJ7aTKKVL3Q _HxX8sIsZEeuPJ7aTKKVL3Q _hE9voIzAEeuk8vyAo9tizA">
       <body>Syncronization needs to be designed into the system between Plane rendering and the Autonomous merge Pipeline via Plane Storage</body>
@@ -106,7 +106,7 @@
       </packagedElement>
       <packagedElement xmi:type="uml:Class" xmi:id="_7cgV8IsREeuPJ7aTKKVL3Q" name="Request Handling"/>
       <packagedElement xmi:type="uml:Class" xmi:id="_BqGgoIsSEeuPJ7aTKKVL3Q" name="Rendering"/>
-      <packagedElement xmi:type="uml:Class" xmi:id="_RWPpYIsSEeuPJ7aTKKVL3Q" name="Autonomous Merge Pipeline 60Hz (HW)">
+      <packagedElement xmi:type="uml:Class" xmi:id="_RWPpYIsSEeuPJ7aTKKVL3Q" name="Display Controller 60Hz (HW)">
         <ownedAttribute xmi:type="uml:Port" xmi:id="_SlETYIzHEeuk8vyAo9tizA" name="HW Display Interface" type="_5bmjQIsTEeuPJ7aTKKVL3Q"/>
         <ownedAttribute xmi:type="uml:Property" xmi:id="_Ps8PsIzHEeuk8vyAo9tizA" name="plane Blending" type="_1BTTgIzGEeuk8vyAo9tizA" aggregation="composite"/>
         <ownedAttribute xmi:type="uml:Port" xmi:id="_XbkvUIzHEeuk8vyAo9tizA" name="Plane Data polling" aggregation="composite"/>
@@ -126,6 +126,13 @@
       </packagedElement>
       <packagedElement xmi:type="uml:Class" xmi:id="_fOGxEIsSEeuPJ7aTKKVL3Q" name="Plane Storage"/>
       <packagedElement xmi:type="uml:Class" xmi:id="_1BTTgIzGEeuk8vyAo9tizA" name="Plane Blending"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_3_IukKQoEeumRJVBi2M15w" name="Initialisation"/>
+      <packagedElement xmi:type="uml:InformationFlow" xmi:id="_qogFUKfxEeuYPuBNDV7qGA" name="TargetRenderingState" informationSource="_7cgV8IsREeuPJ7aTKKVL3Q" informationTarget="_BqGgoIsSEeuPJ7aTKKVL3Q"/>
+      <packagedElement xmi:type="uml:InformationFlow" xmi:id="_zKrhwKfxEeuYPuBNDV7qGA" name="Rendered Bitmap" informationSource="_BqGgoIsSEeuPJ7aTKKVL3Q" informationTarget="_fOGxEIsSEeuPJ7aTKKVL3Q"/>
+      <packagedElement xmi:type="uml:InformationFlow" xmi:id="_MZA9AKfzEeuYPuBNDV7qGA" name="Display Controller Settings" informationSource="_3_IukKQoEeumRJVBi2M15w" informationTarget="_zR3k4IsTEeuPJ7aTKKVL3Q"/>
+      <packagedElement xmi:type="uml:InformationFlow" xmi:id="_Y6IUMKfzEeuYPuBNDV7qGA" name="Polling" informationSource="_fOGxEIsSEeuPJ7aTKKVL3Q" informationTarget="_1BTTgIzGEeuk8vyAo9tizA"/>
+      <packagedElement xmi:type="uml:InformationFlow" xmi:id="_izlsoKfzEeuYPuBNDV7qGA" name="Post processed Image, color alpha correction etc" informationSource="_1BTTgIzGEeuk8vyAo9tizA" informationTarget="_5bmjQIsTEeuPJ7aTKKVL3Q"/>
+      <packagedElement xmi:type="uml:InformationFlow" xmi:id="_zF0lAKfzEeuYPuBNDV7qGA" name="Bit Stream" informationSource="_5bmjQIsTEeuPJ7aTKKVL3Q" informationTarget="_NRyqkIsUEeuPJ7aTKKVL3Q"/>
     </packagedElement>
     <packagedElement xmi:type="uml:Package" xmi:id="_eFaJEIzSEeuk8vyAo9tizA" name="Part relations">
       <packagedElement xmi:type="uml:Association" xmi:id="_8BeKoIzGEeuk8vyAo9tizA" memberEnd="_8Bgm4IzGEeuk8vyAo9tizA _8BhN8IzGEeuk8vyAo9tizA">
@@ -247,7 +254,6 @@
       <ownedEnd xmi:type="uml:Property" xmi:id="_7S2AkJ0NEeumRJVBi2M15w" name="rendering" type="_BqGgoIsSEeuPJ7aTKKVL3Q" association="_7S1ZgJ0NEeumRJVBi2M15w"/>
       <ownedEnd xmi:type="uml:Property" xmi:id="_7S2AkZ0NEeumRJVBi2M15w" name="request handling" type="_7cgV8IsREeuPJ7aTKKVL3Q" association="_7S1ZgJ0NEeumRJVBi2M15w"/>
     </packagedElement>
-    <packagedElement xmi:type="uml:Class" xmi:id="_3_IukKQoEeumRJVBi2M15w" name="Initialisation"/>
     <packagedElement xmi:type="uml:Association" xmi:id="_BSGuwKQpEeumRJVBi2M15w" memberEnd="_BSHV0qQpEeumRJVBi2M15w _BSH84KQpEeumRJVBi2M15w">
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_BSHV0KQpEeumRJVBi2M15w" source="org.eclipse.papyrus">
         <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_BSHV0aQpEeumRJVBi2M15w" key="nature" value="UML_Nature"/>
@@ -261,6 +267,22 @@
       </eAnnotations>
       <ownedEnd xmi:type="uml:Property" xmi:id="_JtoJkqQpEeumRJVBi2M15w" name="configuration data" type="_zR3k4IsTEeuPJ7aTKKVL3Q" association="_JtnigKQpEeumRJVBi2M15w"/>
       <ownedEnd xmi:type="uml:Property" xmi:id="_JtpXsKQpEeumRJVBi2M15w" name="initialisation" type="_3_IukKQoEeumRJVBi2M15w" association="_JtnigKQpEeumRJVBi2M15w"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_Yqj5EKfxEeuYPuBNDV7qGA" memberEnd="_YqmVUqfxEeuYPuBNDV7qGA _YqnjcKfxEeuYPuBNDV7qGA">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_YqmVUKfxEeuYPuBNDV7qGA" source="org.eclipse.papyrus">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_YqmVUafxEeuYPuBNDV7qGA" key="nature" value="UML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_YqmVUqfxEeuYPuBNDV7qGA" name="initialisation" type="_3_IukKQoEeumRJVBi2M15w" association="_Yqj5EKfxEeuYPuBNDV7qGA"/>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_YqnjcKfxEeuYPuBNDV7qGA" name="configuration data" type="_zR3k4IsTEeuPJ7aTKKVL3Q" association="_Yqj5EKfxEeuYPuBNDV7qGA"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:InformationFlow" xmi:id="_PNBLIKfyEeuYPuBNDV7qGA" name="Telltale Request" informationSource="_plkUIIsSEeuPJ7aTKKVL3Q" informationTarget="_7cgV8IsREeuPJ7aTKKVL3Q _nxnVIIsQEeuPJ7aTKKVL3Q"/>
+    <packagedElement xmi:type="uml:InformationFlow" xmi:id="_P0BgwKfyEeuYPuBNDV7qGA" name="Non Safety State requests (Speed, rpm, etc)" informationSource="_QYMQQIsTEeuPJ7aTKKVL3Q" informationTarget="_7cgV8IsREeuPJ7aTKKVL3Q"/>
+    <packagedElement xmi:type="uml:Association" xmi:id="_50pNcKfzEeuYPuBNDV7qGA" memberEnd="_50p0gqfzEeuYPuBNDV7qGA _50qbkKfzEeuYPuBNDV7qGA">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_50p0gKfzEeuYPuBNDV7qGA" source="org.eclipse.papyrus">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_50p0gafzEeuYPuBNDV7qGA" key="nature" value="UML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_50p0gqfzEeuYPuBNDV7qGA" name="plane blending" type="_1BTTgIzGEeuk8vyAo9tizA" association="_50pNcKfzEeuYPuBNDV7qGA"/>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_50qbkKfzEeuYPuBNDV7qGA" name="configuration data" type="_zR3k4IsTEeuPJ7aTKKVL3Q" association="_50pNcKfzEeuYPuBNDV7qGA"/>
     </packagedElement>
     <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_nyhUEIsQEeuPJ7aTKKVL3Q">
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_nyiiMIsQEeuPJ7aTKKVL3Q" source="http://www.eclipse.org/uml2/2.0.0/UML">
@@ -340,4 +362,12 @@
   <Blocks:Block xmi:id="_1BYzEIzGEeuk8vyAo9tizA" base_Class="_1BTTgIzGEeuk8vyAo9tizA"/>
   <PortsAndFlows:ProxyPort xmi:id="_C0UnAJZVEeuyzZwGkznfrA" base_Port="_C0KO8JZVEeuyzZwGkznfrA"/>
   <Blocks:Block xmi:id="_3_O1MKQoEeumRJVBi2M15w" base_Class="_3_IukKQoEeumRJVBi2M15w"/>
+  <PortsAndFlows:ItemFlow xmi:id="_qopPQKfxEeuYPuBNDV7qGA" base_InformationFlow="_qogFUKfxEeuYPuBNDV7qGA"/>
+  <PortsAndFlows:ItemFlow xmi:id="_zKvMIKfxEeuYPuBNDV7qGA" base_InformationFlow="_zKrhwKfxEeuYPuBNDV7qGA"/>
+  <PortsAndFlows:ItemFlow xmi:id="_PNEOcKfyEeuYPuBNDV7qGA" base_InformationFlow="_PNBLIKfyEeuYPuBNDV7qGA"/>
+  <PortsAndFlows:ItemFlow xmi:id="_P0D9AKfyEeuYPuBNDV7qGA" base_InformationFlow="_P0BgwKfyEeuYPuBNDV7qGA"/>
+  <PortsAndFlows:ItemFlow xmi:id="_MZCyMKfzEeuYPuBNDV7qGA" base_InformationFlow="_MZA9AKfzEeuYPuBNDV7qGA"/>
+  <PortsAndFlows:ItemFlow xmi:id="_Y6KJYKfzEeuYPuBNDV7qGA" base_InformationFlow="_Y6IUMKfzEeuYPuBNDV7qGA"/>
+  <PortsAndFlows:ItemFlow xmi:id="_izoI4KfzEeuYPuBNDV7qGA" base_InformationFlow="_izlsoKfzEeuYPuBNDV7qGA"/>
+  <PortsAndFlows:ItemFlow xmi:id="_zF1zIKfzEeuYPuBNDV7qGA" base_InformationFlow="_zF0lAKfzEeuYPuBNDV7qGA"/>
 </xmi:XMI>
