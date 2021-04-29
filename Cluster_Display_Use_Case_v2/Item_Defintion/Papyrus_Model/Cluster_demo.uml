@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:Blocks="http://www.eclipse.org/papyrus/sysml/1.6/SysML/Blocks" xmlns:PortsAndFlows="http://www.eclipse.org/papyrus/sysml/1.6/SysML/PortsAndFlows" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http://www.eclipse.org/papyrus/sysml/1.6/SysML/Blocks http://www.eclipse.org/papyrus/sysml/1.6/SysML#//blocks http://www.eclipse.org/papyrus/sysml/1.6/SysML/PortsAndFlows http://www.eclipse.org/papyrus/sysml/1.6/SysML#//portsandflows">
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:Activities="http://www.eclipse.org/papyrus/sysml/1.6/SysML/Activities" xmlns:Blocks="http://www.eclipse.org/papyrus/sysml/1.6/SysML/Blocks" xmlns:PortsAndFlows="http://www.eclipse.org/papyrus/sysml/1.6/SysML/PortsAndFlows" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http://www.eclipse.org/papyrus/sysml/1.6/SysML/Activities http://www.eclipse.org/papyrus/sysml/1.6/SysML#//activities http://www.eclipse.org/papyrus/sysml/1.6/SysML/Blocks http://www.eclipse.org/papyrus/sysml/1.6/SysML#//blocks http://www.eclipse.org/papyrus/sysml/1.6/SysML/PortsAndFlows http://www.eclipse.org/papyrus/sysml/1.6/SysML#//portsandflows">
   <uml:Model xmi:id="_nxnVIIsQEeuPJ7aTKKVL3Q" name="Cluster_demo">
     <ownedComment xmi:type="uml:Comment" xmi:id="_ADjVMKNeEeumRJVBi2M15w">
       <body>SOC / System Scope&#xD;
@@ -15,13 +15,18 @@
     <packagedElement xmi:type="uml:Actor" xmi:id="_QYMQQIsTEeuPJ7aTKKVL3Q" name="Non Safety Instrument Cluster state sources"/>
     <packagedElement xmi:type="uml:Package" xmi:id="_4mQdYIsYEeuPJ7aTKKVL3Q" name="Blocks">
       <packagedElement xmi:type="uml:Class" xmi:id="_NRyqkIsUEeuPJ7aTKKVL3Q" name="Display"/>
-      <packagedElement xmi:type="uml:Class" xmi:id="_2h-8sIsREeuPJ7aTKKVL3Q" name="Cluster Display System Nominal Function" classifierBehavior="_Z0k8sI04Eeuk8vyAo9tizA">
+      <packagedElement xmi:type="uml:Class" xmi:id="_2h-8sIsREeuPJ7aTKKVL3Q" name="Cluster Display System Nominal Function" classifierBehavior="_ANbQMKi_EeuUR9G2OweSvA">
+        <ownedComment xmi:type="uml:Comment" xmi:id="_IRw5UKgrEeu-251THRwtUg" annotatedElement="_Ro7BUKf8EeuBUJaVpKwxFg">
+          <body>For some reasson papyrus made this block disappear, and I'm not allowed to get it back as it was for some reason...&#xD;
+</body>
+        </ownedComment>
         <ownedAttribute xmi:type="uml:Port" xmi:id="_XdpTMIsXEeuPJ7aTKKVL3Q" name="Non Safety cluster state" aggregation="composite"/>
-        <ownedAttribute xmi:type="uml:Property" xmi:id="_hvG78IsXEeuPJ7aTKKVL3Q" name="request Handling" visibility="protected" aggregation="composite"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_hvG78IsXEeuPJ7aTKKVL3Q" name="request Handling" visibility="package" aggregation="composite"/>
         <ownedAttribute xmi:type="uml:Property" xmi:id="_zU8KMIsXEeuPJ7aTKKVL3Q" name="rendering" type="_BqGgoIsSEeuPJ7aTKKVL3Q" aggregation="composite"/>
         <ownedAttribute xmi:type="uml:Property" xmi:id="_hE9voIzAEeuk8vyAo9tizA" name="Display Controller 60Hz (HW)" type="_RWPpYIsSEeuPJ7aTKKVL3Q" aggregation="composite"/>
         <ownedAttribute xmi:type="uml:Port" xmi:id="_AIAJ4IzBEeuk8vyAo9tizA" name="HW Display Interface" type="_5bmjQIsTEeuPJ7aTKKVL3Q"/>
         <ownedAttribute xmi:type="uml:Port" xmi:id="_C0KO8JZVEeuyzZwGkznfrA" name="Telltale Request" type="_ujv7sJZSEeuyzZwGkznfrA" aggregation="composite"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_GagIYKi9EeuUR9G2OweSvA" name="request Handling0" type="_7YYCUKf5EeuBUJaVpKwxFg" aggregation="composite"/>
         <ownedConnector xmi:type="uml:Connector" xmi:id="_nsx0QIsXEeuPJ7aTKKVL3Q" name="Connector5">
           <end xmi:type="uml:ConnectorEnd" xmi:id="_nsybUIsXEeuPJ7aTKKVL3Q" role="_XdpTMIsXEeuPJ7aTKKVL3Q"/>
           <end xmi:type="uml:ConnectorEnd" xmi:id="_nsybUYsXEeuPJ7aTKKVL3Q" role="_hvG78IsXEeuPJ7aTKKVL3Q"/>
@@ -92,6 +97,31 @@
             <subvertex xmi:type="uml:State" xmi:id="_31CLMJhSEeuVVsSh_-7PAA" name="Normal Operation"/>
           </region>
         </ownedBehavior>
+        <ownedBehavior xmi:type="uml:Activity" xmi:id="_ANbQMKi_EeuUR9G2OweSvA" name="Activity20" node="_J1MbsKi_EeuUR9G2OweSvA _iYytUKi_EeuUR9G2OweSvA _nGOFwKi_EeuUR9G2OweSvA _n4sPEKjAEeuUR9G2OweSvA">
+          <ownedComment xmi:type="uml:Comment" xmi:id="_9WSOgKi_EeuUR9G2OweSvA" annotatedElement="_ANbQMKi_EeuUR9G2OweSvA">
+            <body>asdfsdaf</body>
+          </ownedComment>
+          <ownedBehavior xmi:type="uml:Activity" xmi:id="_tUwEkKi_EeuUR9G2OweSvA" name="Read message"/>
+          <ownedBehavior xmi:type="uml:Activity" xmi:id="_GxFVAKjAEeuUR9G2OweSvA" name="Activity6"/>
+          <edge xmi:type="uml:ControlFlow" xmi:id="_rF-DYKjAEeuUR9G2OweSvA" name="Discrete8" target="_n4sPEKjAEeuUR9G2OweSvA" source="_iYytUKi_EeuUR9G2OweSvA"/>
+          <node xmi:type="uml:AddStructuralFeatureValueAction" xmi:id="_J1MbsKi_EeuUR9G2OweSvA" name="AddStructuralFeatureValueAction1" structuralFeature="_zU8KMIsXEeuPJ7aTKKVL3Q">
+            <object xmi:type="uml:InputPin" xmi:id="_J1bFMKi_EeuUR9G2OweSvA" name="object" type="_2h-8sIsREeuPJ7aTKKVL3Q">
+              <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_J1bFMai_EeuUR9G2OweSvA" value="1"/>
+              <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_J1bFMqi_EeuUR9G2OweSvA" value="1"/>
+            </object>
+            <result xmi:type="uml:OutputPin" xmi:id="_J1Z3EKi_EeuUR9G2OweSvA" name="result" type="_2h-8sIsREeuPJ7aTKKVL3Q">
+              <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_J1Z3Eai_EeuUR9G2OweSvA" value="1"/>
+              <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_J1Z3Eqi_EeuUR9G2OweSvA" value="1"/>
+            </result>
+            <value xmi:type="uml:InputPin" xmi:id="_J1aeIKi_EeuUR9G2OweSvA" name="value" type="_BqGgoIsSEeuPJ7aTKKVL3Q">
+              <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_J1aeIai_EeuUR9G2OweSvA" value="1"/>
+              <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_J1aeIqi_EeuUR9G2OweSvA" value="1"/>
+            </value>
+          </node>
+          <node xmi:type="uml:InitialNode" xmi:id="_iYytUKi_EeuUR9G2OweSvA" name="Start" outgoing="_rF-DYKjAEeuUR9G2OweSvA"/>
+          <node xmi:type="uml:ActivityFinalNode" xmi:id="_nGOFwKi_EeuUR9G2OweSvA" name="End"/>
+          <node xmi:type="uml:ForkNode" xmi:id="_n4sPEKjAEeuUR9G2OweSvA" name="Forktest" incoming="_rF-DYKjAEeuUR9G2OweSvA"/>
+        </ownedBehavior>
         <nestedClassifier xmi:type="uml:Class" xmi:id="_7YYCUKf5EeuBUJaVpKwxFg" name="Request Handling"/>
         <nestedClassifier xmi:type="uml:Class" xmi:id="_BqGgoIsSEeuPJ7aTKKVL3Q" name="Rendering"/>
         <nestedClassifier xmi:type="uml:Class" xmi:id="_Ro7BUKf8EeuBUJaVpKwxFg" name="Plane Storage"/>
@@ -100,6 +130,7 @@
           <ownedAttribute xmi:type="uml:Property" xmi:id="_Ps8PsIzHEeuk8vyAo9tizA" name="plane Blending" type="_1BTTgIzGEeuk8vyAo9tizA" aggregation="composite"/>
           <ownedAttribute xmi:type="uml:Port" xmi:id="_XbkvUIzHEeuk8vyAo9tizA" name="Plane Data polling" aggregation="composite"/>
           <ownedAttribute xmi:type="uml:Property" xmi:id="_wNNbkJZMEeuyzZwGkznfrA" name="configuration Data" type="_zR3k4IsTEeuPJ7aTKKVL3Q" aggregation="composite"/>
+          <ownedAttribute xmi:type="uml:Port" xmi:id="_eCPjEKgrEeu-251THRwtUg" name="PP_Plane_polling" aggregation="composite"/>
           <ownedConnector xmi:type="uml:Connector" xmi:id="_V8aCoIzHEeuk8vyAo9tizA" name="Connector5">
             <end xmi:type="uml:ConnectorEnd" xmi:id="_V8apsIzHEeuk8vyAo9tizA" role="_Ps8PsIzHEeuk8vyAo9tizA"/>
             <end xmi:type="uml:ConnectorEnd" xmi:id="_V8apsYzHEeuk8vyAo9tizA" role="_SlETYIzHEeuk8vyAo9tizA"/>
@@ -119,15 +150,17 @@
         <nestedClassifier xmi:type="uml:Class" xmi:id="_3_IukKQoEeumRJVBi2M15w" name="Initialisation"/>
       </packagedElement>
       <packagedElement xmi:type="uml:InformationFlow" xmi:id="_MZA9AKfzEeuYPuBNDV7qGA" name="Display Controller Settings" informationSource="_3_IukKQoEeumRJVBi2M15w" informationTarget="_zR3k4IsTEeuPJ7aTKKVL3Q"/>
+      <packagedElement xmi:type="uml:Package" xmi:id="_ijcTkKi-EeuUR9G2OweSvA" name="copytest"/>
       <packagedElement xmi:type="uml:InformationFlow" xmi:id="_izlsoKfzEeuYPuBNDV7qGA" name="Post processed Image, color alpha correction etc" informationSource="_1BTTgIzGEeuk8vyAo9tizA" informationTarget="_5bmjQIsTEeuPJ7aTKKVL3Q"/>
       <packagedElement xmi:type="uml:InformationFlow" xmi:id="_zF0lAKfzEeuYPuBNDV7qGA" name="Bit Stream" informationSource="_5bmjQIsTEeuPJ7aTKKVL3Q" informationTarget="_NRyqkIsUEeuPJ7aTKKVL3Q"/>
       <packagedElement xmi:type="uml:InformationFlow" xmi:id="_PNBLIKfyEeuYPuBNDV7qGA" name="Telltale Request" informationSource="_plkUIIsSEeuPJ7aTKKVL3Q" informationTarget="_nxnVIIsQEeuPJ7aTKKVL3Q _7YYCUKf5EeuBUJaVpKwxFg"/>
       <packagedElement xmi:type="uml:InformationFlow" xmi:id="_7F7DkKf9EeusHPjO30UE5Q" name="Non Safety State requests (Speed, rpm, etc)" informationSource="_QYMQQIsTEeuPJ7aTKKVL3Q" informationTarget="_7YYCUKf5EeuBUJaVpKwxFg"/>
       <packagedElement xmi:type="uml:InformationFlow" xmi:id="_MP7RcKf-EeusHPjO30UE5Q" name="TargetRenderingState" informationSource="_7YYCUKf5EeuBUJaVpKwxFg" informationTarget="_BqGgoIsSEeuPJ7aTKKVL3Q"/>
       <packagedElement xmi:type="uml:InformationFlow" xmi:id="_Q7g20Kf-EeusHPjO30UE5Q" name="Rendered Bitmap" informationSource="_BqGgoIsSEeuPJ7aTKKVL3Q" informationTarget="_Ro7BUKf8EeuBUJaVpKwxFg"/>
-      <packagedElement xmi:type="uml:InformationFlow" xmi:id="_VIemgKf-EeusHPjO30UE5Q" name="Polling" informationSource="_Ro7BUKf8EeuBUJaVpKwxFg" informationTarget="_1BTTgIzGEeuk8vyAo9tizA"/>
+      <packagedElement xmi:type="uml:InformationFlow" xmi:id="_VIemgKf-EeusHPjO30UE5Q" name="Polling [todo] just model information flow in this diagram" informationSource="_Ro7BUKf8EeuBUJaVpKwxFg" informationTarget="_1BTTgIzGEeuk8vyAo9tizA _eCPjEKgrEeu-251THRwtUg"/>
       <packagedElement xmi:type="uml:InformationFlow" xmi:id="_9KzHkKgMEeusHPjO30UE5Q" name="TelltaleRequest" informationSource="_C0KO8JZVEeuyzZwGkznfrA" informationTarget="_7YYCUKf5EeuBUJaVpKwxFg"/>
       <packagedElement xmi:type="uml:InformationFlow" xmi:id="_DGb_kKgNEeusHPjO30UE5Q" name="Non Safety State request" informationSource="_XdpTMIsXEeuPJ7aTKKVL3Q" informationTarget="_7YYCUKf5EeuBUJaVpKwxFg"/>
+      <packagedElement xmi:type="uml:InformationFlow" xmi:id="_kzkF4KgrEeu-251THRwtUg" name="Polling" informationSource="_eCPjEKgrEeu-251THRwtUg" informationTarget="_1BTTgIzGEeuk8vyAo9tizA"/>
     </packagedElement>
     <packagedElement xmi:type="uml:Package" xmi:id="_eFaJEIzSEeuk8vyAo9tizA" name="Part relations">
       <packagedElement xmi:type="uml:Association" xmi:id="_8BeKoIzGEeuk8vyAo9tizA" memberEnd="_8Bgm4IzGEeuk8vyAo9tizA _8BhN8IzGEeuk8vyAo9tizA">
@@ -426,7 +459,9 @@
   <PortsAndFlows:ItemFlow xmi:id="_MP9tsKf-EeusHPjO30UE5Q" base_InformationFlow="_MP7RcKf-EeusHPjO30UE5Q"/>
   <PortsAndFlows:ItemFlow xmi:id="_Q7jTEKf-EeusHPjO30UE5Q" base_InformationFlow="_Q7g20Kf-EeusHPjO30UE5Q"/>
   <PortsAndFlows:ItemFlow xmi:id="_VIhCwKf-EeusHPjO30UE5Q" base_InformationFlow="_VIemgKf-EeusHPjO30UE5Q"/>
-  <PortsAndFlows:ItemFlow xmi:id="_R73qIKgKEeusHPjO30UE5Q"/>
   <PortsAndFlows:ItemFlow xmi:id="_9K08wKgMEeusHPjO30UE5Q" base_InformationFlow="_9KzHkKgMEeusHPjO30UE5Q"/>
   <PortsAndFlows:ItemFlow xmi:id="_DGdNsKgNEeusHPjO30UE5Q" base_InformationFlow="_DGb_kKgNEeusHPjO30UE5Q"/>
+  <PortsAndFlows:ProxyPort xmi:id="_eCT0gKgrEeu-251THRwtUg" base_Port="_eCPjEKgrEeu-251THRwtUg"/>
+  <PortsAndFlows:ItemFlow xmi:id="_kznJMKgrEeu-251THRwtUg" base_InformationFlow="_kzkF4KgrEeu-251THRwtUg"/>
+  <Activities:Discrete xmi:id="_rGNT8KjAEeuUR9G2OweSvA" base_ActivityEdge="_rF-DYKjAEeuUR9G2OweSvA"/>
 </xmi:XMI>
