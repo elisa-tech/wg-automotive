@@ -144,28 +144,28 @@
                 <path d="M9 229 L312 229 L312 352 L9 352 L9 229 Z"/>
             </clipPath>
             <clipPath clipPathUnits="userSpaceOnUse" id="clipPath41">
-                <path d="M470 230 L470 329 L661 329 L661 230 Z"/>
+                <path d="M470 230 L470 329 L651 329 L651 230 Z"/>
             </clipPath>
             <clipPath clipPathUnits="userSpaceOnUse" id="clipPath42">
-                <path d="M543 232 L590 232 L590 249 L543 249 L543 232 Z"/>
+                <path d="M538 232 L585 232 L585 249 L538 249 L538 232 Z"/>
             </clipPath>
             <clipPath clipPathUnits="userSpaceOnUse" id="clipPath43">
-                <path d="M470 248 L663 248 L663 266 L470 266 L470 248 Z"/>
+                <path d="M470 248 L653 248 L653 266 L470 266 L470 248 Z"/>
             </clipPath>
             <clipPath clipPathUnits="userSpaceOnUse" id="clipPath44">
-                <path d="M494 248 L657 248 L657 265 L494 265 L494 248 Z"/>
+                <path d="M490 248 L653 248 L653 265 L490 265 L490 248 Z"/>
             </clipPath>
             <clipPath clipPathUnits="userSpaceOnUse" id="clipPath45">
-                <path d="M470 265 L663 265 L663 331 L470 331 L470 265 Z"/>
+                <path d="M470 265 L653 265 L653 331 L470 331 L470 265 Z"/>
             </clipPath>
             <clipPath clipPathUnits="userSpaceOnUse" id="clipPath46">
-                <path d="M469 229 L663 229 L663 331 L469 331 L469 229 Z"/>
+                <path d="M469 229 L653 229 L653 331 L469 331 L469 229 Z"/>
             </clipPath>
             <clipPath clipPathUnits="userSpaceOnUse" id="clipPath47">
                 <path d="M-1 -1 L997 -1 L997 362 L-1 362 L-1 -1 Z"/>
             </clipPath>
             <clipPath clipPathUnits="userSpaceOnUse" id="clipPath48">
-                <path d="M552 214 L565 214 L565 232 L552 232 L552 214 Z"/>
+                <path d="M548 214 L561 214 L561 232 L548 232 L548 214 Z"/>
             </clipPath>
             <clipPath clipPathUnits="userSpaceOnUse" id="clipPath49">
                 <path d="M125 214 L138 214 L138 232 L125 232 L125 214 Z"/>
@@ -214,15 +214,15 @@
             <text xml:space="preserve" x="35" y="297" clip-path="url(#clipPath38)" stroke="none"> + E2E_Data: &lt;Undefined&gt; [1]</text>
             <line clip-path="url(#clipPath39)" fill="none" x1="10" x2="311" y1="266" y2="266"/>
             <rect x="10" y="230" clip-path="url(#clipPath40)" fill="none" width="300" rx="0" ry="0" height="120"/>
-            <rect x="470" y="230" clip-path="url(#clipPath41)" fill="url(#linearGradient5)" width="192" height="100" stroke="none"/>
-            <text xml:space="preserve" x="544" y="246" clip-path="url(#clipPath42)" stroke="none">«Signal»</text>
-            <image x="476" y="249" clip-path="url(#clipPath43)" width="16" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABR0lEQVR42mNgGAWM&#13;&#10;IKJgwYH/D178IEmjggQHw4QEB0YWEOf+8+8Mk1LsSDIgf85hMM0EJv/9Z2BmYgTj&#13;&#10;83eewGn5wEowRhZjBuoA4f///iEM+A9kMzMzMpy59ZihrnkNAwtQcUDpVIYXmzsZ&#13;&#10;XmzpZLDQkAPLg+TO3HrCwMLMzADVDzHgH9AFrExMYAX7VhQzsLAwMbzd3sUg4VvO&#13;&#10;IOFTDtTABJRnBMqVwC34//8/khf+Ag0A2tBUG8LgFNELZoM0fdzZw/BxVw+DiFcp&#13;&#10;UIwJKNcDVsPKwgjWAwIskCD4B9bgZqjMwABSAGTvOncX7A0Q2NCdDXQVxAJXI2WQ&#13;&#10;p8GuhhvwH2gaCzM4Rhm8TFSA0owMnqYqDD/394Pj+T+U9ATKMYKZQC/8/YcwQF2N&#13;&#10;nyGgbjM8ikAaIFoYoCQjkgxERENdgGH78MgLALBJdgH0mn2gAAAAAElFTkSuQmCC" xlink:type="simple" xlink:actuate="onLoad" height="16" preserveAspectRatio="none" xlink:show="embed"/>
-            <text xml:space="preserve" x="495" y="262" clip-path="url(#clipPath44)" stroke="none">SI_QM_cluster_display_request</text>
-            <line clip-path="url(#clipPath45)" fill="none" x1="470" x2="662" y1="266" y2="266"/>
-            <rect x="470" y="230" clip-path="url(#clipPath46)" fill="none" width="191" rx="0" ry="0" height="99"/>
-            <line clip-path="url(#clipPath47)" fill="none" text-rendering="optimizeLegibility" x1="554" x2="559" y1="121" y2="230" stroke-dasharray="5,5,5,5,5,5,5,5,5,5"/>
-            <line clip-path="url(#clipPath48)" fill="none" text-rendering="optimizeLegibility" x1="553" x2="559" y1="215" y2="230"/>
-            <line clip-path="url(#clipPath48)" fill="none" text-rendering="optimizeLegibility" x1="559" x2="563" y1="230" y2="215"/>
+            <rect x="470" y="230" clip-path="url(#clipPath41)" fill="url(#linearGradient5)" width="182" height="100" stroke="none"/>
+            <text xml:space="preserve" x="539" y="246" clip-path="url(#clipPath42)" stroke="none">«Signal»</text>
+            <image x="472" y="249" clip-path="url(#clipPath43)" width="16" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABR0lEQVR42mNgGAWM&#13;&#10;IKJgwYH/D178IEmjggQHw4QEB0YWEOf+8+8Mk1LsSDIgf85hMM0EJv/9Z2BmYgTj&#13;&#10;83eewGn5wEowRhZjBuoA4f///iEM+A9kMzMzMpy59ZihrnkNAwtQcUDpVIYXmzsZ&#13;&#10;XmzpZLDQkAPLg+TO3HrCwMLMzADVDzHgH9AFrExMYAX7VhQzsLAwMbzd3sUg4VvO&#13;&#10;IOFTDtTABJRnBMqVwC34//8/khf+Ag0A2tBUG8LgFNELZoM0fdzZw/BxVw+DiFcp&#13;&#10;UIwJKNcDVsPKwgjWAwIskCD4B9bgZqjMwABSAGTvOncX7A0Q2NCdDXQVxAJXI2WQ&#13;&#10;p8GuhhvwH2gaCzM4Rhm8TFSA0owMnqYqDD/394Pj+T+U9ATKMYKZQC/8/YcwQF2N&#13;&#10;nyGgbjM8ikAaIFoYoCQjkgxERENdgGH78MgLALBJdgH0mn2gAAAAAElFTkSuQmCC" xlink:type="simple" xlink:actuate="onLoad" height="16" preserveAspectRatio="none" xlink:show="embed"/>
+            <text xml:space="preserve" x="491" y="262" clip-path="url(#clipPath44)" stroke="none">SI_QM_cluster_display_request</text>
+            <line clip-path="url(#clipPath45)" fill="none" x1="470" x2="652" y1="266" y2="266"/>
+            <rect x="470" y="230" clip-path="url(#clipPath46)" fill="none" width="181" rx="0" ry="0" height="99"/>
+            <line clip-path="url(#clipPath47)" fill="none" text-rendering="optimizeLegibility" x1="554" x2="554" y1="121" y2="230" stroke-dasharray="5,5,5,5,5,5,5,5,5,5"/>
+            <line clip-path="url(#clipPath48)" fill="none" text-rendering="optimizeLegibility" x1="549" x2="554" y1="215" y2="230"/>
+            <line clip-path="url(#clipPath48)" fill="none" text-rendering="optimizeLegibility" x1="554" x2="559" y1="230" y2="215"/>
             <line clip-path="url(#clipPath47)" fill="none" text-rendering="optimizeLegibility" x1="138" x2="130" y1="121" y2="230" stroke-dasharray="5,5,5,5,5,5,5,5,5,5"/>
             <line clip-path="url(#clipPath49)" fill="none" text-rendering="optimizeLegibility" x1="126" x2="130" y1="215" y2="230"/>
             <line clip-path="url(#clipPath49)" fill="none" text-rendering="optimizeLegibility" x1="130" x2="136" y1="230" y2="215"/>
@@ -237,5 +237,5 @@
     <rect x="10" y="230" fill-opacity="0" width="301" id="SI_Telltale_Request" height="121" stroke-opacity="0"/>
     <rect x="16" y="268" fill-opacity="0" width="291" id="Telltale_Status" height="16" stroke-opacity="0"/>
     <rect x="16" y="284" fill-opacity="0" width="291" id="E2E_Data" height="16" stroke-opacity="0"/>
-    <rect x="470" y="230" fill-opacity="0" width="192" id="SI_QM_cluster_display_request" height="100" stroke-opacity="0"/>
+    <rect x="470" y="230" fill-opacity="0" width="182" id="SI_QM_cluster_display_request" height="100" stroke-opacity="0"/>
 </svg>

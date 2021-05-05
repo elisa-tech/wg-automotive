@@ -44,40 +44,40 @@
                 <path d="M703 101 L859 101 L859 118 L703 118 L703 101 Z"/>
             </clipPath>
             <clipPath clipPathUnits="userSpaceOnUse" id="clipPath5">
-                <path d="M730 343 L730 382 L955 382 L955 343 Z"/>
+                <path d="M730 343 L730 382 L945 382 L945 343 Z"/>
             </clipPath>
             <clipPath clipPathUnits="userSpaceOnUse" id="clipPath6">
-                <path d="M730 354 L957 354 L957 372 L730 372 L730 354 Z"/>
+                <path d="M730 354 L947 354 L947 372 L730 372 L730 354 Z"/>
             </clipPath>
             <clipPath clipPathUnits="userSpaceOnUse" id="clipPath7">
-                <path d="M755 354 L952 354 L952 371 L755 371 L755 354 Z"/>
+                <path d="M750 354 L947 354 L947 371 L750 371 L750 354 Z"/>
             </clipPath>
             <clipPath clipPathUnits="userSpaceOnUse" id="clipPath8">
-                <path d="M729 342 L957 342 L957 384 L729 384 L729 342 Z"/>
+                <path d="M729 342 L947 342 L947 384 L729 384 L729 342 Z"/>
             </clipPath>
             <clipPath clipPathUnits="userSpaceOnUse" id="clipPath9">
-                <path d="M710 203 L710 242 L977 242 L977 203 Z"/>
+                <path d="M710 203 L710 242 L967 242 L967 203 Z"/>
             </clipPath>
             <clipPath clipPathUnits="userSpaceOnUse" id="clipPath10">
-                <path d="M710 214 L979 214 L979 232 L710 232 L710 214 Z"/>
+                <path d="M710 214 L969 214 L969 232 L710 232 L710 214 Z"/>
             </clipPath>
             <clipPath clipPathUnits="userSpaceOnUse" id="clipPath11">
-                <path d="M735 214 L974 214 L974 231 L735 231 L735 214 Z"/>
+                <path d="M730 214 L969 214 L969 231 L730 231 L730 214 Z"/>
             </clipPath>
             <clipPath clipPathUnits="userSpaceOnUse" id="clipPath12">
-                <path d="M709 202 L979 202 L979 244 L709 244 L709 202 Z"/>
+                <path d="M709 202 L969 202 L969 244 L709 244 L709 202 Z"/>
             </clipPath>
             <clipPath clipPathUnits="userSpaceOnUse" id="clipPath13">
-                <path d="M670 523 L670 562 L955 562 L955 523 Z"/>
+                <path d="M670 523 L670 562 L945 562 L945 523 Z"/>
             </clipPath>
             <clipPath clipPathUnits="userSpaceOnUse" id="clipPath14">
-                <path d="M670 534 L957 534 L957 552 L670 552 L670 534 Z"/>
+                <path d="M670 534 L947 534 L947 552 L670 552 L670 534 Z"/>
             </clipPath>
             <clipPath clipPathUnits="userSpaceOnUse" id="clipPath15">
-                <path d="M695 534 L952 534 L952 551 L695 551 L695 534 Z"/>
+                <path d="M690 534 L947 534 L947 551 L690 551 L690 534 Z"/>
             </clipPath>
             <clipPath clipPathUnits="userSpaceOnUse" id="clipPath16">
-                <path d="M669 522 L957 522 L957 564 L669 564 L669 522 Z"/>
+                <path d="M669 522 L947 522 L947 564 L669 564 L669 522 Z"/>
             </clipPath>
             <clipPath clipPathUnits="userSpaceOnUse" id="clipPath17">
                 <path d="M350 118 L1192 118 L1192 665 L350 665 L350 118 Z"/>
@@ -95,61 +95,52 @@
                 <path d="M9 222 L292 222 L292 239 L9 239 L9 222 Z"/>
             </clipPath>
             <clipPath clipPathUnits="userSpaceOnUse" id="clipPath22">
-                <path d="M364 209 L431 209 L431 226 L364 226 L364 209 Z"/>
-            </clipPath>
-            <clipPath clipPathUnits="userSpaceOnUse" id="clipPath23">
                 <path d="M340 353 L340 372 L359 372 L359 353 Z"/>
             </clipPath>
-            <clipPath clipPathUnits="userSpaceOnUse" id="clipPath24">
+            <clipPath clipPathUnits="userSpaceOnUse" id="clipPath23">
                 <path d="M339 352 L361 352 L361 374 L339 374 L339 352 Z"/>
             </clipPath>
-            <clipPath clipPathUnits="userSpaceOnUse" id="clipPath25">
+            <clipPath clipPathUnits="userSpaceOnUse" id="clipPath24">
                 <path d="M29 362 L313 362 L313 379 L29 379 L29 362 Z"/>
             </clipPath>
-            <clipPath clipPathUnits="userSpaceOnUse" id="clipPath26">
-                <path d="M364 342 L431 342 L431 359 L364 359 L364 342 Z"/>
-            </clipPath>
-            <clipPath clipPathUnits="userSpaceOnUse" id="clipPath27">
+            <clipPath clipPathUnits="userSpaceOnUse" id="clipPath25">
                 <path d="M817 654 L817 673 L836 673 L836 654 Z"/>
             </clipPath>
-            <clipPath clipPathUnits="userSpaceOnUse" id="clipPath28">
+            <clipPath clipPathUnits="userSpaceOnUse" id="clipPath26">
                 <path d="M816 653 L838 653 L838 675 L816 675 L816 653 Z"/>
             </clipPath>
-            <clipPath clipPathUnits="userSpaceOnUse" id="clipPath29">
+            <clipPath clipPathUnits="userSpaceOnUse" id="clipPath27">
                 <path d="M709 742 L963 742 L963 759 L709 759 L709 742 Z"/>
             </clipPath>
-            <clipPath clipPathUnits="userSpaceOnUse" id="clipPath30">
-                <path d="M841 643 L897 643 L897 660 L841 660 L841 643 Z"/>
-            </clipPath>
-            <clipPath clipPathUnits="userSpaceOnUse" id="clipPath31">
+            <clipPath clipPathUnits="userSpaceOnUse" id="clipPath28">
                 <path d="M-1 -1 L1202 -1 L1202 769 L-1 769 L-1 -1 Z"/>
             </clipPath>
-            <clipPath clipPathUnits="userSpaceOnUse" id="clipPath32">
+            <clipPath clipPathUnits="userSpaceOnUse" id="clipPath29">
                 <path d="M486 394 L606 394 L606 411 L486 411 L486 394 Z"/>
             </clipPath>
-            <clipPath clipPathUnits="userSpaceOnUse" id="clipPath33">
+            <clipPath clipPathUnits="userSpaceOnUse" id="clipPath30">
                 <path d="M714 357 L732 357 L732 370 L714 370 L714 357 Z"/>
             </clipPath>
+            <clipPath clipPathUnits="userSpaceOnUse" id="clipPath31">
+                <path d="M455 255 L615 255 L615 272 L455 272 L455 255 Z"/>
+            </clipPath>
+            <clipPath clipPathUnits="userSpaceOnUse" id="clipPath32">
+                <path d="M694 218 L712 218 L712 231 L694 231 L694 218 Z"/>
+            </clipPath>
+            <clipPath clipPathUnits="userSpaceOnUse" id="clipPath33">
+                <path d="M828 285 L863 285 L863 302 L828 302 L828 285 Z"/>
+            </clipPath>
             <clipPath clipPathUnits="userSpaceOnUse" id="clipPath34">
-                <path d="M661 445 L919 445 L919 462 L661 462 L661 445 Z"/>
+                <path d="M657 445 L915 445 L915 462 L657 462 L657 445 Z"/>
             </clipPath>
             <clipPath clipPathUnits="userSpaceOnUse" id="clipPath35">
-                <path d="M824 507 L837 507 L837 525 L824 525 L824 507 Z"/>
+                <path d="M818 507 L831 507 L831 525 L818 525 L818 507 Z"/>
             </clipPath>
             <clipPath clipPathUnits="userSpaceOnUse" id="clipPath36">
-                <path d="M833 285 L868 285 L868 302 L833 302 L833 285 Z"/>
+                <path d="M642 600 L927 600 L927 617 L642 617 L642 600 Z"/>
             </clipPath>
             <clipPath clipPathUnits="userSpaceOnUse" id="clipPath37">
-                <path d="M455 254 L615 254 L615 271 L455 271 L455 254 Z"/>
-            </clipPath>
-            <clipPath clipPathUnits="userSpaceOnUse" id="clipPath38">
-                <path d="M694 217 L712 217 L712 230 L694 230 L694 217 Z"/>
-            </clipPath>
-            <clipPath clipPathUnits="userSpaceOnUse" id="clipPath39">
-                <path d="M648 600 L933 600 L933 617 L648 617 L648 600 Z"/>
-            </clipPath>
-            <clipPath clipPathUnits="userSpaceOnUse" id="clipPath40">
-                <path d="M824 638 L837 638 L837 656 L824 656 L824 638 Z"/>
+                <path d="M818 638 L831 638 L831 656 L818 656 L818 638 Z"/>
             </clipPath>
         </defs>
         <g fill="url(#linearGradient1)" font-family="'Segoe UI'" stroke-linejoin="round" stroke="url(#linearGradient1)" stroke-width="0" stroke-miterlimit="0">
@@ -157,78 +148,75 @@
             <text x="750" y="99" clip-path="url(#clipPath2)" fill="black" stroke="none" xml:space="preserve">«Block»</text>
             <image stroke="black" width="16" xlink:show="embed" xlink:type="simple" fill="black" clip-path="url(#clipPath3)" preserveAspectRatio="none" height="16" x="685" y="102" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABGklEQVR42mP8//8/&#13;&#10;AwgULjz6/8GTT0AWIxD/B0JGCIsRIgICUKVgoCjDy9Afb83IAhO4//gTw6Q0OwZi&#13;&#10;Qe6sg2AabsC/v/8Y2NmYwewTNx4xWGjIMVhUroRrONEeDheHaIA4hwnZVBZmJrCi&#13;&#10;goXHwWwQuNAbBZcDiYPkYXJYDGAEKwJpArFBwKB4GcOEeEswHyQOMZwRuwGsQJNB&#13;&#10;ikGaWJFcANIE4sMMY0VyATwMQEHMCjTZy0QFahjCBTA+SDNM/h80DFgQ+v8xMDNB&#13;&#10;NPmaqYLpu1PjUEIeJg5Rj2YACPg1bAKng/9oJAwgUgiQzciIacDSCi+i00FM53bM&#13;&#10;QCQHsGAzlWwDlpR7DqAXVJSESfICSD2KAaCsSY4LAIGAY0LE+znJAAAAAElFTkSu&#13;&#10;QmCC" xlink:actuate="onLoad"/>
             <text x="704" y="115" clip-path="url(#clipPath4)" fill="black" stroke="none" xml:space="preserve">Display Controller 60Hz (HW)</text>
-            <rect x="730" y="343" clip-path="url(#clipPath5)" fill="url(#linearGradient2)" width="226" height="40" stroke="none"/>
-            <image stroke="black" width="16" xlink:show="embed" xlink:type="simple" fill="black" clip-path="url(#clipPath6)" preserveAspectRatio="none" height="16" x="737" y="355" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAA00lEQVR42mNgGAWM&#13;&#10;ICJr1qH/pGqclmYH1ssCIn7/+ccwI8OeaM0ZMw/C2WADfgIN+At0Q8rUfRDR/zC3&#13;&#10;obGBYE62E8Ov339RDfjx6w/DHyjdne2G0+aSqbsZ/gAN/I5uwPefQAP+gWiIhCAL&#13;&#10;Ugj9R9Bgi/5D1KMY8A0o8Qso8e03ROL3f4g+EMEI88Z/hDoMA77/+gvW9P3HH4bI&#13;&#10;pvXYowtkKNC0P1CDUA0A2gwKxJUNgWCFyIGGHJAg6g/YK2hhAApVt/KVCOcyoIUB&#13;&#10;SqpBExv6AAAA13L8DwBmYwAAAABJRU5ErkJggg==" xlink:actuate="onLoad"/>
-            <text x="756" y="368" clip-path="url(#clipPath7)" fill="black" stroke="none" xml:space="preserve"> + plane Blending: Plane Blending [1]</text>
+            <rect x="730" y="343" clip-path="url(#clipPath5)" fill="url(#linearGradient2)" width="216" height="40" stroke="none"/>
+            <image stroke="black" width="16" xlink:show="embed" xlink:type="simple" fill="black" clip-path="url(#clipPath6)" preserveAspectRatio="none" height="16" x="732" y="355" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAA00lEQVR42mNgGAWM&#13;&#10;ICJr1qH/pGqclmYH1ssCIn7/+ccwI8OeaM0ZMw/C2WADfgIN+At0Q8rUfRDR/zC3&#13;&#10;obGBYE62E8Ov339RDfjx6w/DHyjdne2G0+aSqbsZ/gAN/I5uwPefQAP+gWiIhCAL&#13;&#10;Ugj9R9Bgi/5D1KMY8A0o8Qso8e03ROL3f4g+EMEI88Z/hDoMA77/+gvW9P3HH4bI&#13;&#10;pvXYowtkKNC0P1CDUA0A2gwKxJUNgWCFyIGGHJAg6g/YK2hhAApVt/KVCOcyoIUB&#13;&#10;SqpBExv6AAAA13L8DwBmYwAAAABJRU5ErkJggg==" xlink:actuate="onLoad"/>
+            <text x="751" y="368" clip-path="url(#clipPath7)" fill="black" stroke="none" xml:space="preserve"> + plane Blending: Plane Blending [1]</text>
         </g>
         <g stroke-width="1.1" font-family="'Segoe UI'" stroke-linecap="butt">
-            <rect x="730" y="343" clip-path="url(#clipPath8)" fill="none" width="225" rx="0" ry="0" height="39"/>
-            <rect x="710" y="203" clip-path="url(#clipPath9)" fill="url(#linearGradient3)" width="268" height="40" stroke="none"/>
-            <image x="717" y="215" clip-path="url(#clipPath10)" width="16" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAA00lEQVR42mNgGAWM&#13;&#10;ICJr1qH/pGqclmYH1ssCIn7/+ccwI8OeaM0ZMw/C2WADfgIN+At0Q8rUfRDR/zC3&#13;&#10;obGBYE62E8Ov339RDfjx6w/DHyjdne2G0+aSqbsZ/gAN/I5uwPefQAP+gWiIhCAL&#13;&#10;Ugj9R9Bgi/5D1KMY8A0o8Qso8e03ROL3f4g+EMEI88Z/hDoMA77/+gvW9P3HH4bI&#13;&#10;pvXYowtkKNC0P1CDUA0A2gwKxJUNgWCFyIGGHJAg6g/YK2hhAApVt/KVCOcyoIUB&#13;&#10;SqpBExv6AAAA13L8DwBmYwAAAABJRU5ErkJggg==" xlink:type="simple" xlink:actuate="onLoad" height="16" preserveAspectRatio="none" xlink:show="embed"/>
-            <text xml:space="preserve" x="736" y="228" clip-path="url(#clipPath11)" stroke="none"> + configuration Data: Configuration Data [1]</text>
-            <rect x="710" y="203" clip-path="url(#clipPath12)" fill="none" width="267" rx="0" ry="0" height="39"/>
-            <rect x="670" y="523" clip-path="url(#clipPath13)" fill="url(#linearGradient4)" width="286" height="40" stroke="none"/>
-            <image x="677" y="535" clip-path="url(#clipPath14)" width="16" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAA00lEQVR42mNgGAWM&#13;&#10;ICJr1qH/pGqclmYH1ssCIn7/+ccwI8OeaM0ZMw/C2WADfgIN+At0Q8rUfRDR/zC3&#13;&#10;obGBYE62E8Ov339RDfjx6w/DHyjdne2G0+aSqbsZ/gAN/I5uwPefQAP+gWiIhCAL&#13;&#10;Ugj9R9Bgi/5D1KMY8A0o8Qso8e03ROL3f4g+EMEI88Z/hDoMA77/+gvW9P3HH4bI&#13;&#10;pvXYowtkKNC0P1CDUA0A2gwKxJUNgWCFyIGGHJAg6g/YK2hhAApVt/KVCOcyoIUB&#13;&#10;SqpBExv6AAAA13L8DwBmYwAAAABJRU5ErkJggg==" xlink:type="simple" xlink:actuate="onLoad" height="16" preserveAspectRatio="none" xlink:show="embed"/>
-            <text xml:space="preserve" x="696" y="548" clip-path="url(#clipPath15)" stroke="none"> + hW Display Interface: HW Display Interface [1]</text>
-            <rect x="670" y="523" clip-path="url(#clipPath16)" fill="none" width="285" rx="0" ry="0" height="39"/>
+            <rect x="730" y="343" clip-path="url(#clipPath8)" fill="none" width="215" rx="0" ry="0" height="39"/>
+            <rect x="710" y="203" clip-path="url(#clipPath9)" fill="url(#linearGradient3)" width="258" height="40" stroke="none"/>
+            <image x="712" y="215" clip-path="url(#clipPath10)" width="16" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAA00lEQVR42mNgGAWM&#13;&#10;ICJr1qH/pGqclmYH1ssCIn7/+ccwI8OeaM0ZMw/C2WADfgIN+At0Q8rUfRDR/zC3&#13;&#10;obGBYE62E8Ov339RDfjx6w/DHyjdne2G0+aSqbsZ/gAN/I5uwPefQAP+gWiIhCAL&#13;&#10;Ugj9R9Bgi/5D1KMY8A0o8Qso8e03ROL3f4g+EMEI88Z/hDoMA77/+gvW9P3HH4bI&#13;&#10;pvXYowtkKNC0P1CDUA0A2gwKxJUNgWCFyIGGHJAg6g/YK2hhAApVt/KVCOcyoIUB&#13;&#10;SqpBExv6AAAA13L8DwBmYwAAAABJRU5ErkJggg==" xlink:type="simple" xlink:actuate="onLoad" height="16" preserveAspectRatio="none" xlink:show="embed"/>
+            <text xml:space="preserve" x="731" y="228" clip-path="url(#clipPath11)" stroke="none"> + configuration Data: Configuration Data [1]</text>
+            <rect x="710" y="203" clip-path="url(#clipPath12)" fill="none" width="257" rx="0" ry="0" height="39"/>
+            <rect x="670" y="523" clip-path="url(#clipPath13)" fill="url(#linearGradient4)" width="276" height="40" stroke="none"/>
+            <image x="672" y="535" clip-path="url(#clipPath14)" width="16" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAA00lEQVR42mNgGAWM&#13;&#10;ICJr1qH/pGqclmYH1ssCIn7/+ccwI8OeaM0ZMw/C2WADfgIN+At0Q8rUfRDR/zC3&#13;&#10;obGBYE62E8Ov339RDfjx6w/DHyjdne2G0+aSqbsZ/gAN/I5uwPefQAP+gWiIhCAL&#13;&#10;Ugj9R9Bgi/5D1KMY8A0o8Qso8e03ROL3f4g+EMEI88Z/hDoMA77/+gvW9P3HH4bI&#13;&#10;pvXYowtkKNC0P1CDUA0A2gwKxJUNgWCFyIGGHJAg6g/YK2hhAApVt/KVCOcyoIUB&#13;&#10;SqpBExv6AAAA13L8DwBmYwAAAABJRU5ErkJggg==" xlink:type="simple" xlink:actuate="onLoad" height="16" preserveAspectRatio="none" xlink:show="embed"/>
+            <text xml:space="preserve" x="691" y="548" clip-path="url(#clipPath15)" stroke="none"> + hW Display Interface: HW Display Interface [1]</text>
+            <rect x="670" y="523" clip-path="url(#clipPath16)" fill="none" width="275" rx="0" ry="0" height="39"/>
             <line clip-path="url(#clipPath17)" fill="none" x1="350" x2="1191" y1="119" y2="119"/>
             <rect x="350" y="83" clip-path="url(#clipPath18)" fill="none" width="840" rx="0" ry="0" height="580"/>
             <rect x="340" y="220" clip-path="url(#clipPath19)" fill="url(#linearGradient5)" width="20" height="20" stroke="none"/>
             <rect x="340" y="220" clip-path="url(#clipPath20)" fill="none" width="19" rx="0" ry="0" height="19"/>
             <text xml:space="preserve" x="10" y="236" clip-path="url(#clipPath21)" stroke="none"> + DisplayControllerConfigInterface: &lt;Undefined&gt; [1]</text>
-            <text xml:space="preserve" x="365" y="223" clip-path="url(#clipPath22)" stroke="none">«ProxyPort»</text>
-            <rect x="340" y="353" clip-path="url(#clipPath23)" fill="url(#linearGradient6)" width="20" height="20" stroke="none"/>
-            <rect x="340" y="353" clip-path="url(#clipPath24)" fill="none" width="19" rx="0" ry="0" height="19"/>
-            <text xml:space="preserve" x="30" y="376" clip-path="url(#clipPath25)" stroke="none"> + DisplayControllerPollingInterface: &lt;Undefined&gt; [1]</text>
-            <text xml:space="preserve" x="365" y="356" clip-path="url(#clipPath26)" stroke="none">«ProxyPort»</text>
-            <rect x="817" y="654" clip-path="url(#clipPath27)" fill="url(#linearGradient7)" width="20" height="20" stroke="none"/>
-            <rect x="817" y="654" clip-path="url(#clipPath28)" fill="none" width="19" rx="0" ry="0" height="19"/>
-            <text xml:space="preserve" x="710" y="756" clip-path="url(#clipPath29)" stroke="none"> + DisplayControllerImageOut: &lt;Undefined&gt; [1]</text>
-            <text xml:space="preserve" x="842" y="657" clip-path="url(#clipPath30)" stroke="none">«FullPort»</text>
-            <line clip-path="url(#clipPath31)" fill="none" text-rendering="optimizeLegibility" x1="360" x2="390" y1="363" y2="363" stroke-dasharray="5,5,5,5,5,5,5,5,5,5"/>
-            <line clip-path="url(#clipPath31)" fill="none" text-rendering="optimizeLegibility" x1="390" x2="730" y1="363" y2="363" stroke-dasharray="5,5,5,5,5,5,5,5,5,5"/>
-            <text x="487" y="408" clip-path="url(#clipPath32)" text-rendering="optimizeLegibility" stroke-dasharray="5,5,5,5,5,5,5,5,5,5" stroke="none" xml:space="preserve">Plane Image data (DC)</text>
-            <line clip-path="url(#clipPath33)" fill="none" text-rendering="optimizeLegibility" x1="715" x2="730" y1="368" y2="363"/>
-            <line clip-path="url(#clipPath33)" fill="none" text-rendering="optimizeLegibility" x1="730" x2="715" y1="363" y2="358"/>
-            <line clip-path="url(#clipPath31)" fill="none" text-rendering="optimizeLegibility" x1="830" x2="830" y1="383" y2="523" stroke-dasharray="5,5,5,5,5,5,5,5,5,5"/>
-            <text x="662" y="459" clip-path="url(#clipPath34)" text-rendering="optimizeLegibility" stroke-dasharray="5,5,5,5,5,5,5,5,5,5" stroke="none" xml:space="preserve">Post processed Image, color alpha correction etc</text>
-            <line clip-path="url(#clipPath35)" fill="none" text-rendering="optimizeLegibility" x1="825" x2="830" y1="508" y2="523"/>
-            <line clip-path="url(#clipPath35)" fill="none" text-rendering="optimizeLegibility" x1="830" x2="835" y1="523" y2="508"/>
-            <line clip-path="url(#clipPath31)" fill="none" text-rendering="optimizeLegibility" x1="830" x2="830" y1="243" y2="343"/>
-            <text x="834" y="299" clip-path="url(#clipPath36)" text-rendering="optimizeLegibility" stroke="none" xml:space="preserve">Usage</text>
-            <line clip-path="url(#clipPath31)" fill="none" text-rendering="optimizeLegibility" x1="360" x2="710" y1="224" y2="223" stroke-dasharray="5,5,5,5,5,5,5,5,5,5"/>
-            <text x="456" y="268" clip-path="url(#clipPath37)" text-rendering="optimizeLegibility" stroke-dasharray="5,5,5,5,5,5,5,5,5,5" stroke="none" xml:space="preserve">Display Controller Settings DC</text>
-            <line clip-path="url(#clipPath38)" fill="none" text-rendering="optimizeLegibility" x1="695" x2="710" y1="228" y2="223"/>
-            <line clip-path="url(#clipPath38)" fill="none" text-rendering="optimizeLegibility" x1="710" x2="695" y1="223" y2="218"/>
-            <line clip-path="url(#clipPath31)" fill="none" text-rendering="optimizeLegibility" x1="830" x2="830" y1="563" y2="654" stroke-dasharray="5,5,5,5,5,5,5,5,5,5"/>
-            <text x="649" y="614" clip-path="url(#clipPath39)" text-rendering="optimizeLegibility" stroke-dasharray="5,5,5,5,5,5,5,5,5,5" stroke="none" xml:space="preserve">Post processed Image, color alpha correction etc (DC)</text>
-            <line clip-path="url(#clipPath40)" fill="none" text-rendering="optimizeLegibility" x1="825" x2="830" y1="639" y2="654"/>
-            <line clip-path="url(#clipPath40)" fill="none" text-rendering="optimizeLegibility" x1="830" x2="835" y1="654" y2="639"/>
-            <line clip-path="url(#clipPath31)" fill="none" text-rendering="optimizeLegibility" x1="360" x2="710" y1="224" y2="223" stroke-dasharray="5,5,5,5,5,5,5,5,5,5"/>
-            <text x="456" y="268" clip-path="url(#clipPath37)" text-rendering="optimizeLegibility" stroke-dasharray="5,5,5,5,5,5,5,5,5,5" stroke="none" xml:space="preserve">Display Controller Settings DC</text>
-            <line clip-path="url(#clipPath38)" fill="none" text-rendering="optimizeLegibility" x1="695" x2="710" y1="228" y2="223"/>
-            <line clip-path="url(#clipPath38)" fill="none" text-rendering="optimizeLegibility" x1="710" x2="695" y1="223" y2="218"/>
-            <line clip-path="url(#clipPath31)" fill="none" text-rendering="optimizeLegibility" x1="360" x2="390" y1="363" y2="363" stroke-dasharray="5,5,5,5,5,5,5,5,5,5"/>
-            <line clip-path="url(#clipPath31)" fill="none" text-rendering="optimizeLegibility" x1="390" x2="730" y1="363" y2="363" stroke-dasharray="5,5,5,5,5,5,5,5,5,5"/>
-            <text x="487" y="408" clip-path="url(#clipPath32)" text-rendering="optimizeLegibility" stroke-dasharray="5,5,5,5,5,5,5,5,5,5" stroke="none" xml:space="preserve">Plane Image data (DC)</text>
-            <line clip-path="url(#clipPath33)" fill="none" text-rendering="optimizeLegibility" x1="715" x2="730" y1="368" y2="363"/>
-            <line clip-path="url(#clipPath33)" fill="none" text-rendering="optimizeLegibility" x1="730" x2="715" y1="363" y2="358"/>
-            <line clip-path="url(#clipPath31)" fill="none" text-rendering="optimizeLegibility" x1="830" x2="830" y1="383" y2="523" stroke-dasharray="5,5,5,5,5,5,5,5,5,5"/>
-            <text x="662" y="459" clip-path="url(#clipPath34)" text-rendering="optimizeLegibility" stroke-dasharray="5,5,5,5,5,5,5,5,5,5" stroke="none" xml:space="preserve">Post processed Image, color alpha correction etc</text>
-            <line clip-path="url(#clipPath35)" fill="none" text-rendering="optimizeLegibility" x1="825" x2="830" y1="508" y2="523"/>
-            <line clip-path="url(#clipPath35)" fill="none" text-rendering="optimizeLegibility" x1="830" x2="835" y1="523" y2="508"/>
-            <line clip-path="url(#clipPath31)" fill="none" text-rendering="optimizeLegibility" x1="830" x2="830" y1="563" y2="654" stroke-dasharray="5,5,5,5,5,5,5,5,5,5"/>
-            <text x="649" y="614" clip-path="url(#clipPath39)" text-rendering="optimizeLegibility" stroke-dasharray="5,5,5,5,5,5,5,5,5,5" stroke="none" xml:space="preserve">Post processed Image, color alpha correction etc (DC)</text>
-            <line clip-path="url(#clipPath40)" fill="none" text-rendering="optimizeLegibility" x1="825" x2="830" y1="639" y2="654"/>
-            <line clip-path="url(#clipPath40)" fill="none" text-rendering="optimizeLegibility" x1="830" x2="835" y1="654" y2="639"/>
-            <line clip-path="url(#clipPath31)" fill="none" text-rendering="optimizeLegibility" x1="830" x2="830" y1="243" y2="343"/>
-            <text x="834" y="299" clip-path="url(#clipPath36)" text-rendering="optimizeLegibility" stroke="none" xml:space="preserve">Usage</text>
+            <rect x="340" y="353" clip-path="url(#clipPath22)" fill="url(#linearGradient6)" width="20" height="20" stroke="none"/>
+            <rect x="340" y="353" clip-path="url(#clipPath23)" fill="none" width="19" rx="0" ry="0" height="19"/>
+            <text xml:space="preserve" x="30" y="376" clip-path="url(#clipPath24)" stroke="none"> + DisplayControllerPollingInterface: &lt;Undefined&gt; [1]</text>
+            <rect x="817" y="654" clip-path="url(#clipPath25)" fill="url(#linearGradient7)" width="20" height="20" stroke="none"/>
+            <rect x="817" y="654" clip-path="url(#clipPath26)" fill="none" width="19" rx="0" ry="0" height="19"/>
+            <text xml:space="preserve" x="710" y="756" clip-path="url(#clipPath27)" stroke="none"> + DisplayControllerImageOut: &lt;Undefined&gt; [1]</text>
+            <line clip-path="url(#clipPath28)" fill="none" text-rendering="optimizeLegibility" x1="360" x2="390" y1="363" y2="363" stroke-dasharray="5,5,5,5,5,5,5,5,5,5"/>
+            <line clip-path="url(#clipPath28)" fill="none" text-rendering="optimizeLegibility" x1="390" x2="730" y1="363" y2="363" stroke-dasharray="5,5,5,5,5,5,5,5,5,5"/>
+            <text x="487" y="408" clip-path="url(#clipPath29)" text-rendering="optimizeLegibility" stroke-dasharray="5,5,5,5,5,5,5,5,5,5" stroke="none" xml:space="preserve">Plane Image data (DC)</text>
+            <line clip-path="url(#clipPath30)" fill="none" text-rendering="optimizeLegibility" x1="715" x2="730" y1="368" y2="363"/>
+            <line clip-path="url(#clipPath30)" fill="none" text-rendering="optimizeLegibility" x1="730" x2="715" y1="363" y2="358"/>
+            <line clip-path="url(#clipPath28)" fill="none" text-rendering="optimizeLegibility" x1="360" x2="710" y1="224" y2="224" stroke-dasharray="5,5,5,5,5,5,5,5,5,5"/>
+            <text x="456" y="269" clip-path="url(#clipPath31)" text-rendering="optimizeLegibility" stroke-dasharray="5,5,5,5,5,5,5,5,5,5" stroke="none" xml:space="preserve">Display Controller Settings DC</text>
+            <line clip-path="url(#clipPath32)" fill="none" text-rendering="optimizeLegibility" x1="695" x2="710" y1="229" y2="224"/>
+            <line clip-path="url(#clipPath32)" fill="none" text-rendering="optimizeLegibility" x1="710" x2="695" y1="224" y2="219"/>
+            <line clip-path="url(#clipPath28)" fill="none" text-rendering="optimizeLegibility" x1="825" x2="825" y1="243" y2="343"/>
+            <text x="829" y="299" clip-path="url(#clipPath33)" text-rendering="optimizeLegibility" stroke="none" xml:space="preserve">Usage</text>
+            <line clip-path="url(#clipPath28)" fill="none" text-rendering="optimizeLegibility" x1="825" x2="824" y1="383" y2="523" stroke-dasharray="5,5,5,5,5,5,5,5,5,5"/>
+            <text x="658" y="459" clip-path="url(#clipPath34)" text-rendering="optimizeLegibility" stroke-dasharray="5,5,5,5,5,5,5,5,5,5" stroke="none" xml:space="preserve">Post processed Image, color alpha correction etc</text>
+            <line clip-path="url(#clipPath35)" fill="none" text-rendering="optimizeLegibility" x1="819" x2="824" y1="508" y2="523"/>
+            <line clip-path="url(#clipPath35)" fill="none" text-rendering="optimizeLegibility" x1="824" x2="829" y1="523" y2="508"/>
+            <line clip-path="url(#clipPath28)" fill="none" text-rendering="optimizeLegibility" x1="824" x2="824" y1="563" y2="654" stroke-dasharray="5,5,5,5,5,5,5,5,5,5"/>
+            <text x="643" y="614" clip-path="url(#clipPath36)" text-rendering="optimizeLegibility" stroke-dasharray="5,5,5,5,5,5,5,5,5,5" stroke="none" xml:space="preserve">Post processed Image, color alpha correction etc (DC)</text>
+            <line clip-path="url(#clipPath37)" fill="none" text-rendering="optimizeLegibility" x1="819" x2="824" y1="639" y2="654"/>
+            <line clip-path="url(#clipPath37)" fill="none" text-rendering="optimizeLegibility" x1="824" x2="829" y1="654" y2="639"/>
+            <line clip-path="url(#clipPath28)" fill="none" text-rendering="optimizeLegibility" x1="360" x2="710" y1="224" y2="224" stroke-dasharray="5,5,5,5,5,5,5,5,5,5"/>
+            <text x="456" y="269" clip-path="url(#clipPath31)" text-rendering="optimizeLegibility" stroke-dasharray="5,5,5,5,5,5,5,5,5,5" stroke="none" xml:space="preserve">Display Controller Settings DC</text>
+            <line clip-path="url(#clipPath32)" fill="none" text-rendering="optimizeLegibility" x1="695" x2="710" y1="229" y2="224"/>
+            <line clip-path="url(#clipPath32)" fill="none" text-rendering="optimizeLegibility" x1="710" x2="695" y1="224" y2="219"/>
+            <line clip-path="url(#clipPath28)" fill="none" text-rendering="optimizeLegibility" x1="360" x2="390" y1="363" y2="363" stroke-dasharray="5,5,5,5,5,5,5,5,5,5"/>
+            <line clip-path="url(#clipPath28)" fill="none" text-rendering="optimizeLegibility" x1="390" x2="730" y1="363" y2="363" stroke-dasharray="5,5,5,5,5,5,5,5,5,5"/>
+            <text x="487" y="408" clip-path="url(#clipPath29)" text-rendering="optimizeLegibility" stroke-dasharray="5,5,5,5,5,5,5,5,5,5" stroke="none" xml:space="preserve">Plane Image data (DC)</text>
+            <line clip-path="url(#clipPath30)" fill="none" text-rendering="optimizeLegibility" x1="715" x2="730" y1="368" y2="363"/>
+            <line clip-path="url(#clipPath30)" fill="none" text-rendering="optimizeLegibility" x1="730" x2="715" y1="363" y2="358"/>
+            <line clip-path="url(#clipPath28)" fill="none" text-rendering="optimizeLegibility" x1="825" x2="824" y1="383" y2="523" stroke-dasharray="5,5,5,5,5,5,5,5,5,5"/>
+            <text x="658" y="459" clip-path="url(#clipPath34)" text-rendering="optimizeLegibility" stroke-dasharray="5,5,5,5,5,5,5,5,5,5" stroke="none" xml:space="preserve">Post processed Image, color alpha correction etc</text>
+            <line clip-path="url(#clipPath35)" fill="none" text-rendering="optimizeLegibility" x1="819" x2="824" y1="508" y2="523"/>
+            <line clip-path="url(#clipPath35)" fill="none" text-rendering="optimizeLegibility" x1="824" x2="829" y1="523" y2="508"/>
+            <line clip-path="url(#clipPath28)" fill="none" text-rendering="optimizeLegibility" x1="824" x2="824" y1="563" y2="654" stroke-dasharray="5,5,5,5,5,5,5,5,5,5"/>
+            <text x="643" y="614" clip-path="url(#clipPath36)" text-rendering="optimizeLegibility" stroke-dasharray="5,5,5,5,5,5,5,5,5,5" stroke="none" xml:space="preserve">Post processed Image, color alpha correction etc (DC)</text>
+            <line clip-path="url(#clipPath37)" fill="none" text-rendering="optimizeLegibility" x1="819" x2="824" y1="639" y2="654"/>
+            <line clip-path="url(#clipPath37)" fill="none" text-rendering="optimizeLegibility" x1="824" x2="829" y1="654" y2="639"/>
+            <line clip-path="url(#clipPath28)" fill="none" text-rendering="optimizeLegibility" x1="825" x2="825" y1="243" y2="343"/>
+            <text x="829" y="299" clip-path="url(#clipPath33)" text-rendering="optimizeLegibility" stroke="none" xml:space="preserve">Usage</text>
         </g>
     </g>
     <rect x="350" y="83" fill-opacity="0" width="841" id="Display Controller 60Hz (HW)" height="581" stroke-opacity="0"/>
-    <rect x="730" y="343" fill-opacity="0" width="226" id="plane Blending" height="40" stroke-opacity="0"/>
-    <rect x="710" y="203" fill-opacity="0" width="268" id="configuration Data" height="40" stroke-opacity="0"/>
-    <rect x="670" y="523" fill-opacity="0" width="286" id="hW Display Interface" height="40" stroke-opacity="0"/>
+    <rect x="730" y="343" fill-opacity="0" width="216" id="plane Blending" height="40" stroke-opacity="0"/>
+    <rect x="710" y="203" fill-opacity="0" width="258" id="configuration Data" height="40" stroke-opacity="0"/>
+    <rect x="670" y="523" fill-opacity="0" width="276" id="hW Display Interface" height="40" stroke-opacity="0"/>
     <rect x="340" y="220" fill-opacity="0" width="20" id="DisplayControllerConfigInterface" height="20" stroke-opacity="0"/>
     <rect x="340" y="353" fill-opacity="0" width="20" id="DisplayControllerPollingInterface" height="20" stroke-opacity="0"/>
     <rect x="817" y="654" fill-opacity="0" width="20" id="DisplayControllerImageOut" height="20" stroke-opacity="0"/>
