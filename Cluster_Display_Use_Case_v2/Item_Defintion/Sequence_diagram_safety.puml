@@ -1,0 +1,91 @@
+@startuml
+'skinparam wrapWidth 200
+participant "Telltale-requester" as TR #Aqua
+
+box "Cluster Controller"
+participant "Request handling"  as Request_handling order 5
+participant "QM Plane Rendering" as Rendering_QM order 10
+participant "Safety Plane Rendering" as Rendering_Safety order 13
+participant "Plane Storage" as Plane_storage order 15
+
+end box
+box "Merge Pipeline"
+'participant "Configuration Data" as Configuration_data order 35
+participant "Plane Blending" as Plane_blending order 35
+participant "HW Display Interface" as Display_Interface order 40
+end box
+
+box "Safety checking"
+participant "Image Decoding" as Decoding order 45
+participant "Telltale checking" as Telltale_checking order 50
+end box
+
+participant "Display" as Display order 55 #Aqua
+'participant "Backlight" as Backlight order 40
+participant "Watchdog" as WD order 60
+
+activate TR
+TR -> Request_handling : Telltale Request
+deactivate TR 
+
+activate Request_handling 
+Request_handling -> Rendering_QM : Telltale status to render
+activate Rendering_QM
+Request_handling -> Rendering_Safety : Telltale status to render
+activate Rendering_Safety 
+
+Rendering_QM -> Rendering_QM : Rendering
+Rendering_QM -> Plane_storage : Writing Frame
+activate Plane_storage
+
+Rendering_Safety -> Plane_storage : Writing Frame
+activate Plane_storage
+Plane_storage -> Rendering_Safety
+deactivate Plane_storage
+note right : concurrent writing to plane storage, need to discuss if that is an issue, and how to mitigate if it is.
+deactivate Rendering_Safety
+
+' Polling while frame is written
+Plane_blending --> Plane_storage : Polling Data
+note right: "Situation bad synchronization between writing from \n QM rendering, Safety rendering and Polling"
+activate Plane_storage
+activate Plane_blending
+Plane_storage --> Plane_blending
+deactivate Plane_storage
+Plane_storage --> Rendering_QM 
+deactivate Rendering_QM
+deactivate Plane_storage
+
+Plane_blending -> Plane_blending
+Plane_blending -> Display_Interface
+activate Display_Interface
+deactivate Plane_blending
+deactivate Plane_storage
+ 
+Display_Interface-> Display
+activate Display
+deactivate Display 
+Display_Interface -> Decoding
+deactivate Display_Interface
+activate Decoding
+activate Telltale_checking
+Request_handling -> Telltale_checking
+deactivate Request_handling 
+note right: Timing relevant between Request handling, Rendering and Data polling. \n Need to discuss how that happens, some frame counter for instance. \n Also dovetails with debouncing
+Decoding -> Telltale_checking
+deactivate Decoding
+' Telltale checking stuff
+alt Requested Telltale visible
+Telltale_checking -> WD : Pet
+activate WD
+deactivate WD
+else Requested Telltale not visible
+alt Debouncing 
+Telltale_checking -> WD : Pet
+activate WD
+deactivate WD
+else No more debouncing
+end
+end
+
+@enduml

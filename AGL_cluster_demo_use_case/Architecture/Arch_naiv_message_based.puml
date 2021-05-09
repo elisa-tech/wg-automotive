@@ -1,0 +1,8 @@
+@startuml
+[Watchdog]
+package "Linux"{
+[Safety signal source] -- [QT App] : periodically get Image   
+[Safety signal source] --> [Safety App] : Message
+[Safety App] -->[Watchdog] : Pet
+}
+@enduml

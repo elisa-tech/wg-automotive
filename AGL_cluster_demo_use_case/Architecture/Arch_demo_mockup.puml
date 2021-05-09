@@ -1,0 +1,10 @@
+@startuml
+[Watchdog]
+package "Linux"{
+[Safety signal source] --> [QT App] : Trigger corruption   
+[Safety signal source] .> [Safety App] : cyclic Message thumbs up/down
+[Safety App] ..>[Watchdog] : Pet
+[Safety App] -->[QT App] : Trigger Display of Warning Message
+}
+[Watchdog] --> [Backlight] : kill line
+@enduml

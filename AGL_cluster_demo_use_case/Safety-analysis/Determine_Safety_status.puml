@@ -1,0 +1,22 @@
+@startuml
+
+box "SOC"
+participant "HW, GPIO etc"    order 11
+participant "Kernel, drivers, etc"    order 12
+participant "Safety signal source"    order 20
+end box
+participant "External signal source"  order 10
+
+activate "External signal source" 
+"External signal source" -> "HW, GPIO etc": Periodic message
+"HW, GPIO etc" -> "Kernel, drivers, etc"
+"Kernel, drivers, etc" -> "Safety signal source"
+activate "Safety signal source"
+"Safety signal source" -> "Safety signal source": Check E2E
+Alt E2E pass 
+"Safety signal source" -> "Safety signal source": Decision logic
+ "Safety signal source" ->]: Send message to Safety App   
+else E2E miss 
+end
+
+@enduml

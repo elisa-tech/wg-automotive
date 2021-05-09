@@ -1,0 +1,21 @@
+' Functional perspective
+@startuml
+[Telltale Requester]
+[Request handling]
+[Image generation]
+[Image Display]
+[Telltale checking]
+[Telltale Requester] --> [Request handling]
+[Request handling] --> [Image generation]
+[Request handling] --> [Telltale checking]
+[Framebuffer] --> [Image Display]
+[Image generation] --> [Framebuffer]
+[Framebuffer] --> [Telltale checking]
+
+package "Linux"{
+[Safety signal source] .. [QT App] : periodically get Image   
+[Safety signal source] --> [Safety App] : Message
+[Safety App] ..>[Watchdog] : Pet
+}
+[Watchdog] --> [Backlight] : kill line
+@enduml
