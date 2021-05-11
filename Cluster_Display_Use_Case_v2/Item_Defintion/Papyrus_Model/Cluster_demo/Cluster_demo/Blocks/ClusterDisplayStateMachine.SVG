@@ -46,31 +46,31 @@
                 <path d="M59 59 L89 59 L89 76 L59 76 L59 59 Z"/>
             </clipPath>
             <clipPath clipPathUnits="userSpaceOnUse" id="clipPath7">
-                <path d="M277 90 C277 90 277 90 277 90 L257 90 C251.4771 90 247 94.4772 247 100 L247 100 L247 123 C247 128.5229 251.4772 133 257 133 L277 133 C282.5228 133 287 128.5228 287 123 L287 123 L287 100 C287 100 287 100 287 100 C287 94.4771 282.5228 90 277 90 Z"/>
+                <path d="M287 90 C287 90 287 90 287 90 L257 90 C251.4771 90 247 94.4772 247 100 L247 100 L247 123 C247 128.5229 251.4772 133 257 133 L287 133 C292.5228 133 297 128.5228 297 123 L297 123 L297 100 C297 100 297 100 297 100 C297 94.4771 292.5228 90 287 90 Z"/>
             </clipPath>
             <clipPath clipPathUnits="userSpaceOnUse" id="clipPath8">
-                <path d="M248 92 L289 92 L289 109 L248 109 L248 92 Z"/>
+                <path d="M253 92 L294 92 L294 109 L253 109 L253 92 Z"/>
             </clipPath>
             <clipPath clipPathUnits="userSpaceOnUse" id="clipPath9">
-                <path d="M246 89 L289 89 L289 135 L246 135 L246 89 Z"/>
+                <path d="M246 89 L299 89 L299 135 L246 135 L246 89 Z"/>
             </clipPath>
             <clipPath clipPathUnits="userSpaceOnUse" id="clipPath10">
-                <path d="M642.9999 140 C642.9999 140 642.9999 140 642.9999 140 L609.9999 140 C604.4771 140 599.9999 144.4772 599.9999 150 L600 150 L600 173 C600 178.5228 604.4771 183 610 183 C610 183 610 183 610 183 L610 183 L643 183 C648.5228 183 652.9999 178.5228 652.9999 173 L653 173 L652.9999 150 C652.9999 144.4772 648.5228 140 642.9999 140 Z"/>
+                <path d="M652.9999 140 C652.9999 140 652.9999 140 652.9999 140 L609.9999 140 C604.4771 140 599.9999 144.4772 599.9999 150 L600 150 L600 173 C600 178.5228 604.4771 183 610 183 C610 183 610 183 610 183 L610 183 L653 183 C658.5228 183 662.9999 178.5228 662.9999 173 L663 173 L662.9999 150 C662.9999 144.4772 658.5228 140 652.9999 140 Z"/>
             </clipPath>
             <clipPath clipPathUnits="userSpaceOnUse" id="clipPath11">
-                <path d="M601 142 L655 142 L655 159 L601 159 L601 142 Z"/>
+                <path d="M606 142 L660 142 L660 159 L606 159 L606 142 Z"/>
             </clipPath>
             <clipPath clipPathUnits="userSpaceOnUse" id="clipPath12">
-                <path d="M599 139 L655 139 L655 185 L599 185 L599 139 Z"/>
+                <path d="M599 139 L665 139 L665 185 L599 185 L599 139 Z"/>
             </clipPath>
             <clipPath clipPathUnits="userSpaceOnUse" id="clipPath13">
-                <path d="M270 360 C264.4771 360 260 364.4771 260 370 L260 393 C260 398.5228 264.4771 403 269.9999 403 C270 403 270 403 270 403 L270 403 L347 403 C352.5228 403 357 398.5228 357 393 L357 393 L357 370 C357 370 357 370 357 370 C357 364.4771 352.5229 360 347 360 C347 360 347 360 347 360 L270 360 L270 360 Z"/>
+                <path d="M270 360 C264.4771 360 260 364.4771 260 370 L260 393 C260 398.5228 264.4771 403 269.9999 403 C270 403 270 403 270 403 L270 403 L357 403 C362.5228 403 367 398.5228 367 393 L367 393 L367 370 C367 370 367 370 367 370 C367 364.4771 362.5229 360 357 360 C357 360 357 360 357 360 L270 360 L270 360 Z"/>
             </clipPath>
             <clipPath clipPathUnits="userSpaceOnUse" id="clipPath14">
-                <path d="M261 362 L359 362 L359 379 L261 379 L261 362 Z"/>
+                <path d="M266 362 L364 362 L364 379 L266 379 L266 362 Z"/>
             </clipPath>
             <clipPath clipPathUnits="userSpaceOnUse" id="clipPath15">
-                <path d="M259 359 L359 359 L359 405 L259 405 L259 359 Z"/>
+                <path d="M259 359 L369 359 L369 405 L259 405 L259 359 Z"/>
             </clipPath>
             <clipPath clipPathUnits="userSpaceOnUse" id="clipPath16">
                 <path d="M967 29 L982 29 L982 661 L967 661 L967 29 Z"/>
@@ -94,34 +94,34 @@
                 <path d="M-1 -1 L992 -1 L992 672 L-1 672 L-1 -1 Z"/>
             </clipPath>
             <clipPath clipPathUnits="userSpaceOnUse" id="clipPath23">
-                <path d="M599 372 L605 372 L605 389 L599 389 L599 372 Z"/>
+                <path d="M297 219 L303 219 L303 236 L297 236 L297 219 Z"/>
             </clipPath>
             <clipPath clipPathUnits="userSpaceOnUse" id="clipPath24">
-                <path d="M627 183 L640 183 L640 201 L627 201 L627 183 Z"/>
+                <path d="M314 344 L327 344 L327 362 L314 362 L314 344 Z"/>
             </clipPath>
             <clipPath clipPathUnits="userSpaceOnUse" id="clipPath25">
-                <path d="M290 219 L296 219 L296 236 L290 236 L290 219 Z"/>
+                <path d="M464 133 L470 133 L470 150 L464 150 L464 133 Z"/>
             </clipPath>
             <clipPath clipPathUnits="userSpaceOnUse" id="clipPath26">
-                <path d="M308 344 L321 344 L321 362 L308 362 L308 344 Z"/>
+                <path d="M584 154 L602 154 L602 167 L584 167 L584 154 Z"/>
             </clipPath>
             <clipPath clipPathUnits="userSpaceOnUse" id="clipPath27">
-                <path d="M160 88 L166 88 L166 105 L160 105 L160 88 Z"/>
+                <path d="M573 371 L579 371 L579 388 L573 388 L573 371 Z"/>
             </clipPath>
             <clipPath clipPathUnits="userSpaceOnUse" id="clipPath28">
-                <path d="M231 113 L249 113 L249 126 L231 126 L231 113 Z"/>
+                <path d="M357 354 L375 354 L375 367 L357 367 L357 354 Z"/>
             </clipPath>
             <clipPath clipPathUnits="userSpaceOnUse" id="clipPath29">
-                <path d="M566 371 L572 371 L572 388 L566 388 L566 371 Z"/>
+                <path d="M608 372 L614 372 L614 389 L608 389 L608 372 Z"/>
             </clipPath>
             <clipPath clipPathUnits="userSpaceOnUse" id="clipPath30">
-                <path d="M347 354 L365 354 L365 367 L347 367 L347 354 Z"/>
+                <path d="M634 183 L647 183 L647 201 L634 201 L634 183 Z"/>
             </clipPath>
             <clipPath clipPathUnits="userSpaceOnUse" id="clipPath31">
-                <path d="M459 133 L465 133 L465 150 L459 150 L459 133 Z"/>
+                <path d="M160 88 L166 88 L166 105 L160 105 L160 88 Z"/>
             </clipPath>
             <clipPath clipPathUnits="userSpaceOnUse" id="clipPath32">
-                <path d="M584 154 L602 154 L602 167 L584 167 L584 154 Z"/>
+                <path d="M231 113 L249 113 L249 126 L231 126 L231 113 Z"/>
             </clipPath>
         </defs>
         <g fill="url(#linearGradient1)" font-family="'Segoe UI'" stroke-linejoin="round" stroke="url(#linearGradient1)" stroke-width="0" stroke-miterlimit="0">
@@ -131,17 +131,17 @@
             <rect x="60" y="100" clip-path="url(#clipPath4)" fill="url(#linearGradient3)" width="20" opacity="0" height="20" stroke="none"/>
             <image stroke="black" width="20" xlink:show="embed" xlink:type="simple" fill="black" clip-path="url(#clipPath5)" preserveAspectRatio="none" height="20" x="60" y="100" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAABe0lEQVR42q2UL2zC&#13;&#10;QBTGv2MTSCSOSiQSx59kJIOFIUjIMDRhCR1uCCZbDHPMMT2YWWfAgUMiEIgKZCUC&#13;&#10;gUQAt7tlLWO0dKWcanp5v7z7vu89sqVbnPNc2l2MRiOqfqiYzWYYj8cIBoMQBAGx&#13;&#10;WAwlscS/iVUd+dshA9DaYw2DweBoJ5IkofncRCAQ2ANfyIq811XqKgVN0xyfNplM&#13;&#10;0O/3kbnJKAzaMP77fneWvk5juVz+Wy8uRzKRxHw+pwfA4l0Rq9XKtQm6rqP6UMUe&#13;&#10;sNfr0el0erKzrB6snprAzlvHc1x4IkwgM8Mz0EiFj5lA3RhxTEsDeJYJMQz12SXe&#13;&#10;7eGTZGoYDoc9A+Px+A5YKBQ8A7O32R2wIlX4TJ4Mi0QiyOVyxASy95PWS+skmN/v&#13;&#10;R/u1jYPRE0WRyLLsGshh0WiUWG4bJmwjJISU4XCI9Xrt6Kr6qSKfz9uvrx89GuX7&#13;&#10;srLZbL43z2KxONCr/lRH973L00EcF6zVMQafwRwz+wVLMZekyDRHZgAAAABJRU5E&#13;&#10;rkJggg==" xlink:actuate="onLoad"/>
             <text x="60" y="73" clip-path="url(#clipPath6)" fill="black" stroke="none" xml:space="preserve"> Start</text>
-            <rect x="247" y="90" clip-path="url(#clipPath7)" fill="url(#linearGradient4)" width="41" height="44" stroke="none"/>
-            <text x="249" y="106" clip-path="url(#clipPath8)" fill="black" stroke="none" xml:space="preserve">Startup</text>
+            <rect x="247" y="90" clip-path="url(#clipPath7)" fill="url(#linearGradient4)" width="51" height="44" stroke="none"/>
+            <text x="254" y="106" clip-path="url(#clipPath8)" fill="black" stroke="none" xml:space="preserve">Startup</text>
         </g>
         <g stroke-width="1.1" font-family="'Segoe UI'" stroke-linecap="butt">
-            <rect x="247" y="90" clip-path="url(#clipPath9)" fill="none" width="40" rx="10" ry="10" height="43"/>
-            <rect x="600" y="140" clip-path="url(#clipPath10)" fill="url(#linearGradient5)" width="54" height="44" stroke="none"/>
-            <text xml:space="preserve" x="602" y="156" clip-path="url(#clipPath11)" stroke="none">Safe State</text>
-            <rect x="600" y="140" clip-path="url(#clipPath12)" fill="none" width="53" rx="10" ry="10" height="43"/>
-            <rect x="260" y="360" clip-path="url(#clipPath13)" fill="url(#linearGradient6)" width="98" height="44" stroke="none"/>
-            <text xml:space="preserve" x="262" y="376" clip-path="url(#clipPath14)" stroke="none">Normal Operation</text>
-            <rect x="260" y="360" clip-path="url(#clipPath15)" fill="none" width="97" rx="10" ry="10" height="43"/>
+            <rect x="247" y="90" clip-path="url(#clipPath9)" fill="none" width="50" rx="10" ry="10" height="43"/>
+            <rect x="600" y="140" clip-path="url(#clipPath10)" fill="url(#linearGradient5)" width="64" height="44" stroke="none"/>
+            <text xml:space="preserve" x="607" y="156" clip-path="url(#clipPath11)" stroke="none">Safe State</text>
+            <rect x="600" y="140" clip-path="url(#clipPath12)" fill="none" width="63" rx="10" ry="10" height="43"/>
+            <rect x="260" y="360" clip-path="url(#clipPath13)" fill="url(#linearGradient6)" width="108" height="44" stroke="none"/>
+            <text xml:space="preserve" x="267" y="376" clip-path="url(#clipPath14)" stroke="none">Normal Operation</text>
+            <rect x="260" y="360" clip-path="url(#clipPath15)" fill="none" width="107" rx="10" ry="10" height="43"/>
             <rect x="968" y="30" clip-path="url(#clipPath16)" fill="white" width="14" height="630" stroke="none"/>
             <rect x="970" y="30" clip-path="url(#clipPath17)" fill="white" width="12" opacity="0.5098" height="12" stroke="none"/>
             <rect x="970" y="30" clip-path="url(#clipPath17)" fill="none" width="12" opacity="0.5098" height="12" stroke="rgb(185,185,185)" stroke-width="26.1"/>
@@ -155,64 +155,64 @@
             <rect x="970" y="42" clip-path="url(#clipPath19)" fill="none" width="12" opacity="0.5098" height="605" stroke="rgb(185,185,185)" stroke-width="26.1"/>
             <line clip-path="url(#clipPath20)" fill="none" x1="11" x2="982" y1="29" y2="29"/>
             <rect x="10" y="10" clip-path="url(#clipPath21)" fill="none" width="970" rx="10" ry="10" height="650"/>
-            <line clip-path="url(#clipPath22)" fill="none" text-rendering="optimizeLegibility" x1="356" x2="633" y1="400" y2="400"/>
-            <line clip-path="url(#clipPath22)" fill="none" text-rendering="optimizeLegibility" x1="633" x2="633" y1="400" y2="184"/>
-            <text x="600" y="386" clip-path="url(#clipPath23)" text-rendering="optimizeLegibility" stroke="none" xml:space="preserve"> </text>
-            <line clip-path="url(#clipPath24)" fill="none" text-rendering="optimizeLegibility" x1="638" x2="633" y1="199" y2="184"/>
-            <line clip-path="url(#clipPath24)" fill="none" text-rendering="optimizeLegibility" x1="633" x2="628" y1="184" y2="199"/>
-            <line clip-path="url(#clipPath22)" fill="none" text-rendering="optimizeLegibility" x1="273" x2="273" y1="134" y2="247"/>
-            <line clip-path="url(#clipPath22)" fill="none" text-rendering="optimizeLegibility" x1="273" x2="314" y1="247" y2="247"/>
-            <line clip-path="url(#clipPath22)" fill="none" text-rendering="optimizeLegibility" x1="314" x2="314" y1="247" y2="360"/>
-            <text x="291" y="233" clip-path="url(#clipPath25)" text-rendering="optimizeLegibility" stroke="none" xml:space="preserve"> </text>
-            <line clip-path="url(#clipPath26)" fill="none" text-rendering="optimizeLegibility" x1="309" x2="314" y1="345" y2="360"/>
-            <line clip-path="url(#clipPath26)" fill="none" text-rendering="optimizeLegibility" x1="314" x2="319" y1="360" y2="345"/>
+            <line clip-path="url(#clipPath22)" fill="none" text-rendering="optimizeLegibility" x1="280" x2="280" y1="134" y2="247"/>
+            <line clip-path="url(#clipPath22)" fill="none" text-rendering="optimizeLegibility" x1="280" x2="320" y1="247" y2="247"/>
+            <line clip-path="url(#clipPath22)" fill="none" text-rendering="optimizeLegibility" x1="320" x2="320" y1="247" y2="360"/>
+            <text x="298" y="233" clip-path="url(#clipPath23)" text-rendering="optimizeLegibility" stroke="none" xml:space="preserve"> </text>
+            <line clip-path="url(#clipPath24)" fill="none" text-rendering="optimizeLegibility" x1="315" x2="320" y1="345" y2="360"/>
+            <line clip-path="url(#clipPath24)" fill="none" text-rendering="optimizeLegibility" x1="320" x2="325" y1="360" y2="345"/>
+            <line clip-path="url(#clipPath22)" fill="none" text-rendering="optimizeLegibility" x1="298" x2="449" y1="120" y2="120"/>
+            <line clip-path="url(#clipPath22)" fill="none" text-rendering="optimizeLegibility" x1="449" x2="449" y1="120" y2="160"/>
+            <line clip-path="url(#clipPath22)" fill="none" text-rendering="optimizeLegibility" x1="449" x2="600" y1="160" y2="160"/>
+            <text x="465" y="147" clip-path="url(#clipPath25)" text-rendering="optimizeLegibility" stroke="none" xml:space="preserve"> </text>
+            <line clip-path="url(#clipPath26)" fill="none" text-rendering="optimizeLegibility" x1="585" x2="600" y1="165" y2="160"/>
+            <line clip-path="url(#clipPath26)" fill="none" text-rendering="optimizeLegibility" x1="600" x2="585" y1="160" y2="155"/>
+            <line clip-path="url(#clipPath22)" fill="none" text-rendering="optimizeLegibility" x1="620" x2="620" y1="184" y2="360"/>
+            <line clip-path="url(#clipPath22)" fill="none" text-rendering="optimizeLegibility" x1="620" x2="358" y1="360" y2="360"/>
+            <text x="574" y="385" clip-path="url(#clipPath27)" text-rendering="optimizeLegibility" stroke="none" xml:space="preserve"> </text>
+            <line clip-path="url(#clipPath28)" fill="none" text-rendering="optimizeLegibility" x1="373" x2="358" y1="355" y2="360"/>
+            <line clip-path="url(#clipPath28)" fill="none" text-rendering="optimizeLegibility" x1="358" x2="373" y1="360" y2="365"/>
+            <line clip-path="url(#clipPath22)" fill="none" text-rendering="optimizeLegibility" x1="366" x2="640" y1="400" y2="400"/>
+            <line clip-path="url(#clipPath22)" fill="none" text-rendering="optimizeLegibility" x1="640" x2="640" y1="400" y2="184"/>
+            <text x="609" y="386" clip-path="url(#clipPath29)" text-rendering="optimizeLegibility" stroke="none" xml:space="preserve"> </text>
+            <line clip-path="url(#clipPath30)" fill="none" text-rendering="optimizeLegibility" x1="645" x2="640" y1="199" y2="184"/>
+            <line clip-path="url(#clipPath30)" fill="none" text-rendering="optimizeLegibility" x1="640" x2="635" y1="184" y2="199"/>
             <line clip-path="url(#clipPath22)" fill="none" text-rendering="optimizeLegibility" x1="78" x2="247" y1="110" y2="120"/>
-            <text x="161" y="102" clip-path="url(#clipPath27)" text-rendering="optimizeLegibility" stroke="none" xml:space="preserve"> </text>
-            <line clip-path="url(#clipPath28)" fill="none" text-rendering="optimizeLegibility" x1="232" x2="247" y1="124" y2="120"/>
-            <line clip-path="url(#clipPath28)" fill="none" text-rendering="optimizeLegibility" x1="247" x2="232" y1="120" y2="114"/>
-            <line clip-path="url(#clipPath22)" fill="none" text-rendering="optimizeLegibility" x1="616" x2="616" y1="184" y2="360"/>
-            <line clip-path="url(#clipPath22)" fill="none" text-rendering="optimizeLegibility" x1="616" x2="348" y1="360" y2="360"/>
-            <text x="567" y="385" clip-path="url(#clipPath29)" text-rendering="optimizeLegibility" stroke="none" xml:space="preserve"> </text>
-            <line clip-path="url(#clipPath30)" fill="none" text-rendering="optimizeLegibility" x1="363" x2="348" y1="355" y2="360"/>
-            <line clip-path="url(#clipPath30)" fill="none" text-rendering="optimizeLegibility" x1="348" x2="363" y1="360" y2="365"/>
-            <line clip-path="url(#clipPath22)" fill="none" text-rendering="optimizeLegibility" x1="288" x2="444" y1="120" y2="120"/>
-            <line clip-path="url(#clipPath22)" fill="none" text-rendering="optimizeLegibility" x1="444" x2="444" y1="120" y2="160"/>
-            <line clip-path="url(#clipPath22)" fill="none" text-rendering="optimizeLegibility" x1="444" x2="600" y1="160" y2="160"/>
-            <text x="460" y="147" clip-path="url(#clipPath31)" text-rendering="optimizeLegibility" stroke="none" xml:space="preserve"> </text>
-            <line clip-path="url(#clipPath32)" fill="none" text-rendering="optimizeLegibility" x1="585" x2="600" y1="165" y2="160"/>
-            <line clip-path="url(#clipPath32)" fill="none" text-rendering="optimizeLegibility" x1="600" x2="585" y1="160" y2="155"/>
+            <text x="161" y="102" clip-path="url(#clipPath31)" text-rendering="optimizeLegibility" stroke="none" xml:space="preserve"> </text>
+            <line clip-path="url(#clipPath32)" fill="none" text-rendering="optimizeLegibility" x1="232" x2="247" y1="124" y2="120"/>
+            <line clip-path="url(#clipPath32)" fill="none" text-rendering="optimizeLegibility" x1="247" x2="232" y1="120" y2="114"/>
             <line clip-path="url(#clipPath22)" fill="none" text-rendering="optimizeLegibility" x1="78" x2="247" y1="110" y2="120"/>
-            <text x="161" y="102" clip-path="url(#clipPath27)" text-rendering="optimizeLegibility" stroke="none" xml:space="preserve"> </text>
-            <line clip-path="url(#clipPath28)" fill="none" text-rendering="optimizeLegibility" x1="232" x2="247" y1="124" y2="120"/>
-            <line clip-path="url(#clipPath28)" fill="none" text-rendering="optimizeLegibility" x1="247" x2="232" y1="120" y2="114"/>
-            <line clip-path="url(#clipPath22)" fill="none" text-rendering="optimizeLegibility" x1="273" x2="273" y1="134" y2="247"/>
-            <line clip-path="url(#clipPath22)" fill="none" text-rendering="optimizeLegibility" x1="273" x2="314" y1="247" y2="247"/>
-            <line clip-path="url(#clipPath22)" fill="none" text-rendering="optimizeLegibility" x1="314" x2="314" y1="247" y2="360"/>
-            <text x="291" y="233" clip-path="url(#clipPath25)" text-rendering="optimizeLegibility" stroke="none" xml:space="preserve"> </text>
-            <line clip-path="url(#clipPath26)" fill="none" text-rendering="optimizeLegibility" x1="309" x2="314" y1="345" y2="360"/>
-            <line clip-path="url(#clipPath26)" fill="none" text-rendering="optimizeLegibility" x1="314" x2="319" y1="360" y2="345"/>
-            <line clip-path="url(#clipPath22)" fill="none" text-rendering="optimizeLegibility" x1="288" x2="444" y1="120" y2="120"/>
-            <line clip-path="url(#clipPath22)" fill="none" text-rendering="optimizeLegibility" x1="444" x2="444" y1="120" y2="160"/>
-            <line clip-path="url(#clipPath22)" fill="none" text-rendering="optimizeLegibility" x1="444" x2="600" y1="160" y2="160"/>
-            <text x="460" y="147" clip-path="url(#clipPath31)" text-rendering="optimizeLegibility" stroke="none" xml:space="preserve"> </text>
-            <line clip-path="url(#clipPath32)" fill="none" text-rendering="optimizeLegibility" x1="585" x2="600" y1="165" y2="160"/>
-            <line clip-path="url(#clipPath32)" fill="none" text-rendering="optimizeLegibility" x1="600" x2="585" y1="160" y2="155"/>
-            <line clip-path="url(#clipPath22)" fill="none" text-rendering="optimizeLegibility" x1="356" x2="633" y1="400" y2="400"/>
-            <line clip-path="url(#clipPath22)" fill="none" text-rendering="optimizeLegibility" x1="633" x2="633" y1="400" y2="184"/>
-            <text x="600" y="386" clip-path="url(#clipPath23)" text-rendering="optimizeLegibility" stroke="none" xml:space="preserve"> </text>
-            <line clip-path="url(#clipPath24)" fill="none" text-rendering="optimizeLegibility" x1="638" x2="633" y1="199" y2="184"/>
-            <line clip-path="url(#clipPath24)" fill="none" text-rendering="optimizeLegibility" x1="633" x2="628" y1="184" y2="199"/>
-            <line clip-path="url(#clipPath22)" fill="none" text-rendering="optimizeLegibility" x1="616" x2="616" y1="184" y2="360"/>
-            <line clip-path="url(#clipPath22)" fill="none" text-rendering="optimizeLegibility" x1="616" x2="348" y1="360" y2="360"/>
-            <text x="567" y="385" clip-path="url(#clipPath29)" text-rendering="optimizeLegibility" stroke="none" xml:space="preserve"> </text>
-            <line clip-path="url(#clipPath30)" fill="none" text-rendering="optimizeLegibility" x1="363" x2="348" y1="355" y2="360"/>
-            <line clip-path="url(#clipPath30)" fill="none" text-rendering="optimizeLegibility" x1="348" x2="363" y1="360" y2="365"/>
+            <text x="161" y="102" clip-path="url(#clipPath31)" text-rendering="optimizeLegibility" stroke="none" xml:space="preserve"> </text>
+            <line clip-path="url(#clipPath32)" fill="none" text-rendering="optimizeLegibility" x1="232" x2="247" y1="124" y2="120"/>
+            <line clip-path="url(#clipPath32)" fill="none" text-rendering="optimizeLegibility" x1="247" x2="232" y1="120" y2="114"/>
+            <line clip-path="url(#clipPath22)" fill="none" text-rendering="optimizeLegibility" x1="280" x2="280" y1="134" y2="247"/>
+            <line clip-path="url(#clipPath22)" fill="none" text-rendering="optimizeLegibility" x1="280" x2="320" y1="247" y2="247"/>
+            <line clip-path="url(#clipPath22)" fill="none" text-rendering="optimizeLegibility" x1="320" x2="320" y1="247" y2="360"/>
+            <text x="298" y="233" clip-path="url(#clipPath23)" text-rendering="optimizeLegibility" stroke="none" xml:space="preserve"> </text>
+            <line clip-path="url(#clipPath24)" fill="none" text-rendering="optimizeLegibility" x1="315" x2="320" y1="345" y2="360"/>
+            <line clip-path="url(#clipPath24)" fill="none" text-rendering="optimizeLegibility" x1="320" x2="325" y1="360" y2="345"/>
+            <line clip-path="url(#clipPath22)" fill="none" text-rendering="optimizeLegibility" x1="298" x2="449" y1="120" y2="120"/>
+            <line clip-path="url(#clipPath22)" fill="none" text-rendering="optimizeLegibility" x1="449" x2="449" y1="120" y2="160"/>
+            <line clip-path="url(#clipPath22)" fill="none" text-rendering="optimizeLegibility" x1="449" x2="600" y1="160" y2="160"/>
+            <text x="465" y="147" clip-path="url(#clipPath25)" text-rendering="optimizeLegibility" stroke="none" xml:space="preserve"> </text>
+            <line clip-path="url(#clipPath26)" fill="none" text-rendering="optimizeLegibility" x1="585" x2="600" y1="165" y2="160"/>
+            <line clip-path="url(#clipPath26)" fill="none" text-rendering="optimizeLegibility" x1="600" x2="585" y1="160" y2="155"/>
+            <line clip-path="url(#clipPath22)" fill="none" text-rendering="optimizeLegibility" x1="366" x2="640" y1="400" y2="400"/>
+            <line clip-path="url(#clipPath22)" fill="none" text-rendering="optimizeLegibility" x1="640" x2="640" y1="400" y2="184"/>
+            <text x="609" y="386" clip-path="url(#clipPath29)" text-rendering="optimizeLegibility" stroke="none" xml:space="preserve"> </text>
+            <line clip-path="url(#clipPath30)" fill="none" text-rendering="optimizeLegibility" x1="645" x2="640" y1="199" y2="184"/>
+            <line clip-path="url(#clipPath30)" fill="none" text-rendering="optimizeLegibility" x1="640" x2="635" y1="184" y2="199"/>
+            <line clip-path="url(#clipPath22)" fill="none" text-rendering="optimizeLegibility" x1="620" x2="620" y1="184" y2="360"/>
+            <line clip-path="url(#clipPath22)" fill="none" text-rendering="optimizeLegibility" x1="620" x2="358" y1="360" y2="360"/>
+            <text x="574" y="385" clip-path="url(#clipPath27)" text-rendering="optimizeLegibility" stroke="none" xml:space="preserve"> </text>
+            <line clip-path="url(#clipPath28)" fill="none" text-rendering="optimizeLegibility" x1="373" x2="358" y1="355" y2="360"/>
+            <line clip-path="url(#clipPath28)" fill="none" text-rendering="optimizeLegibility" x1="358" x2="373" y1="360" y2="365"/>
         </g>
     </g>
     <rect x="10" y="10" fill-opacity="0" width="971" id="Cluster Display State machine" height="651" stroke-opacity="0"/>
     <rect x="11" y="30" fill-opacity="0" width="971" id="Region1" height="631" stroke-opacity="0"/>
     <rect x="60" y="100" fill-opacity="0" width="20" id="Start" height="20" stroke-opacity="0"/>
-    <rect x="247" y="90" fill-opacity="0" width="41" id="Startup" height="44" stroke-opacity="0"/>
-    <rect x="600" y="140" fill-opacity="0" width="54" id="Safe State" height="44" stroke-opacity="0"/>
-    <rect x="260" y="360" fill-opacity="0" width="98" id="Normal Operation" height="44" stroke-opacity="0"/>
+    <rect x="247" y="90" fill-opacity="0" width="51" id="Startup" height="44" stroke-opacity="0"/>
+    <rect x="600" y="140" fill-opacity="0" width="64" id="Safe State" height="44" stroke-opacity="0"/>
+    <rect x="260" y="360" fill-opacity="0" width="108" id="Normal Operation" height="44" stroke-opacity="0"/>
 </svg>

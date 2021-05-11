@@ -400,28 +400,28 @@
                 <path d="M1673 9 L1836 9 L1836 72 L1673 72 L1673 9 Z"/>
             </clipPath>
             <clipPath clipPathUnits="userSpaceOnUse" id="clipPath97">
-                <path d="M774 710 L774 812 L1005 812 L1005 710 Z"/>
+                <path d="M774 710 L774 812 L1015 812 L1015 710 Z"/>
             </clipPath>
             <clipPath clipPathUnits="userSpaceOnUse" id="clipPath98">
-                <path d="M855 712 L926 712 L926 729 L855 729 L855 712 Z"/>
+                <path d="M860 712 L931 712 L931 729 L860 729 L860 712 Z"/>
             </clipPath>
             <clipPath clipPathUnits="userSpaceOnUse" id="clipPath99">
-                <path d="M775 728 L1007 728 L1007 745 L775 745 L775 728 Z"/>
+                <path d="M779 728 L1011 728 L1011 745 L779 745 L779 728 Z"/>
             </clipPath>
             <clipPath clipPathUnits="userSpaceOnUse" id="clipPath100">
-                <path d="M779 746 L1003 746 L1003 764 L779 764 L779 746 Z"/>
+                <path d="M779 746 L1013 746 L1013 764 L779 764 L779 746 Z"/>
             </clipPath>
             <clipPath clipPathUnits="userSpaceOnUse" id="clipPath101">
                 <path d="M798 746 L943 746 L943 763 L798 763 L798 746 Z"/>
             </clipPath>
             <clipPath clipPathUnits="userSpaceOnUse" id="clipPath102">
-                <path d="M774 744 L1007 744 L1007 784 L774 784 L774 744 Z"/>
+                <path d="M774 744 L1017 744 L1017 784 L774 784 L774 744 Z"/>
             </clipPath>
             <clipPath clipPathUnits="userSpaceOnUse" id="clipPath103">
-                <path d="M774 783 L1007 783 L1007 814 L774 814 L774 783 Z"/>
+                <path d="M774 783 L1017 783 L1017 814 L774 814 L774 783 Z"/>
             </clipPath>
             <clipPath clipPathUnits="userSpaceOnUse" id="clipPath104">
-                <path d="M773 709 L1007 709 L1007 814 L773 814 L773 709 Z"/>
+                <path d="M773 709 L1017 709 L1017 814 L773 814 L773 709 Z"/>
             </clipPath>
             <clipPath clipPathUnits="userSpaceOnUse" id="clipPath105">
                 <path d="M774 550 L774 610 L1014 610 L1014 550 Z"/>
@@ -436,40 +436,40 @@
                 <path d="M773 549 L1016 549 L1016 612 L773 612 L773 549 Z"/>
             </clipPath>
             <clipPath clipPathUnits="userSpaceOnUse" id="clipPath109">
-                <path d="M614 110 L614 209 L746 209 L746 110 Z"/>
+                <path d="M614 110 L614 209 L756 209 L756 110 Z"/>
             </clipPath>
             <clipPath clipPathUnits="userSpaceOnUse" id="clipPath110">
-                <path d="M640 112 L723 112 L723 129 L640 129 L640 112 Z"/>
+                <path d="M645 112 L728 112 L728 129 L645 129 L645 112 Z"/>
             </clipPath>
             <clipPath clipPathUnits="userSpaceOnUse" id="clipPath111">
-                <path d="M614 128 L748 128 L748 146 L614 146 L614 128 Z"/>
+                <path d="M614 128 L758 128 L758 146 L614 146 L614 128 Z"/>
             </clipPath>
             <clipPath clipPathUnits="userSpaceOnUse" id="clipPath112">
-                <path d="M634 128 L748 128 L748 145 L634 145 L634 128 Z"/>
+                <path d="M638 128 L752 128 L752 145 L638 145 L638 128 Z"/>
             </clipPath>
             <clipPath clipPathUnits="userSpaceOnUse" id="clipPath113">
-                <path d="M619 147 L744 147 L744 165 L619 165 L619 147 Z"/>
+                <path d="M619 147 L754 147 L754 165 L619 165 L619 147 Z"/>
             </clipPath>
             <clipPath clipPathUnits="userSpaceOnUse" id="clipPath114">
                 <path d="M638 147 L688 147 L688 164 L638 164 L638 147 Z"/>
             </clipPath>
             <clipPath clipPathUnits="userSpaceOnUse" id="clipPath115">
-                <path d="M619 163 L744 163 L744 181 L619 181 L619 163 Z"/>
+                <path d="M619 163 L754 163 L754 181 L619 181 L619 163 Z"/>
             </clipPath>
             <clipPath clipPathUnits="userSpaceOnUse" id="clipPath116">
                 <path d="M638 163 L735 163 L735 180 L638 180 L638 163 Z"/>
             </clipPath>
             <clipPath clipPathUnits="userSpaceOnUse" id="clipPath117">
-                <path d="M619 179 L744 179 L744 197 L619 197 L619 179 Z"/>
+                <path d="M619 179 L754 179 L754 197 L619 197 L619 179 Z"/>
             </clipPath>
             <clipPath clipPathUnits="userSpaceOnUse" id="clipPath118">
                 <path d="M638 179 L685 179 L685 196 L638 196 L638 179 Z"/>
             </clipPath>
             <clipPath clipPathUnits="userSpaceOnUse" id="clipPath119">
-                <path d="M614 145 L748 145 L748 211 L614 211 L614 145 Z"/>
+                <path d="M614 145 L758 145 L758 211 L614 211 L614 145 Z"/>
             </clipPath>
             <clipPath clipPathUnits="userSpaceOnUse" id="clipPath120">
-                <path d="M613 109 L748 109 L748 211 L613 211 L613 109 Z"/>
+                <path d="M613 109 L758 109 L758 211 L613 211 L613 109 Z"/>
             </clipPath>
             <clipPath clipPathUnits="userSpaceOnUse" id="clipPath121">
                 <path d="M934 110 L934 209 L1074 209 L1074 110 Z"/>
@@ -820,30 +820,30 @@
             <text xml:space="preserve" x="1723" y="38" clip-path="url(#clipPath94)" stroke="none">«Metaclass»</text>
             <text xml:space="preserve" x="1737" y="54" clip-path="url(#clipPath95)" stroke="none">Trigger</text>
             <rect x="1674" y="10" clip-path="url(#clipPath96)" fill="none" width="160" rx="0" ry="0" height="60"/>
-            <rect x="774" y="710" clip-path="url(#clipPath97)" fill="url(#linearGradient19)" width="232" height="103" stroke="none"/>
-            <text xml:space="preserve" x="856" y="726" clip-path="url(#clipPath98)" stroke="none">«Stereotype»</text>
-            <text xml:space="preserve" x="776" y="742" clip-path="url(#clipPath99)" stroke="none">AddFlowPropertyValueOnNestedPortAction</text>
+            <rect x="774" y="710" clip-path="url(#clipPath97)" fill="url(#linearGradient19)" width="242" height="103" stroke="none"/>
+            <text xml:space="preserve" x="861" y="726" clip-path="url(#clipPath98)" stroke="none">«Stereotype»</text>
+            <text xml:space="preserve" x="780" y="742" clip-path="url(#clipPath99)" stroke="none">AddFlowPropertyValueOnNestedPortAction</text>
             <image x="780" y="747" clip-path="url(#clipPath100)" width="16" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAA00lEQVR42mNgGAWM&#13;&#10;ICJr1qH/pGqclmYH1ssCIn7/+ccwI8OeaM0ZMw/C2WADfgIN+At0Q8rUfRDR/zC3&#13;&#10;obGBYE62E8Ov339RDfjx6w/DHyjdne2G0+aSqbsZ/gAN/I5uwPefQAP+gWiIhCAL&#13;&#10;Ugj9R9Bgi/5D1KMY8A0o8Qso8e03ROL3f4g+EMEI88Z/hDoMA77/+gvW9P3HH4bI&#13;&#10;pvXYowtkKNC0P1CDUA0A2gwKxJUNgWCFyIGGHJAg6g/YK2hhAApVt/KVCOcyoIUB&#13;&#10;SqpBExv6AAAA13L8DwBmYwAAAABJRU5ErkJggg==" xlink:type="simple" xlink:actuate="onLoad" height="16" preserveAspectRatio="none" xlink:show="embed"/>
             <text xml:space="preserve" x="799" y="760" clip-path="url(#clipPath101)" stroke="none"> + onNestedPort: Port [1..*]</text>
-            <line clip-path="url(#clipPath102)" fill="none" x1="774" x2="1006" y1="745" y2="745"/>
-            <line clip-path="url(#clipPath103)" fill="none" x1="774" x2="1006" y1="784" y2="784"/>
-            <rect x="774" y="710" clip-path="url(#clipPath104)" fill="none" width="231" rx="0" ry="0" height="102"/>
+            <line clip-path="url(#clipPath102)" fill="none" x1="774" x2="1016" y1="745" y2="745"/>
+            <line clip-path="url(#clipPath103)" fill="none" x1="774" x2="1016" y1="784" y2="784"/>
+            <rect x="774" y="710" clip-path="url(#clipPath104)" fill="none" width="241" rx="0" ry="0" height="102"/>
             <rect x="774" y="550" clip-path="url(#clipPath105)" fill="url(#linearGradient20)" width="241" height="61" stroke="none"/>
             <text xml:space="preserve" x="863" y="578" clip-path="url(#clipPath106)" stroke="none">«Metaclass»</text>
             <text xml:space="preserve" x="808" y="594" clip-path="url(#clipPath107)" stroke="none">AddStructuralFeatureValueAction</text>
             <rect x="774" y="550" clip-path="url(#clipPath108)" fill="none" width="240" rx="0" ry="0" height="60"/>
-            <rect x="614" y="110" clip-path="url(#clipPath109)" fill="url(#linearGradient21)" width="133" height="100" stroke="none"/>
-            <text xml:space="preserve" x="641" y="126" clip-path="url(#clipPath110)" stroke="none">«Enumeration»</text>
-            <image x="616" y="129" clip-path="url(#clipPath111)" width="16" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABTUlEQVR42mNgGGjA&#13;&#10;CCIKFhz5/+DJJyj3PxAyQiQYkdggmf8IjYoyvAwTEmwYWUCc+48/MUxMswNrBhnC&#13;&#10;CNUB4QEN+c8INhtoHlSMgSF31kGwGrAB//7+Y+BgYwZrOXHjMYOFuhyDk2cBilP3&#13;&#10;7uhnOAmS05CFGPHvP8IAMIOZieHI1QcMdc1rGPatKAaLHdo9EcWvILmm2hAGG20F&#13;&#10;uDgTjMHKzAhWcHh1KZANEbZzzYdjkAUgOZAaFmZGuAFILmAEm24b2s1wfF0ZWOz0&#13;&#10;oakoIWcZ1AVWA7MAYQBQEcgGTxMVBgagAhaoAlO7bLjC80emgTWD1IDs/4ccBv//&#13;&#10;/2NgZmICe9THTBWs4NKxGZAYgMQsWMzXTA0eFf//owWif8NGaKQhSFhUIgckJGUA&#13;&#10;2dC4hhuwtMKLpBQY07kdNRbIBWAXqCgJw00kFoD0DA4AAKzIb179to3dAAAAAElF&#13;&#10;TkSuQmCC" xlink:type="simple" xlink:actuate="onLoad" height="16" preserveAspectRatio="none" xlink:show="embed"/>
-            <text xml:space="preserve" x="635" y="142" clip-path="url(#clipPath112)" stroke="none">FeatureDirectionKind</text>
+            <rect x="614" y="110" clip-path="url(#clipPath109)" fill="url(#linearGradient21)" width="143" height="100" stroke="none"/>
+            <text xml:space="preserve" x="646" y="126" clip-path="url(#clipPath110)" stroke="none">«Enumeration»</text>
+            <image x="620" y="129" clip-path="url(#clipPath111)" width="16" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABTUlEQVR42mNgGGjA&#13;&#10;CCIKFhz5/+DJJyj3PxAyQiQYkdggmf8IjYoyvAwTEmwYWUCc+48/MUxMswNrBhnC&#13;&#10;CNUB4QEN+c8INhtoHlSMgSF31kGwGrAB//7+Y+BgYwZrOXHjMYOFuhyDk2cBilP3&#13;&#10;7uhnOAmS05CFGPHvP8IAMIOZieHI1QcMdc1rGPatKAaLHdo9EcWvILmm2hAGG20F&#13;&#10;uDgTjMHKzAhWcHh1KZANEbZzzYdjkAUgOZAaFmZGuAFILmAEm24b2s1wfF0ZWOz0&#13;&#10;oakoIWcZ1AVWA7MAYQBQEcgGTxMVBgagAhaoAlO7bLjC80emgTWD1IDs/4ccBv//&#13;&#10;/2NgZmICe9THTBWs4NKxGZAYgMQsWMzXTA0eFf//owWif8NGaKQhSFhUIgckJGUA&#13;&#10;2dC4hhuwtMKLpBQY07kdNRbIBWAXqCgJw00kFoD0DA4AAKzIb179to3dAAAAAElF&#13;&#10;TkSuQmCC" xlink:type="simple" xlink:actuate="onLoad" height="16" preserveAspectRatio="none" xlink:show="embed"/>
+            <text xml:space="preserve" x="639" y="142" clip-path="url(#clipPath112)" stroke="none">FeatureDirectionKind</text>
             <image x="620" y="148" clip-path="url(#clipPath113)" width="16" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAiElEQVR42mNgGAWM&#13;&#10;IKJgwZH/t+++AXP/I5Eg8B9N8X8gBNGqyiIMExJsGFlAEnfuvWVYWuFFks0xndvB&#13;&#10;NBOlXmBB5gi4lzCwsbIwcLCzMnBxcDBwc7Iz8HJyMPBwcTBwAWkuDjYGTnY2humF&#13;&#10;AdgN2NCdTZkLHPQUyTNARUkYHijEApCeUUAlAADmXxlFUHnZYAAAAABJRU5ErkJg&#13;&#10;gg==" xlink:type="simple" xlink:actuate="onLoad" height="16" preserveAspectRatio="none" xlink:show="embed"/>
             <text xml:space="preserve" x="639" y="161" clip-path="url(#clipPath114)" stroke="none">provided</text>
             <image x="620" y="164" clip-path="url(#clipPath115)" width="16" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAiElEQVR42mNgGAWM&#13;&#10;IKJgwZH/t+++AXP/I5Eg8B9N8X8gBNGqyiIMExJsGFlAEnfuvWVYWuFFks0xndvB&#13;&#10;NBOlXmBB5gi4lzCwsbIwcLCzMnBxcDBwc7Iz8HJyMPBwcTBwAWkuDjYGTnY2humF&#13;&#10;AdgN2NCdTZkLHPQUyTNARUkYHijEApCeUUAlAADmXxlFUHnZYAAAAABJRU5ErkJg&#13;&#10;gg==" xlink:type="simple" xlink:actuate="onLoad" height="16" preserveAspectRatio="none" xlink:show="embed"/>
             <text xml:space="preserve" x="639" y="177" clip-path="url(#clipPath116)" stroke="none">providedRequired</text>
             <image x="620" y="180" clip-path="url(#clipPath117)" width="16" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAiElEQVR42mNgGAWM&#13;&#10;IKJgwZH/t+++AXP/I5Eg8B9N8X8gBNGqyiIMExJsGFlAEnfuvWVYWuFFks0xndvB&#13;&#10;NBOlXmBB5gi4lzCwsbIwcLCzMnBxcDBwc7Iz8HJyMPBwcTBwAWkuDjYGTnY2humF&#13;&#10;AdgN2NCdTZkLHPQUyTNARUkYHijEApCeUUAlAADmXxlFUHnZYAAAAABJRU5ErkJg&#13;&#10;gg==" xlink:type="simple" xlink:actuate="onLoad" height="16" preserveAspectRatio="none" xlink:show="embed"/>
             <text xml:space="preserve" x="639" y="193" clip-path="url(#clipPath118)" stroke="none">required</text>
-            <line clip-path="url(#clipPath119)" fill="none" x1="614" x2="747" y1="146" y2="146"/>
-            <rect x="614" y="110" clip-path="url(#clipPath120)" fill="none" width="132" rx="0" ry="0" height="99"/>
+            <line clip-path="url(#clipPath119)" fill="none" x1="614" x2="757" y1="146" y2="146"/>
+            <rect x="614" y="110" clip-path="url(#clipPath120)" fill="none" width="142" rx="0" ry="0" height="99"/>
             <rect x="934" y="110" clip-path="url(#clipPath121)" fill="url(#linearGradient22)" width="141" height="100" stroke="none"/>
             <text xml:space="preserve" x="965" y="126" clip-path="url(#clipPath122)" stroke="none">«Enumeration»</text>
             <image x="947" y="129" clip-path="url(#clipPath123)" width="16" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABTUlEQVR42mNgGGjA&#13;&#10;CCIKFhz5/+DJJyj3PxAyQiQYkdggmf8IjYoyvAwTEmwYWUCc+48/MUxMswNrBhnC&#13;&#10;CNUB4QEN+c8INhtoHlSMgSF31kGwGrAB//7+Y+BgYwZrOXHjMYOFuhyDk2cBilP3&#13;&#10;7uhnOAmS05CFGPHvP8IAMIOZieHI1QcMdc1rGPatKAaLHdo9EcWvILmm2hAGG20F&#13;&#10;uDgTjMHKzAhWcHh1KZANEbZzzYdjkAUgOZAaFmZGuAFILmAEm24b2s1wfF0ZWOz0&#13;&#10;oakoIWcZ1AVWA7MAYQBQEcgGTxMVBgagAhaoAlO7bLjC80emgTWD1IDs/4ccBv//&#13;&#10;/2NgZmICe9THTBWs4NKxGZAYgMQsWMzXTA0eFf//owWif8NGaKQhSFhUIgckJGUA&#13;&#10;2dC4hhuwtMKLpBQY07kdNRbIBWAXqCgJw00kFoD0DA4AAKzIb179to3dAAAAAElF&#13;&#10;TkSuQmCC" xlink:type="simple" xlink:actuate="onLoad" height="16" preserveAspectRatio="none" xlink:show="embed"/>
@@ -932,8 +932,8 @@
             <line clip-path="url(#clipPath183)" fill="none" text-rendering="optimizeLegibility" x1="1754" x2="1754" y1="410" y2="71"/>
             <polygon text-rendering="optimizeLegibility" clip-path="url(#clipPath191)" points=" 1754 71 1759 86 1749 86" stroke="none"/>
             <polygon text-rendering="optimizeLegibility" fill="none" clip-path="url(#clipPath191)" points=" 1754 71 1759 86 1749 86"/>
-            <line clip-path="url(#clipPath183)" fill="none" text-rendering="optimizeLegibility" x1="888" x2="888" y1="710" y2="660"/>
-            <line clip-path="url(#clipPath183)" fill="none" text-rendering="optimizeLegibility" x1="888" x2="894" y1="660" y2="660"/>
+            <line clip-path="url(#clipPath183)" fill="none" text-rendering="optimizeLegibility" x1="893" x2="893" y1="710" y2="660"/>
+            <line clip-path="url(#clipPath183)" fill="none" text-rendering="optimizeLegibility" x1="893" x2="894" y1="660" y2="660"/>
             <line clip-path="url(#clipPath183)" fill="none" text-rendering="optimizeLegibility" x1="894" x2="894" y1="660" y2="611"/>
             <polygon text-rendering="optimizeLegibility" clip-path="url(#clipPath192)" points=" 894 611 899 626 889 626" stroke="none"/>
             <polygon text-rendering="optimizeLegibility" fill="none" clip-path="url(#clipPath192)" points=" 894 611 899 626 889 626"/>
@@ -1030,15 +1030,15 @@
     <rect x="1674" y="10" fill-opacity="0" width="161" title="A Trigger specifies a specific point  at which an Event occurrence may trigger an effect in a Behavior. A Trigger may be qualified by the Port on which the Event occurred." id="Trigger" height="61" stroke-opacity="0">
         <title>A Trigger specifies a specific point  at which an Event occurrence may trigger an effect in a Behavior. A Trigger may be qualified by the Port on which the Event occurred.</title>
     </rect>
-    <rect x="774" y="710" fill-opacity="0" width="232" id="AddFlowPropertyValueOnNestedPortAction" height="103" stroke-opacity="0"/>
-    <rect x="780" y="747" fill-opacity="0" width="222" id="onNestedPort" height="16" stroke-opacity="0"/>
+    <rect x="774" y="710" fill-opacity="0" width="242" id="AddFlowPropertyValueOnNestedPortAction" height="103" stroke-opacity="0"/>
+    <rect x="780" y="747" fill-opacity="0" width="232" id="onNestedPort" height="16" stroke-opacity="0"/>
     <rect x="774" y="550" fill-opacity="0" width="241" title="An AddStructuralFeatureValueAction is a WriteStructuralFeatureAction for adding values to a StructuralFeature." id="AddStructuralFeatureValueAction" height="61" stroke-opacity="0">
         <title>An AddStructuralFeatureValueAction is a WriteStructuralFeatureAction for adding values to a StructuralFeature.</title>
     </rect>
-    <rect x="614" y="110" fill-opacity="0" width="133" id="FeatureDirectionKind" height="100" stroke-opacity="0"/>
-    <rect x="620" y="148" fill-opacity="0" width="123" id="provided" height="16" stroke-opacity="0"/>
-    <rect x="620" y="164" fill-opacity="0" width="123" id="providedRequired" height="16" stroke-opacity="0"/>
-    <rect x="620" y="180" fill-opacity="0" width="123" id="required" height="16" stroke-opacity="0"/>
+    <rect x="614" y="110" fill-opacity="0" width="143" id="FeatureDirectionKind" height="100" stroke-opacity="0"/>
+    <rect x="620" y="148" fill-opacity="0" width="133" id="provided" height="16" stroke-opacity="0"/>
+    <rect x="620" y="164" fill-opacity="0" width="133" id="providedRequired" height="16" stroke-opacity="0"/>
+    <rect x="620" y="180" fill-opacity="0" width="133" id="required" height="16" stroke-opacity="0"/>
     <rect x="934" y="110" fill-opacity="0" width="141" title="FlowDirectionKind is an enumeration type that defines literals used for specifying the direction that items can flow to or from a block. FlowDirectionKind is used by flow properties to indicate the direction that its items can flow to or from its owner." id="FlowDirectionKind" height="100" stroke-opacity="0">
         <title>FlowDirectionKind is an enumeration type that defines literals used for specifying the direction that items can flow to or from a block. FlowDirectionKind is used by flow properties to indicate the direction that its items can flow to or from its owner.</title>
     </rect>

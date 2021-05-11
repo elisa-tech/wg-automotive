@@ -278,82 +278,82 @@
                 <path d="M-1 -1 L1055 -1 L1055 1235 L-1 1235 L-1 -1 Z"/>
             </clipPath>
             <clipPath clipPathUnits="userSpaceOnUse" id="clipPath71">
-                <path d="M136 309 L217 309 L217 326 L136 326 L136 309 Z"/>
-            </clipPath>
-            <clipPath clipPathUnits="userSpaceOnUse" id="clipPath72">
-                <path d="M227 309 L245 309 L245 325 L227 325 L227 309 Z"/>
-            </clipPath>
-            <clipPath clipPathUnits="userSpaceOnUse" id="clipPath73">
-                <path d="M542 397 L684 397 L684 414 L542 414 L542 397 Z"/>
-            </clipPath>
-            <clipPath clipPathUnits="userSpaceOnUse" id="clipPath74">
-                <path d="M717 437 L730 437 L730 455 L717 455 L717 437 Z"/>
-            </clipPath>
-            <clipPath clipPathUnits="userSpaceOnUse" id="clipPath75">
-                <path d="M684 743 L767 743 L767 760 L684 760 L684 743 Z"/>
-            </clipPath>
-            <clipPath clipPathUnits="userSpaceOnUse" id="clipPath76">
-                <path d="M642 868 L659 868 L659 885 L642 885 L642 868 Z"/>
-            </clipPath>
-            <clipPath clipPathUnits="userSpaceOnUse" id="clipPath77">
-                <path d="M829 780 L885 780 L885 797 L829 797 L829 780 Z"/>
-            </clipPath>
-            <clipPath clipPathUnits="userSpaceOnUse" id="clipPath78">
-                <path d="M913 866 L926 866 L926 885 L913 885 L913 866 Z"/>
-            </clipPath>
-            <clipPath clipPathUnits="userSpaceOnUse" id="clipPath79">
-                <path d="M426 691 L520 691 L520 708 L426 708 L426 691 Z"/>
-            </clipPath>
-            <clipPath clipPathUnits="userSpaceOnUse" id="clipPath80">
-                <path d="M557 617 L575 617 L575 630 L557 630 L557 617 Z"/>
-            </clipPath>
-            <clipPath clipPathUnits="userSpaceOnUse" id="clipPath81">
-                <path d="M342 542 L436 542 L436 559 L342 559 L342 542 Z"/>
-            </clipPath>
-            <clipPath clipPathUnits="userSpaceOnUse" id="clipPath82">
-                <path d="M297 587 L310 587 L310 605 L297 605 L297 587 Z"/>
-            </clipPath>
-            <clipPath clipPathUnits="userSpaceOnUse" id="clipPath83">
-                <path d="M264 252 L396 252 L396 269 L264 269 L264 252 Z"/>
-            </clipPath>
-            <clipPath clipPathUnits="userSpaceOnUse" id="clipPath84">
-                <path d="M322 307 L339 307 L339 325 L322 325 L322 307 Z"/>
-            </clipPath>
-            <clipPath clipPathUnits="userSpaceOnUse" id="clipPath85">
-                <path d="M411 855 L497 855 L497 872 L411 872 L411 855 Z"/>
-            </clipPath>
-            <clipPath clipPathUnits="userSpaceOnUse" id="clipPath86">
-                <path d="M383 897 L401 897 L401 910 L383 910 L383 897 Z"/>
-            </clipPath>
-            <clipPath clipPathUnits="userSpaceOnUse" id="clipPath87">
-                <path d="M203 1076 L244 1076 L244 1093 L203 1093 L203 1076 Z"/>
-            </clipPath>
-            <clipPath clipPathUnits="userSpaceOnUse" id="clipPath88">
-                <path d="M257 1110 L270 1110 L270 1128 L257 1128 L257 1110 Z"/>
-            </clipPath>
-            <clipPath clipPathUnits="userSpaceOnUse" id="clipPath89">
-                <path d="M332 405 L447 405 L447 422 L332 422 L332 405 Z"/>
-            </clipPath>
-            <clipPath clipPathUnits="userSpaceOnUse" id="clipPath90">
-                <path d="M297 447 L310 447 L310 465 L297 465 L297 447 Z"/>
-            </clipPath>
-            <clipPath clipPathUnits="userSpaceOnUse" id="clipPath91">
-                <path d="M713 1175 L769 1175 L769 1192 L713 1192 L713 1175 Z"/>
-            </clipPath>
-            <clipPath clipPathUnits="userSpaceOnUse" id="clipPath92">
-                <path d="M917 922 L930 922 L930 940 L917 940 L917 922 Z"/>
-            </clipPath>
-            <clipPath clipPathUnits="userSpaceOnUse" id="clipPath93">
-                <path d="M59 677 L154 677 L154 694 L59 694 L59 677 Z"/>
-            </clipPath>
-            <clipPath clipPathUnits="userSpaceOnUse" id="clipPath94">
-                <path d="M197 867 L210 867 L210 885 L197 885 L197 867 Z"/>
-            </clipPath>
-            <clipPath clipPathUnits="userSpaceOnUse" id="clipPath95">
                 <path d="M166 955 L281 955 L281 972 L166 972 L166 955 Z"/>
             </clipPath>
-            <clipPath clipPathUnits="userSpaceOnUse" id="clipPath96">
+            <clipPath clipPathUnits="userSpaceOnUse" id="clipPath72">
                 <path d="M257 987 L270 987 L270 1005 L257 1005 L257 987 Z"/>
+            </clipPath>
+            <clipPath clipPathUnits="userSpaceOnUse" id="clipPath73">
+                <path d="M426 691 L520 691 L520 708 L426 708 L426 691 Z"/>
+            </clipPath>
+            <clipPath clipPathUnits="userSpaceOnUse" id="clipPath74">
+                <path d="M557 617 L575 617 L575 630 L557 630 L557 617 Z"/>
+            </clipPath>
+            <clipPath clipPathUnits="userSpaceOnUse" id="clipPath75">
+                <path d="M261 250 L393 250 L393 267 L261 267 L261 250 Z"/>
+            </clipPath>
+            <clipPath clipPathUnits="userSpaceOnUse" id="clipPath76">
+                <path d="M314 308 L331 308 L331 325 L314 325 L314 308 Z"/>
+            </clipPath>
+            <clipPath clipPathUnits="userSpaceOnUse" id="clipPath77">
+                <path d="M342 542 L436 542 L436 559 L342 559 L342 542 Z"/>
+            </clipPath>
+            <clipPath clipPathUnits="userSpaceOnUse" id="clipPath78">
+                <path d="M297 587 L310 587 L310 605 L297 605 L297 587 Z"/>
+            </clipPath>
+            <clipPath clipPathUnits="userSpaceOnUse" id="clipPath79">
+                <path d="M133 308 L214 308 L214 325 L133 325 L133 308 Z"/>
+            </clipPath>
+            <clipPath clipPathUnits="userSpaceOnUse" id="clipPath80">
+                <path d="M225 309 L243 309 L243 325 L225 325 L225 309 Z"/>
+            </clipPath>
+            <clipPath clipPathUnits="userSpaceOnUse" id="clipPath81">
+                <path d="M829 780 L885 780 L885 797 L829 797 L829 780 Z"/>
+            </clipPath>
+            <clipPath clipPathUnits="userSpaceOnUse" id="clipPath82">
+                <path d="M913 866 L926 866 L926 885 L913 885 L913 866 Z"/>
+            </clipPath>
+            <clipPath clipPathUnits="userSpaceOnUse" id="clipPath83">
+                <path d="M59 617 L154 617 L154 634 L59 634 L59 617 Z"/>
+            </clipPath>
+            <clipPath clipPathUnits="userSpaceOnUse" id="clipPath84">
+                <path d="M197 867 L210 867 L210 885 L197 885 L197 867 Z"/>
+            </clipPath>
+            <clipPath clipPathUnits="userSpaceOnUse" id="clipPath85">
+                <path d="M713 1175 L769 1175 L769 1192 L713 1192 L713 1175 Z"/>
+            </clipPath>
+            <clipPath clipPathUnits="userSpaceOnUse" id="clipPath86">
+                <path d="M917 922 L930 922 L930 940 L917 940 L917 922 Z"/>
+            </clipPath>
+            <clipPath clipPathUnits="userSpaceOnUse" id="clipPath87">
+                <path d="M329 403 L444 403 L444 420 L329 420 L329 403 Z"/>
+            </clipPath>
+            <clipPath clipPathUnits="userSpaceOnUse" id="clipPath88">
+                <path d="M297 447 L310 447 L310 465 L297 465 L297 447 Z"/>
+            </clipPath>
+            <clipPath clipPathUnits="userSpaceOnUse" id="clipPath89">
+                <path d="M686 743 L769 743 L769 760 L686 760 L686 743 Z"/>
+            </clipPath>
+            <clipPath clipPathUnits="userSpaceOnUse" id="clipPath90">
+                <path d="M648 868 L665 868 L665 885 L648 885 L648 868 Z"/>
+            </clipPath>
+            <clipPath clipPathUnits="userSpaceOnUse" id="clipPath91">
+                <path d="M411 855 L497 855 L497 872 L411 872 L411 855 Z"/>
+            </clipPath>
+            <clipPath clipPathUnits="userSpaceOnUse" id="clipPath92">
+                <path d="M383 897 L401 897 L401 910 L383 910 L383 897 Z"/>
+            </clipPath>
+            <clipPath clipPathUnits="userSpaceOnUse" id="clipPath93">
+                <path d="M203 1076 L244 1076 L244 1093 L203 1093 L203 1076 Z"/>
+            </clipPath>
+            <clipPath clipPathUnits="userSpaceOnUse" id="clipPath94">
+                <path d="M257 1110 L270 1110 L270 1128 L257 1128 L257 1110 Z"/>
+            </clipPath>
+            <clipPath clipPathUnits="userSpaceOnUse" id="clipPath95">
+                <path d="M542 397 L684 397 L684 414 L542 414 L542 397 Z"/>
+            </clipPath>
+            <clipPath clipPathUnits="userSpaceOnUse" id="clipPath96">
+                <path d="M717 437 L730 437 L730 455 L717 455 L717 437 Z"/>
             </clipPath>
         </defs>
         <g fill="url(#linearGradient1)" font-family="'Segoe UI'" stroke-linejoin="round" stroke="url(#linearGradient1)" stroke-width="0" stroke-miterlimit="0">
@@ -445,118 +445,118 @@
             <text x="403" y="196" clip-path="url(#clipPath69)" fill="black" stroke="none" stroke-width="1.1" xml:space="preserve"> + Non Safety cluster state: &lt;Undefined&gt; [1]</text>
         </g>
         <g text-rendering="optimizeLegibility" stroke-width="1.1" stroke-dasharray="5,5,5,5,5,5,5,5,5,5" font-family="'Segoe UI'" stroke-linecap="butt">
-            <line clip-path="url(#clipPath70)" fill="none" x1="153" x2="243" y1="251" y2="323"/>
-            <text xml:space="preserve" x="137" y="323" clip-path="url(#clipPath71)" stroke="none">TelltaleRequest</text>
-            <line clip-path="url(#clipPath72)" fill="none" x1="228" x2="243" y1="318" y2="323" stroke-dasharray="none"/>
-            <line clip-path="url(#clipPath72)" fill="none" x1="243" x2="234" y1="323" y2="310" stroke-dasharray="none"/>
-            <line clip-path="url(#clipPath70)" fill="none" x1="723" x2="723" y1="363" y2="453"/>
-            <text xml:space="preserve" x="543" y="411" clip-path="url(#clipPath73)" stroke="none">Display Controller Settings</text>
-            <line clip-path="url(#clipPath74)" fill="none" x1="718" x2="723" y1="438" y2="453" stroke-dasharray="none"/>
-            <line clip-path="url(#clipPath74)" fill="none" x1="723" x2="728" y1="453" y2="438" stroke-dasharray="none"/>
-            <line clip-path="url(#clipPath70)" fill="none" x1="854" x2="643" y1="674" y2="883"/>
-            <text xml:space="preserve" x="685" y="757" clip-path="url(#clipPath75)" stroke="none">Bit Stream data</text>
-            <line clip-path="url(#clipPath76)" fill="none" x1="650" x2="643" y1="869" y2="883" stroke-dasharray="none"/>
-            <line clip-path="url(#clipPath76)" fill="none" x1="643" x2="657" y1="883" y2="876" stroke-dasharray="none"/>
-            <line clip-path="url(#clipPath70)" fill="none" x1="867" x2="923" y1="674" y2="883"/>
-            <text xml:space="preserve" x="830" y="794" clip-path="url(#clipPath77)" stroke="none">Bit Stream</text>
-            <line clip-path="url(#clipPath78)" fill="none" x1="914" x2="923" y1="870" y2="883" stroke-dasharray="none"/>
-            <line clip-path="url(#clipPath78)" fill="none" x1="923" x2="924" y1="883" y2="867" stroke-dasharray="none"/>
+            <line clip-path="url(#clipPath70)" fill="none" x1="263" x2="263" y1="923" y2="1003"/>
+            <text xml:space="preserve" x="167" y="969" clip-path="url(#clipPath71)" stroke="none">Telltale Check Results</text>
+            <line clip-path="url(#clipPath72)" fill="none" x1="258" x2="263" y1="988" y2="1003" stroke-dasharray="none"/>
+            <line clip-path="url(#clipPath72)" fill="none" x1="263" x2="268" y1="1003" y2="988" stroke-dasharray="none"/>
             <line clip-path="url(#clipPath70)" fill="none" x1="395" x2="573" y1="623" y2="623"/>
-            <text xml:space="preserve" x="427" y="705" clip-path="url(#clipPath79)" stroke="none">Plane Image data</text>
-            <line clip-path="url(#clipPath80)" fill="none" x1="558" x2="573" y1="628" y2="623" stroke-dasharray="none"/>
-            <line clip-path="url(#clipPath80)" fill="none" x1="573" x2="558" y1="623" y2="618" stroke-dasharray="none"/>
+            <text xml:space="preserve" x="427" y="705" clip-path="url(#clipPath73)" stroke="none">Plane Image data</text>
+            <line clip-path="url(#clipPath74)" fill="none" x1="558" x2="573" y1="628" y2="623" stroke-dasharray="none"/>
+            <line clip-path="url(#clipPath74)" fill="none" x1="573" x2="558" y1="623" y2="618" stroke-dasharray="none"/>
+            <line clip-path="url(#clipPath70)" fill="none" x1="393" x2="315" y1="245" y2="323"/>
+            <text xml:space="preserve" x="262" y="264" clip-path="url(#clipPath75)" stroke="none">Non Safety State request</text>
+            <line clip-path="url(#clipPath76)" fill="none" x1="322" x2="315" y1="309" y2="323" stroke-dasharray="none"/>
+            <line clip-path="url(#clipPath76)" fill="none" x1="315" x2="329" y1="323" y2="316" stroke-dasharray="none"/>
             <line clip-path="url(#clipPath70)" fill="none" x1="303" x2="303" y1="503" y2="603"/>
-            <text xml:space="preserve" x="343" y="556" clip-path="url(#clipPath81)" stroke="none">Rendered Bitmap</text>
-            <line clip-path="url(#clipPath82)" fill="none" x1="298" x2="303" y1="588" y2="603" stroke-dasharray="none"/>
-            <line clip-path="url(#clipPath82)" fill="none" x1="303" x2="308" y1="603" y2="588" stroke-dasharray="none"/>
-            <line clip-path="url(#clipPath70)" fill="none" x1="393" x2="323" y1="245" y2="323"/>
-            <text xml:space="preserve" x="265" y="266" clip-path="url(#clipPath83)" stroke="none">Non Safety State request</text>
-            <line clip-path="url(#clipPath84)" fill="none" x1="329" x2="323" y1="308" y2="323" stroke-dasharray="none"/>
-            <line clip-path="url(#clipPath84)" fill="none" x1="323" x2="337" y1="323" y2="315" stroke-dasharray="none"/>
-            <line clip-path="url(#clipPath70)" fill="none" x1="523" x2="384" y1="903" y2="903"/>
-            <text xml:space="preserve" x="412" y="869" clip-path="url(#clipPath85)" stroke="none">Decoded Image</text>
-            <line clip-path="url(#clipPath86)" fill="none" x1="399" x2="384" y1="898" y2="903" stroke-dasharray="none"/>
-            <line clip-path="url(#clipPath86)" fill="none" x1="384" x2="399" y1="903" y2="908" stroke-dasharray="none"/>
-            <line clip-path="url(#clipPath70)" fill="none" x1="263" x2="263" y1="1043" y2="1126"/>
-            <text xml:space="preserve" x="204" y="1090" clip-path="url(#clipPath87)" stroke="none">Petting</text>
-            <line clip-path="url(#clipPath88)" fill="none" x1="258" x2="263" y1="1111" y2="1126" stroke-dasharray="none"/>
-            <line clip-path="url(#clipPath88)" fill="none" x1="263" x2="268" y1="1126" y2="1111" stroke-dasharray="none"/>
-            <line clip-path="url(#clipPath70)" fill="none" x1="303" x2="303" y1="363" y2="463"/>
-            <text xml:space="preserve" x="333" y="419" clip-path="url(#clipPath89)" stroke="none">TargetRenderingState</text>
-            <line clip-path="url(#clipPath90)" fill="none" x1="298" x2="303" y1="448" y2="463" stroke-dasharray="none"/>
-            <line clip-path="url(#clipPath90)" fill="none" x1="303" x2="308" y1="463" y2="448" stroke-dasharray="none"/>
-            <line clip-path="url(#clipPath70)" fill="none" x1="339" x2="923" y1="1143" y2="1143"/>
-            <line clip-path="url(#clipPath70)" fill="none" x1="923" x2="923" y1="1143" y2="923"/>
-            <text xml:space="preserve" x="714" y="1189" clip-path="url(#clipPath91)" stroke="none">Kill Switch</text>
-            <line clip-path="url(#clipPath92)" fill="none" x1="928" x2="923" y1="938" y2="923" stroke-dasharray="none"/>
-            <line clip-path="url(#clipPath92)" fill="none" x1="923" x2="918" y1="923" y2="938" stroke-dasharray="none"/>
-            <line clip-path="url(#clipPath70)" fill="none" x1="203" x2="143" y1="483" y2="483"/>
-            <line clip-path="url(#clipPath70)" fill="none" x1="143" x2="143" y1="483" y2="723"/>
+            <text xml:space="preserve" x="343" y="556" clip-path="url(#clipPath77)" stroke="none">Rendered Bitmap</text>
+            <line clip-path="url(#clipPath78)" fill="none" x1="298" x2="303" y1="588" y2="603" stroke-dasharray="none"/>
+            <line clip-path="url(#clipPath78)" fill="none" x1="303" x2="308" y1="603" y2="588" stroke-dasharray="none"/>
+            <line clip-path="url(#clipPath70)" fill="none" x1="153" x2="241" y1="251" y2="323"/>
+            <text xml:space="preserve" x="134" y="322" clip-path="url(#clipPath79)" stroke="none">TelltaleRequest</text>
+            <line clip-path="url(#clipPath80)" fill="none" x1="226" x2="241" y1="317" y2="323" stroke-dasharray="none"/>
+            <line clip-path="url(#clipPath80)" fill="none" x1="241" x2="233" y1="323" y2="310" stroke-dasharray="none"/>
+            <line clip-path="url(#clipPath70)" fill="none" x1="867" x2="923" y1="674" y2="883"/>
+            <text xml:space="preserve" x="830" y="794" clip-path="url(#clipPath81)" stroke="none">Bit Stream</text>
+            <line clip-path="url(#clipPath82)" fill="none" x1="914" x2="923" y1="870" y2="883" stroke-dasharray="none"/>
+            <line clip-path="url(#clipPath82)" fill="none" x1="923" x2="924" y1="883" y2="867" stroke-dasharray="none"/>
+            <line clip-path="url(#clipPath70)" fill="none" x1="183" x2="143" y1="343" y2="343"/>
+            <line clip-path="url(#clipPath70)" fill="none" x1="143" x2="143" y1="343" y2="723"/>
             <line clip-path="url(#clipPath70)" fill="none" x1="143" x2="203" y1="723" y2="723"/>
             <line clip-path="url(#clipPath70)" fill="none" x1="203" x2="203" y1="723" y2="883"/>
-            <text xml:space="preserve" x="60" y="691" clip-path="url(#clipPath93)" stroke="none">Expected Telltales</text>
-            <line clip-path="url(#clipPath94)" fill="none" x1="198" x2="203" y1="868" y2="883" stroke-dasharray="none"/>
-            <line clip-path="url(#clipPath94)" fill="none" x1="203" x2="208" y1="883" y2="868" stroke-dasharray="none"/>
-            <line clip-path="url(#clipPath70)" fill="none" x1="263" x2="263" y1="923" y2="1003"/>
-            <text xml:space="preserve" x="167" y="969" clip-path="url(#clipPath95)" stroke="none">Telltale Check Results</text>
-            <line clip-path="url(#clipPath96)" fill="none" x1="258" x2="263" y1="988" y2="1003" stroke-dasharray="none"/>
-            <line clip-path="url(#clipPath96)" fill="none" x1="263" x2="268" y1="1003" y2="988" stroke-dasharray="none"/>
-            <line clip-path="url(#clipPath70)" fill="none" x1="303" x2="303" y1="363" y2="463"/>
-            <text xml:space="preserve" x="333" y="419" clip-path="url(#clipPath89)" stroke="none">TargetRenderingState</text>
-            <line clip-path="url(#clipPath90)" fill="none" x1="298" x2="303" y1="448" y2="463" stroke-dasharray="none"/>
-            <line clip-path="url(#clipPath90)" fill="none" x1="303" x2="308" y1="463" y2="448" stroke-dasharray="none"/>
-            <line clip-path="url(#clipPath70)" fill="none" x1="723" x2="723" y1="363" y2="453"/>
-            <text xml:space="preserve" x="543" y="411" clip-path="url(#clipPath73)" stroke="none">Display Controller Settings</text>
-            <line clip-path="url(#clipPath74)" fill="none" x1="718" x2="723" y1="438" y2="453" stroke-dasharray="none"/>
-            <line clip-path="url(#clipPath74)" fill="none" x1="723" x2="728" y1="453" y2="438" stroke-dasharray="none"/>
-            <line clip-path="url(#clipPath70)" fill="none" x1="303" x2="303" y1="503" y2="603"/>
-            <text xml:space="preserve" x="343" y="556" clip-path="url(#clipPath81)" stroke="none">Rendered Bitmap</text>
-            <line clip-path="url(#clipPath82)" fill="none" x1="298" x2="303" y1="588" y2="603" stroke-dasharray="none"/>
-            <line clip-path="url(#clipPath82)" fill="none" x1="303" x2="308" y1="603" y2="588" stroke-dasharray="none"/>
-            <line clip-path="url(#clipPath70)" fill="none" x1="395" x2="573" y1="623" y2="623"/>
-            <text xml:space="preserve" x="427" y="705" clip-path="url(#clipPath79)" stroke="none">Plane Image data</text>
-            <line clip-path="url(#clipPath80)" fill="none" x1="558" x2="573" y1="628" y2="623" stroke-dasharray="none"/>
-            <line clip-path="url(#clipPath80)" fill="none" x1="573" x2="558" y1="623" y2="618" stroke-dasharray="none"/>
-            <line clip-path="url(#clipPath70)" fill="none" x1="153" x2="243" y1="251" y2="323"/>
-            <text xml:space="preserve" x="137" y="323" clip-path="url(#clipPath71)" stroke="none">TelltaleRequest</text>
-            <line clip-path="url(#clipPath72)" fill="none" x1="228" x2="243" y1="318" y2="323" stroke-dasharray="none"/>
-            <line clip-path="url(#clipPath72)" fill="none" x1="243" x2="234" y1="323" y2="310" stroke-dasharray="none"/>
-            <line clip-path="url(#clipPath70)" fill="none" x1="393" x2="323" y1="245" y2="323"/>
-            <text xml:space="preserve" x="265" y="266" clip-path="url(#clipPath83)" stroke="none">Non Safety State request</text>
-            <line clip-path="url(#clipPath84)" fill="none" x1="329" x2="323" y1="308" y2="323" stroke-dasharray="none"/>
-            <line clip-path="url(#clipPath84)" fill="none" x1="323" x2="337" y1="323" y2="315" stroke-dasharray="none"/>
-            <line clip-path="url(#clipPath70)" fill="none" x1="867" x2="923" y1="674" y2="883"/>
-            <text xml:space="preserve" x="830" y="794" clip-path="url(#clipPath77)" stroke="none">Bit Stream</text>
-            <line clip-path="url(#clipPath78)" fill="none" x1="914" x2="923" y1="870" y2="883" stroke-dasharray="none"/>
-            <line clip-path="url(#clipPath78)" fill="none" x1="923" x2="924" y1="883" y2="867" stroke-dasharray="none"/>
-            <line clip-path="url(#clipPath70)" fill="none" x1="854" x2="643" y1="674" y2="883"/>
-            <text xml:space="preserve" x="685" y="757" clip-path="url(#clipPath75)" stroke="none">Bit Stream data</text>
-            <line clip-path="url(#clipPath76)" fill="none" x1="650" x2="643" y1="869" y2="883" stroke-dasharray="none"/>
-            <line clip-path="url(#clipPath76)" fill="none" x1="643" x2="657" y1="883" y2="876" stroke-dasharray="none"/>
-            <line clip-path="url(#clipPath70)" fill="none" x1="523" x2="384" y1="903" y2="903"/>
-            <text xml:space="preserve" x="412" y="869" clip-path="url(#clipPath85)" stroke="none">Decoded Image</text>
-            <line clip-path="url(#clipPath86)" fill="none" x1="399" x2="384" y1="898" y2="903" stroke-dasharray="none"/>
-            <line clip-path="url(#clipPath86)" fill="none" x1="384" x2="399" y1="903" y2="908" stroke-dasharray="none"/>
-            <line clip-path="url(#clipPath70)" fill="none" x1="203" x2="143" y1="483" y2="483"/>
-            <line clip-path="url(#clipPath70)" fill="none" x1="143" x2="143" y1="483" y2="723"/>
-            <line clip-path="url(#clipPath70)" fill="none" x1="143" x2="203" y1="723" y2="723"/>
-            <line clip-path="url(#clipPath70)" fill="none" x1="203" x2="203" y1="723" y2="883"/>
-            <text xml:space="preserve" x="60" y="691" clip-path="url(#clipPath93)" stroke="none">Expected Telltales</text>
-            <line clip-path="url(#clipPath94)" fill="none" x1="198" x2="203" y1="868" y2="883" stroke-dasharray="none"/>
-            <line clip-path="url(#clipPath94)" fill="none" x1="203" x2="208" y1="883" y2="868" stroke-dasharray="none"/>
-            <line clip-path="url(#clipPath70)" fill="none" x1="263" x2="263" y1="923" y2="1003"/>
-            <text xml:space="preserve" x="167" y="969" clip-path="url(#clipPath95)" stroke="none">Telltale Check Results</text>
-            <line clip-path="url(#clipPath96)" fill="none" x1="258" x2="263" y1="988" y2="1003" stroke-dasharray="none"/>
-            <line clip-path="url(#clipPath96)" fill="none" x1="263" x2="268" y1="1003" y2="988" stroke-dasharray="none"/>
-            <line clip-path="url(#clipPath70)" fill="none" x1="263" x2="263" y1="1043" y2="1126"/>
-            <text xml:space="preserve" x="204" y="1090" clip-path="url(#clipPath87)" stroke="none">Petting</text>
-            <line clip-path="url(#clipPath88)" fill="none" x1="258" x2="263" y1="1111" y2="1126" stroke-dasharray="none"/>
-            <line clip-path="url(#clipPath88)" fill="none" x1="263" x2="268" y1="1126" y2="1111" stroke-dasharray="none"/>
+            <text xml:space="preserve" x="60" y="631" clip-path="url(#clipPath83)" stroke="none">Expected Telltales</text>
+            <line clip-path="url(#clipPath84)" fill="none" x1="198" x2="203" y1="868" y2="883" stroke-dasharray="none"/>
+            <line clip-path="url(#clipPath84)" fill="none" x1="203" x2="208" y1="883" y2="868" stroke-dasharray="none"/>
             <line clip-path="url(#clipPath70)" fill="none" x1="339" x2="923" y1="1143" y2="1143"/>
             <line clip-path="url(#clipPath70)" fill="none" x1="923" x2="923" y1="1143" y2="923"/>
-            <text xml:space="preserve" x="714" y="1189" clip-path="url(#clipPath91)" stroke="none">Kill Switch</text>
-            <line clip-path="url(#clipPath92)" fill="none" x1="928" x2="923" y1="938" y2="923" stroke-dasharray="none"/>
-            <line clip-path="url(#clipPath92)" fill="none" x1="923" x2="918" y1="923" y2="938" stroke-dasharray="none"/>
+            <text xml:space="preserve" x="714" y="1189" clip-path="url(#clipPath85)" stroke="none">Kill Switch</text>
+            <line clip-path="url(#clipPath86)" fill="none" x1="928" x2="923" y1="938" y2="923" stroke-dasharray="none"/>
+            <line clip-path="url(#clipPath86)" fill="none" x1="923" x2="918" y1="923" y2="938" stroke-dasharray="none"/>
+            <line clip-path="url(#clipPath70)" fill="none" x1="300" x2="303" y1="363" y2="463"/>
+            <text xml:space="preserve" x="330" y="417" clip-path="url(#clipPath87)" stroke="none">TargetRenderingState</text>
+            <line clip-path="url(#clipPath88)" fill="none" x1="298" x2="303" y1="448" y2="463" stroke-dasharray="none"/>
+            <line clip-path="url(#clipPath88)" fill="none" x1="303" x2="308" y1="463" y2="448" stroke-dasharray="none"/>
+            <line clip-path="url(#clipPath70)" fill="none" x1="854" x2="649" y1="674" y2="883"/>
+            <text xml:space="preserve" x="687" y="757" clip-path="url(#clipPath89)" stroke="none">Bit Stream data</text>
+            <line clip-path="url(#clipPath90)" fill="none" x1="656" x2="649" y1="869" y2="883" stroke-dasharray="none"/>
+            <line clip-path="url(#clipPath90)" fill="none" x1="649" x2="663" y1="883" y2="876" stroke-dasharray="none"/>
+            <line clip-path="url(#clipPath70)" fill="none" x1="523" x2="384" y1="903" y2="903"/>
+            <text xml:space="preserve" x="412" y="869" clip-path="url(#clipPath91)" stroke="none">Decoded Image</text>
+            <line clip-path="url(#clipPath92)" fill="none" x1="399" x2="384" y1="898" y2="903" stroke-dasharray="none"/>
+            <line clip-path="url(#clipPath92)" fill="none" x1="384" x2="399" y1="903" y2="908" stroke-dasharray="none"/>
+            <line clip-path="url(#clipPath70)" fill="none" x1="263" x2="263" y1="1043" y2="1126"/>
+            <text xml:space="preserve" x="204" y="1090" clip-path="url(#clipPath93)" stroke="none">Petting</text>
+            <line clip-path="url(#clipPath94)" fill="none" x1="258" x2="263" y1="1111" y2="1126" stroke-dasharray="none"/>
+            <line clip-path="url(#clipPath94)" fill="none" x1="263" x2="268" y1="1126" y2="1111" stroke-dasharray="none"/>
+            <line clip-path="url(#clipPath70)" fill="none" x1="723" x2="723" y1="363" y2="453"/>
+            <text xml:space="preserve" x="543" y="411" clip-path="url(#clipPath95)" stroke="none">Display Controller Settings</text>
+            <line clip-path="url(#clipPath96)" fill="none" x1="718" x2="723" y1="438" y2="453" stroke-dasharray="none"/>
+            <line clip-path="url(#clipPath96)" fill="none" x1="723" x2="728" y1="453" y2="438" stroke-dasharray="none"/>
+            <line clip-path="url(#clipPath70)" fill="none" x1="300" x2="303" y1="363" y2="463"/>
+            <text xml:space="preserve" x="330" y="417" clip-path="url(#clipPath87)" stroke="none">TargetRenderingState</text>
+            <line clip-path="url(#clipPath88)" fill="none" x1="298" x2="303" y1="448" y2="463" stroke-dasharray="none"/>
+            <line clip-path="url(#clipPath88)" fill="none" x1="303" x2="308" y1="463" y2="448" stroke-dasharray="none"/>
+            <line clip-path="url(#clipPath70)" fill="none" x1="723" x2="723" y1="363" y2="453"/>
+            <text xml:space="preserve" x="543" y="411" clip-path="url(#clipPath95)" stroke="none">Display Controller Settings</text>
+            <line clip-path="url(#clipPath96)" fill="none" x1="718" x2="723" y1="438" y2="453" stroke-dasharray="none"/>
+            <line clip-path="url(#clipPath96)" fill="none" x1="723" x2="728" y1="453" y2="438" stroke-dasharray="none"/>
+            <line clip-path="url(#clipPath70)" fill="none" x1="303" x2="303" y1="503" y2="603"/>
+            <text xml:space="preserve" x="343" y="556" clip-path="url(#clipPath77)" stroke="none">Rendered Bitmap</text>
+            <line clip-path="url(#clipPath78)" fill="none" x1="298" x2="303" y1="588" y2="603" stroke-dasharray="none"/>
+            <line clip-path="url(#clipPath78)" fill="none" x1="303" x2="308" y1="603" y2="588" stroke-dasharray="none"/>
+            <line clip-path="url(#clipPath70)" fill="none" x1="395" x2="573" y1="623" y2="623"/>
+            <text xml:space="preserve" x="427" y="705" clip-path="url(#clipPath73)" stroke="none">Plane Image data</text>
+            <line clip-path="url(#clipPath74)" fill="none" x1="558" x2="573" y1="628" y2="623" stroke-dasharray="none"/>
+            <line clip-path="url(#clipPath74)" fill="none" x1="573" x2="558" y1="623" y2="618" stroke-dasharray="none"/>
+            <line clip-path="url(#clipPath70)" fill="none" x1="153" x2="241" y1="251" y2="323"/>
+            <text xml:space="preserve" x="134" y="322" clip-path="url(#clipPath79)" stroke="none">TelltaleRequest</text>
+            <line clip-path="url(#clipPath80)" fill="none" x1="226" x2="241" y1="317" y2="323" stroke-dasharray="none"/>
+            <line clip-path="url(#clipPath80)" fill="none" x1="241" x2="233" y1="323" y2="310" stroke-dasharray="none"/>
+            <line clip-path="url(#clipPath70)" fill="none" x1="393" x2="315" y1="245" y2="323"/>
+            <text xml:space="preserve" x="262" y="264" clip-path="url(#clipPath75)" stroke="none">Non Safety State request</text>
+            <line clip-path="url(#clipPath76)" fill="none" x1="322" x2="315" y1="309" y2="323" stroke-dasharray="none"/>
+            <line clip-path="url(#clipPath76)" fill="none" x1="315" x2="329" y1="323" y2="316" stroke-dasharray="none"/>
+            <line clip-path="url(#clipPath70)" fill="none" x1="867" x2="923" y1="674" y2="883"/>
+            <text xml:space="preserve" x="830" y="794" clip-path="url(#clipPath81)" stroke="none">Bit Stream</text>
+            <line clip-path="url(#clipPath82)" fill="none" x1="914" x2="923" y1="870" y2="883" stroke-dasharray="none"/>
+            <line clip-path="url(#clipPath82)" fill="none" x1="923" x2="924" y1="883" y2="867" stroke-dasharray="none"/>
+            <line clip-path="url(#clipPath70)" fill="none" x1="854" x2="649" y1="674" y2="883"/>
+            <text xml:space="preserve" x="687" y="757" clip-path="url(#clipPath89)" stroke="none">Bit Stream data</text>
+            <line clip-path="url(#clipPath90)" fill="none" x1="656" x2="649" y1="869" y2="883" stroke-dasharray="none"/>
+            <line clip-path="url(#clipPath90)" fill="none" x1="649" x2="663" y1="883" y2="876" stroke-dasharray="none"/>
+            <line clip-path="url(#clipPath70)" fill="none" x1="523" x2="384" y1="903" y2="903"/>
+            <text xml:space="preserve" x="412" y="869" clip-path="url(#clipPath91)" stroke="none">Decoded Image</text>
+            <line clip-path="url(#clipPath92)" fill="none" x1="399" x2="384" y1="898" y2="903" stroke-dasharray="none"/>
+            <line clip-path="url(#clipPath92)" fill="none" x1="384" x2="399" y1="903" y2="908" stroke-dasharray="none"/>
+            <line clip-path="url(#clipPath70)" fill="none" x1="183" x2="143" y1="343" y2="343"/>
+            <line clip-path="url(#clipPath70)" fill="none" x1="143" x2="143" y1="343" y2="723"/>
+            <line clip-path="url(#clipPath70)" fill="none" x1="143" x2="203" y1="723" y2="723"/>
+            <line clip-path="url(#clipPath70)" fill="none" x1="203" x2="203" y1="723" y2="883"/>
+            <text xml:space="preserve" x="60" y="631" clip-path="url(#clipPath83)" stroke="none">Expected Telltales</text>
+            <line clip-path="url(#clipPath84)" fill="none" x1="198" x2="203" y1="868" y2="883" stroke-dasharray="none"/>
+            <line clip-path="url(#clipPath84)" fill="none" x1="203" x2="208" y1="883" y2="868" stroke-dasharray="none"/>
+            <line clip-path="url(#clipPath70)" fill="none" x1="263" x2="263" y1="923" y2="1003"/>
+            <text xml:space="preserve" x="167" y="969" clip-path="url(#clipPath71)" stroke="none">Telltale Check Results</text>
+            <line clip-path="url(#clipPath72)" fill="none" x1="258" x2="263" y1="988" y2="1003" stroke-dasharray="none"/>
+            <line clip-path="url(#clipPath72)" fill="none" x1="263" x2="268" y1="1003" y2="988" stroke-dasharray="none"/>
+            <line clip-path="url(#clipPath70)" fill="none" x1="263" x2="263" y1="1043" y2="1126"/>
+            <text xml:space="preserve" x="204" y="1090" clip-path="url(#clipPath93)" stroke="none">Petting</text>
+            <line clip-path="url(#clipPath94)" fill="none" x1="258" x2="263" y1="1111" y2="1126" stroke-dasharray="none"/>
+            <line clip-path="url(#clipPath94)" fill="none" x1="263" x2="268" y1="1126" y2="1111" stroke-dasharray="none"/>
+            <line clip-path="url(#clipPath70)" fill="none" x1="339" x2="923" y1="1143" y2="1143"/>
+            <line clip-path="url(#clipPath70)" fill="none" x1="923" x2="923" y1="1143" y2="923"/>
+            <text xml:space="preserve" x="714" y="1189" clip-path="url(#clipPath85)" stroke="none">Kill Switch</text>
+            <line clip-path="url(#clipPath86)" fill="none" x1="928" x2="923" y1="938" y2="923" stroke-dasharray="none"/>
+            <line clip-path="url(#clipPath86)" fill="none" x1="923" x2="918" y1="923" y2="938" stroke-dasharray="none"/>
         </g>
     </g>
     <rect x="103" y="243" fill-opacity="0" width="941" id="Cluster Display System" height="981" stroke-opacity="0"/>
