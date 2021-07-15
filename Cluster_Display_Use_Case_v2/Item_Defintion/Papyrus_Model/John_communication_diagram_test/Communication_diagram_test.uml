@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ActionLanguage="http://www.omg.org/spec/ALF/20120827/ActionLanguage-Profile" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http://www.omg.org/spec/ALF/20120827/ActionLanguage-Profile pathmap://PAPYRUS_ACTIONLANGUAGE_PROFILE/ActionLanguage-Profile.profile.uml#_Kv8EIKFXEeS_KNX0nfvIVQ">
+  <uml:Model xmi:id="_fmQ70KAuEeumRJVBi2M15w" name="Communication_diagram_test">
+    <packageImport xmi:type="uml:PackageImport" xmi:id="_fofwcKAuEeumRJVBi2M15w">
+      <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+    </packageImport>
+    <packagedElement xmi:type="uml:Interaction" xmi:id="_fnRBYKAuEeumRJVBi2M15w" name="Interaction1">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_2QYG0KAvEeumRJVBi2M15w" name="" type="_qYAAEKAuEeumRJVBi2M15w"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_2q3DYaAvEeumRJVBi2M15w" name="" type="_rLujEKAuEeumRJVBi2M15w"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_B9X1QKA3EeumRJVBi2M15w" name="" type="_oNM_oKAyEeumRJVBi2M15w"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_NvpwgKA3EeumRJVBi2M15w" name="" type="_rLujEKAuEeumRJVBi2M15w"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_PESoMKA3EeumRJVBi2M15w" name="" type="_tXH04KA0EeumRJVBi2M15w"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_RZUl4aA3EeumRJVBi2M15w" name="" type="_98NX0KA0EeumRJVBi2M15w"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_S4CmoaA3EeumRJVBi2M15w" name="" type="_6VqH4KA0EeumRJVBi2M15w"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_UFhtcaA3EeumRJVBi2M15w" name="" type="_12o-4KA0EeumRJVBi2M15w"/>
+      <lifeline xmi:type="uml:Lifeline" xmi:id="_2QXfwKAvEeumRJVBi2M15w" name="" represents="_2QYG0KAvEeumRJVBi2M15w" coveredBy="_f7M68aA3EeumRJVBi2M15w"/>
+      <lifeline xmi:type="uml:Lifeline" xmi:id="_2q3DYKAvEeumRJVBi2M15w" name="" represents="_2q3DYaAvEeumRJVBi2M15w"/>
+      <lifeline xmi:type="uml:Lifeline" xmi:id="_B9XOMKA3EeumRJVBi2M15w" name="" represents="_B9X1QKA3EeumRJVBi2M15w" coveredBy="_f7NiAKA3EeumRJVBi2M15w _jaTfEKA3EeumRJVBi2M15w"/>
+      <lifeline xmi:type="uml:Lifeline" xmi:id="_NvpJcKA3EeumRJVBi2M15w" name="" represents="_NvpwgKA3EeumRJVBi2M15w"/>
+      <lifeline xmi:type="uml:Lifeline" xmi:id="_PESBIKA3EeumRJVBi2M15w" name="" represents="_PESoMKA3EeumRJVBi2M15w"/>
+      <lifeline xmi:type="uml:Lifeline" xmi:id="_RZUl4KA3EeumRJVBi2M15w" name="" represents="_RZUl4aA3EeumRJVBi2M15w"/>
+      <lifeline xmi:type="uml:Lifeline" xmi:id="_S4CmoKA3EeumRJVBi2M15w" name="" represents="_S4CmoaA3EeumRJVBi2M15w"/>
+      <lifeline xmi:type="uml:Lifeline" xmi:id="_UFhtcKA3EeumRJVBi2M15w" name="" represents="_UFhtcaA3EeumRJVBi2M15w" coveredBy="_jaTfEaA3EeumRJVBi2M15w"/>
+      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_f7M68aA3EeumRJVBi2M15w" name="Message17SendEvent" covered="_2QXfwKAvEeumRJVBi2M15w" message="_f7M68KA3EeumRJVBi2M15w"/>
+      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_f7NiAKA3EeumRJVBi2M15w" name="Message17ReceiveEvent" covered="_B9XOMKA3EeumRJVBi2M15w" message="_f7M68KA3EeumRJVBi2M15w"/>
+      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_jaTfEKA3EeumRJVBi2M15w" name="Message20SendEvent" covered="_B9XOMKA3EeumRJVBi2M15w" message="_jaS4AKA3EeumRJVBi2M15w"/>
+      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_jaTfEaA3EeumRJVBi2M15w" name="Message20ReceiveEvent" covered="_UFhtcKA3EeumRJVBi2M15w" message="_jaS4AKA3EeumRJVBi2M15w"/>
+      <message xmi:type="uml:Message" xmi:id="_f7M68KA3EeumRJVBi2M15w" name="1. Open Watchdog" messageSort="asynchCall" receiveEvent="_f7NiAKA3EeumRJVBi2M15w" sendEvent="_f7M68aA3EeumRJVBi2M15w"/>
+      <message xmi:type="uml:Message" xmi:id="_jaS4AKA3EeumRJVBi2M15w" name="1.1. kernel open file" messageSort="asynchCall" receiveEvent="_jaTfEaA3EeumRJVBi2M15w" sendEvent="_jaTfEKA3EeumRJVBi2M15w"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Artifact" xmi:id="_rAf4kKAwEeumRJVBi2M15w" name="Artifact6"/>
+    <packagedElement xmi:type="uml:Model" xmi:id="_r1IagKAwEeumRJVBi2M15w" name="Model7"/>
+    <packagedElement xmi:type="uml:Package" xmi:id="_9eGxcKAyEeumRJVBi2M15w" name="User Space">
+      <packagedElement xmi:type="uml:Class" xmi:id="_qYAAEKAuEeumRJVBi2M15w" name="Safety App">
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_4cNhsKAuEeumRJVBi2M15w" name="hello?"/>
+        <nestedClassifier xmi:type="uml:Signal" xmi:id="_GNVIMKAvEeumRJVBi2M15w" name="testnachricht"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Interface" xmi:id="_oNM_oKAyEeumRJVBi2M15w" name="libc"/>
+      <packagedElement xmi:type="uml:Dependency" xmi:id="_fFg7AKA1EeumRJVBi2M15w" client="_oNM_oKAyEeumRJVBi2M15w" supplier="_12o-4KA0EeumRJVBi2M15w"/>
+      <packagedElement xmi:type="uml:Dependency" xmi:id="_gOANEKA1EeumRJVBi2M15w" client="_qYAAEKAuEeumRJVBi2M15w" supplier="_oNM_oKAyEeumRJVBi2M15w"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_Bv-2UKAzEeumRJVBi2M15w" name="Kernel Space">
+      <packagedElement xmi:type="uml:Interface" xmi:id="_6RY90KAyEeumRJVBi2M15w" name="File subsystem"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_rLujEKAuEeumRJVBi2M15w" name="Work Queue"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_cjFP8KA0EeumRJVBi2M15w" name="Linux Kernel Open List"/>
+      <packagedElement xmi:type="uml:Interface" xmi:id="_tXH04KA0EeumRJVBi2M15w" name="Ioctl"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_12o-4KA0EeumRJVBi2M15w" name="Arch Subsystem"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_6VqH4KA0EeumRJVBi2M15w" name="Security Subsystem"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_98NX0KA0EeumRJVBi2M15w" name="Driver"/>
+      <packagedElement xmi:type="uml:Dependency" xmi:id="_ZvhtwKA1EeumRJVBi2M15w" client="_6RY90KAyEeumRJVBi2M15w" supplier="_cjFP8KA0EeumRJVBi2M15w"/>
+      <packagedElement xmi:type="uml:Dependency" xmi:id="_a0LBoKA1EeumRJVBi2M15w" client="_tXH04KA0EeumRJVBi2M15w" supplier="_rLujEKAuEeumRJVBi2M15w"/>
+      <packagedElement xmi:type="uml:Dependency" xmi:id="_h9kGMKA1EeumRJVBi2M15w" client="_tXH04KA0EeumRJVBi2M15w" supplier="_98NX0KA0EeumRJVBi2M15w"/>
+      <packagedElement xmi:type="uml:Dependency" xmi:id="_i3SjgKA1EeumRJVBi2M15w" client="_tXH04KA0EeumRJVBi2M15w" supplier="_6VqH4KA0EeumRJVBi2M15w"/>
+      <packagedElement xmi:type="uml:Dependency" xmi:id="_jtd9kKA1EeumRJVBi2M15w" client="_6RY90KAyEeumRJVBi2M15w" supplier="_12o-4KA0EeumRJVBi2M15w"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_T3_5sKA1EeumRJVBi2M15w" memberEnd="_T3_5s6A1EeumRJVBi2M15w _T4AgwKA1EeumRJVBi2M15w">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_T3_5saA1EeumRJVBi2M15w" source="org.eclipse.papyrus">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_T3_5sqA1EeumRJVBi2M15w" key="nature" value="UML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_T3_5s6A1EeumRJVBi2M15w" name="ioctl" type="_tXH04KA0EeumRJVBi2M15w" association="_T3_5sKA1EeumRJVBi2M15w"/>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_T4AgwKA1EeumRJVBi2M15w" name="file subsystem" type="_6RY90KAyEeumRJVBi2M15w" association="_T3_5sKA1EeumRJVBi2M15w"/>
+    </packagedElement>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_vPQp8KAuEeumRJVBi2M15w">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_vPXXoKAuEeumRJVBi2M15w" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://PAPYRUS_ACTIONLANGUAGE_PROFILE/ActionLanguage-Profile.profile.uml#_Kv8EIKFXEeS_KNX0nfvIVQ"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://PAPYRUS_ACTIONLANGUAGE_PROFILE/ActionLanguage-Profile.profile.uml#ActionLanguage"/>
+    </profileApplication>
+  </uml:Model>
+  <ActionLanguage:TextualRepresentation xmi:id="_wHYvUKAvEeumRJVBi2M15w" language="org.eclipse.papyrus.uml.textedit.message.xtext.UmlMessage"/>
+</xmi:XMI>

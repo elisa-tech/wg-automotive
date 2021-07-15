@@ -1,0 +1,18 @@
+Association {
+	fontName:"Segoe UI";
+	routing:Rectilinear;
+	lineColor:#000000
+}
+
+Association.Association {
+	fontName:"Segoe UI";
+	routing:Rectilinear;
+	lineColor:#000000
+}
+
+Association.Connector_style {
+	fontName:"Segoe UI";
+	routing:Rectilinear;
+	lineColor:#000000
+}
+
