@@ -21,6 +21,9 @@ This document describes the assumptions and predefinitions of the ELISA Automoti
     - [Telltale request](#telltale-request)
     - [Watchdog petting](#watchdog-petting)
     - [Image out](#image-out)
+- [Safety Concept](#safety-concept)
+  - [Safety Goal 1](#safety-goal-1-1)
+  - [Safety Goal 2](#safety-goal-2-1)
 
 ## Description
 In general, the Cluster Display shows the instruments behind the drivers wheel, including but not limited to speedometer, fuel level, Direction indicator, and telltales.
@@ -43,7 +46,7 @@ The display of telltales in particular is safety critical, since telltales are a
 
 ## Hardware
 In this use case, to the end of getting something running, no specific Hardware is considered. 
-The demo runs on a X86-64 target within QEMU [todo: check] with an emulated HW watchdog [currently softdog, will be changed soon]
+The demo runs on a X86-64 target within QEMU with an emulated HW watchdog ("I6300esb")
 
 ## System Behaviour
 ### Operational states
@@ -94,6 +97,7 @@ potentially as subcomponents of our Safety Monitor block
 
 
 ### Block description
+[todo] Not accurate anymore, this needs to be aligned with the Papyrus model.
 * Telltale requester
   * ID: TT_requester
   * Description: Source of safety relevant telltale requests. Sends cyclically an E2E protected request indicating whether the telltale shall be displayed or not.
@@ -127,11 +131,13 @@ potentially as subcomponents of our Safety Monitor block
 ![system](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/Jochen-Kall/wg-automotive/Cluster_display_v2/Cluster_Display_Use_Case_v2/Item_Defintion/Sequence_diagram_nominal.puml)
 
 [Todo] Reflect changes in the Block diagrams
+[Todo] Replace with Papyrus model sequence charts, these are no longer accurate!
 
 ### Sequece diagram including telltacle checking during normale Operation
 ![system](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/Jochen-Kall/wg-automotive/Cluster_display_v2/Cluster_Display_Use_Case_v2/Item_Defintion/Sequence_diagram_safety.puml)
 
 [Todo] Reflect changes in the Block diagrams
+[Todo] Replace with Papyrus model sequence charts, these are no longer accurate!
 
 
 ## Safety Goals and Safe State
@@ -169,7 +175,9 @@ The system wide Safe state is defined as display backlight switched off / black 
 * The Image data is transferred through the HW Display Interface to the Display with a frequency of 60Hz
 * We assume the protocol to have E2E protection, and the Display to react to faulty image data by going black (-> Safe state) 
 
-
+# Safety Concept
+## Safety Goal 1
+## Safety Goal 2
 
 
 
