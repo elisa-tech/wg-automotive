@@ -1,0 +1,26 @@
+@startuml
+start
+:Setup, QT setup, AGL shell, canvas, command-line parser etc;
+if (both command-line options set?) then (yes)
+  :More Setup;
+  partition read_config() {
+  :Read config file;
+  :Set global variable "runAnimation" accordingly; 
+  }
+  :Setup QT context properties, including "runAnimation";
+else (no)
+endif
+partition app.exec() {
+:Run QT Application;
+  fork
+    if (runAnimation) then (true)
+      :Change Telltale Status values \n by executing animation sequence \n as defined in App/ValueSource.qml;
+    else (false)
+      : Change Telltale status values \n according to messages from the SignalComposer;
+endif
+  fork again
+    :Refresh display according to \n the Telltale status values;
+  end fork
+}
+end
+@enduml

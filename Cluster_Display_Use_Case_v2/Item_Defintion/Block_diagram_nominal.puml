@@ -1,0 +1,89 @@
+' Functional perspective Cluster Demo application
+@startuml
+skinparam linetype polyline
+skinparam linetype ortho
+skinparam componentStyle rectangle
+[Telltale Requester] as TT_requester
+[Non Safety \nInstrument cluster \nstate sources] as other_inputs
+
+together {
+[Display] as AE_Display
+[Backlight] as AE_Backlight
+}
+' [Power Source]
+'[Watchdog]
+package "SOC" {
+[Request handling  /\nDisplay State arbitration] as AE_Request_handling
+
+package "Rendering (HW/SW)" as pkg_Rendering {
+[QM Plane Rendering] as AE_Rendering
+'[Safety Plane Rendering]
+[Plane Storage] as AE_Plane_Storage #Aqua
+}
+
+package "Autonomous Merge Pipeline 60Hz (HW)" as pkg_DC #grey  {
+    [Plane Blending] as AE_Plane_Blending
+    [HW Display Interface] as AE_HW_Display_interface
+    [Configuration Data] as AE_Merge_Pipeline_Configuration_Data #Aqua
+}
+
+
+[Initialization] as AE_Initialization
+
+}
+
+package "Logical constraint" #green {
+    [Synchronization] as Synchronization
+}
+
+'pkg_Rendering -[#blue,bold,dotted]- pkg_DC : Synchronization
+
+
+note top of Synchronization :  Rendering and Merging \npipeline need to be synchronized
+
+[Synchronization] .[dotted,#blue]. pkg_DC
+[Synchronization] .[dotted,#blue]. pkg_Rendering
+'"Autonomous Merge Pipeline 60Hz (HW)" -- "Rendering (HW/SW)"
+
+
+' schauen ob wir Synchronisierung visualisiert bekommen
+' package symbole ausblenden
+' Schauen ob wir relative anordnung
+
+'Power source
+'[Power Source] -[#blue]- SOC
+'[Power Source] -[#blue]- [Display]
+'[Power Source] -[#blue]- [Watchdog]
+'[Power Source] -[#blue]- AE_Backlight
+
+' Autonomous Plane blender
+AE_Plane_Blending ..> AE_Plane_Storage : Polling
+AE_Plane_Blending --> AE_HW_Display_interface : Post Processed Image: \n Scaling, alpha and color correction etc
+AE_HW_Display_interface --> AE_Display: Bit Stream
+AE_Merge_Pipeline_Configuration_Data .. AE_Plane_Blending
+
+' Request handling
+other_inputs --> AE_Request_handling : "Non safety display inputs \n (car speed for speedometer, rpm, etc)"
+TT_requester -left-> AE_Request_handling : Telltale Request
+
+AE_Request_handling --> AE_Rendering: Target Rendering State
+'[Request handling] --> [Safety Plane Rendering]
+'[Request handling] --> [Telltale checking]
+
+'Rendering
+AE_Rendering --> AE_Plane_Storage: Rendered Bitmap
+'[Safety Plane Rendering] --> AE_Plane_Storage
+
+'Safety checking
+'[HDMI Interface] --> [HDMI Decoding]
+'[HDMI Decoding] --> [Telltale checking]
+'[Telltale checking] --> [Watchdog] : pet
+'[Telltale checking] --> [Calibration Data]
+
+'Watchdog
+'[Watchdog] --> AE_Backlight : kill line
+AE_Display -- AE_Backlight
+
+AE_Initialization -- AE_Merge_Pipeline_Configuration_Data
+@enduml
+

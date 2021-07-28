@@ -1,0 +1,9 @@
+@startuml
+[Watchdog]
+package "Linux"{
+[Safety signal source] --> [QT App] : Montitor QT App, alternatively external checker HW   
+[Safety signal source] .> [Safety App] : cyclic Message thumbs up/down
+[Safety App] ..>[Watchdog] : Pet
+}
+[Watchdog] --> [Backlight] : kill line
+@enduml

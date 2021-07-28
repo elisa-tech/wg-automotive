@@ -1,0 +1,88 @@
+/* IE 11 hack to avoid overflow */
+@media all and (-ms-high-contrast:none)
+{
+	*::-ms-backdrop, object { height: 80% } / IE11 */
+}
+
+.diagram-explorer-div{
+	float:left;
+ 	width: 20%;
+}
+
+.diagram-div{
+	float:right;
+ 	width: 80%;
+}
+
+.html-editor{
+ 	width: 100%;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+}
+
+li {
+	list-style-type: none;
+	white-space: nowrap;
+}
+
+.diagram-explorer ul{ /*CSS for Simple Tree Menu*/
+	margin: 0;
+	padding: 0;
+}
+
+.diagram-explorer li{ /*Style for LI elements in general (excludes an LI that contains sub lists)*/
+	background: white url(../icons/list.gif) no-repeat left center;
+	list-style-type: none;
+	padding-left: 22px;
+	margin-bottom: 3px;
+}
+
+.diagram-explorer li.submenu{ /* Style for LI that contains sub lists (other ULs). */
+	background: white url(../icons/closed.gif) no-repeat left 1px;
+	cursor: hand !important;
+	cursor: pointer !important;
+}
+
+
+.diagram-explorer li.submenu ul{ /*Style for ULs that are children of LIs (submenu) */
+	display: none; /*Hide them by default. Don't delete. */
+}
+
+.diagram-explorer .submenu ul li{ /*Style for LIs of ULs that are children of LIs (submenu) */
+	cursor: default;
+}
+
+
+.api {
+	height: 750px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.split p {
+    padding: 5px;
+}
+
+.split {
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.gutter {
+    background-color: #eee;
+    background-repeat: no-repeat;
+    background-position: 50%;
+}
+
+.split.split-horizontal, .gutter.gutter-horizontal {
+    height: 100%;
+    float: left;
+}
+
