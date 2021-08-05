@@ -12,12 +12,22 @@ Initialy_discussed_system_scope
 AGL_cluster_demo_use_case
 * Item definition
 * Safety Concept/Requirements
+Our Implementation on top of the AGL Cluster demo is split in two repositories:
+
+The meta layer: (also includes build and running instructions)
+
+https://github.com/elisa-tech/meta-elisa
+
+The actual sourcecode repository:
+
+https://github.com/elisa-tech/wg-automotive-safety-app
+
 ### The second iteration of the use case including Eclipse Papyrus based SysML models can be found in
 Cluster_Display_Use_Case_v2
 * Item definition [WIP]
 * SysML models [WIP]
 
-The models are also visible via github page deployment as online viewer at
+The models are also visible via github page deployment as online viewer at:
 
 https://elisa-tech.github.io/wg-automotive/
 
@@ -29,4 +39,6 @@ Requirements are stored and handled as Freeplane Mindmap with Functional Safety 
 * https://github.com/Jochen-Kall/Safety_concept_tool
 ### SysML modeling
 SysML models are done with Eclipse Papyrus with SysML v1.6 Plugin
+* https://www.eclipse.org/papyrus/
+* https://marketplace.eclipse.org/content/papyrus-sysml-16
 
