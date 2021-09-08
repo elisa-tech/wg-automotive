@@ -41,4 +41,3 @@ Requirements are stored and handled as Freeplane Mindmap with Functional Safety 
 SysML models are done with Eclipse Papyrus with SysML v1.6 Plugin
 * https://www.eclipse.org/papyrus/
 * https://marketplace.eclipse.org/content/papyrus-sysml-16
-
