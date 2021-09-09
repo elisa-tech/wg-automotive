@@ -1,0 +1,47 @@
+digraph G {
+
+node [shape=box width=1 height=0.5 fontname=arial fontsize=16 style=filled fillcolor=white]
+graph [splines=ortho ranksep=1 nodesep=0.2 fontname=arial fontsize=16 compound=true]
+
+requester [label="Telltale Requester"]
+
+subgraph cluster_controller {
+  label="Cluster Controller"
+  labelloc=b fontsize=12 margin=10 bgcolor=lightgrey color=lightgrey
+  handler [label="Request handler" width=5]
+  qtapp [label="QT application" width=2.5]
+  signal [label="Safety-signal Source" width=4]
+  safetyapp [label="Safety\n application" width=2]
+  }
+linux [label="Operating System" width=6]
+subgraph cluster_hardware {
+  label="Hardware" labelloc=b fontsize=12 margin=10 bgcolor=lightgrey color=lightgrey
+  display [label="Display" width=3.5]
+  backlight [label="Backlight" width=8]
+  watchdog [label="Watchdog" width=2]
+}
+
+requester -> handler
+requester -> handler [style=dashed dir=back]
+handler -> signal
+handler -> signal [style=dashed dir=back]
+handler -> qtapp
+handler -> qtapp [style=dashed dir=back]
+signal -> safetyapp [weight=8]
+signal -> linux [color=blue]
+signal -> linux [color=blue style=dashed dir=back]
+qtapp -> linux
+qtapp -> linux [style=dashed dir=back]
+safetyapp -> linux
+safetyapp -> linux [style=dashed dir=back]
+linux-> display
+linux-> display [style=dashed dir=back]
+linux -> watchdog
+linux -> watchdog [style=dashed dir=back]
+linux -> backlight [color=darkgreen]
+linux -> backlight [style=dashed dir=back color=darkgreen]
+watchdog -> backlight
+watchdog -> backlight [style=dashed dir=back]
+display -> backlight [style=dashed dir=back]
+signal -> display [style=dashed dir=back weight=5 color=red]
+}
