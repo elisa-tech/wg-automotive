@@ -41,3 +41,22 @@ Requirements are stored and handled as Freeplane Mindmap with Functional Safety 
 SysML models are done with Eclipse Papyrus with SysML v1.6 Plugin
 * https://www.eclipse.org/papyrus/
 * https://marketplace.eclipse.org/content/papyrus-sysml-16
+
+## Contribution workflow
+To make collaboration as frictionless as possible, the automotive workgroup uses the following github based workflow.
+* Fork elisa-tech/wg-automotive within github
+* Create a feature branch based on "master" to work on
+* Getting your work back into the main repository
+  * Fast forward the master branch of your fork to the master of the original repository (Can be done with one click from within the github browser Interface)
+    * Pull the changed master branch into your local copy
+    * Rebase your feature branch on "master"
+  * Make sure all your commits are signed off 
+    * If they are not, github will notify you of failed DCO checks and provide instructions how to sign off afterwards, does not always get it right though.
+    * It's best to sign your commits directly by using the --signoff flag when using command line git, or the according setting of your GIT Gui
+  * Push your feature branch to your fork on github
+  * Create a cross fork pull request from your feature branch to elisa-tech/wg-automotive:master
+  * Important! Do not continue to push revisions to the feature branch, unless you want the changes to become part of the pull request, the moment you push revisions to github, the pull request will be amended automatically!  
+* The pull request is visible and open for comments and discussion
+* You might be asked to rebase your feature branch again, this can become necessary if a pull request is merged in the meantime that has conflicting changes with your feature branch. 
+* After review and confirmation in the sync call, the pull request will be merged by one of the maintainers
+
