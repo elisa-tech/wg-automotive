@@ -44,8 +44,13 @@ SysML models are done with Eclipse Papyrus with SysML v1.6 Plugin
 
 ## Contribution workflow
 To make collaboration as frictionless as possible, the automotive workgroup uses the following github based workflow.
-* Fork elisa-tech/wg-automotive within github
-* Create a feature branch based on "master" to work on
+### Prerequisites
+* Git
+* Github account
+### Workflow
+* Fork elisa-tech/wg-automotive within Github [Instructions](https://docs.github.com/en/get-started/quickstart/fork-a-repo)
+* Clone the fork [Instructions](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository)
+* Create a feature branch based on "master/main" to work on [click](#creating-a-feature-branch)
 * [todo][optional for non-code repositories] create an issue on github describing what you work on, refer to issue in commits
 * Getting your work back into the main repository
   * Fast forward the master branch of your fork to the master of the original repository (Can be done with one click from within the github browser Interface)
@@ -67,4 +72,19 @@ To make collaboration as frictionless as possible, the automotive workgroup uses
 [todo] add examples and git code snippets for the individual steps for people new to git, keeping it tidy to read for veterans
 [todo] add installation and setup instructions for git
 [todo] refer to some git guis, tortoise, gitkraken etc
+
+### Git newbie section
+#### Creating a feature branch
+With your fork of the repository cloned, proceed to create a feature branch, push it up to github and make your branch track the newly created feature branch.
+Short example using command line git in the top level folder to create a new branch by the name of "my_feature":
+```
+git checkout -b my_feature
+```
+To push the new branch to github and make your branch track it:
+```
+git push -u origin my_feature
+``` 
+
+
+
 
