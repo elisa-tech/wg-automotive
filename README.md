@@ -69,8 +69,8 @@ If you did create an issue, it is best practice to reference the issue in your c
   * Review is considered done if no more unresolved findings/comments remain, no checks fail and 2 group members approved the change.
   * Merge ready Pullrequests are put on the next Workgroup synccall agenda for discussion, if consensus is found, the pullrequest is merged by an maintainer.
 
-### Git Newbie section
-#### Intital Setup - Git etc
+# Git Newbie section
+## Intital Setup - Git etc
 For this workflow, having Git installed and configured is essential. 
 
 Linux users install the git package, Windows users grab git for Windows [click](https://git-scm.com/downloads).
@@ -84,12 +84,12 @@ git config --global user.name "Your Name"
 Depending on your preferences and love/tolerance of the commande line, you might also want to get a graphical GIT interface such as
 * Tortoise git (Windows)
 * Gitkraten
-#### Github Workflow in a nut shell
+## Github Workflow in a nut shell
 ![Github Workflow](Documentation/Github_workflow.svg)
-#### Initial Setup - Forking and Cloning
+## Initial Setup - Forking and Cloning
 * Fork elisa-tech/wg-automotive within Github [Instructions](https://docs.github.com/en/get-started/quickstart/fork-a-repo)
 * Clone the fork [Instructions](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository)
-#### Creating a feature branch
+## Creating a feature branch
 With your fork of the repository cloned, proceed to create a feature branch, push it up to github and make your branch track the newly created feature branch.
 Short example using command line git in the top level folder to create a new branch by the name of "my_feature":
 ```
@@ -100,7 +100,7 @@ Push the new branch to github and make your branch track it:
 git push -u origin my_feature
 ``` 
 
-#### Committing and pushing
+## Committing and pushing
 * Commit your changes within your local copy using either command line git or a graphical interface (tortoise git, gitkraken etc)
   * Quality check your commits
   * Sign off your commits using the --signoff flag when using command line git, or the according setting of your GIT Gui, see [click](#signing-off-and-dco) 
@@ -111,7 +111,7 @@ git push -u origin my_feature
 git push origin
 ```
 
-#### Signing off and DCO
+## Signing off and DCO
 Using the --signoff flag when committing conveniently adds the signoff line to your commit message
 ```
 Signed-off-by: <your name> <<your email adress>>
@@ -126,7 +126,7 @@ git rebase HEAD~3 --signoff
 Keep in mind, since this changes the history of the repo, if you already pushed, pushing again to overwrite the changelog requires using the --force flag!
 
 
-#### Syncing Your fork and local working copy with the upstream repository
+## Syncing Your fork and local working copy with the upstream repository
 Before starting your work, you need to make sure the files you start out with are up to date to avoid having to fix that afterwards.
 This workflow involves three relevant destinations
 * The original upstream repository [on Github servers] elisa-tech/wg-automotive
@@ -147,7 +147,7 @@ git pull origin
 
 After these two steps, the master branch of all three repositories are synced up, and you are ready to base a feature branch on the master of your local clone.
 
-#### Rebasing a Feature Branch
+## Rebasing a Feature Branch
 While you worked on your feature branch, other pull request might have been merged into the master branch of the upstream repository.
 Since could lead to conflicts when merging your branch, you need to make sure that your feature branch is based on the current revision, not the one you started your work with.
 This we accomplish by a two step process
