@@ -84,6 +84,8 @@ git config --global user.name "Your Name"
 Depending on your preferences and love/tolerance of the commande line, you might also want to get a graphical GIT interface such as
 * Tortoise git (Windows)
 * Gitkraten
+#### Github Workflow in a nut shell
+![Github Workflow](Documentation/Github_workflow.svg)
 #### Initial Setup - Forking and Cloning
 * Fork elisa-tech/wg-automotive within Github [Instructions](https://docs.github.com/en/get-started/quickstart/fork-a-repo)
 * Clone the fork [Instructions](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository)
