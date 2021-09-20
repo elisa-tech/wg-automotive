@@ -103,13 +103,28 @@ git push -u origin my_feature
 #### Committing and pushing
 * Commit your changes within your local copy using either command line git or a graphical interface (tortoise git, gitkraken etc)
   * Quality check your commits
-  * Sign off your commits using the --signoff flag when using command line git, or the according setting of your GIT Gui 
+  * Sign off your commits using the --signoff flag when using command line git, or the according setting of your GIT Gui, see [click](#signing-off-and-dco) 
   * Reference the github issue you are working on, if applicable
   * Provide a short concise commit message describing the changes
 * Push regularly to your Github fork to have a backup of your work
 ```
 git push origin
 ```
+
+#### Signing off and DCO
+Using the --signoff flag when committing conveniently adds the signoff line to your commit message
+```
+Signed-off-by: <your name> <<your email adress>>
+```
+What if I forgot?
+Github will complain when you create a pull request, having signed commits is required!
+How to fix it then? 
+Signing off on the last 3 commits for instance is done by rebasing the current branch on an earlier commit:
+```
+git rebase HEAD~3 --signoff
+```
+Keep in mind, since this changes the history of the repo, if you already pushed, pushing again to overwrite the changelog requires using the --force flag!
+
 
 #### Syncing Your fork and local working copy with the upstream repository
 Before starting your work, you need to make sure the files you start out with are up to date to avoid having to fix that afterwards.
