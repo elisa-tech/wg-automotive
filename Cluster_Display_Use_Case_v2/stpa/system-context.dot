@@ -1,0 +1,21 @@
+digraph G {
+
+node [shape=box width=1 height=0.5 fontname=arial fontsize=16 style=filled fillcolor=white]
+graph [splines=ortho ranksep=1 nodesep=0.2 fontname=arial fontsize=16 compound=true]
+
+driver [label="Driver"]
+source [label="Source of State\n Info (non-safety)"]
+requester [label="Telltale\nRequester"]
+cluster [label="Instrument Cluster SoC" width=4]
+display [label="Display" width=3.5]
+watchdog [label="External\nWatchdog"]
+backlight [label="Display backlight"]
+driver->display [dir=back style=dashed]
+source -> cluster
+requester -> cluster
+cluster -> watchdog
+cluster -> display
+cluster -> display [dir=back style=dashed]
+watchdog -> backlight
+display -> backlight [dir=back style=dashed]
+}
