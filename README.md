@@ -104,8 +104,8 @@ git push -u origin my_feature
 * Commit your changes within your local copy using either command line git or a graphical interface (tortoise git, gitkraken etc)
   * Quality check your commits
   * Sign off your commits using the --signoff flag when using command line git, or the according setting of your GIT Gui, see [click](#signing-off-and-dco) 
-  * Reference the github issue you are working on, if applicable
   * Provide a short concise commit message describing the changes
+  * Reference the github issue you are working on, if applicable with the hashtag syntax #<<"issue number">> in your commit message and pull request message [click](https://docs.github.com/en/issues/tracking-your-work-with-issues/linking-a-pull-request-to-an-issue) This will link your commits/pull request to the issue and make it visible in the github interface
 * Push regularly to your Github fork to have a backup of your work
 ```
 git push origin
