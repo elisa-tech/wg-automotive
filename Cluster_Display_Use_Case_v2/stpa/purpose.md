@@ -21,6 +21,12 @@ designers have some control.
 
 ![Control Structure Diagram](system-context.dot.png)
 
+## Notes
+
+* For next level down, include another application (e,g, IVI) running on the
+  same system as the Instrument Cluster
+    - This may have a second display and other peripheral components
+
 ### Questions
 
 * What are the telltale requesters?
@@ -41,6 +47,10 @@ designers have some control.
 * L-2: Loss of or damage to vehicle  
 * L-3: Loss of or damage to objects outside the vehicle
 
+## Notes
+
+* L-2 and L-3 are included for context, but are not strictly safety-relevant
+
 ## System Level Hazards
 
 ### Definitions
@@ -48,27 +58,26 @@ designers have some control.
 > A hazard is a system state or set of conditions that, together with a
   particular set of worst-case environmental conditions, will lead to a loss.
 
-* H-1: Driver is not warned about a system condition, leading to a collision or other harmful event
-* H-2: Driver is distracted by a warning, leading to a collision or other harmful event
-* H-3: Driver becomes desensitized to a warning because it is incorrectly repeated
-* H-4: A display anomaly compromises the driver (e.g. flickering image triggers epileptic fit)
+* H-1: Driver is not informed about a system condition, leading to a collision
+  or other harmful event [L-1, L-2]
+* H-2: Driver is distracted by the display, leading to a collision or other
+  harmful event [L-1, L-2]
+* H-3: Driver becomes desensitized to a warning because it is incorrectly
+  repeated, leading to a collision or other harmful event [L-1, L-2]
+* H-4: Content on display compromises the driver (e.g. flickering image triggers
+  epileptic fit), leading to a collision or other harmful event [L-1]
 
 ## System-level Constraints
-
-* What system-level constraints are relevant for the Instrument Cluster?
-    - e.g. "A warning symbol must be displayed to the driver when abnormal tyre
-      pressure is detected"
 
 ### Definitions
 
 > A system-level constraint specifies system conditions or behaviors that need
-to be satisfied to prevent hazards (and ultimately prevent losses) 
+to be satisfied to prevent hazards (and ultimately prevent losses)
 
-### Examples
-
-* H-1: Aircraft violate minimum separation standards [L-1, L-2, L-4, L-5]
-    - SC-1: Aircraft must satisfy minimum separation standards from other
-      aircraft and objects [H-1]
-* H-2: Aircraft airframe integrity is lost [L-1, L-2, L-4, L-5]
-    - SC-2: Aircraft airframe integrity must be maintained under worst-case
-      conditions [H-2]
+* C-1: Warning of a potentially harmful system condition must be visible and
+  noticeable by the driver [H-1]
+* C-2: Display content must not impede the driver in performing the driving task
+  [H-2, H-4]
+* C-3: Erroneous, ambiguous or contradictory information relating to potentially
+  harmful system conditions must not be persistently displayed [H-3]
+   - Needs more work - suggestions?
