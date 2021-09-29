@@ -52,7 +52,7 @@ To make collaboration as frictionless as possible, the automotive workgroup uses
   * Fork the upstream repo and clone your fork to get a local working copy, details see [click](#initial-setup---forking-and-cloning)
 * If you already forked the repository and cloned your fork
   * Make sure to start your work on the most recent version of the upstream master branch, for details see [click](#syncing-your-fork-and-local-working-copy-with-the-upstream-repository)
-* Create a feature branch based on "master/main" to start your work on[click](#creating-a-feature-branch)
+* Create a feature branch based on "master/main" to start your work on [click](#creating-a-feature-branch)
 * [Optional for non code repositories] If you suspect the files you intend to work on are being worked on by other members of the group as well, or you want to discuss your planned work beforehand, create an Github issue, see [click](https://docs.github.com/en/issues/tracking-your-work-with-issues/creating-an-issue). 
 If you did create an issue, it is best practice to reference the issue in your commit messages.
 * Commit changes and push them to your fork see [click](#committing-and-pushing) 
@@ -91,11 +91,18 @@ Depending on your preferences and love/tolerance of the commande line, you might
 * Clone the fork [Instructions](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository)
 ## Creating a feature branch
 With your fork of the repository cloned, proceed to create a feature branch, push it up to github and make your branch track the newly created feature branch.
-Short example using command line git in the top level folder to create a new branch by the name of "my_feature":
+Make sure to base your feature branch the most recent commit, i.e. sync your fork befor you start your work [click](#syncing-your-fork-and-local-working-copy-with-the-upstream-repository)
+
+Short example using command line git in the top level folder to fetch the latest revision and create a new branch by the name of "my_feature":
+Assuming your fork is on par with the upstream repository, fetch origin to get the revisions to your local clone
 ```
-git checkout -b my_feature
+git fetch origin
 ```
-Push the new branch to github and make your branch track it:
+Create your feature branch based of origin/master: note the flag --no-track to avoid tracking origin/master, since we are constructing a new feature branch.
+```
+git checkout -b my_feature --no-track origin/master
+```
+Push the new branch to your fork on github and make your branch track it:
 ```
 git push -u origin my_feature
 ``` 
@@ -141,11 +148,14 @@ With your fork syncronized with the upstream repository, we have to make sure an
 Assuming you refrain from committing to your master branch, the changes can be pulled and fast forwarded:
 Command line GIT example with a shell opened in the directory of your local checked out copy:
 ```
+git fetch origin
 git checkout master
-git pull origin
+git pull origin --ff-only
 ```
+The flag --ff-only restricts the pull operation to fast forward merges, this operation will fail if the current revision in your local copy is not a direct ancestor of the upstream revisions to be pulled, i.e. if you by mistake committed to your local master branch.
+For a detailled explanation why that would be highly undesirable even if the merge has no conflicts see [click](https://blog.sffc.xyz/post/185195398930/why-you-should-use-git-pull-ff-only-git-is-a)
 
-After these two steps, the master branch of all three repositories are synced up, and you are ready to base a feature branch on the master of your local clone.
+After these two steps, the master branch of all three repositories are synced up, you can inspect the latest revision in the master branch and you are prepared to base a feature branch on synced up master branch.
 
 ## Rebasing a Feature Branch
 While you worked on your feature branch, other pull request might have been merged into the master branch of the upstream repository.
@@ -156,8 +166,9 @@ This we accomplish by a two step process
 
 Command line git example:
 ```
+git fetch origin
 git checkout my_feature_branch
-git rebase master
+git rebase origin/master
 ```
 
 In case of conflicts, rebase will interrupt the process, give you a chance to resolve the conflict and continue.
