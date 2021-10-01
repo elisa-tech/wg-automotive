@@ -43,7 +43,7 @@ designers have some control.
   of mission, loss of reputation, loss or leak of sensitive information, or any
   other loss that is unacceptable to the stakeholders.
 
-* L-1: Loss of life or injury to people
+* L-1: Loss of life or injury to people (not limited to vehicle occupants)
 * L-2: Loss of or damage to vehicle  
 * L-3: Loss of or damage to objects outside the vehicle
 
