@@ -19,7 +19,7 @@ respect to engineering, the most useful way to define the system boundary for
 analysis purposes is to include the parts of the system over which the system
 designers have some control.
 
-![Control Structure Diagram](system-context.dot.png)
+![Control Structure Diagram for system context](system-context.dot.png)
 
 ## Notes
 
