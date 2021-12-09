@@ -3,9 +3,9 @@ digraph G {
 node [shape=box width=1 height=0.5 fontname=arial fontsize=16 style=filled fillcolor=white]
 graph [splines=ortho ranksep=1 nodesep=0.2 fontname=arial fontsize=16 compound=true]
 
-vehicle [label="Vehicle" width=8]
+vehicle [label="Vehicle" width=8, fillcolor=gray]
 cluster [label="Cluster App" width=4]
-requester [label="Telltale requester" width=3]
+requester [label="Telltale requester" width=3, fillcolor=gray]
 handler [label="Request Handler" width=3]
 render [label="Rendering (Qt)" width=5]
 dControl [label="Display Controller" width=4]
@@ -30,3 +30,4 @@ framebuffer -> dControl [dir=back taillabel="\r Initate \rDMA \r Transfer \r" st
 framebuffer -> dControl [taillabel="\r Frame  \r  Data  \r"]
 render -> dControl [taillabel="\r\r  set  \r base  \raddress  \r"]
 }
+
