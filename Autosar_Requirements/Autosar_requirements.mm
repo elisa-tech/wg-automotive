@@ -2,8 +2,8 @@
 <!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
 <node LOCALIZED_TEXT="new_mindmap" FOLDED="false" ID="ID_696401721" CREATED="1610381621824" MODIFIED="1610381621824" STYLE="oval">
 <font SIZE="18"/>
-<hook NAME="MapStyle" zoom="0.912">
-    <properties fit_to_viewport="false" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" .addon.mm="file" show_icon_for_attributes="true"/>
+<hook NAME="MapStyle" zoom="1.012">
+    <properties show_icon_for_attributes="true" .addon.mm="file" fit_to_viewport="false" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff"/>
 
 <map_styles>
 <stylenode LOCALIZED_TEXT="styles.root_node" STYLE="oval" UNIFORM_SHAPE="true" VGAP_QUANTITY="24 pt">
@@ -79,9 +79,9 @@
 <edge COLOR="#ff0000"/>
 <node TEXT="AUTOSAR_RS_Safety.pdf" ID="ID_1374749751" CREATED="1614585596714" MODIFIED="1637582079528" LINK="https://www.autosar.org/fileadmin/user_upload/standards/foundation/20-11/AUTOSAR_RS_Safety.pdf">
 <attribute_layout NAME_WIDTH="150 pt"/>
-<node TEXT="Main requirements" FOLDED="true" ID="ID_1547012584" CREATED="1615805094989" MODIFIED="1615805101022">
+<node TEXT="Main requirements" ID="ID_1547012584" CREATED="1615805094989" MODIFIED="1615805101022">
 <attribute_layout NAME_WIDTH="150 pt"/>
-<node TEXT="AUTOSAR shall support the development of safety&#xa;related systems" FOLDED="true" ID="ID_1369934896" CREATED="1615804779687" MODIFIED="1615804803635"><richcontent CONTENT-TYPE="xml/" TYPE="DETAILS">
+<node TEXT="AUTOSAR shall support the development of safety&#xa;related systems" ID="ID_1369934896" CREATED="1615804779687" MODIFIED="1615804803635"><richcontent CONTENT-TYPE="xml/" TYPE="DETAILS">
 <html>
   <head>
     
@@ -93,7 +93,7 @@
   </body>
 </html></richcontent>
 <attribute_layout NAME_WIDTH="150 pt"/>
-<node TEXT="[RS_SAF_00001]" FOLDED="true" ID="ID_1314148308" CREATED="1615804958945" MODIFIED="1615806135534"><richcontent CONTENT-TYPE="xml/" TYPE="DETAILS">
+<node TEXT="[RS_SAF_00001]" ID="ID_1314148308" CREATED="1615804958945" MODIFIED="1637587771953"><richcontent CONTENT-TYPE="xml/" TYPE="DETAILS">
 <html>
   <head>
     
@@ -108,7 +108,7 @@
   </body>
 </html></richcontent>
 <attribute_layout NAME_WIDTH="150 pt"/>
-<node TEXT="[RS_SAF_10001]" FOLDED="true" ID="ID_1472695371" CREATED="1615806301050" MODIFIED="1615806323836"><richcontent CONTENT-TYPE="xml/" TYPE="DETAILS">
+<node TEXT="[RS_SAF_10001]" ID="ID_1472695371" CREATED="1615806301050" MODIFIED="1615806323836"><richcontent CONTENT-TYPE="xml/" TYPE="DETAILS">
 <html>
   <head>
     
@@ -173,7 +173,7 @@
 <attribute_layout NAME_WIDTH="150 pt"/>
 </node>
 </node>
-<node TEXT="[RS_SAF_10005]" FOLDED="true" ID="ID_54632817" CREATED="1615806357666" MODIFIED="1615820099382" BACKGROUND_COLOR="#ff6666"><richcontent CONTENT-TYPE="xml/" TYPE="DETAILS">
+<node TEXT="[RS_SAF_10005]" ID="ID_54632817" CREATED="1615806357666" MODIFIED="1615820099382" BACKGROUND_COLOR="#ff6666"><richcontent CONTENT-TYPE="xml/" TYPE="DETAILS">
 <html>
   <head>
     
@@ -220,7 +220,7 @@
 </html></richcontent>
 <attribute_layout NAME_WIDTH="150 pt"/>
 </node>
-<node TEXT="[RS_SAF_21105]" FOLDED="true" ID="ID_320699721" CREATED="1615805802555" MODIFIED="1615805808665"><richcontent CONTENT-TYPE="xml/" TYPE="DETAILS">
+<node TEXT="[RS_SAF_21105]" ID="ID_320699721" CREATED="1615805802555" MODIFIED="1615805808665"><richcontent CONTENT-TYPE="xml/" TYPE="DETAILS">
 <html>
   <head>
     
@@ -256,7 +256,7 @@
 </html></richcontent>
 <attribute_layout NAME_WIDTH="150 pt"/>
 </node>
-<node TEXT="[RS_SAF_21202]" FOLDED="true" ID="ID_1835745930" CREATED="1615805857826" MODIFIED="1615805865401"><richcontent CONTENT-TYPE="xml/" TYPE="DETAILS">
+<node TEXT="[RS_SAF_21202]" ID="ID_1835745930" CREATED="1615805857826" MODIFIED="1615805865401"><richcontent CONTENT-TYPE="xml/" TYPE="DETAILS">
 <html>
   <head>
     
@@ -291,7 +291,7 @@
 <node ID="ID_1188528886" CONTENT_ID="ID_1907996786"/>
 <node TEXT="No children allocated to OS, some clearly should be though" ID="ID_1741202113" CREATED="1615818431235" MODIFIED="1615820108433"/>
 </node>
-<node TEXT="[RS_SAF_10008]" FOLDED="true" ID="ID_1876387265" CREATED="1615805229059" MODIFIED="1615811902873" BACKGROUND_COLOR="#ff6666"><richcontent CONTENT-TYPE="xml/" TYPE="DETAILS">
+<node TEXT="[RS_SAF_10008]" ID="ID_1876387265" CREATED="1615805229059" MODIFIED="1615811902873" BACKGROUND_COLOR="#ff6666"><richcontent CONTENT-TYPE="xml/" TYPE="DETAILS">
 <html>
   <head>
     
@@ -306,7 +306,7 @@
   </body>
 </html></richcontent>
 <attribute_layout NAME_WIDTH="150 pt"/>
-<node TEXT="[RS_SAF_21401]" FOLDED="true" ID="ID_861325057" CREATED="1615805905970" MODIFIED="1615811742492" COLOR="#000000" BACKGROUND_COLOR="#ff6666"><richcontent CONTENT-TYPE="xml/" TYPE="DETAILS">
+<node TEXT="[RS_SAF_21401]" ID="ID_861325057" CREATED="1615805905970" MODIFIED="1615811742492" COLOR="#000000" BACKGROUND_COLOR="#ff6666"><richcontent CONTENT-TYPE="xml/" TYPE="DETAILS">
 <html>
   <head>
     
@@ -327,12 +327,30 @@
 <node TEXT="That might be very difficult to ensure in all cases with an preemptive OS" ID="ID_1529639486" CREATED="1615818733710" MODIFIED="1635504409855">
 <attribute_layout NAME_WIDTH="150 pt"/>
 </node>
-<node TEXT="[RS_OSI_00202]" FOLDED="true" ID="ID_1590043808" CREATED="1635496462136" MODIFIED="1635957705779" LINK="https://www.autosar.org/fileadmin/user_upload/standards/adaptive/20-11/AUTOSAR_RS_OperatingSystemInterface.pdf#page=9">
+<node TEXT="[RS_OSI_00202]" ID="ID_1590043808" CREATED="1635496462136" MODIFIED="1639988627296" LINK="https://www.autosar.org/fileadmin/user_upload/standards/adaptive/20-11/AUTOSAR_RS_OperatingSystemInterface.pdf#page=9">
 <attribute_layout NAME_WIDTH="150 pt"/>
-<node TEXT="[SWS_OSI_02000]" ID="ID_1141283122" CREATED="1635496538422" MODIFIED="1635957367504" LINK="https://www.autosar.org/fileadmin/user_upload/standards/adaptive/20-11/AUTOSAR_SWS_OperatingSystemInterface.pdf#page=16">
+<richcontent CONTENT-TYPE="xml/" TYPE="DETAILS">
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      The Operating System shall provide mechanisms to configure resource
+    </p>
+    <p>
+      budgeting in terms of CPU time for each process or group of processes.
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="[SWS_OSI_02000]" FOLDED="true" ID="ID_1141283122" CREATED="1635496538422" MODIFIED="1639989280559" LINK="https://www.autosar.org/fileadmin/user_upload/standards/adaptive/20-11/AUTOSAR_SWS_OperatingSystemInterface.pdf#page=16">
 <attribute_layout NAME_WIDTH="150 pt"/>
+<node TEXT="png_4615176338401799785.png" ID="ID_894976567" CREATED="1639989302884" MODIFIED="1639989302884">
+<hook URI="Autosar_requirements_files/png_4615176338401799785.png" SIZE="0.9463722" NAME="ExternalObject"/>
 </node>
-<node ID="ID_678981224" CREATED="1635496550026" MODIFIED="1635957417968" LINK="https://www.autosar.org/fileadmin/user_upload/standards/adaptive/20-11/AUTOSAR_SWS_OperatingSystemInterface.pdf#page=17"><richcontent TYPE="NODE">
+</node>
+<node FOLDED="true" ID="ID_678981224" CREATED="1635496550026" MODIFIED="1639989238724" LINK="https://www.autosar.org/fileadmin/user_upload/standards/adaptive/20-11/AUTOSAR_SWS_OperatingSystemInterface.pdf#page=17"><richcontent TYPE="NODE">
 
 <html>
   <head>
@@ -344,10 +362,13 @@
 </html>
 </richcontent>
 <attribute_layout NAME_WIDTH="150 pt"/>
+<node TEXT="png_1583795526270649214.png" ID="ID_1228167872" CREATED="1639989264197" MODIFIED="1639989264197">
+<hook URI="Autosar_requirements_files/png_1583795526270649214.png" SIZE="0.93457943" NAME="ExternalObject"/>
 </node>
 </node>
 </node>
-<node TEXT="[RS_SAF_21402]" FOLDED="true" ID="ID_282705570" CREATED="1615805920659" MODIFIED="1615811760525" BACKGROUND_COLOR="#ff6666"><richcontent CONTENT-TYPE="xml/" TYPE="DETAILS">
+</node>
+<node TEXT="[RS_SAF_21402]" ID="ID_282705570" CREATED="1615805920659" MODIFIED="1615811760525" BACKGROUND_COLOR="#ff6666"><richcontent CONTENT-TYPE="xml/" TYPE="DETAILS">
 <html>
   <head>
     
@@ -362,7 +383,7 @@
   </body>
 </html></richcontent>
 <attribute_layout NAME_WIDTH="150 pt"/>
-<node FOLDED="true" ID="ID_254399413" CREATED="1635496487542" MODIFIED="1635957721863" LINK="https://www.autosar.org/fileadmin/user_upload/standards/adaptive/20-11/AUTOSAR_RS_OperatingSystemInterface.pdf#page=9"><richcontent TYPE="NODE">
+<node ID="ID_254399413" CREATED="1635496487542" MODIFIED="1639988647136" LINK="https://www.autosar.org/fileadmin/user_upload/standards/adaptive/20-11/AUTOSAR_RS_OperatingSystemInterface.pdf#page=9"><richcontent TYPE="NODE">
 
 <html>
   <head>
@@ -374,11 +395,44 @@
 </html>
 </richcontent>
 <attribute_layout NAME_WIDTH="150 pt"/>
-<node ID="ID_1457330786" TREE_ID="ID_1141283122"/>
-<node ID="ID_580014305" TREE_ID="ID_678981224"/>
+<richcontent CONTENT-TYPE="xml/" TYPE="DETAILS">
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      The Operating System shall provide mechanisms to configure memory
+    </p>
+    <p>
+      budgeting for each process or for groups of processes
+    </p>
+  </body>
+</html>
+</richcontent>
+<node ID="ID_1457330786" TREE_ID="ID_1141283122">
+<node ID="ID_31252260" TREE_ID="ID_894976567"/>
+</node>
+<node FOLDED="true" ID="ID_20829829" CREATED="1639989633151" MODIFIED="1639989708938" LINK="https://www.autosar.org/fileadmin/user_upload/standards/adaptive/20-11/AUTOSAR_SWS_OperatingSystemInterface.pdf#page=16"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    [SWS_OSI_02001]
+  </body>
+</html>
+
+</richcontent>
+<attribute_layout NAME_WIDTH="150 pt"/>
+<node TEXT="png_771748757874593714.png" ID="ID_1557674287" CREATED="1639989678789" MODIFIED="1639989678789">
+<hook URI="Autosar_requirements_files/png_771748757874593714.png" SIZE="0.8941878" NAME="ExternalObject"/>
 </node>
 </node>
-<node TEXT="[RS_SAF_21403]" FOLDED="true" ID="ID_1708169333" CREATED="1615805936969" MODIFIED="1615811773425" BACKGROUND_COLOR="#ff6666"><richcontent CONTENT-TYPE="xml/" TYPE="DETAILS">
+</node>
+</node>
+<node TEXT="[RS_SAF_21403]" ID="ID_1708169333" CREATED="1615805936969" MODIFIED="1615811773425" BACKGROUND_COLOR="#ff6666"><richcontent CONTENT-TYPE="xml/" TYPE="DETAILS">
 <html>
   <head>
     
@@ -390,7 +444,7 @@
   </body>
 </html></richcontent>
 <attribute_layout NAME_WIDTH="150 pt"/>
-<node FOLDED="true" ID="ID_1285216547" CREATED="1635496506678" MODIFIED="1635957741797" LINK="https://www.autosar.org/fileadmin/user_upload/standards/adaptive/20-11/AUTOSAR_RS_OperatingSystemInterface.pdf#page=9"><richcontent TYPE="NODE">
+<node ID="ID_1285216547" CREATED="1635496506678" MODIFIED="1639988674983" LINK="https://www.autosar.org/fileadmin/user_upload/standards/adaptive/20-11/AUTOSAR_RS_OperatingSystemInterface.pdf#page=9"><richcontent TYPE="NODE">
 
 <html>
   <head>
@@ -402,29 +456,62 @@
 </html>
 </richcontent>
 <attribute_layout NAME_WIDTH="150 pt"/>
-<node TEXT="[SWS_OSI_01006]" ID="ID_780002842" CREATED="1635496621203" MODIFIED="1635957473462" LINK="https://www.autosar.org/fileadmin/user_upload/standards/adaptive/20-11/AUTOSAR_SWS_OperatingSystemInterface.pdf#page=13">
+<richcontent CONTENT-TYPE="xml/" TYPE="DETAILS">
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      The Operating System shall provide mechanisms to let multiple processes
+    </p>
+    <p>
+      run isolated from each other.
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="[SWS_OSI_01006]" FOLDED="true" ID="ID_780002842" CREATED="1635496621203" MODIFIED="1635957473462" LINK="https://www.autosar.org/fileadmin/user_upload/standards/adaptive/20-11/AUTOSAR_SWS_OperatingSystemInterface.pdf#page=13">
 <attribute_layout NAME_WIDTH="150 pt"/>
+<node TEXT="png_103443134580751252.png" ID="ID_405475345" CREATED="1639989348745" MODIFIED="1639989348745">
+<hook URI="Autosar_requirements_files/png_103443134580751252.png" SIZE="0.927357" NAME="ExternalObject"/>
 </node>
-<node TEXT="[SWS_OSI_01008]" ID="ID_1199353168" CREATED="1635496621203" MODIFIED="1635957497011" LINK="https://www.autosar.org/fileadmin/user_upload/standards/adaptive/20-11/AUTOSAR_SWS_OperatingSystemInterface.pdf#page=13">
-<attribute_layout NAME_WIDTH="150 pt"/>
 </node>
-<node TEXT="[SWS_OSI_01009]" ID="ID_1890629516" CREATED="1635496621207" MODIFIED="1635957505731" LINK="https://www.autosar.org/fileadmin/user_upload/standards/adaptive/20-11/AUTOSAR_SWS_OperatingSystemInterface.pdf#page=14">
+<node TEXT="[SWS_OSI_01008]" FOLDED="true" ID="ID_1199353168" CREATED="1635496621203" MODIFIED="1635957497011" LINK="https://www.autosar.org/fileadmin/user_upload/standards/adaptive/20-11/AUTOSAR_SWS_OperatingSystemInterface.pdf#page=13">
 <attribute_layout NAME_WIDTH="150 pt"/>
+<node TEXT="png_1422049677413748365.png" ID="ID_801844569" CREATED="1639989379135" MODIFIED="1639989379135">
+<hook URI="Autosar_requirements_files/png_1422049677413748365.png" SIZE="0.96" NAME="ExternalObject"/>
 </node>
-<node TEXT="[SWS_OSI_01010]" ID="ID_478015873" CREATED="1635496621210" MODIFIED="1635957521272" LINK="https://www.autosar.org/fileadmin/user_upload/standards/adaptive/20-11/AUTOSAR_SWS_OperatingSystemInterface.pdf#page=14">
-<attribute_layout NAME_WIDTH="150 pt"/>
 </node>
-<node TEXT="[SWS_OSI_01013]" ID="ID_360844175" CREATED="1635496621213" MODIFIED="1635957530100" LINK="https://www.autosar.org/fileadmin/user_upload/standards/adaptive/20-11/AUTOSAR_SWS_OperatingSystemInterface.pdf#page=14">
+<node TEXT="[SWS_OSI_01009]" FOLDED="true" ID="ID_1890629516" CREATED="1635496621207" MODIFIED="1635957505731" LINK="https://www.autosar.org/fileadmin/user_upload/standards/adaptive/20-11/AUTOSAR_SWS_OperatingSystemInterface.pdf#page=14">
 <attribute_layout NAME_WIDTH="150 pt"/>
+<node TEXT="png_9010377296742589771.png" ID="ID_891090619" CREATED="1639989402239" MODIFIED="1639989402239">
+<hook URI="Autosar_requirements_files/png_9010377296742589771.png" SIZE="0.9360374" NAME="ExternalObject"/>
 </node>
-<node TEXT="[SWS_OSI_01014]" ID="ID_1797613269" CREATED="1635496621214" MODIFIED="1635957560366" LINK="https://www.autosar.org/fileadmin/user_upload/standards/adaptive/20-11/AUTOSAR_SWS_OperatingSystemInterface.pdf#page=14">
+</node>
+<node TEXT="[SWS_OSI_01010]" FOLDED="true" ID="ID_478015873" CREATED="1635496621210" MODIFIED="1635957521272" LINK="https://www.autosar.org/fileadmin/user_upload/standards/adaptive/20-11/AUTOSAR_SWS_OperatingSystemInterface.pdf#page=14">
 <attribute_layout NAME_WIDTH="150 pt"/>
+<node TEXT="png_2134582951924925129.png" ID="ID_835451626" CREATED="1639989421820" MODIFIED="1639989421820">
+<hook URI="Autosar_requirements_files/png_2134582951924925129.png" SIZE="0.9360374" NAME="ExternalObject"/>
+</node>
+</node>
+<node TEXT="[SWS_OSI_01013]" FOLDED="true" ID="ID_360844175" CREATED="1635496621213" MODIFIED="1635957530100" LINK="https://www.autosar.org/fileadmin/user_upload/standards/adaptive/20-11/AUTOSAR_SWS_OperatingSystemInterface.pdf#page=14">
+<attribute_layout NAME_WIDTH="150 pt"/>
+<node TEXT="png_458992244045570839.png" ID="ID_172690246" CREATED="1639989445429" MODIFIED="1639989445429">
+<hook URI="Autosar_requirements_files/png_458992244045570839.png" SIZE="0.9174312" NAME="ExternalObject"/>
+</node>
+</node>
+<node TEXT="[SWS_OSI_01014]" FOLDED="true" ID="ID_1797613269" CREATED="1635496621214" MODIFIED="1635957560366" LINK="https://www.autosar.org/fileadmin/user_upload/standards/adaptive/20-11/AUTOSAR_SWS_OperatingSystemInterface.pdf#page=14">
+<attribute_layout NAME_WIDTH="150 pt"/>
+<node TEXT="png_7281299709021076975.png" ID="ID_1027257857" CREATED="1639989473901" MODIFIED="1639989473901">
+<hook URI="Autosar_requirements_files/png_7281299709021076975.png" SIZE="0.9448819" NAME="ExternalObject"/>
+</node>
 </node>
 </node>
 </node>
 <node ID="ID_1792520355" CONTENT_ID="ID_1907996786"/>
 </node>
-<node TEXT="[RS_SAF_10028]" FOLDED="true" ID="ID_930162905" CREATED="1615805614060" MODIFIED="1615811931445" BACKGROUND_COLOR="#ff6666"><richcontent CONTENT-TYPE="xml/" TYPE="DETAILS">
+<node TEXT="[RS_SAF_10028]" ID="ID_930162905" CREATED="1615805614060" MODIFIED="1615811931445" BACKGROUND_COLOR="#ff6666"><richcontent CONTENT-TYPE="xml/" TYPE="DETAILS">
 <html>
   <head>
     
@@ -447,7 +534,7 @@
 </node>
 <node ID="ID_98161865" CONTENT_ID="ID_1907996786"/>
 </node>
-<node TEXT="[RS_SAF_10030]" FOLDED="true" ID="ID_1987607699" CREATED="1615805637421" MODIFIED="1615811916927" BACKGROUND_COLOR="#ff6666"><richcontent CONTENT-TYPE="xml/" TYPE="DETAILS">
+<node TEXT="[RS_SAF_10030]" ID="ID_1987607699" CREATED="1615805637421" MODIFIED="1615811916927" BACKGROUND_COLOR="#ff6666"><richcontent CONTENT-TYPE="xml/" TYPE="DETAILS">
 <html>
   <head>
     
@@ -484,7 +571,7 @@
 <node ID="ID_1037507350" CONTENT_ID="ID_262025991"/>
 </node>
 </node>
-<node TEXT="[RS_SAF_10031]" FOLDED="true" ID="ID_936657983" CREATED="1615805656819" MODIFIED="1615811948826" BACKGROUND_COLOR="#ff6666"><richcontent CONTENT-TYPE="xml/" TYPE="DETAILS">
+<node TEXT="[RS_SAF_10031]" ID="ID_936657983" CREATED="1615805656819" MODIFIED="1615811948826" BACKGROUND_COLOR="#ff6666"><richcontent CONTENT-TYPE="xml/" TYPE="DETAILS">
 <html>
   <head>
     
@@ -562,7 +649,7 @@
 <node ID="ID_1550314128" CONTENT_ID="ID_860413462"/>
 <node ID="ID_836983341" CONTENT_ID="ID_1907996786"/>
 </node>
-<node TEXT="[RS_SAF_10002]" FOLDED="true" ID="ID_370290607" CREATED="1615806333842" MODIFIED="1615811890677" BACKGROUND_COLOR="#ff6666"><richcontent CONTENT-TYPE="xml/" TYPE="DETAILS">
+<node TEXT="[RS_SAF_10002]" ID="ID_370290607" CREATED="1615806333842" MODIFIED="1615811890677" BACKGROUND_COLOR="#ff6666"><richcontent CONTENT-TYPE="xml/" TYPE="DETAILS">
 <html>
   <head>
     
@@ -592,7 +679,7 @@
 <node ID="ID_451343733" CONTENT_ID="ID_1708169333"/>
 <node ID="ID_1674712227" CONTENT_ID="ID_1907996786"/>
 </node>
-<node TEXT="[RS_SAF_10027]" FOLDED="true" ID="ID_188444642" CREATED="1615805270812" MODIFIED="1615805279742"><richcontent CONTENT-TYPE="xml/" TYPE="DETAILS">
+<node TEXT="[RS_SAF_10027]" ID="ID_188444642" CREATED="1615805270812" MODIFIED="1615805279742"><richcontent CONTENT-TYPE="xml/" TYPE="DETAILS">
 <html>
   <head>
     
@@ -634,7 +721,7 @@
 </node>
 <node ID="ID_1634501321" CONTENT_ID="ID_1907996786"/>
 </node>
-<node TEXT="[RS_SAF_10037]" FOLDED="true" ID="ID_1746268201" CREATED="1615805672059" MODIFIED="1615805681135"><richcontent CONTENT-TYPE="xml/" TYPE="DETAILS">
+<node TEXT="[RS_SAF_10037]" ID="ID_1746268201" CREATED="1615805672059" MODIFIED="1615805681135"><richcontent CONTENT-TYPE="xml/" TYPE="DETAILS">
 <html>
   <head>
     
@@ -766,7 +853,7 @@
 <node ID="ID_1054868103" CONTENT_ID="ID_1105434617"/>
 <node ID="ID_859178789" CONTENT_ID="ID_541399653"/>
 </node>
-<node TEXT="[RS_SAF_10038]" FOLDED="true" ID="ID_775283200" CREATED="1615805689811" MODIFIED="1615805700340"><richcontent CONTENT-TYPE="xml/" TYPE="DETAILS">
+<node TEXT="[RS_SAF_10038]" ID="ID_775283200" CREATED="1615805689811" MODIFIED="1615805700340"><richcontent CONTENT-TYPE="xml/" TYPE="DETAILS">
 <html>
   <head>
     
@@ -844,7 +931,7 @@
 <node ID="ID_443007198" CONTENT_ID="ID_1708169333"/>
 <node ID="ID_55427471" CONTENT_ID="ID_1907996786"/>
 </node>
-<node TEXT="[RS_SAF_10014]" FOLDED="true" ID="ID_1976651724" CREATED="1615805251377" MODIFIED="1615805258968"><richcontent CONTENT-TYPE="xml/" TYPE="DETAILS">
+<node TEXT="[RS_SAF_10014]" ID="ID_1976651724" CREATED="1615805251377" MODIFIED="1615805258968"><richcontent CONTENT-TYPE="xml/" TYPE="DETAILS">
 <html>
   <head>
     
@@ -870,7 +957,7 @@
 <node ID="ID_1643936152" CONTENT_ID="ID_541399653"/>
 </node>
 </node>
-<node TEXT="[RS_SAF_00005]" FOLDED="true" ID="ID_1444035533" CREATED="1615804958951" MODIFIED="1615805070177"><richcontent CONTENT-TYPE="xml/" TYPE="DETAILS">
+<node TEXT="[RS_SAF_00005]" ID="ID_1444035533" CREATED="1615804958951" MODIFIED="1615805070177"><richcontent CONTENT-TYPE="xml/" TYPE="DETAILS">
 <html>
   <head>
     
@@ -1760,7 +1847,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <attribute_layout NAME_WIDTH="150 pt"/>
 </node>
@@ -1776,7 +1862,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <attribute_layout NAME_WIDTH="150 pt"/>
 </node>
