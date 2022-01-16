@@ -2,11 +2,11 @@
 <!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
 <node LOCALIZED_TEXT="new_mindmap" FOLDED="false" ID="ID_696401721" CREATED="1610381621824" MODIFIED="1610381621824" STYLE="oval">
 <font SIZE="18"/>
-<hook NAME="MapStyle" zoom="1.224">
-    <properties show_icon_for_attributes="true" .addon.mm="file" fit_to_viewport="false" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff"/>
+<hook NAME="MapStyle" zoom="0.836">
+    <properties fit_to_viewport="false" .addon.mm="file" show_icon_for_attributes="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff"/>
 
 <map_styles>
-<stylenode LOCALIZED_TEXT="styles.root_node" STYLE="oval" UNIFORM_SHAPE="true" VGAP_QUANTITY="24 pt">
+<stylenode LOCALIZED_TEXT="styles.root_node" ID="ID_934775211" STYLE="oval" UNIFORM_SHAPE="true" VGAP_QUANTITY="24 pt">
 <font SIZE="24"/>
 <stylenode LOCALIZED_TEXT="styles.predefined" POSITION="right" STYLE="bubble">
 <stylenode LOCALIZED_TEXT="default" ID="ID_271890427" ICON_SIZE="12 pt" COLOR="#000000" STYLE="fork">
@@ -30,15 +30,19 @@
 <stylenode LOCALIZED_TEXT="styles.topic" COLOR="#18898b" STYLE="fork">
 <font NAME="Liberation Sans" SIZE="10" BOLD="true"/>
 </stylenode>
-<stylenode LOCALIZED_TEXT="styles.subtopic" COLOR="#cc3300" STYLE="fork">
+<stylenode LOCALIZED_TEXT="styles.subtopic" ID="ID_1150074023" COLOR="#cc3300" STYLE="fork">
 <font NAME="Liberation Sans" SIZE="10" BOLD="true"/>
 </stylenode>
-<stylenode LOCALIZED_TEXT="styles.subsubtopic" COLOR="#669900">
+<stylenode LOCALIZED_TEXT="styles.subsubtopic" ID="ID_1539448601" COLOR="#669900">
 <font NAME="Liberation Sans" SIZE="10" BOLD="true"/>
 </stylenode>
 <stylenode LOCALIZED_TEXT="styles.important" ID="ID_67550811">
 <icon BUILTIN="yes"/>
 <arrowlink COLOR="#003399" TRANSPARENCY="255" DESTINATION="ID_67550811"/>
+</stylenode>
+<stylenode TEXT="Diskussionspunkt_Autosar" ID="ID_1447931997" COLOR="#ff9999" BACKGROUND_COLOR="#99ff99">
+<icon BUILTIN="password"/>
+<font NAME="Liberation Sans" SIZE="10" BOLD="true"/>
 </stylenode>
 </stylenode>
 <stylenode LOCALIZED_TEXT="styles.AutomaticLayout" POSITION="right" STYLE="bubble">
@@ -137,6 +141,7 @@
     </p>
   </body>
 </html></richcontent>
+<attribute_layout NAME_WIDTH="150 pt"/>
 </node>
 <node TEXT="[RS_SAF_21301]" ID="ID_860413462" CREATED="1615805871986" MODIFIED="1615805879789"><richcontent CONTENT-TYPE="xml/" TYPE="DETAILS">
 <html>
@@ -235,7 +240,9 @@
   </body>
 </html></richcontent>
 <attribute_layout NAME_WIDTH="150 pt"/>
-<node TEXT="Probably also leads to OS requirements down the line, without OS requirements, even if it is possible, I&apos;d expect a big performance hit" ID="ID_1155791158" CREATED="1615813975767" MODIFIED="1615814066082"/>
+<node TEXT="Probably also leads to OS requirements down the line, without OS requirements, even if it is possible, I&apos;d expect a big performance hit" ID="ID_1155791158" CREATED="1615813975767" MODIFIED="1615814066082">
+<attribute_layout NAME_WIDTH="150 pt"/>
+</node>
 </node>
 <node TEXT="[RS_SAF_21107]" ID="ID_1066499255" CREATED="1615805829458" MODIFIED="1615805837422"><richcontent CONTENT-TYPE="xml/" TYPE="DETAILS">
 <html>
@@ -274,7 +281,9 @@
   </body>
 </html></richcontent>
 <attribute_layout NAME_WIDTH="150 pt"/>
-<node TEXT="This looks pretty much impossible to achieve on a preemtive OS like Linux, and certainly not without requirements to the OS on any Operating system" ID="ID_262025991" CREATED="1615813802106" MODIFIED="1615813960646"/>
+<node TEXT="This looks pretty much impossible to achieve on a preemtive OS like Linux, and certainly not without requirements to the OS on any Operating system" ID="ID_262025991" CREATED="1615813802106" MODIFIED="1615813960646">
+<attribute_layout NAME_WIDTH="150 pt"/>
+</node>
 </node>
 <node TEXT="[RS_SAF_21302]" ID="ID_65446409" CREATED="1615805887471" MODIFIED="1615805896471"><richcontent CONTENT-TYPE="xml/" TYPE="DETAILS">
 <html>
@@ -289,7 +298,9 @@
 </html></richcontent>
 </node>
 <node ID="ID_1188528886" CONTENT_ID="ID_1907996786"/>
-<node TEXT="No children allocated to OS, some clearly should be though" ID="ID_1741202113" CREATED="1615818431235" MODIFIED="1615820108433"/>
+<node TEXT="No children allocated to OS, some clearly should be though" ID="ID_1741202113" CREATED="1615818431235" MODIFIED="1615820108433">
+<attribute_layout NAME_WIDTH="150 pt"/>
+</node>
 </node>
 <node TEXT="[RS_SAF_10008]" ID="ID_1876387265" CREATED="1615805229059" MODIFIED="1615811902873" BACKGROUND_COLOR="#ff6666"><richcontent CONTENT-TYPE="xml/" TYPE="DETAILS">
 <html>
@@ -306,7 +317,7 @@
   </body>
 </html></richcontent>
 <attribute_layout NAME_WIDTH="150 pt"/>
-<node TEXT="[RS_SAF_21401]" FOLDED="true" ID="ID_861325057" CREATED="1615805905970" MODIFIED="1615811742492" COLOR="#000000" BACKGROUND_COLOR="#ff6666"><richcontent CONTENT-TYPE="xml/" TYPE="DETAILS">
+<node TEXT="[RS_SAF_21401]" ID="ID_861325057" CREATED="1615805905970" MODIFIED="1615811742492" COLOR="#000000" BACKGROUND_COLOR="#ff6666"><richcontent CONTENT-TYPE="xml/" TYPE="DETAILS">
 <html>
   <head>
     
@@ -347,6 +358,10 @@
 <attribute_layout NAME_WIDTH="150 pt"/>
 <node TEXT="png_4615176338401799785.png" ID="ID_894976567" CREATED="1639989302884" MODIFIED="1639989302884">
 <hook URI="Autosar_requirements_files/png_4615176338401799785.png" SIZE="0.9463722" NAME="ExternalObject"/>
+<attribute_layout NAME_WIDTH="150 pt"/>
+</node>
+<node TEXT="where does the number of exactly 8 ressource groups come from?" STYLE_REF="Diskussionspunkt_Autosar" ID="ID_1128738890" CREATED="1642329005095" MODIFIED="1642329038978">
+<attribute_layout NAME_WIDTH="150 pt"/>
 </node>
 </node>
 <node ID="ID_678981224" CREATED="1635496550026" MODIFIED="1639989238724" LINK="https://www.autosar.org/fileadmin/user_upload/standards/adaptive/20-11/AUTOSAR_SWS_OperatingSystemInterface.pdf#page=17"><richcontent TYPE="NODE">
@@ -363,8 +378,43 @@
 <attribute_layout NAME_WIDTH="150 pt"/>
 <node TEXT="png_1583795526270649214.png" ID="ID_1228167872" CREATED="1639989264197" MODIFIED="1639989264197">
 <hook URI="Autosar_requirements_files/png_1583795526270649214.png" SIZE="0.93457943" NAME="ExternalObject"/>
+<attribute_layout NAME_WIDTH="150 pt"/>
+</node>
+<node TEXT="Can be realized with Linux using cgroups" STYLE_REF="Diskussionspunkt_Autosar" ID="ID_946379048" CREATED="1642329263761" MODIFIED="1642329331988">
+<attribute_layout NAME_WIDTH="150 pt"/>
+<node ID="ID_1748221848" CREATED="1642329290199" MODIFIED="1642329310194"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <span style="color: rgb(0, 0, 0); font-family: Consolas, Courier New, monospace; font-size: 14px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: pre-wrap; word-spacing: 0px; display: inline !important; float: none"><font color="rgb(0, 0, 0)" face="Consolas, Courier New, monospace" size="14px">cpu.cfs_period_us</font></span>
+  </body>
+</html>
+
+</richcontent>
+<attribute_layout NAME_WIDTH="150 pt"/>
+</node>
+<node ID="ID_1828560408" CREATED="1642329313044" MODIFIED="1642329318601"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <span style="color: rgb(0, 0, 0); font-family: Consolas, Courier New, monospace; font-size: 14px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: pre-wrap; word-spacing: 0px; display: inline !important; float: none"><font color="rgb(0, 0, 0)" face="Consolas, Courier New, monospace" size="14px">cpu.cfs_quota_us</font></span>
+  </body>
+</html>
+
+</richcontent>
+<attribute_layout NAME_WIDTH="150 pt"/>
 </node>
 </node>
+</node>
+</node>
+<node TEXT="Diskussionspunkt" STYLE_REF="Diskussionspunkt_Autosar" ID="ID_402586861" CREATED="1642062168465" MODIFIED="1642062177100">
+<attribute_layout NAME_WIDTH="150 pt"/>
 </node>
 </node>
 <node TEXT="[RS_SAF_21402]" FOLDED="true" ID="ID_282705570" CREATED="1615805920659" MODIFIED="1615811760525" BACKGROUND_COLOR="#ff6666"><richcontent CONTENT-TYPE="xml/" TYPE="DETAILS">
@@ -410,6 +460,7 @@
 </html></richcontent>
 <node ID="ID_1457330786" TREE_ID="ID_1141283122">
 <node ID="ID_31252260" TREE_ID="ID_894976567"/>
+<node ID="ID_1354117204" TREE_ID="ID_1128738890"/>
 </node>
 <node ID="ID_20829829" CREATED="1639989633151" MODIFIED="1639989708938" LINK="https://www.autosar.org/fileadmin/user_upload/standards/adaptive/20-11/AUTOSAR_SWS_OperatingSystemInterface.pdf#page=16"><richcontent TYPE="NODE">
 
@@ -425,6 +476,29 @@
 <attribute_layout NAME_WIDTH="150 pt"/>
 <node TEXT="png_771748757874593714.png" ID="ID_1557674287" CREATED="1639989678789" MODIFIED="1639989678789">
 <hook URI="Autosar_requirements_files/png_771748757874593714.png" SIZE="0.8941878" NAME="ExternalObject"/>
+</node>
+<node TEXT="Can be realized with Linux" STYLE_REF="Diskussionspunkt_Autosar" ID="ID_1721415377" CREATED="1642329154529" MODIFIED="1642329213278">
+<attribute_layout NAME_WIDTH="150 pt"/>
+<node TEXT="Can be done with cgroups or setrlimit" ID="ID_1261557382" CREATED="1642329171728" MODIFIED="1642329186134">
+<attribute_layout NAME_WIDTH="150 pt"/>
+</node>
+<node TEXT="example cgroups:" ID="ID_1819884545" CREATED="1642329187745" MODIFIED="1642329192078">
+<attribute_layout NAME_WIDTH="150 pt"/>
+<node ID="ID_125959567" CREATED="1642329199111" MODIFIED="1642329202095"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <span style="color: rgb(0, 0, 0); font-family: Consolas, Courier New, monospace; font-size: 14px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: pre-wrap; word-spacing: 0px; display: inline !important; float: none"><font color="rgb(0, 0, 0)" face="Consolas, Courier New, monospace" size="14px">memory.memsw.limit_in_bytes memory.limit_in_bytes</font></span>
+  </body>
+</html>
+
+</richcontent>
+<attribute_layout NAME_WIDTH="150 pt"/>
+</node>
+</node>
 </node>
 </node>
 </node>
@@ -502,6 +576,12 @@
 <node TEXT="png_7281299709021076975.png" ID="ID_1027257857" CREATED="1639989473901" MODIFIED="1639989473901">
 <hook URI="Autosar_requirements_files/png_7281299709021076975.png" SIZE="0.9448819" NAME="ExternalObject"/>
 </node>
+<node TEXT="Can be realized with Linux" STYLE_REF="Diskussionspunkt_Autosar" ID="ID_1791424216" CREATED="1642329079594" MODIFIED="1642329121828">
+<attribute_layout NAME_WIDTH="150 pt"/>
+<node TEXT="using seccomp" ID="ID_413212907" CREATED="1642329105411" MODIFIED="1642329114161">
+<attribute_layout NAME_WIDTH="150 pt"/>
+</node>
+</node>
 </node>
 </node>
 </node>
@@ -530,7 +610,7 @@
 </node>
 <node ID="ID_98161865" CONTENT_ID="ID_1907996786"/>
 </node>
-<node TEXT="[RS_SAF_10030]" ID="ID_1987607699" CREATED="1615805637421" MODIFIED="1615811916927" BACKGROUND_COLOR="#ff6666"><richcontent CONTENT-TYPE="xml/" TYPE="DETAILS">
+<node TEXT="[RS_SAF_10030]" FOLDED="true" ID="ID_1987607699" CREATED="1615805637421" MODIFIED="1615811916927" BACKGROUND_COLOR="#ff6666"><richcontent CONTENT-TYPE="xml/" TYPE="DETAILS">
 <html>
   <head>
     
@@ -567,7 +647,7 @@
 <node ID="ID_1037507350" CONTENT_ID="ID_262025991"/>
 </node>
 </node>
-<node TEXT="[RS_SAF_10031]" ID="ID_936657983" CREATED="1615805656819" MODIFIED="1615811948826" BACKGROUND_COLOR="#ff6666"><richcontent CONTENT-TYPE="xml/" TYPE="DETAILS">
+<node TEXT="[RS_SAF_10031]" FOLDED="true" ID="ID_936657983" CREATED="1615805656819" MODIFIED="1615811948826" BACKGROUND_COLOR="#ff6666"><richcontent CONTENT-TYPE="xml/" TYPE="DETAILS">
 <html>
   <head>
     
@@ -624,8 +704,51 @@
 <node ID="ID_968383002" CONTENT_ID="ID_1529639486"/>
 </node>
 </node>
+<node TEXT="General question regarding the OS flag in requirements" STYLE_REF="Diskussionspunkt_Autosar" ID="ID_467302559" CREATED="1642062168465" MODIFIED="1642153340145">
+<attribute_layout NAME_WIDTH="150 pt"/>
+<node ID="ID_1032595984" CREATED="1642153369461" MODIFIED="1642153436482" LINK="#ID_1746268201"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <span style="color: rgb(0, 0, 0); font-family: -apple-system, BlinkMacSystemFont, Segoe WPC, Segoe UI, system-ui, Ubuntu, Droid Sans, sans-serif; font-size: 14px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; display: inline !important; float: none"><font color="rgb(0, 0, 0)" face="-apple-system, BlinkMacSystemFont, Segoe WPC, Segoe UI, system-ui, Ubuntu, Droid Sans, sans-serif" size="14px">How is the OS flag to be understood? We understood it as requirements that do require something from the OS to be fulfilled, but if that interpretation is correct, then some requirements miss the flag, i.e. [RS_SAF_10037]</font></span><font color="rgb(0, 0, 0)" face="-apple-system, BlinkMacSystemFont, Segoe WPC, Segoe UI, system-ui, Ubuntu, Droid Sans, sans-serif" size="14px"><span>&nbsp;</span></font>
+  </body>
+</html>
+
+</richcontent>
+<attribute_layout NAME_WIDTH="150 pt"/>
 </node>
-<node TEXT="[RS_SAF_00002]" ID="ID_1654535267" CREATED="1615804958945" MODIFIED="1615805010650"><richcontent CONTENT-TYPE="xml/" TYPE="DETAILS">
+<node TEXT="Some (non leaf) Requirements that carry the OS flag do not have any children that do so as well" ID="ID_1096312057" CREATED="1642153454260" MODIFIED="1642153498132">
+<attribute_layout NAME_WIDTH="150 pt"/>
+<node TEXT="" ID="ID_1560140281" CREATED="1642153498543" MODIFIED="1642153498543">
+<attribute_layout NAME_WIDTH="150 pt"/>
+</node>
+<node ID="ID_502393224" CREATED="1642153508910" MODIFIED="1642153591611" LINK="#ID_1580393918"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <span><font color="rgb(0, 0, 0)" face="-apple-system, BlinkMacSystemFont, Segoe WPC, Segoe UI, system-ui, Ubuntu, Droid Sans, sans-serif" size="14px">&nbsp;</font></span><font color="rgb(0, 0, 0)" face="-apple-system, BlinkMacSystemFont, Segoe WPC, Segoe UI, system-ui, Ubuntu, Droid Sans, sans-serif" size="14px"><span style="color: rgb(0, 0, 0); font-family: -apple-system, BlinkMacSystemFont, Segoe WPC, Segoe UI, system-ui, Ubuntu, Droid Sans, sans-serif; font-size: 14px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; display: inline !important; float: none">[RS_SAF_10030]</span></font>
+  </body>
+</html>
+
+</richcontent>
+<attribute_layout NAME_WIDTH="150 pt"/>
+</node>
+<node TEXT=" [RS_SAF_10005]" ID="ID_1817245218" CREATED="1642153515911" MODIFIED="1642153637949" LINK="#ID_459652534">
+<attribute_layout NAME_WIDTH="150 pt"/>
+</node>
+<node TEXT="[RS_SAF_10002]" ID="ID_1903337043" CREATED="1642153523193" MODIFIED="1642153659243" LINK="#ID_813938808">
+<attribute_layout NAME_WIDTH="150 pt"/>
+</node>
+</node>
+</node>
+</node>
+<node TEXT="[RS_SAF_00002]" FOLDED="true" ID="ID_1654535267" CREATED="1615804958945" MODIFIED="1615805010650"><richcontent CONTENT-TYPE="xml/" TYPE="DETAILS">
 <html>
   <head>
     
@@ -645,7 +768,7 @@
 <node ID="ID_1550314128" CONTENT_ID="ID_860413462"/>
 <node ID="ID_836983341" CONTENT_ID="ID_1907996786"/>
 </node>
-<node TEXT="[RS_SAF_10002]" ID="ID_370290607" CREATED="1615806333842" MODIFIED="1615811890677" BACKGROUND_COLOR="#ff6666"><richcontent CONTENT-TYPE="xml/" TYPE="DETAILS">
+<node TEXT="[RS_SAF_10002]" FOLDED="true" ID="ID_370290607" CREATED="1615806333842" MODIFIED="1615811890677" BACKGROUND_COLOR="#ff6666"><richcontent CONTENT-TYPE="xml/" TYPE="DETAILS">
 <html>
   <head>
     
@@ -665,7 +788,9 @@
 <attribute_layout NAME_WIDTH="150 pt"/>
 <node ID="ID_1591469604" CONTENT_ID="ID_1702615522"/>
 <node ID="ID_1961178718" CONTENT_ID="ID_1262175123"/>
-<node TEXT="None of the children of RS_SAF_10002 is OS allocated, suspicious. The derived requiremetns in general don&apos;t seem to implement the requirement." ID="ID_554515668" CREATED="1615814202390" MODIFIED="1615814310559"/>
+<node TEXT="None of the children of RS_SAF_10002 is OS allocated, suspicious. The derived requiremetns in general don&apos;t seem to implement the requirement." ID="ID_554515668" CREATED="1615814202390" MODIFIED="1615814310559">
+<attribute_layout NAME_WIDTH="150 pt"/>
+</node>
 </node>
 <node ID="ID_567253049" CONTENT_ID="ID_1876387265">
 <node ID="ID_126278899" CONTENT_ID="ID_861325057">
@@ -675,7 +800,7 @@
 <node ID="ID_451343733" CONTENT_ID="ID_1708169333"/>
 <node ID="ID_1674712227" CONTENT_ID="ID_1907996786"/>
 </node>
-<node TEXT="[RS_SAF_10027]" ID="ID_188444642" CREATED="1615805270812" MODIFIED="1615805279742"><richcontent CONTENT-TYPE="xml/" TYPE="DETAILS">
+<node TEXT="[RS_SAF_10027]" FOLDED="true" ID="ID_188444642" CREATED="1615805270812" MODIFIED="1615805279742"><richcontent CONTENT-TYPE="xml/" TYPE="DETAILS">
 <html>
   <head>
     
@@ -717,7 +842,7 @@
 </node>
 <node ID="ID_1634501321" CONTENT_ID="ID_1907996786"/>
 </node>
-<node TEXT="[RS_SAF_10037]" ID="ID_1746268201" CREATED="1615805672059" MODIFIED="1615805681135"><richcontent CONTENT-TYPE="xml/" TYPE="DETAILS">
+<node TEXT="[RS_SAF_10037]" FOLDED="true" ID="ID_1746268201" CREATED="1615805672059" MODIFIED="1615805681135"><richcontent CONTENT-TYPE="xml/" TYPE="DETAILS">
 <html>
   <head>
     
@@ -802,12 +927,12 @@
 <node TEXT="should be allocated to OS as well, see children requiemetns" ID="ID_1105434617" CREATED="1615818185038" MODIFIED="1615818199361">
 <attribute_layout NAME_WIDTH="150 pt"/>
 </node>
-<node TEXT="How does this relate to [RS_SAF_21403]" ID="ID_541399653" CREATED="1615818991521" MODIFIED="1615818998462">
+<node TEXT="Overlap with [RS_SAF_21403]?" STYLE_REF="Diskussionspunkt_Autosar" ID="ID_541399653" CREATED="1615818991521" MODIFIED="1642155858060" LINK="#ID_96138444">
 <attribute_layout NAME_WIDTH="150 pt"/>
 </node>
 </node>
 </node>
-<node TEXT="[RS_SAF_00003]" ID="ID_1950152531" CREATED="1615804958947" MODIFIED="1615805038896"><richcontent CONTENT-TYPE="xml/" TYPE="DETAILS">
+<node TEXT="[RS_SAF_00003]" FOLDED="true" ID="ID_1950152531" CREATED="1615804958947" MODIFIED="1615805038896"><richcontent CONTENT-TYPE="xml/" TYPE="DETAILS">
 <html>
   <head>
     
@@ -849,7 +974,7 @@
 <node ID="ID_1054868103" CONTENT_ID="ID_1105434617"/>
 <node ID="ID_859178789" CONTENT_ID="ID_541399653"/>
 </node>
-<node TEXT="[RS_SAF_10038]" ID="ID_775283200" CREATED="1615805689811" MODIFIED="1615805700340"><richcontent CONTENT-TYPE="xml/" TYPE="DETAILS">
+<node TEXT="[RS_SAF_10038]" FOLDED="true" ID="ID_775283200" CREATED="1615805689811" MODIFIED="1615805700340"><richcontent CONTENT-TYPE="xml/" TYPE="DETAILS">
 <html>
   <head>
     
@@ -904,7 +1029,7 @@
 </node>
 </node>
 </node>
-<node TEXT="[RS_SAF_00004]" ID="ID_799117453" CREATED="1615804958949" MODIFIED="1615805054798"><richcontent CONTENT-TYPE="xml/" TYPE="DETAILS">
+<node TEXT="[RS_SAF_00004]" FOLDED="true" ID="ID_799117453" CREATED="1615804958949" MODIFIED="1615805054798"><richcontent CONTENT-TYPE="xml/" TYPE="DETAILS">
 <html>
   <head>
     
@@ -927,7 +1052,7 @@
 <node ID="ID_443007198" CONTENT_ID="ID_1708169333"/>
 <node ID="ID_55427471" CONTENT_ID="ID_1907996786"/>
 </node>
-<node TEXT="[RS_SAF_10014]" ID="ID_1976651724" CREATED="1615805251377" MODIFIED="1615805258968"><richcontent CONTENT-TYPE="xml/" TYPE="DETAILS">
+<node TEXT="[RS_SAF_10014]" FOLDED="true" ID="ID_1976651724" CREATED="1615805251377" MODIFIED="1615805258968"><richcontent CONTENT-TYPE="xml/" TYPE="DETAILS">
 <html>
   <head>
     
@@ -954,7 +1079,7 @@
 <node ID="ID_1643936152" CONTENT_ID="ID_541399653"/>
 </node>
 </node>
-<node TEXT="[RS_SAF_00005]" ID="ID_1444035533" CREATED="1615804958951" MODIFIED="1615805070177"><richcontent CONTENT-TYPE="xml/" TYPE="DETAILS">
+<node TEXT="[RS_SAF_00005]" FOLDED="true" ID="ID_1444035533" CREATED="1615804958951" MODIFIED="1615805070177"><richcontent CONTENT-TYPE="xml/" TYPE="DETAILS">
 <html>
   <head>
     
@@ -1032,6 +1157,55 @@
 </node>
 <node ID="ID_1419659512" CONTENT_ID="ID_1835745930">
 <node ID="ID_276944433" CONTENT_ID="ID_262025991"/>
+<node TEXT="How is fully deterministic execution to be understood in this requirement?" STYLE_REF="Diskussionspunkt_Autosar" ID="ID_773549064" CREATED="1642155285831" MODIFIED="1642155466711">
+<attribute_layout NAME_WIDTH="150 pt"/>
+<node ID="ID_1482525536" CREATED="1642155361127" MODIFIED="1642155495630"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <span style="color: rgb(0, 0, 0); font-family: -apple-system, BlinkMacSystemFont, Segoe WPC, Segoe UI, system-ui, Ubuntu, Droid Sans, sans-serif; font-size: 14px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; display: inline !important; float: none"><font color="rgb(0, 0, 0)" face="-apple-system, BlinkMacSystemFont, Segoe WPC, Segoe UI, system-ui, Ubuntu, Droid Sans, sans-serif" size="14px">Full time and data determinism is needed on system level, but not necessarily on OS level. We should discuss to what exactly the OS needs to provide to make fulfillment of these requirements possible</font></span>
+  </body>
+</html>
+
+</richcontent>
+<attribute_layout NAME_WIDTH="150 pt"/>
+</node>
+<node ID="ID_1310711715" CREATED="1642155388560" MODIFIED="1642155392093"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p data-line="17" class="code-line code-line" style="margin-top: 0px; margin-bottom: 0; color: rgb(0, 0, 0); font-family: -apple-system, BlinkMacSystemFont, Segoe WPC, Segoe UI, system-ui, Ubuntu, Droid Sans, sans-serif; font-size: 14px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px">
+      Additional Excerpt from AUTOSAR_EXP_PlatformDesign.pdf:
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<attribute_layout NAME_WIDTH="150 pt"/>
+<node TEXT="Deterministic execution provides a mechanism such that a calculation using a given" ID="ID_864583974" CREATED="1642155426760" MODIFIED="1642155426760"/>
+<node TEXT="input data set always produces a consistent output within a bounded time. Execution Management distinguishes between time and data determinism. The former states that the output is always produced by the deadline whereas the latter refers to generating the same output from the same input data set and internal state." ID="ID_1041608576" CREATED="1642155426760" MODIFIED="1642155426760"/>
+<node TEXT="The support provided by Execution Management focuses on data determinism as it assumes time determinism has handled by the provision of sufficient resources." ID="ID_1776975844" CREATED="1642155426777" MODIFIED="1642155426777"/>
+</node>
+<node ID="ID_1030507139" CREATED="1642155440394" MODIFIED="1642155440394"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <span style="color: rgb(0, 0, 0); font-family: -apple-system, BlinkMacSystemFont, Segoe WPC, Segoe UI, system-ui, Ubuntu, Droid Sans, sans-serif; font-size: 14px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; display: inline !important; float: none"><font color="rgb(0, 0, 0)" face="-apple-system, BlinkMacSystemFont, Segoe WPC, Segoe UI, system-ui, Ubuntu, Droid Sans, sans-serif" size="14px">This looks very much like static RT µc thinking, time slices and sufficient ressources to finish the task in time. With a preemtive OS like Linux this can not be guaranteed by design of the OS We should debate adapting the requirements to better fit a preemptive OS, Execution management in tandem with external watchdogs could ensure a temporal upper bound or drive a safe state. Just because one can construct a corner case that delays execution on a a Linux based system indefinitely, does not mean it happens a lot.</font></span>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
 </node>
 </node>
 <node ID="ID_895954919" CONTENT_ID="ID_936657983">
@@ -1082,7 +1256,6 @@
 <node ID="ID_1743295642" CONTENT_ID="ID_759453940"/>
 <node ID="ID_1005712108" CONTENT_ID="ID_1776378834"/>
 <node ID="ID_395708298" CONTENT_ID="ID_404276512"/>
-<node ID="ID_1450407243" CONTENT_ID="ID_1105434617"/>
 <node ID="ID_692768253" CONTENT_ID="ID_541399653"/>
 </node>
 </node>
@@ -1137,7 +1310,6 @@
 <node ID="ID_29102803" CONTENT_ID="ID_759453940"/>
 <node ID="ID_1613486517" CONTENT_ID="ID_1776378834"/>
 <node ID="ID_1734667260" CONTENT_ID="ID_404276512"/>
-<node ID="ID_466427455" CONTENT_ID="ID_1105434617"/>
 <node ID="ID_67242181" CONTENT_ID="ID_541399653"/>
 </node>
 </node>
@@ -1190,6 +1362,9 @@
 <node ID="ID_1049940631" CONTENT_ID="ID_1529639486"/>
 </node>
 <node ID="ID_842068067" CONTENT_ID="ID_1907996786"/>
+<node TEXT="Regarding the requirements and its children, is the interpretation correct, that fully deterministic execution is ensured by execution management without OS involvement, as long as sufficient computing ressources are availlable? We need to discuss the ressources requirement, this argument is not that easy for a preemptive OS" STYLE_REF="Diskussionspunkt_Autosar" ID="ID_404975556" CREATED="1642328840930" MODIFIED="1642328879073">
+<attribute_layout NAME_WIDTH="150 pt"/>
+</node>
 </node>
 <node ID="ID_1460412457" CONTENT_ID="ID_1987607699">
 <node ID="ID_905832974" CONTENT_ID="ID_1702615522"/>
@@ -1252,6 +1427,9 @@
 <node ID="ID_690732865" CONTENT_ID="ID_404276512"/>
 <node ID="ID_106687243" CONTENT_ID="ID_1105434617"/>
 <node ID="ID_1897040504" CONTENT_ID="ID_541399653"/>
+<node TEXT="Requirement should be flagged as OS dependent, see children requirements refrereing to OS measures" STYLE_REF="Diskussionspunkt_Autosar" ID="ID_185580312" CREATED="1642328930844" MODIFIED="1642328971829">
+<attribute_layout NAME_WIDTH="150 pt"/>
+</node>
 </node>
 </node>
 <node ID="ID_988268763" CONTENT_ID="ID_1950152531">
@@ -1525,6 +1703,21 @@
 </node>
 </node>
 </node>
+<node TEXT="Very General Point regarding the format" STYLE_REF="Diskussionspunkt_Autosar" ID="ID_890106329" CREATED="1642329357853" MODIFIED="1642329636928">
+<attribute_layout NAME_WIDTH="150 pt"/>
+<node TEXT="One of the big blockers for people to review was the unfortunate presentation of the requirements" ID="ID_1626299467" CREATED="1642329558963" MODIFIED="1642329620746">
+<attribute_layout NAME_WIDTH="150 pt"/>
+</node>
+<node TEXT="Linear document structure with tracing tables in each are extremely hard to consume -&gt; Tree you are looking at ^^" ID="ID_1352531888" CREATED="1642329391561" MODIFIED="1642329433161">
+<attribute_layout NAME_WIDTH="150 pt"/>
+</node>
+<node TEXT="This tree was generated semiautomatically from the tracing tables" ID="ID_144312633" CREATED="1642329438111" MODIFIED="1642329460429">
+<attribute_layout NAME_WIDTH="150 pt"/>
+</node>
+<node TEXT="If we had the tracing and requirements itself in properly readable format we could provide the script to unfold into a tree" ID="ID_1258962824" CREATED="1642329460779" MODIFIED="1642329611278">
+<attribute_layout NAME_WIDTH="150 pt"/>
+</node>
+</node>
 <node TEXT="Functional top level Requirements" FOLDED="true" ID="ID_304192377" CREATED="1615805113206" MODIFIED="1615805535615">
 <attribute_layout NAME_WIDTH="150 pt"/>
 <node ID="ID_1225584106" CONTENT_ID="ID_1314148308">
@@ -1542,6 +1735,9 @@
 <node ID="ID_1422849060" CONTENT_ID="ID_1066499255"/>
 <node ID="ID_689323219" CONTENT_ID="ID_1835745930">
 <node ID="ID_1494492681" CONTENT_ID="ID_262025991"/>
+<node TEXT="Overlap with [RS_SAF_21106]" STYLE_REF="Diskussionspunkt_Autosar" ID="ID_855844969" CREATED="1642329730039" MODIFIED="1642329835198" LINK="#ID_324315354">
+<attribute_layout NAME_WIDTH="150 pt"/>
+</node>
 </node>
 <node ID="ID_1495413587" CONTENT_ID="ID_65446409"/>
 <node ID="ID_673989173" CONTENT_ID="ID_1907996786"/>
@@ -1603,7 +1799,14 @@
 <node ID="ID_1849552429" CONTENT_ID="ID_1529639486"/>
 </node>
 <node ID="ID_496732732" CONTENT_ID="ID_282705570"/>
-<node ID="ID_488782222" CONTENT_ID="ID_1708169333"/>
+<node ID="ID_488782222" CONTENT_ID="ID_1708169333">
+<node TEXT="RS_SAF_21403 is not stated properly. In fact the OS shall not only ensure that &quot;only allowed memory accesses are made&quot;, but also that the safety application address space integrity and exclusivity are guaranteed and enforced along the app lifecycle, also in coexistence with other applications of lower ASIL." STYLE_REF="Diskussionspunkt_Autosar" ID="ID_1608709824" CREATED="1642329917556" MODIFIED="1642330014889">
+<attribute_layout NAME_WIDTH="150 pt"/>
+<node TEXT="Outcome of Analysis done by Safety Architecture WG" ID="ID_659797185" CREATED="1642330026632" MODIFIED="1642330036099">
+<attribute_layout NAME_WIDTH="150 pt"/>
+</node>
+</node>
+</node>
 <node ID="ID_1551521917" CONTENT_ID="ID_1907996786"/>
 </node>
 <node ID="ID_373856893" CONTENT_ID="ID_188444642">
