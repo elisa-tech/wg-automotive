@@ -2,8 +2,8 @@
 <!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
 <node LOCALIZED_TEXT="new_mindmap" FOLDED="false" ID="ID_696401721" CREATED="1610381621824" MODIFIED="1610381621824" STYLE="oval">
 <font SIZE="18"/>
-<hook NAME="MapStyle" zoom="0.836">
-    <properties fit_to_viewport="false" .addon.mm="file" show_icon_for_attributes="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff"/>
+<hook NAME="MapStyle" zoom="0.92">
+    <properties fit_to_viewport="false" .addon.mm="file" show_icon_for_attributes="true" show_note_icons="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff"/>
 
 <map_styles>
 <stylenode LOCALIZED_TEXT="styles.root_node" ID="ID_934775211" STYLE="oval" UNIFORM_SHAPE="true" VGAP_QUANTITY="24 pt">
@@ -78,10 +78,10 @@
 <attribute_layout NAME_WIDTH="150 pt"/>
 <edge COLOR="#00ff00"/>
 </node>
-<node TEXT="Autosar Specs regarding safety" POSITION="right" ID="ID_491370102" CREATED="1615571572538" MODIFIED="1637582244364">
+<node TEXT="Autosar Specs regarding safety" POSITION="right" ID="ID_491370102" CREATED="1615571572538" MODIFIED="1642594994596">
 <attribute_layout NAME_WIDTH="149.25 pt"/>
 <edge COLOR="#ff0000"/>
-<node TEXT="AUTOSAR_RS_Safety.pdf" ID="ID_1374749751" CREATED="1614585596714" MODIFIED="1637582079528" LINK="https://www.autosar.org/fileadmin/user_upload/standards/foundation/20-11/AUTOSAR_RS_Safety.pdf">
+<node TEXT="AUTOSAR_RS_Safety.pdf" ID="ID_1374749751" CREATED="1614585596714" MODIFIED="1642594994594" LINK="https://www.autosar.org/fileadmin/user_upload/standards/foundation/20-11/AUTOSAR_RS_Safety.pdf">
 <attribute_layout NAME_WIDTH="150 pt"/>
 <node TEXT="Main requirements" ID="ID_1547012584" CREATED="1615805094989" MODIFIED="1615805101022">
 <attribute_layout NAME_WIDTH="150 pt"/>
@@ -360,8 +360,20 @@
 <hook URI="Autosar_requirements_files/png_4615176338401799785.png" SIZE="0.9463722" NAME="ExternalObject"/>
 <attribute_layout NAME_WIDTH="150 pt"/>
 </node>
-<node TEXT="where does the number of exactly 8 ressource groups come from?" STYLE_REF="Diskussionspunkt_Autosar" ID="ID_1128738890" CREATED="1642329005095" MODIFIED="1642329038978">
+<node TEXT="where does the number of exactly 8 ressource groups come from?" STYLE_REF="Diskussionspunkt_Autosar" ID="ID_1128738890" CREATED="1642329005095" MODIFIED="1642595516430">
 <attribute_layout NAME_WIDTH="150 pt"/>
+<node TEXT="unclear -&gt; Ticket to owner" ID="ID_722412442" CREATED="1642595500071" MODIFIED="1642595525784">
+<attribute_layout NAME_WIDTH="150 pt"/>
+</node>
+</node>
+<node TEXT="are really processes meant, or groups of threads?" STYLE_REF="Diskussionspunkt_Autosar" ID="ID_791624968" CREATED="1642595578476" MODIFIED="1642595703934">
+<attribute_layout NAME_WIDTH="150 pt"/>
+<node TEXT="unclear -&gt; Ticket to owner on Autosar side" ID="ID_1216665217" CREATED="1642595709106" MODIFIED="1642665305871">
+<attribute_layout NAME_WIDTH="150 pt"/>
+</node>
+<node TEXT="Potentially just a &quot;sane&quot; number chosen" ID="ID_1251766579" CREATED="1642595786558" MODIFIED="1642595794039">
+<attribute_layout NAME_WIDTH="150 pt"/>
+</node>
 </node>
 </node>
 <node ID="ID_678981224" CREATED="1635496550026" MODIFIED="1639989238724" LINK="https://www.autosar.org/fileadmin/user_upload/standards/adaptive/20-11/AUTOSAR_SWS_OperatingSystemInterface.pdf#page=17"><richcontent TYPE="NODE">
@@ -392,7 +404,6 @@
     <span style="color: rgb(0, 0, 0); font-family: Consolas, Courier New, monospace; font-size: 14px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: pre-wrap; word-spacing: 0px; display: inline !important; float: none"><font color="rgb(0, 0, 0)" face="Consolas, Courier New, monospace" size="14px">cpu.cfs_period_us</font></span>
   </body>
 </html>
-
 </richcontent>
 <attribute_layout NAME_WIDTH="150 pt"/>
 </node>
@@ -406,8 +417,25 @@
     <span style="color: rgb(0, 0, 0); font-family: Consolas, Courier New, monospace; font-size: 14px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: pre-wrap; word-spacing: 0px; display: inline !important; float: none"><font color="rgb(0, 0, 0)" face="Consolas, Courier New, monospace" size="14px">cpu.cfs_quota_us</font></span>
   </body>
 </html>
-
 </richcontent>
+<attribute_layout NAME_WIDTH="150 pt"/>
+</node>
+</node>
+</node>
+<node TEXT="The OSI is interface between application and OS" STYLE_REF="Diskussionspunkt_Autosar" ID="ID_1013486038" CREATED="1642596457752" MODIFIED="1642596522734">
+<attribute_layout NAME_WIDTH="150 pt"/>
+<node TEXT="OS provides PSE51" ID="ID_1449827029" CREATED="1642596477020" MODIFIED="1642596493696">
+<attribute_layout NAME_WIDTH="150 pt"/>
+</node>
+<node TEXT="What are the implications, that the OS can do more than specified in the OSI spec?" ID="ID_324618687" CREATED="1642596493970" MODIFIED="1642596617051">
+<attribute_layout NAME_WIDTH="150 pt"/>
+</node>
+<node TEXT="General Term mixed criticality is used a lot in the spec, assumption is its actually safety criticallity, could also be time criticallity" ID="ID_422145638" CREATED="1642596619021" MODIFIED="1642596653960">
+<attribute_layout NAME_WIDTH="150 pt"/>
+<node TEXT="domain specific term" ID="ID_1945915437" CREATED="1642596680269" MODIFIED="1642596695740">
+<attribute_layout NAME_WIDTH="150 pt"/>
+</node>
+<node TEXT="Clarification -&gt; ticket to owner" ID="ID_1248865362" CREATED="1642596738517" MODIFIED="1642596753317">
 <attribute_layout NAME_WIDTH="150 pt"/>
 </node>
 </node>
@@ -415,9 +443,12 @@
 </node>
 <node TEXT="Diskussionspunkt" STYLE_REF="Diskussionspunkt_Autosar" ID="ID_402586861" CREATED="1642062168465" MODIFIED="1642062177100">
 <attribute_layout NAME_WIDTH="150 pt"/>
+<node TEXT="Still kind of open, preemptive OS can&apos;t guarantee it" ID="ID_983687953" CREATED="1642664603351" MODIFIED="1642664644194">
+<attribute_layout NAME_WIDTH="150 pt"/>
 </node>
 </node>
-<node TEXT="[RS_SAF_21402]" FOLDED="true" ID="ID_282705570" CREATED="1615805920659" MODIFIED="1615811760525" BACKGROUND_COLOR="#ff6666"><richcontent CONTENT-TYPE="xml/" TYPE="DETAILS">
+</node>
+<node TEXT="[RS_SAF_21402]" ID="ID_282705570" CREATED="1615805920659" MODIFIED="1615811760525" BACKGROUND_COLOR="#ff6666"><richcontent CONTENT-TYPE="xml/" TYPE="DETAILS">
 <html>
   <head>
     
@@ -460,7 +491,13 @@
 </html></richcontent>
 <node ID="ID_1457330786" TREE_ID="ID_1141283122">
 <node ID="ID_31252260" TREE_ID="ID_894976567"/>
-<node ID="ID_1354117204" TREE_ID="ID_1128738890"/>
+<node ID="ID_1354117204" TREE_ID="ID_1128738890">
+<node ID="ID_1562086590" TREE_ID="ID_722412442"/>
+</node>
+<node ID="ID_1098292472" TREE_ID="ID_791624968">
+<node ID="ID_1737976403" TREE_ID="ID_1216665217"/>
+<node ID="ID_1423975354" TREE_ID="ID_1251766579"/>
+</node>
 </node>
 <node ID="ID_20829829" CREATED="1639989633151" MODIFIED="1639989708938" LINK="https://www.autosar.org/fileadmin/user_upload/standards/adaptive/20-11/AUTOSAR_SWS_OperatingSystemInterface.pdf#page=16"><richcontent TYPE="NODE">
 
@@ -477,7 +514,7 @@
 <node TEXT="png_771748757874593714.png" ID="ID_1557674287" CREATED="1639989678789" MODIFIED="1639989678789">
 <hook URI="Autosar_requirements_files/png_771748757874593714.png" SIZE="0.8941878" NAME="ExternalObject"/>
 </node>
-<node TEXT="Can be realized with Linux" STYLE_REF="Diskussionspunkt_Autosar" ID="ID_1721415377" CREATED="1642329154529" MODIFIED="1642329213278">
+<node TEXT="Feedback: Can be realized with Linux" STYLE_REF="Diskussionspunkt_Autosar" ID="ID_1721415377" CREATED="1642329154529" MODIFIED="1642665537299">
 <attribute_layout NAME_WIDTH="150 pt"/>
 <node TEXT="Can be done with cgroups or setrlimit" ID="ID_1261557382" CREATED="1642329171728" MODIFIED="1642329186134">
 <attribute_layout NAME_WIDTH="150 pt"/>
@@ -494,8 +531,19 @@
     <span style="color: rgb(0, 0, 0); font-family: Consolas, Courier New, monospace; font-size: 14px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: pre-wrap; word-spacing: 0px; display: inline !important; float: none"><font color="rgb(0, 0, 0)" face="Consolas, Courier New, monospace" size="14px">memory.memsw.limit_in_bytes memory.limit_in_bytes</font></span>
   </body>
 </html>
-
 </richcontent>
+<attribute_layout NAME_WIDTH="150 pt"/>
+</node>
+</node>
+<node TEXT="Poses a problem for virtual memory and copy on write" ID="ID_963781740" CREATED="1642596886151" MODIFIED="1642596901911">
+<attribute_layout NAME_WIDTH="150 pt"/>
+<node TEXT="needs investigation" ID="ID_550733807" CREATED="1642597005714" MODIFIED="1642597009551">
+<attribute_layout NAME_WIDTH="150 pt"/>
+</node>
+</node>
+<node TEXT="Safety relevance?" ID="ID_1548534465" CREATED="1642597019894" MODIFIED="1642597040602">
+<attribute_layout NAME_WIDTH="150 pt"/>
+<node TEXT="To keep other processes from hogging the memory and starving a safety process" ID="ID_535088102" CREATED="1642597040982" MODIFIED="1642597063312">
 <attribute_layout NAME_WIDTH="150 pt"/>
 </node>
 </node>
@@ -503,7 +551,7 @@
 </node>
 </node>
 </node>
-<node TEXT="[RS_SAF_21403]" FOLDED="true" ID="ID_1708169333" CREATED="1615805936969" MODIFIED="1615811773425" BACKGROUND_COLOR="#ff6666"><richcontent CONTENT-TYPE="xml/" TYPE="DETAILS">
+<node TEXT="[RS_SAF_21403]" ID="ID_1708169333" CREATED="1615805936969" MODIFIED="1615811773425" BACKGROUND_COLOR="#ff6666"><richcontent CONTENT-TYPE="xml/" TYPE="DETAILS">
 <html>
   <head>
     
@@ -576,7 +624,7 @@
 <node TEXT="png_7281299709021076975.png" ID="ID_1027257857" CREATED="1639989473901" MODIFIED="1639989473901">
 <hook URI="Autosar_requirements_files/png_7281299709021076975.png" SIZE="0.9448819" NAME="ExternalObject"/>
 </node>
-<node TEXT="Can be realized with Linux" STYLE_REF="Diskussionspunkt_Autosar" ID="ID_1791424216" CREATED="1642329079594" MODIFIED="1642329121828">
+<node TEXT="Feedback: Can be realized with Linux" STYLE_REF="Diskussionspunkt_Autosar" ID="ID_1791424216" CREATED="1642329079594" MODIFIED="1642665529349">
 <attribute_layout NAME_WIDTH="150 pt"/>
 <node TEXT="using seccomp" ID="ID_413212907" CREATED="1642329105411" MODIFIED="1642329114161">
 <attribute_layout NAME_WIDTH="150 pt"/>
@@ -587,7 +635,7 @@
 </node>
 <node ID="ID_1792520355" CONTENT_ID="ID_1907996786"/>
 </node>
-<node TEXT="[RS_SAF_10028]" FOLDED="true" ID="ID_930162905" CREATED="1615805614060" MODIFIED="1615811931445" BACKGROUND_COLOR="#ff6666"><richcontent CONTENT-TYPE="xml/" TYPE="DETAILS">
+<node TEXT="[RS_SAF_10028]" ID="ID_930162905" CREATED="1615805614060" MODIFIED="1615811931445" BACKGROUND_COLOR="#ff6666"><richcontent CONTENT-TYPE="xml/" TYPE="DETAILS">
 <html>
   <head>
     
@@ -610,7 +658,7 @@
 </node>
 <node ID="ID_98161865" CONTENT_ID="ID_1907996786"/>
 </node>
-<node TEXT="[RS_SAF_10030]" FOLDED="true" ID="ID_1987607699" CREATED="1615805637421" MODIFIED="1615811916927" BACKGROUND_COLOR="#ff6666"><richcontent CONTENT-TYPE="xml/" TYPE="DETAILS">
+<node TEXT="[RS_SAF_10030]" ID="ID_1987607699" CREATED="1615805637421" MODIFIED="1615811916927" BACKGROUND_COLOR="#ff6666"><richcontent CONTENT-TYPE="xml/" TYPE="DETAILS">
 <html>
   <head>
     
@@ -647,7 +695,7 @@
 <node ID="ID_1037507350" CONTENT_ID="ID_262025991"/>
 </node>
 </node>
-<node TEXT="[RS_SAF_10031]" FOLDED="true" ID="ID_936657983" CREATED="1615805656819" MODIFIED="1615811948826" BACKGROUND_COLOR="#ff6666"><richcontent CONTENT-TYPE="xml/" TYPE="DETAILS">
+<node TEXT="[RS_SAF_10031]" ID="ID_936657983" CREATED="1615805656819" MODIFIED="1615811948826" BACKGROUND_COLOR="#ff6666"><richcontent CONTENT-TYPE="xml/" TYPE="DETAILS">
 <html>
   <head>
     
@@ -716,7 +764,6 @@
     <span style="color: rgb(0, 0, 0); font-family: -apple-system, BlinkMacSystemFont, Segoe WPC, Segoe UI, system-ui, Ubuntu, Droid Sans, sans-serif; font-size: 14px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; display: inline !important; float: none"><font color="rgb(0, 0, 0)" face="-apple-system, BlinkMacSystemFont, Segoe WPC, Segoe UI, system-ui, Ubuntu, Droid Sans, sans-serif" size="14px">How is the OS flag to be understood? We understood it as requirements that do require something from the OS to be fulfilled, but if that interpretation is correct, then some requirements miss the flag, i.e. [RS_SAF_10037]</font></span><font color="rgb(0, 0, 0)" face="-apple-system, BlinkMacSystemFont, Segoe WPC, Segoe UI, system-ui, Ubuntu, Droid Sans, sans-serif" size="14px"><span>&nbsp;</span></font>
   </body>
 </html>
-
 </richcontent>
 <attribute_layout NAME_WIDTH="150 pt"/>
 </node>
@@ -735,7 +782,6 @@
     <span><font color="rgb(0, 0, 0)" face="-apple-system, BlinkMacSystemFont, Segoe WPC, Segoe UI, system-ui, Ubuntu, Droid Sans, sans-serif" size="14px">&nbsp;</font></span><font color="rgb(0, 0, 0)" face="-apple-system, BlinkMacSystemFont, Segoe WPC, Segoe UI, system-ui, Ubuntu, Droid Sans, sans-serif" size="14px"><span style="color: rgb(0, 0, 0); font-family: -apple-system, BlinkMacSystemFont, Segoe WPC, Segoe UI, system-ui, Ubuntu, Droid Sans, sans-serif; font-size: 14px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; display: inline !important; float: none">[RS_SAF_10030]</span></font>
   </body>
 </html>
-
 </richcontent>
 <attribute_layout NAME_WIDTH="150 pt"/>
 </node>
@@ -746,9 +792,27 @@
 <attribute_layout NAME_WIDTH="150 pt"/>
 </node>
 </node>
+<node TEXT="Autosar relies on Posix PSE 51 as given" ID="ID_156582419" CREATED="1642594443557" MODIFIED="1642594474257">
+<attribute_layout NAME_WIDTH="150 pt"/>
+<node TEXT="Autostar starts looking at the OS on EM level" ID="ID_68205965" CREATED="1642594474881" MODIFIED="1642594494735">
+<attribute_layout NAME_WIDTH="150 pt"/>
+</node>
+<node TEXT="&quot;Safe Execution&quot; requirements" ID="ID_817961712" CREATED="1642594509509" MODIFIED="1642594514496">
+<attribute_layout NAME_WIDTH="150 pt"/>
+</node>
+<node TEXT="Combination of features within Autosar (EM) PMH and the State management" ID="ID_946787101" CREATED="1642594516808" MODIFIED="1642594559526">
+<attribute_layout NAME_WIDTH="150 pt"/>
 </node>
 </node>
-<node TEXT="[RS_SAF_00002]" FOLDED="true" ID="ID_1654535267" CREATED="1615804958945" MODIFIED="1615805010650"><richcontent CONTENT-TYPE="xml/" TYPE="DETAILS">
+<node TEXT="EM is realized by OS, thus EM requirements apply to the OS" ID="ID_1181925143" CREATED="1642594670933" MODIFIED="1642594700048">
+<attribute_layout NAME_WIDTH="150 pt"/>
+</node>
+<node TEXT="Dependency already handled in current version, it got removed" ID="ID_1246003125" CREATED="1642595272811" MODIFIED="1642595301419">
+<attribute_layout NAME_WIDTH="150 pt"/>
+</node>
+</node>
+</node>
+<node TEXT="[RS_SAF_00002]" ID="ID_1654535267" CREATED="1615804958945" MODIFIED="1615805010650"><richcontent CONTENT-TYPE="xml/" TYPE="DETAILS">
 <html>
   <head>
     
@@ -768,7 +832,7 @@
 <node ID="ID_1550314128" CONTENT_ID="ID_860413462"/>
 <node ID="ID_836983341" CONTENT_ID="ID_1907996786"/>
 </node>
-<node TEXT="[RS_SAF_10002]" FOLDED="true" ID="ID_370290607" CREATED="1615806333842" MODIFIED="1615811890677" BACKGROUND_COLOR="#ff6666"><richcontent CONTENT-TYPE="xml/" TYPE="DETAILS">
+<node TEXT="[RS_SAF_10002]" ID="ID_370290607" CREATED="1615806333842" MODIFIED="1615811890677" BACKGROUND_COLOR="#ff6666"><richcontent CONTENT-TYPE="xml/" TYPE="DETAILS">
 <html>
   <head>
     
@@ -800,7 +864,7 @@
 <node ID="ID_451343733" CONTENT_ID="ID_1708169333"/>
 <node ID="ID_1674712227" CONTENT_ID="ID_1907996786"/>
 </node>
-<node TEXT="[RS_SAF_10027]" FOLDED="true" ID="ID_188444642" CREATED="1615805270812" MODIFIED="1615805279742"><richcontent CONTENT-TYPE="xml/" TYPE="DETAILS">
+<node TEXT="[RS_SAF_10027]" ID="ID_188444642" CREATED="1615805270812" MODIFIED="1615805279742"><richcontent CONTENT-TYPE="xml/" TYPE="DETAILS">
 <html>
   <head>
     
@@ -842,7 +906,7 @@
 </node>
 <node ID="ID_1634501321" CONTENT_ID="ID_1907996786"/>
 </node>
-<node TEXT="[RS_SAF_10037]" FOLDED="true" ID="ID_1746268201" CREATED="1615805672059" MODIFIED="1615805681135"><richcontent CONTENT-TYPE="xml/" TYPE="DETAILS">
+<node TEXT="[RS_SAF_10037]" ID="ID_1746268201" CREATED="1615805672059" MODIFIED="1642600532537"><richcontent CONTENT-TYPE="xml/" TYPE="DETAILS">
 <html>
   <head>
     
@@ -932,7 +996,7 @@
 </node>
 </node>
 </node>
-<node TEXT="[RS_SAF_00003]" FOLDED="true" ID="ID_1950152531" CREATED="1615804958947" MODIFIED="1615805038896"><richcontent CONTENT-TYPE="xml/" TYPE="DETAILS">
+<node TEXT="[RS_SAF_00003]" ID="ID_1950152531" CREATED="1615804958947" MODIFIED="1615805038896"><richcontent CONTENT-TYPE="xml/" TYPE="DETAILS">
 <html>
   <head>
     
@@ -974,7 +1038,7 @@
 <node ID="ID_1054868103" CONTENT_ID="ID_1105434617"/>
 <node ID="ID_859178789" CONTENT_ID="ID_541399653"/>
 </node>
-<node TEXT="[RS_SAF_10038]" FOLDED="true" ID="ID_775283200" CREATED="1615805689811" MODIFIED="1615805700340"><richcontent CONTENT-TYPE="xml/" TYPE="DETAILS">
+<node TEXT="[RS_SAF_10038]" ID="ID_775283200" CREATED="1615805689811" MODIFIED="1615805700340"><richcontent CONTENT-TYPE="xml/" TYPE="DETAILS">
 <html>
   <head>
     
@@ -1029,7 +1093,7 @@
 </node>
 </node>
 </node>
-<node TEXT="[RS_SAF_00004]" FOLDED="true" ID="ID_799117453" CREATED="1615804958949" MODIFIED="1615805054798"><richcontent CONTENT-TYPE="xml/" TYPE="DETAILS">
+<node TEXT="[RS_SAF_00004]" ID="ID_799117453" CREATED="1615804958949" MODIFIED="1615805054798"><richcontent CONTENT-TYPE="xml/" TYPE="DETAILS">
 <html>
   <head>
     
@@ -1052,7 +1116,7 @@
 <node ID="ID_443007198" CONTENT_ID="ID_1708169333"/>
 <node ID="ID_55427471" CONTENT_ID="ID_1907996786"/>
 </node>
-<node TEXT="[RS_SAF_10014]" FOLDED="true" ID="ID_1976651724" CREATED="1615805251377" MODIFIED="1615805258968"><richcontent CONTENT-TYPE="xml/" TYPE="DETAILS">
+<node TEXT="[RS_SAF_10014]" ID="ID_1976651724" CREATED="1615805251377" MODIFIED="1615805258968"><richcontent CONTENT-TYPE="xml/" TYPE="DETAILS">
 <html>
   <head>
     
@@ -1079,7 +1143,7 @@
 <node ID="ID_1643936152" CONTENT_ID="ID_541399653"/>
 </node>
 </node>
-<node TEXT="[RS_SAF_00005]" FOLDED="true" ID="ID_1444035533" CREATED="1615804958951" MODIFIED="1615805070177"><richcontent CONTENT-TYPE="xml/" TYPE="DETAILS">
+<node TEXT="[RS_SAF_00005]" ID="ID_1444035533" CREATED="1615804958951" MODIFIED="1615805070177"><richcontent CONTENT-TYPE="xml/" TYPE="DETAILS">
 <html>
   <head>
     
@@ -1099,7 +1163,7 @@
 </node>
 </node>
 </node>
-<node TEXT="AUTOSAR shall support the development of&#xa;reliable systems" FOLDED="true" ID="ID_81652828" CREATED="1615804813198" MODIFIED="1615804821410"><richcontent CONTENT-TYPE="xml/" TYPE="DETAILS">
+<node TEXT="AUTOSAR shall support the development of&#xa;reliable systems" ID="ID_81652828" CREATED="1615804813198" MODIFIED="1615804821410"><richcontent CONTENT-TYPE="xml/" TYPE="DETAILS">
 <html>
   <head>
     
@@ -1169,7 +1233,6 @@
     <span style="color: rgb(0, 0, 0); font-family: -apple-system, BlinkMacSystemFont, Segoe WPC, Segoe UI, system-ui, Ubuntu, Droid Sans, sans-serif; font-size: 14px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; display: inline !important; float: none"><font color="rgb(0, 0, 0)" face="-apple-system, BlinkMacSystemFont, Segoe WPC, Segoe UI, system-ui, Ubuntu, Droid Sans, sans-serif" size="14px">Full time and data determinism is needed on system level, but not necessarily on OS level. We should discuss to what exactly the OS needs to provide to make fulfillment of these requirements possible</font></span>
   </body>
 </html>
-
 </richcontent>
 <attribute_layout NAME_WIDTH="150 pt"/>
 </node>
@@ -1185,7 +1248,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <attribute_layout NAME_WIDTH="150 pt"/>
 <node TEXT="Deterministic execution provides a mechanism such that a calculation using a given" ID="ID_864583974" CREATED="1642155426760" MODIFIED="1642155426760"/>
@@ -1202,7 +1264,6 @@
     <span style="color: rgb(0, 0, 0); font-family: -apple-system, BlinkMacSystemFont, Segoe WPC, Segoe UI, system-ui, Ubuntu, Droid Sans, sans-serif; font-size: 14px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; display: inline !important; float: none"><font color="rgb(0, 0, 0)" face="-apple-system, BlinkMacSystemFont, Segoe WPC, Segoe UI, system-ui, Ubuntu, Droid Sans, sans-serif" size="14px">This looks very much like static RT µc thinking, time slices and sufficient ressources to finish the task in time. With a preemtive OS like Linux this can not be guaranteed by design of the OS We should debate adapting the requirements to better fit a preemptive OS, Execution management in tandem with external watchdogs could ensure a temporal upper bound or drive a safe state. Just because one can construct a corner case that delays execution on a a Linux based system indefinitely, does not mean it happens a lot.</font></span>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -1256,7 +1317,14 @@
 <node ID="ID_1743295642" CONTENT_ID="ID_759453940"/>
 <node ID="ID_1005712108" CONTENT_ID="ID_1776378834"/>
 <node ID="ID_395708298" CONTENT_ID="ID_404276512"/>
-<node ID="ID_692768253" CONTENT_ID="ID_541399653"/>
+<node ID="ID_692768253" CONTENT_ID="ID_541399653">
+<node TEXT="Additional tracing 21403-&gt;10037?" ID="ID_1520876532" CREATED="1642598335114" MODIFIED="1642598472850">
+<attribute_layout NAME_WIDTH="150 pt"/>
+</node>
+<node TEXT="Action Item" ID="ID_396118660" CREATED="1642598473363" MODIFIED="1642598494812">
+<attribute_layout NAME_WIDTH="150 pt"/>
+</node>
+</node>
 </node>
 </node>
 <node ID="ID_1413430452" CONTENT_ID="ID_1950152531">
@@ -1285,7 +1353,10 @@
 <node ID="ID_26831787" CONTENT_ID="ID_1776378834"/>
 <node ID="ID_1745002187" CONTENT_ID="ID_404276512"/>
 <node ID="ID_397556540" CONTENT_ID="ID_1105434617"/>
-<node ID="ID_126282228" CONTENT_ID="ID_541399653"/>
+<node ID="ID_996473993" CONTENT_ID="ID_541399653">
+<node ID="ID_1084886423" TREE_ID="ID_1520876532"/>
+<node ID="ID_1806653149" TREE_ID="ID_396118660"/>
+</node>
 </node>
 <node ID="ID_1515990954" CONTENT_ID="ID_775283200">
 <node ID="ID_481570370" CONTENT_ID="ID_1407229404"/>
@@ -1310,11 +1381,19 @@
 <node ID="ID_29102803" CONTENT_ID="ID_759453940"/>
 <node ID="ID_1613486517" CONTENT_ID="ID_1776378834"/>
 <node ID="ID_1734667260" CONTENT_ID="ID_404276512"/>
-<node ID="ID_67242181" CONTENT_ID="ID_541399653"/>
+<node TEXT="Overlap with [RS_SAF_21403]?" STYLE_REF="Diskussionspunkt_Autosar" ID="ID_1696830975" CREATED="1615818991521" MODIFIED="1642155858060" LINK="#ID_96138444">
+<attribute_layout NAME_WIDTH="150 pt"/>
+<node TEXT="Additional tracing 21403-&gt;10037?" ID="ID_1693678348" CREATED="1642598335114" MODIFIED="1642598472850">
+<attribute_layout NAME_WIDTH="150 pt"/>
+</node>
+<node TEXT="Action Item" ID="ID_158963198" CREATED="1642598473363" MODIFIED="1642598494812">
+<attribute_layout NAME_WIDTH="150 pt"/>
 </node>
 </node>
 </node>
-<node TEXT=" AUTOSAR shall provide a software platform to&#xa;support the development of highly available&#xa;systems" FOLDED="true" ID="ID_869004078" CREATED="1615804831343" MODIFIED="1615804839836"><richcontent CONTENT-TYPE="xml/" TYPE="DETAILS">
+</node>
+</node>
+<node TEXT=" AUTOSAR shall provide a software platform to&#xa;support the development of highly available&#xa;systems" ID="ID_869004078" CREATED="1615804831343" MODIFIED="1615804839836"><richcontent CONTENT-TYPE="xml/" TYPE="DETAILS">
 <html>
   <head>
     
@@ -1426,9 +1505,20 @@
 <node ID="ID_1069368323" CONTENT_ID="ID_1776378834"/>
 <node ID="ID_690732865" CONTENT_ID="ID_404276512"/>
 <node ID="ID_106687243" CONTENT_ID="ID_1105434617"/>
-<node ID="ID_1897040504" CONTENT_ID="ID_541399653"/>
+<node TEXT="Overlap with [RS_SAF_21403]?" STYLE_REF="Diskussionspunkt_Autosar" ID="ID_1225242438" CREATED="1615818991521" MODIFIED="1642155858060" LINK="#ID_96138444">
+<attribute_layout NAME_WIDTH="150 pt"/>
+<node TEXT="Additional tracing 21403-&gt;10037?" ID="ID_1172773405" CREATED="1642598335114" MODIFIED="1642598472850">
+<attribute_layout NAME_WIDTH="150 pt"/>
+</node>
+<node TEXT="Action Item" ID="ID_752285824" CREATED="1642598473363" MODIFIED="1642598494812">
+<attribute_layout NAME_WIDTH="150 pt"/>
+</node>
+</node>
 <node TEXT="Requirement should be flagged as OS dependent, see children requirements refrereing to OS measures" STYLE_REF="Diskussionspunkt_Autosar" ID="ID_185580312" CREATED="1642328930844" MODIFIED="1642328971829">
 <attribute_layout NAME_WIDTH="150 pt"/>
+<node TEXT="I think we missed that one during the Discussion session" ID="ID_1456411367" CREATED="1642664798440" MODIFIED="1642664811871">
+<attribute_layout NAME_WIDTH="150 pt"/>
+</node>
 </node>
 </node>
 </node>
@@ -1458,7 +1548,10 @@
 <node ID="ID_770007334" CONTENT_ID="ID_1776378834"/>
 <node ID="ID_1829381324" CONTENT_ID="ID_404276512"/>
 <node ID="ID_357655461" CONTENT_ID="ID_1105434617"/>
-<node ID="ID_749435796" CONTENT_ID="ID_541399653"/>
+<node ID="ID_568516278" TREE_ID="ID_1225242438">
+<node ID="ID_1409360936" TREE_ID="ID_1172773405"/>
+<node ID="ID_420974284" TREE_ID="ID_752285824"/>
+</node>
 </node>
 <node ID="ID_690542415" CONTENT_ID="ID_775283200">
 <node ID="ID_1984816322" CONTENT_ID="ID_1407229404"/>
@@ -1484,11 +1577,14 @@
 <node ID="ID_857744299" CONTENT_ID="ID_1776378834"/>
 <node ID="ID_764119521" CONTENT_ID="ID_404276512"/>
 <node ID="ID_1921539416" CONTENT_ID="ID_1105434617"/>
-<node ID="ID_511935181" CONTENT_ID="ID_541399653"/>
+<node ID="ID_1251528883" TREE_ID="ID_1225242438">
+<node ID="ID_1696961809" TREE_ID="ID_1172773405"/>
+<node ID="ID_1687299599" TREE_ID="ID_752285824"/>
 </node>
 </node>
 </node>
-<node TEXT="AUTOSAR shall support development processes&#xa;for safety related systems" FOLDED="true" ID="ID_1087889462" CREATED="1615804853430" MODIFIED="1615804866118"><richcontent CONTENT-TYPE="xml/" TYPE="DETAILS">
+</node>
+<node TEXT="AUTOSAR shall support development processes&#xa;for safety related systems" ID="ID_1087889462" CREATED="1615804853430" MODIFIED="1615804866118"><richcontent CONTENT-TYPE="xml/" TYPE="DETAILS">
 <html>
   <head>
     
@@ -1597,7 +1693,10 @@
 <node ID="ID_1697785719" CONTENT_ID="ID_1776378834"/>
 <node ID="ID_1967727920" CONTENT_ID="ID_404276512"/>
 <node ID="ID_1133993828" CONTENT_ID="ID_1105434617"/>
-<node ID="ID_1292010618" CONTENT_ID="ID_541399653"/>
+<node ID="ID_1943452199" TREE_ID="ID_1225242438">
+<node ID="ID_1710796063" TREE_ID="ID_1172773405"/>
+<node ID="ID_1084954009" TREE_ID="ID_752285824"/>
+</node>
 </node>
 </node>
 <node ID="ID_651661398" CONTENT_ID="ID_1950152531">
@@ -1626,7 +1725,10 @@
 <node ID="ID_1778341853" CONTENT_ID="ID_1776378834"/>
 <node ID="ID_1968609496" CONTENT_ID="ID_404276512"/>
 <node ID="ID_505786173" CONTENT_ID="ID_1105434617"/>
-<node ID="ID_1383707293" CONTENT_ID="ID_541399653"/>
+<node ID="ID_1690273404" TREE_ID="ID_1225242438">
+<node ID="ID_546377790" TREE_ID="ID_1172773405"/>
+<node ID="ID_1928986163" TREE_ID="ID_752285824"/>
+</node>
 </node>
 <node ID="ID_1070962815" CONTENT_ID="ID_775283200">
 <node ID="ID_1867869730" CONTENT_ID="ID_1407229404"/>
@@ -1652,11 +1754,14 @@
 <node ID="ID_1329939779" CONTENT_ID="ID_1776378834"/>
 <node ID="ID_20133608" CONTENT_ID="ID_404276512"/>
 <node ID="ID_176904576" CONTENT_ID="ID_1105434617"/>
-<node ID="ID_1043053381" CONTENT_ID="ID_541399653"/>
+<node ID="ID_452280734" TREE_ID="ID_1225242438">
+<node ID="ID_1805347095" TREE_ID="ID_1172773405"/>
+<node ID="ID_1457090221" TREE_ID="ID_752285824"/>
 </node>
 </node>
 </node>
-<node TEXT="AUTOSAR shall support the deployment and&#xa;reallocation of AUTOSAR Application Software" FOLDED="true" ID="ID_883615429" CREATED="1615804874326" MODIFIED="1615804886004"><richcontent CONTENT-TYPE="xml/" TYPE="DETAILS">
+</node>
+<node TEXT="AUTOSAR shall support the deployment and&#xa;reallocation of AUTOSAR Application Software" ID="ID_883615429" CREATED="1615804874326" MODIFIED="1615804886004"><richcontent CONTENT-TYPE="xml/" TYPE="DETAILS">
 <html>
   <head>
     
@@ -1694,7 +1799,10 @@
 <node ID="ID_1575582791" CONTENT_ID="ID_1776378834"/>
 <node ID="ID_1364089763" CONTENT_ID="ID_404276512"/>
 <node ID="ID_475744360" CONTENT_ID="ID_1105434617"/>
-<node ID="ID_1218558037" CONTENT_ID="ID_541399653"/>
+<node ID="ID_936214491" TREE_ID="ID_1225242438">
+<node ID="ID_145088153" TREE_ID="ID_1172773405"/>
+<node ID="ID_768373309" TREE_ID="ID_752285824"/>
+</node>
 </node>
 <node ID="ID_1631228965" CONTENT_ID="ID_775283200">
 <node ID="ID_1849831111" CONTENT_ID="ID_1407229404"/>
@@ -1717,8 +1825,11 @@
 <node TEXT="If we had the tracing and requirements itself in properly readable format we could provide the script to unfold into a tree" ID="ID_1258962824" CREATED="1642329460779" MODIFIED="1642329611278">
 <attribute_layout NAME_WIDTH="150 pt"/>
 </node>
+<node TEXT="Autosar group has their own tooling and is restructuring the documents anyways" ID="ID_697259531" CREATED="1642664936142" MODIFIED="1642664962087">
+<attribute_layout NAME_WIDTH="150 pt"/>
 </node>
-<node TEXT="Functional top level Requirements" FOLDED="true" ID="ID_304192377" CREATED="1615805113206" MODIFIED="1615805535615">
+</node>
+<node TEXT="Functional top level Requirements" ID="ID_304192377" CREATED="1615805113206" MODIFIED="1615805535615">
 <attribute_layout NAME_WIDTH="150 pt"/>
 <node ID="ID_1225584106" CONTENT_ID="ID_1314148308">
 <node ID="ID_1142071102" CONTENT_ID="ID_1472695371">
@@ -1737,6 +1848,9 @@
 <node ID="ID_1494492681" CONTENT_ID="ID_262025991"/>
 <node TEXT="Overlap with [RS_SAF_21106]" STYLE_REF="Diskussionspunkt_Autosar" ID="ID_855844969" CREATED="1642329730039" MODIFIED="1642329835198" LINK="#ID_324315354">
 <attribute_layout NAME_WIDTH="150 pt"/>
+<node TEXT="Non-issue, the requirements target different Systems, EM vs PHM" ID="ID_518357668" CREATED="1642600233221" MODIFIED="1642665027229">
+<attribute_layout NAME_WIDTH="150 pt"/>
+</node>
 </node>
 </node>
 <node ID="ID_1495413587" CONTENT_ID="ID_65446409"/>
@@ -1805,6 +1919,12 @@
 <node TEXT="Outcome of Analysis done by Safety Architecture WG" ID="ID_659797185" CREATED="1642330026632" MODIFIED="1642330036099">
 <attribute_layout NAME_WIDTH="150 pt"/>
 </node>
+<node TEXT="Refer to the unintended data alteration requirement" ID="ID_1634378757" CREATED="1642600408027" MODIFIED="1642600419957">
+<attribute_layout NAME_WIDTH="150 pt"/>
+</node>
+<node TEXT="Feed to gab for recommendation" ID="ID_217991564" CREATED="1642600420325" MODIFIED="1642600425437">
+<attribute_layout NAME_WIDTH="150 pt"/>
+</node>
 </node>
 </node>
 <node ID="ID_1551521917" CONTENT_ID="ID_1907996786"/>
@@ -1827,7 +1947,10 @@
 <node ID="ID_1371824447" CONTENT_ID="ID_1776378834"/>
 <node ID="ID_1124640905" CONTENT_ID="ID_404276512"/>
 <node ID="ID_229190041" CONTENT_ID="ID_1105434617"/>
-<node ID="ID_863220644" CONTENT_ID="ID_541399653"/>
+<node ID="ID_1529454642" TREE_ID="ID_1225242438">
+<node ID="ID_1420302971" TREE_ID="ID_1172773405"/>
+<node ID="ID_1585550865" TREE_ID="ID_752285824"/>
+</node>
 </node>
 </node>
 <node ID="ID_295138353" CONTENT_ID="ID_1950152531">
@@ -1856,7 +1979,10 @@
 <node ID="ID_1147661241" CONTENT_ID="ID_1776378834"/>
 <node ID="ID_424048773" CONTENT_ID="ID_404276512"/>
 <node ID="ID_455223790" CONTENT_ID="ID_1105434617"/>
-<node ID="ID_199429262" CONTENT_ID="ID_541399653"/>
+<node ID="ID_358186111" TREE_ID="ID_1225242438">
+<node ID="ID_1925962407" TREE_ID="ID_1172773405"/>
+<node ID="ID_210312530" TREE_ID="ID_752285824"/>
+</node>
 </node>
 <node ID="ID_167865344" CONTENT_ID="ID_775283200">
 <node ID="ID_819246946" CONTENT_ID="ID_1407229404"/>
@@ -1882,14 +2008,17 @@
 <node ID="ID_13606627" CONTENT_ID="ID_1776378834"/>
 <node ID="ID_590570456" CONTENT_ID="ID_404276512"/>
 <node ID="ID_45825825" CONTENT_ID="ID_1105434617"/>
-<node ID="ID_620703627" CONTENT_ID="ID_541399653"/>
+<node ID="ID_1109831566" TREE_ID="ID_1225242438">
+<node ID="ID_1963829296" TREE_ID="ID_1172773405"/>
+<node ID="ID_793289000" TREE_ID="ID_752285824"/>
+</node>
 </node>
 </node>
 <node ID="ID_1906793415" CONTENT_ID="ID_1444035533">
 <node ID="ID_1217068829" CONTENT_ID="ID_1424394028"/>
 </node>
 </node>
-<node TEXT="Functional Requirements Autosar" FOLDED="true" ID="ID_499091176" CREATED="1615805539316" MODIFIED="1615805560966">
+<node TEXT="Functional Requirements Autosar" ID="ID_499091176" CREATED="1615805539316" MODIFIED="1615805560966">
 <attribute_layout NAME_WIDTH="150 pt"/>
 <node ID="ID_211721389" CONTENT_ID="ID_1472695371">
 <node ID="ID_896283666" CONTENT_ID="ID_1044048788"/>
@@ -1915,7 +2044,7 @@
 <node ID="ID_68226500" CONTENT_ID="ID_1907996786"/>
 <node ID="ID_1898894902" CONTENT_ID="ID_1741202113"/>
 </node>
-<node TEXT="[RS_SAF_10006]" FOLDED="true" ID="ID_1246492239" CREATED="1615805198240" MODIFIED="1615805211236"><richcontent CONTENT-TYPE="xml/" TYPE="DETAILS">
+<node TEXT="[RS_SAF_10006]" ID="ID_1246492239" CREATED="1615805198240" MODIFIED="1615805211236"><richcontent CONTENT-TYPE="xml/" TYPE="DETAILS">
 <html>
   <head>
     
@@ -1990,14 +2119,17 @@
 <node ID="ID_1913900145" CONTENT_ID="ID_1776378834"/>
 <node ID="ID_1971558209" CONTENT_ID="ID_404276512"/>
 <node ID="ID_1721292970" CONTENT_ID="ID_1105434617"/>
-<node ID="ID_245545438" CONTENT_ID="ID_541399653"/>
+<node ID="ID_549129771" TREE_ID="ID_1225242438">
+<node ID="ID_1150129800" TREE_ID="ID_1172773405"/>
+<node ID="ID_1861023513" TREE_ID="ID_752285824"/>
+</node>
 </node>
 <node ID="ID_331175493" CONTENT_ID="ID_775283200">
 <node ID="ID_200298704" CONTENT_ID="ID_1407229404"/>
 <node ID="ID_11981104" CONTENT_ID="ID_1843530097"/>
 </node>
 </node>
-<node TEXT="Technical Requirements Autosar" FOLDED="true" ID="ID_1409300527" CREATED="1615805120716" MODIFIED="1615805568463">
+<node TEXT="Technical Requirements Autosar" ID="ID_1409300527" CREATED="1615805120716" MODIFIED="1615805568463">
 <attribute_layout NAME_WIDTH="150 pt"/>
 <node ID="ID_1290770947" CONTENT_ID="ID_1702615522"/>
 <node ID="ID_1205818826" CONTENT_ID="ID_1262175123"/>
