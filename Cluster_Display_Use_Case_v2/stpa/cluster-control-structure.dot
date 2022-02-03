@@ -7,27 +7,43 @@ vehicle [label="Vehicle" width=8, fillcolor=gray]
 cluster [label="Cluster App" width=4]
 requester [label="Telltale requester" width=3, fillcolor=gray]
 handler [label="Request Handler" width=3]
-render [label="Rendering (Qt)" width=5]
+render_OM [label="QT Object Model" width=4,fillcolor=lightblue]
+render [label="QT Rendering" width=4]
 dControl [label="Display Controller" width=4]
-framebuffer [label="Framebuffer" width=3]
-display [label="Display" width=6]
-check [label="Telltale checking" width=3]
-watchdog [label="Watchdog" width=2]
+framebuffer [label="Framebuffer" width=3,fillcolor=lightblue]
+returnbuffer [label="Returnbuffer" width=3,fillcolor=lightblue]
+display [label="Display" width=8]
+check [label="Telltale checking" width=4]
+readbackinterface [label="Readbackinterface",width=2]
+watchdog [label="Watchdog" width=3]
 
 vehicle -> cluster [taillabel="\r\r\r Provide vehicle state  \r(CAN bus?)  \r" style=dashed color=red]
 vehicle -> requester [taillabel="\rProvide Hazard State  \r(CAN bus?)  \r" style=dashed color=red]
 requester -> handler [taillabel="\rSet telltale status  \r(CAN bus?)  \r"]
-cluster -> render [taillabel="\rShow state  \r(IPC?)  \r" weight=2]
+cluster -> render_OM [taillabel="\rShow state  \r(IPC?)  \r" weight=2]
 cluster ->  dControl [taillabel="\r display  \rcontroller  \r configuration  \r" weight=2]
 handler -> check [taillabel="\r  Set required  \r telltales  \r"]
-handler -> render [taillabel="\rShow telltales  \r(IPC?)  \r"]
+handler -> render_OM [taillabel="\rShow telltales  \r(IPC?)  \r"]
 dControl -> display [taillabel="\rProvide  \rimage buffer(s)  \r"]
 render -> framebuffer [taillabel="\rProvide  \rimage buffer(s)  \r"]
-check -> display [dir=back taillabel="\r Displayed \nImage  \r" style=dashed color=red]
+readbackinterface -> display [dir=back taillabel="\r Displayed \nImage  \r" style=dashed color=red]
 check -> watchdog [taillabel="\r\rPet  \r"]
 watchdog -> display [taillabel="\rTurn\noff\nbacklight  \r"]
 framebuffer -> dControl [dir=back taillabel="\r Initate \rDMA \r Transfer \r" style=dashed color=red]
 framebuffer -> dControl [taillabel="\r Frame  \r  Data  \r"]
 render -> dControl [taillabel="\r\r  set  \r base  \raddress  \r"]
+
+render_OM -> render [dir=back taillabel="\r\r poll" style=dashed color=red]
+render_OM -> render [taillabel="\r\r Object data "]
+check -> returnbuffer [color=red, style=dashed, label="poll"]
+check -> returnbuffer [dir=back,label="Image Data"]
+returnbuffer -> readbackinterface [dir=back, taillabel="\r displayed Image",color=red,style=dashed] 
+
+{
+// This construct only serves to force correct horizontal ordering...
+rank=same
+dControl -> readbackinterface -> watchdog [style=invis] 
+}
+
 }
 
