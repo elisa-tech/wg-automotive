@@ -7,15 +7,15 @@ vehicle [label="Vehicle" width=8, fillcolor=gray]
 cluster [label="Cluster App" width=4]
 requester [label="Telltale requester" width=3, fillcolor=gray]
 handler [label="Request Handler" width=3]
-render_OM [label="QT Object Model" width=4,fillcolor=lightblue]
-render [label="QT Rendering" width=4]
+render_OM [label="Object Model (e.g. QT)" width=4,fillcolor=lightblue]
+render [label="Rendering (e.g. QT)" width=4]
 dControl [label="Display Controller" width=4]
 framebuffer [label="Framebuffer" width=3,fillcolor=lightblue]
 returnbuffer [label="Returnbuffer" width=3,fillcolor=lightblue]
-display [label="Display" width=8]
+display [label="Display" width=8, fillcolor=gray]
 check [label="Telltale checking" width=4]
 readbackinterface [label="Readbackinterface",width=2]
-watchdog [label="Watchdog" width=3]
+watchdog [label="Watchdog" width=4, fillcolor=gray]
 
 vehicle -> cluster [taillabel="\r\r\r Provide vehicle state  \r(CAN bus?)  \r" style=dashed color=red]
 vehicle -> requester [taillabel="\rProvide Hazard State  \r(CAN bus?)  \r" style=dashed color=red]
@@ -27,7 +27,9 @@ handler -> render_OM [taillabel="\rShow telltales  \r(IPC?)  \r"]
 dControl -> display [taillabel="\rProvide  \rimage buffer(s)  \r"]
 render -> framebuffer [taillabel="\rProvide  \rimage buffer(s)  \r"]
 readbackinterface -> display [dir=back taillabel="\r Displayed \nImage  \r" style=dashed color=red]
-check -> watchdog [taillabel="\r\rPet  \r"]
+
+watchdog -> check [dir=back,taillabel="\r\r Response  \r"]
+watchdog -> check [taillabel="\r\r            challenge  \r"]
 watchdog -> display [taillabel="\rTurn\noff\nbacklight  \r"]
 framebuffer -> dControl [dir=back taillabel="\r Initate \rDMA \r Transfer \r" style=dashed color=red]
 framebuffer -> dControl [taillabel="\r Frame  \r  Data  \r"]
@@ -39,11 +41,13 @@ check -> returnbuffer [color=red, style=dashed, label="poll"]
 check -> returnbuffer [dir=back,label="Image Data"]
 returnbuffer -> readbackinterface [dir=back, taillabel="\r displayed Image",color=red,style=dashed] 
 
-{
+
+
+//{
 // This construct only serves to force correct horizontal ordering...
-rank=same
-dControl -> readbackinterface -> watchdog [style=invis] 
-}
+//rank=same
+//dControl -> readbackinterface -> watchdog [style=invis] 
+//}
 
 }
 
