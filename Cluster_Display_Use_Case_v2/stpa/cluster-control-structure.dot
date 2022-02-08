@@ -35,10 +35,11 @@ framebuffer -> dControl [dir=back taillabel="\r Initate \rDMA \r Transfer \r" st
 framebuffer -> dControl [taillabel="\r Frame  \r  Data  \r"]
 render -> dControl [taillabel="\r\r  set  \r base  \raddress  \r"]
 
-render_OM -> render [dir=back taillabel="\r\r poll" style=dashed color=red]
-render_OM -> render [taillabel="\r\r Object data "]
-check -> returnbuffer [color=red, style=dashed, label="poll"]
-check -> returnbuffer [dir=back,label="Image Data"]
+
+render_OM -> render [taillabel="\r\r Object data ",style=dashed color=red]
+render_OM -> render [dir=back taillabel="\r\r read" ]
+check -> returnbuffer [label="read"]
+check -> returnbuffer [dir=back,label="Image Data",color=red, style=dashed]
 returnbuffer -> readbackinterface [dir=back, taillabel="\r displayed Image",color=red,style=dashed] 
 
 
