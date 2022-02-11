@@ -1,0 +1,138 @@
+Losses:
+- Identifier: L-1
+  Text: Loss of life
+- Identifier: L-2
+  Text: Loss of or damage to vehicle
+- Identifier: L-3
+  Text: Loss of or damage to objects outside the vehicle
+
+Hazards:
+- Identifier: H-1
+  Text: >
+    Driver is not informed about a system condition, leading to a collision
+    or other harmful event
+  Losses: [L-1, L-2, L-3]
+- Identifier: H-2
+  Text: >
+    Driver is distracted by the display, leading to a collision or other
+    harmful event
+  Losses: [L-1, L-2, L-3]
+- Identifier: H-3
+  Text: >
+    Driver becomes desensitized to a warning because it is incorrectly
+    repeated, leading to a collision or other harmful event
+  Losses: [L-1, L-2, L-3]
+- Identifier: H-4
+  Text: >
+    Content on display compromises the driver (e.g. flickering image triggers
+    epileptic fit), leading to a collision or other harmful event
+  Losses: [L-1, L-2, L-3]
+
+Constraints:
+- Identifier: C-1
+  Text: >
+    Warning of a potentially harmful system condition must be visible and
+    noticeable by the driver [H-1]
+  Hazards: [H-1]
+- Identifier: C-2
+  Text: >
+    Display content must not impede the driver in performing the driving task
+  Hazards: [H-2, H-4]
+- Identifier: C-3
+  Text: >
+    Erroneous, ambiguous or contradictory information relating to potentially
+    harmful system conditions must not be persistently displayed
+  Hazards: [H-3]
+
+Components:
+
+- Identifier: RH
+  Text: Request Handler
+
+  Control Actions:
+  - Identifier: RH-Set
+    Text: Set Required Telltales
+    Target: TC
+
+    Unsafe Control Actions:
+
+    - Identifier: RH-UCA-01
+      Text: >
+        Request Manager does not provide Set Required Telltales when a telltale
+        has been activated
+      Reason: Not Providing
+      Hazards: [H-1]
+
+- Identifier: TC
+  Text: Telltale Checking
+
+  Control Actions:
+  - Identifier: TC-Read
+    Text: Read image data from buffer
+    Target: RB
+
+    Unsafe Control Actions:
+
+    - Identifier: TC-UCA-01
+      Text: >
+        Telltale Checking provides Read when incorrect image data relating to
+        Required Telltales is stored by Return Buffer
+      Reason: Providing
+      Hazards: [H-1]
+
+    - Identifier: TC-UCA-02
+      Text: >
+        Telltale Checking provides Read when image data relating to Required
+        Telltales has been not updated to reflect the current display
+      Reason: Timing
+      Hazards: [H-1]
+
+  - Identifier: TC-Pet
+    Text: Pet watchdog
+    Target: WD
+
+    Unsafe Control Actions:
+
+    - Identifier: TC-UCA-03
+      Text: >
+        Telltale Checking provides Pet when when one or more required Telltales
+        are not correctly displayed
+      Reason: Providing
+      Hazards: [H-1]
+
+  - Identifier: TC-Response
+    Text: Respond to challenge from Watchdog
+    Target: WD
+
+    Unsafe Control Actions:
+
+    - Identifier: TC-UCA-04
+      Text: >
+        Telltale Checking provides Response when when one or more required
+        Telltales are not correctly displayed
+      Reason: Providing
+      Hazards: [H-1]
+
+- Identifier: RB
+  Text: Return Buffer
+
+  Feedback:
+  - Identifier: RB-FB-Image-Data
+    Text: Image Data from Readback Interface
+    Target: TC
+
+- Identifier: RI
+  Text: Readback Interface
+
+  Feedback:
+  - Identifier: RI-FB-Displayed-Image
+    Text: Image Data from Display
+    Target: RB
+
+- Identifier: WD
+  Text: Watchdog
+
+  Feedback:
+  - Identifier: WD-FB-Challenge
+    Text: Challenge to ensure Telltale Checking is still functioning
+    Target: TC
