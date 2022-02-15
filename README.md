@@ -1,3 +1,8 @@
+# ELISA Automotive WG
+## Mission statement
+The automotive workgroup discusses the conditions and prerequisites the automotive sector needs to integrate Linux into a safety critical system.
+ 
+We focus on actual use cases from the Automotive domain to derive the technical requirements to the kernel as a basis for investigation within the Architecture Workgroup and to serve as a blueprint for actual projects in the future.
 # ELISA Automotive WG - Navigation and file locations
 ## Mailing list, Calendar etc
 https://lists.elisa.tech/g/automotive
@@ -32,22 +37,22 @@ The models are also visible via github page deployment as online viewer at:
 https://elisa-tech.github.io/wg-automotive/
 
 The html export might not always be up to date with the models, generation is not automated (yet)
-## Tooling
-### Requirements
+# Tooling
+## Requirements
 Requirements are stored and handled as Freeplane Mindmap with Functional Safety Addon
 * https://www.freeplane.org/wiki/index.php/Home
 * https://github.com/Jochen-Kall/Safety_concept_tool
-### SysML modeling
+## SysML modeling
 SysML models are done with Eclipse Papyrus with SysML v1.6 Plugin
 * https://www.eclipse.org/papyrus/
 * https://marketplace.eclipse.org/content/papyrus-sysml-16
 
-## Contribution workflow
+# Contribution workflow
 To make collaboration as frictionless as possible, the automotive workgroup uses the following github based workflow.
-### Prerequisites
+## Prerequisites
 * Git
 * Github account
-### Workflow
+## Workflow
 * If you did not fork and clone yet
   * Fork the upstream repo and clone your fork to get a local working copy, details see [click](#initial-setup---forking-and-cloning)
 * If you already forked the repository and cloned your fork
