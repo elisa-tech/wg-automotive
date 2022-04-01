@@ -1,0 +1,47 @@
+digraph G {
+
+node [shape=box width=1 height=0.5 fontname=arial fontsize=16 style=filled fillcolor=white]
+graph [splines=ortho ranksep=1 nodesep=0.2 fontname=arial fontsize=16 compound=true]
+
+vehicle [label="Vehicle" width=7 fillcolor=gray]
+cluster [label="Cluster App" width=3]
+rank=same{
+  requester [label="Telltale requester" width=3 fillcolor=gray]
+  watchdog [label="Watchdog" width=5 fillcolor=gray]
+}
+handler [label="Request Handler" width=3]
+render_OM [label="Object Model (e.g. QT)" width=3 fillcolor=lightblue]
+render [label="Rendering (e.g. QT)" width=4]
+dControl [label="Display Controller" width=6]
+framebuffer [label="Framebuffer" width=3 fillcolor=lightblue]
+returnbuffer [label="Returnbuffer" width=3 fillcolor=lightblue]
+display [label="Display" width=6 fillcolor=gray]
+check [label="Telltale checking" width=4]
+readbackinterface [label="Readbackinterface" width=2]
+
+vehicle -> cluster [taillabel="\r\r\r Provide vehicle state  \r(CAN bus?)  \r" style=dashed color=red]
+vehicle -> requester [taillabel="\rProvide Hazard State  \r(CAN bus?)  \r" style=dashed color=red]
+requester -> handler [taillabel="\rSet telltale status  \r(CAN bus?)  \r"]
+cluster -> render_OM [taillabel="\rUpdate state  \r(IPC?)  \r"]
+cluster ->  dControl [taillabel="\r display  \rcontroller  \r configuration  \r"]
+handler -> check [taillabel="\rSet required  \rtelltales  \r"]
+handler -> render_OM [taillabel="\rUpdate telltales  \r(IPC?)  \r"]
+dControl -> display [taillabel="\rProvide  \rimage buffer(s)  \r"]
+render -> framebuffer [taillabel="\rProvide  \rimage buffer(s)  \r"]
+readbackinterface -> display [dir=back taillabel="\rDisplayed  \rImage  \r" style=dashed color=red]
+
+watchdog -> check [taillabel="\rChallenge  \r" style=dashed color=red]
+watchdog -> check [dir=back headlabel="\rResponse \r\r"]
+watchdog -> check [dir=back headlabel="\rPet \r\r"]
+watchdog -> display [taillabel="\rTurn  \roff  \rbacklight  \r"]
+framebuffer -> dControl [dir=back taillabel="\r Initate \rDMA \r Transfer \r"]
+framebuffer -> dControl [taillabel="\r Frame  \r  Data  \r" style=dashed color=red]
+render -> dControl [taillabel="\rSet  \rbase  \raddress  \r"]
+
+render_OM -> render [taillabel="\rObject data " style=dashed color=red]
+render_OM -> render [dir=back headlabel="\rRead  \r\r" ]
+check -> returnbuffer [taillabel="\rRead  \r"]
+check -> returnbuffer [dir=back headlabel="\rImage  \rData  \r\r" color=red style=dashed]
+returnbuffer -> readbackinterface [dir=back headlabel="\r Displayed  \rImage  \r\r" color=red style=dashed]
+
+}
