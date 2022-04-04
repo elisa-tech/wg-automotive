@@ -2,7 +2,7 @@
 ## Mission statement
 The automotive workgroup discusses the conditions and prerequisites the automotive sector needs to integrate Linux into a safety critical system.
  
-We focus on actual use cases from the Automotive domain to derive the technical requirements to the kernel as a basis for investigation within the Architecture Workgroup and to serve as a blueprint for actual projects in the future.
+We focus on actual use cases from the Automotive domain to derive the technical requirements to the kernel as a basis for investigation within the Safety Architecture Workgroup and to serve as a blueprint for actual projects in the future.
 
 This repository contains aggreed upon and peer reviewed material for this work group, see [process description below](#contribution-workflow)
 
