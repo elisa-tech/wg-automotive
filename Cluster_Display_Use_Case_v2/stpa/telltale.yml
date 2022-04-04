@@ -1,6 +1,6 @@
 Losses:
 - Identifier: L-1
-  Text: Loss of life
+  Text: Loss of life or injury to people (not limited to vehicle occupants)
 - Identifier: L-2
   Text: Loss of or damage to vehicle
 - Identifier: L-3
@@ -32,7 +32,7 @@ Constraints:
 - Identifier: C-1
   Text: >
     Warning of a potentially harmful system condition must be visible and
-    noticeable by the driver [H-1]
+    noticeable by the driver
   Hazards: [H-1]
 - Identifier: C-2
   Text: >
@@ -58,9 +58,28 @@ Components:
 
     - Identifier: RH-UCA-01
       Text: >
-        Request Manager does not provide Set Required Telltales when a telltale
-        has been activated
+        RH provides Set Required Telltales when the status of the indicated
+        telltale has not changed or the wrong telltale is indicated
+      Reason: Providing
+      Hazards: [H-1]
+
+    - Identifier: RH-UCA-02
+      Text: >
+        RH does not provide Set Required Telltales when the status of a
+        telltale has changed
       Reason: Not Providing
+      Hazards: [H-1]
+
+    - Identifier: RH-UCA-03
+      Text: >
+        RH provides Set Required Telltales after an unacceptably long delay
+      Reason: Timing
+      Hazards: [H-1]
+
+    - Identifier: RH-UCA-04
+      Text: >
+        RH provides Set Required Telltales during or after a TC check cycle
+      Reason: Timing
       Hazards: [H-1]
 
 - Identifier: TC
@@ -75,15 +94,20 @@ Components:
 
     - Identifier: TC-UCA-01
       Text: >
-        Telltale Checking provides Read when incorrect image data relating to
-        Required Telltales is stored by Return Buffer
+        TC provides Read when incorrect image data relating to required
+        Telltales is stored by RB
       Reason: Providing
       Hazards: [H-1]
 
     - Identifier: TC-UCA-02
       Text: >
-        Telltale Checking provides Read when image data relating to Required
-        Telltales has been not updated to reflect the current display
+        TC does not provide Read when new image data is available in RB
+      Reason: Not Providing
+      Hazards: [H-1]
+
+    - Identifier: TC-UCA-03
+      Text: >
+        TC provides Read when image data in RB is out of date
       Reason: Timing
       Hazards: [H-1]
 
@@ -93,10 +117,9 @@ Components:
 
     Unsafe Control Actions:
 
-    - Identifier: TC-UCA-03
+    - Identifier: TC-UCA-04
       Text: >
-        Telltale Checking provides Pet when when one or more required Telltales
-        are not correctly displayed
+        TC provides Pet when when telltales are not correctly displayed
       Reason: Providing
       Hazards: [H-1]
 
@@ -106,12 +129,15 @@ Components:
 
     Unsafe Control Actions:
 
-    - Identifier: TC-UCA-04
+    - Identifier: TC-UCA-05
       Text: >
-        Telltale Checking provides Response when when one or more required
-        Telltales are not correctly displayed
+        TC provides Response when telltales are not correctly displayed
       Reason: Providing
       Hazards: [H-1]
+
+# Rejected the following UCAs becaus ethey do not lead to Hazards
+# - TC does not provide Response when telltales are correctly displayed
+# - TC provides Response too late when telltales are correctly displayed
 
 - Identifier: RB
   Text: Return Buffer

@@ -2,7 +2,7 @@
 
 ## L-1
 
-Loss of life
+Loss of life or injury to people (not limited to vehicle occupants)
 
 ## L-2
 
@@ -48,7 +48,7 @@ Possible losses: [L-1](#l-1), [L-2](#l-2), [L-3](#l-3)
 
 | Constraint | Description |
 | ---- | ---- |
-| C-1 | Warning of a potentially harmful system condition must be visible and noticeable by the driver [H-1]  |
+| C-1 | Warning of a potentially harmful system condition must be visible and noticeable by the driver  |
 | C-2 | Display content must not impede the driver in performing the driving task  |
 | C-3 | Erroneous, ambiguous or contradictory information relating to potentially harmful system conditions must not be persistently displayed  |
 
@@ -82,7 +82,7 @@ Request Handler
 
 | Control Action | Providing | Not Providing | Timing | Duration |
 | ---- | ---- | ---- | ---- | ---- |
-| [RH-Set](#rh-set) |  | [RH-UCA-01](#rh-uca-01) |  |  |
+| [RH-Set](#rh-set) | [RH-UCA-01](#rh-uca-01) | [RH-UCA-02](#rh-uca-02) | [RH-UCA-03](#rh-uca-03), [RH-UCA-04](#rh-uca-04) |  |
 
 ## Control Actions
 
@@ -96,9 +96,33 @@ Set Required Telltales
 
 ##### RH-UCA-01
 
-Request Manager does not provide Set Required Telltales when a telltale has been activated 
+RH provides Set Required Telltales when the status of the indicated telltale has not changed or the wrong telltale is indicated 
+
+**Reason:** Providing
+
+**Possible Hazards:** [H-1](#h-1)
+
+##### RH-UCA-02
+
+RH does not provide Set Required Telltales when the status of a telltale has changed 
 
 **Reason:** Not Providing
+
+**Possible Hazards:** [H-1](#h-1)
+
+##### RH-UCA-03
+
+RH provides Set Required Telltales after an unacceptably long delay 
+
+**Reason:** Timing
+
+**Possible Hazards:** [H-1](#h-1)
+
+##### RH-UCA-04
+
+RH provides Set Required Telltales during or after a TC check cycle 
+
+**Reason:** Timing
 
 **Possible Hazards:** [H-1](#h-1)
 
@@ -127,9 +151,9 @@ Telltale Checking
 
 | Control Action | Providing | Not Providing | Timing | Duration |
 | ---- | ---- | ---- | ---- | ---- |
-| [TC-Pet](#tc-pet) | [TC-UCA-03](#tc-uca-03) |  |  |  |
-| [TC-Read](#tc-read) | [TC-UCA-01](#tc-uca-01) |  | [TC-UCA-02](#tc-uca-02) |  |
-| [TC-Response](#tc-response) | [TC-UCA-04](#tc-uca-04) |  |  |  |
+| [TC-Pet](#tc-pet) | [TC-UCA-04](#tc-uca-04) |  |  |  |
+| [TC-Read](#tc-read) | [TC-UCA-01](#tc-uca-01) | [TC-UCA-02](#tc-uca-02) | [TC-UCA-03](#tc-uca-03) |  |
+| [TC-Response](#tc-response) | [TC-UCA-05](#tc-uca-05) |  |  |  |
 
 ## Control Actions
 
@@ -141,9 +165,9 @@ Pet watchdog
 
 #### Unsafe Control Actions
 
-##### TC-UCA-03
+##### TC-UCA-04
 
-Telltale Checking provides Pet when when one or more required Telltales are not correctly displayed 
+TC provides Pet when when telltales are not correctly displayed 
 
 **Reason:** Providing
 
@@ -159,7 +183,7 @@ Read image data from buffer
 
 ##### TC-UCA-01
 
-Telltale Checking provides Read when incorrect image data relating to Required Telltales is stored by Return Buffer 
+TC provides Read when incorrect image data relating to required Telltales is stored by RB 
 
 **Reason:** Providing
 
@@ -167,7 +191,15 @@ Telltale Checking provides Read when incorrect image data relating to Required T
 
 ##### TC-UCA-02
 
-Telltale Checking provides Read when image data relating to Required Telltales has been not updated to reflect the current display 
+TC does not provide Read when new image data is available in RB 
+
+**Reason:** Not Providing
+
+**Possible Hazards:** [H-1](#h-1)
+
+##### TC-UCA-03
+
+TC provides Read when image data in RB is out of date 
 
 **Reason:** Timing
 
@@ -181,9 +213,9 @@ Respond to challenge from Watchdog
 
 #### Unsafe Control Actions
 
-##### TC-UCA-04
+##### TC-UCA-05
 
-Telltale Checking provides Response when when one or more required Telltales are not correctly displayed 
+TC provides Response when telltales are not correctly displayed 
 
 **Reason:** Providing
 
