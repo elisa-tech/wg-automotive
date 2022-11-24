@@ -36,10 +36,10 @@ Other than that, here is a checklist to get you started:
 ## Google drive workgroup folder
 The google drive is used for drafts, presentation and general material that has to be considered work in process. The gdrive also is used for the meeting minutes.  
 https://drive.google.com/drive/folders/1FCEzywCMfk3wY6lxBoMYjfQ_DQ44S5YS
-## Repo Orientation regarding the Telltale Usecase
+## Repo Orientation regarding the tell tale use case
 ### Original considerations
 The originial considerations of the Use Case can be found in the subfolder "Initialy_discussed_system_scope" of this repository
-### First iteration of the use case (aka "demo")
+### First iteration of the use case (demo implemenation focused)
 The first iteration of the use case, that the meta-elisa demo is based on, can be found in the subfolder "AGL_cluster_demo_use_case" of this repository
 * Item definition
 * Safety Concept/Requirements
@@ -50,7 +50,7 @@ Our Implementation on top of the preexisting AGL Cluster demo is split in two re
 * The sourcecode repository providing the actual code:
   * https://github.com/elisa-tech/wg-automotive-safety-app
 
-### Second iteration of the use case (aka "STPA analysis)
+### Second iteration of the use case (STPA analysis focused)
 The second iteration of the use case includes the ongoing STPA analysis can be found in the subfolder "Cluster_Display_Use_Case_v2"
 * Item definition [WIP]
 * SysML models [WIP]
