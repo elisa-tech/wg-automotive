@@ -4,33 +4,29 @@ The automotive workgroup discusses the conditions and prerequisites the automoti
  
 We focus on actual use cases from the Automotive domain to derive the technical requirements to the kernel as a basis for investigation within the Safety Architecture Workgroup and to serve as a blueprint for actual projects in the future.
 
-This repository contains aggreed upon and peer reviewed material for this work group, see [process description below](#contribution-workflow)
+This repository contains agreed upon and peer reviewed material for this work group, see [process description below](#contribution-workflow)
 
 ## Use case
-Currently, the Automotive work group focuses on the telltale use case, i.e. warning symbols in the intstrument cluster of a car, targeting ASIL B.
+Currently, the Automotive work group focuses on the tell tale use case, i.e. warning symbols in the intstrument cluster of a vehicle, typically rated with ASIL B.
 ## Getting in Contact, Getting Involved
 ### Mailing list, Calendar etc
 Subscribe to our mailing list:
 https://lists.elisa.tech/g/automotive
 
 ### Meetings
-The Automotive workgroup currently meets twice a week
-* Friday 14:00 CET: General sync call
-* Thursday 9:00 CET: Working session
+The Automotive workgroup currently meets once per week.
+* Wednesday 10:00 AM CET/CEST (8:00/9:00 UTC)
 
-Note that the web calendar associated with our mailing list contains up to date information about all workgroup meetings, consider subscribing to keep up to date!
+As meeting times may change always check the web calendar associated with the mailing list for up to date information about all workgroup meetings. Consider subscribing to keep up to date!
 
-Our meeting minutes are kept at 
+Meeting minutes are kept at 
 https://docs.google.com/document/d/1qgEkB6HBjq0ojoTSmI_E18BZco3lORK1ZZDrBH1YQo0/edit#heading=h.b7qah2h40uzb
 
 ### Newcomer Onboarding Checklist
-If you are new and all this seems overwhelming, don't fret, we got you covered!
-
-Single most important instruction: drop by the workgroup and ask, despite our effort not everything can be always kept up to date.
+We welcome newcomer. If you don't find your way forward, most likely it is on the WG to improve documentation. Just join one of the weekly meetings or drop a mail via the mailing list.
 
 Other than that, here is a checklist to get you started:
 * Sign up for [mailinglist and calendar](#mailing-list-calendar-etc)
-* familiarize yourself with our tooling for [modelling and requirements](#tooling)
 * Get to know the [contribution process](#contribution-workflow)
 * Check out this repository and explore, [Repo overview](#elisa-automotive-wg---navigation-and-file-locations)
 * Check out the meeting minutes and drop by our [weekly sync call](#meetings) 
@@ -40,10 +36,10 @@ Other than that, here is a checklist to get you started:
 ## Google drive workgroup folder
 The google drive is used for drafts, presentation and general material that has to be considered work in process. The gdrive also is used for the meeting minutes.  
 https://drive.google.com/drive/folders/1FCEzywCMfk3wY6lxBoMYjfQ_DQ44S5YS
-## Repo Orientation regarding the Telltale Usecase
+## Repo Orientation regarding the tell tale use case
 ### Original considerations
 The originial considerations of the Use Case can be found in the subfolder "Initialy_discussed_system_scope" of this repository
-### First iteration of the use case
+### First iteration of the use case (demo implemenation focused)
 The first iteration of the use case, that the meta-elisa demo is based on, can be found in the subfolder "AGL_cluster_demo_use_case" of this repository
 * Item definition
 * Safety Concept/Requirements
@@ -54,17 +50,17 @@ Our Implementation on top of the preexisting AGL Cluster demo is split in two re
 * The sourcecode repository providing the actual code:
   * https://github.com/elisa-tech/wg-automotive-safety-app
 
-### Second iteration of the use case
-The second iteration of the use case including Eclipse Papyrus based SysML models and the ongoing STPA analysis can be found in the subfolder "Cluster_Display_Use_Case_v2"
+### Second iteration of the use case (STPA analysis focused)
+The second iteration of the use case includes the ongoing STPA analysis can be found in the subfolder "Cluster_Display_Use_Case_v2"
 * Item definition [WIP]
 * SysML models [WIP]
 * STPA analysis [WIP]
 
 The models are also visible via github page deployment as online viewer at:
 
-https://elisa-tech.github.io/wg-automotive/
+https://elisa-tech.github.io/wg-automotive/ 
 
-The html export might not always be up to date with the models, generation is not automated (yet)
+_(Note: svg graphics cannot be rendered with every browser directly. Chrome engine may be a good choice. The html export might not always be up to date with the models, generation is not automated.)_
 
 # Tooling
 ## Requirements
@@ -79,7 +75,7 @@ SysML models are done with Eclipse Papyrus with SysML v1.6 Plugin
 * https://marketplace.eclipse.org/content/papyrus-sysml-16
 
 # Contribution workflow
-To make collaboration as frictionless as possible, the automotive workgroup uses the following github based workflow.
+The automotive working group uses the following github based workflow as base for contributions.
 ## Prerequisites
 * Git
 * Github account
@@ -103,7 +99,7 @@ If you did create an issue, it is best practice to reference the issue in your c
 * Review Process
   * The pull request is visible and open for comments and discussion on Github.
   * Review is considered done if no more unresolved findings/comments remain, no checks fail and 2 group members approved the change.
-  * Merge ready Pullrequests are put on the next Workgroup synccall agenda for discussion, if consensus is found, the pullrequest is merged by an maintainer.
+  * Merge ready pull requests are put on the next Workgroup synccall agenda for discussion, if consensus is found, the pull request is merged by an maintainer.
 
 # Git Newbie section
 This section serves as reference for members new to GIT, to be read on demand.
@@ -219,13 +215,3 @@ Pushing your rebased feature branch to your github fork requires the use of the 
 ```
 git push origin -force 
 ```
-
-
-
-
-
-
-
-
-
-
