@@ -5,7 +5,7 @@ RUN set -x && apt-get update && apt-get upgrade -y \
   && apt-get install -y curl python\
     gawk wget git-core diffstat unzip texinfo gcc-multilib \
      build-essential chrpath socat libsdl1.2-dev xterm \
-      cpio file locales
+      cpio file locales lz4 zstd
 
 RUN echo "en_US.UTF-8 UTF-8" >> /etc/locale.gen && locale-gen en_US.UTF-8
 RUN echo "#!/bin/bash\n\nif [ ! -d /src/home ]; then\n\tmkdir /src/home\nfi\n\n/bin/bash" > /bin/start.sh
@@ -31,10 +31,10 @@ if [ ! -f \$HOME/bin/repo ]; then\n\
 	chmod a+x \$HOME/bin/repo\n\
 fi\n\
 export AGL_TOP=\$HOME/AGL\n\
-if [ ! -d \$AGL_TOP/koi ]; then\n\
-	mkdir -p \$AGL_TOP/koi\n\
-	cd \$AGL_TOP/koi\n\
-	repo init -b koi -u https://gerrit.automotivelinux.org/gerrit/AGL/AGL-repo\n\
+if [ ! -d \$AGL_TOP/needlefish ]; then\n\
+	mkdir -p \$AGL_TOP/needlefish\n\
+	cd \$AGL_TOP/needlefish\n\
+	repo init -b needlefish -u https://gerrit.automotivelinux.org/gerrit/AGL/AGL-repo\n\
 	repo sync\n\
 	git clone https://github.com/elisa-tech/meta-elisa.git\n\
 fi" > /bin/setup_elisa.sh
