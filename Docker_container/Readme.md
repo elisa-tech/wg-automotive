@@ -33,9 +33,9 @@ Setup step (the easy way):
 -------------------------
 
 	$ setup_elisa.sh
-	$ cd home/AGL/koi/
+	$ cd home/AGL/needlefish/
 
-The above command will ask you to enter your name and email and then will configure everything and will also clone the required source code at elisa/home/AGL/koi folder.
+The above command will ask you to enter your name and email and then will configure everything and will also clone the required source code at elisa/home/AGL/needlefish folder.
 
 
 Setup step (the expert way):
@@ -52,8 +52,8 @@ Setup step (the expert way):
 	$ curl https://storage.googleapis.com/git-repo-downloads/repo > $HOME/bin/repo
 	$ chmod a+x $HOME/bin/repo
 	$ cd $AGL_TOP
-	$ mkdir koi
-	$ cd koi
+	$ mkdir needlefish
+	$ cd needlefish
 
 	The next two commands (Setting your name and email adress for use by GIT) are not documented in AGL but needed before 'repo' can be used.
 
@@ -65,7 +65,7 @@ Setup step (the expert way):
 	Last two commands from AGL:
 	--------------------------
 
-	$ repo init -b koi -u https://gerrit.automotivelinux.org/gerrit/AGL/AGL-repo
+	$ repo init -b needlefish -u https://gerrit.automotivelinux.org/gerrit/AGL/AGL-repo
 	$ repo sync
 
 	Instructions from Elisa:
@@ -91,7 +91,7 @@ Only the following should be sufficient.
 
 	$ cd elisa
 	$ docker run -it --rm -v $PWD:/src --workdir /src elisa
-	$ cd $AGL_TOP/koi
+	$ cd $AGL_TOP/needlefish
 	$ source meta-agl/scripts/aglsetup.sh -f elisa-cluster-demo
 	$ bitbake elisa-cluster-demo-platform
 	$ exit
