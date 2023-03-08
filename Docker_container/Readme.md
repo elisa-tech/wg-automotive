@@ -8,6 +8,8 @@ Install Docker:
 
 Install docker from your distro or you can follow instructions at https://docs.docker.com/engine/install/
 
+As a post installation step, following the instructions at [Manage Docker as a non-root user](https://docs.docker.com/engine/install/linux-postinstall/#manage-docker-as-a-non-root-user), enables building and running Docker as non-root user.
+
 
 Build the docker image after installing docker:
 ----------------------------------------------
