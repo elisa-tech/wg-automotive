@@ -43,9 +43,7 @@ designers have some control.
   of mission, loss of reputation, loss or leak of sensitive information, or any
   other loss that is unacceptable to the stakeholders.
 
-* L-1: Loss of life or injury to people (not limited to vehicle occupants)
-* L-2: Loss of or damage to vehicle  
-* L-3: Loss of or damage to objects outside the vehicle
+See [Losses](telltale.md#losses).
 
 ## Notes
 
@@ -58,14 +56,7 @@ designers have some control.
 > A hazard is a system state or set of conditions that, together with a
   particular set of worst-case environmental conditions, will lead to a loss.
 
-* H-1: Driver is not informed about a system condition, leading to a collision
-  or other harmful event [L-1, L-2]
-* H-2: Driver is distracted by the display, leading to a collision or other
-  harmful event [L-1, L-2]
-* H-3: Driver becomes desensitized to a warning because it is incorrectly
-  repeated, leading to a collision or other harmful event [L-1, L-2]
-* H-4: Content on display compromises the driver (e.g. flickering image triggers
-  epileptic fit), leading to a collision or other harmful event [L-1]
+See [Hazards](telltale.md#hazards)
 
 ## System-level Constraints
 
@@ -74,10 +65,4 @@ designers have some control.
 > A system-level constraint specifies system conditions or behaviors that need
 to be satisfied to prevent hazards (and ultimately prevent losses)
 
-* C-1: Warning of a potentially harmful system condition must be visible and
-  noticeable by the driver [H-1]
-* C-2: Display content must not impede the driver in performing the driving task
-  [H-2, H-4]
-* C-3: Erroneous, ambiguous or contradictory information relating to potentially
-  harmful system conditions must not be persistently displayed [H-3]
-   - Needs more work - suggestions?
+See [System Constraints](telltale.md#system-constraints)
