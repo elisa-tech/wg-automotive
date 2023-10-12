@@ -5,7 +5,7 @@ RUN set -x && apt-get update && apt-get upgrade -y \
   && apt-get install -y curl python\
     gawk wget git-core diffstat unzip texinfo gcc-multilib \
      build-essential chrpath socat libsdl1.2-dev xterm \
-      cpio file locales lz4 zstd
+      cpio file locales lz4 zstd procps libtinfo5
 
 RUN echo "en_US.UTF-8 UTF-8" >> /etc/locale.gen && locale-gen en_US.UTF-8
 RUN echo "#!/bin/bash\n\nif [ ! -d /src/home ]; then\n\tmkdir /src/home\nfi\n\n/bin/bash" > /bin/start.sh
