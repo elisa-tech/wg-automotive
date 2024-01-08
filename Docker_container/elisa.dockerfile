@@ -2,7 +2,7 @@ FROM debian:buster-slim
 
 ARG DEBIAN_FRONTEND=noninteractive
 RUN set -x && apt-get update && apt-get upgrade -y \
-  && apt-get install -y curl python\
+  && apt-get install -y curl python \
     gawk wget git-core diffstat unzip texinfo gcc-multilib \
      build-essential chrpath socat libsdl1.2-dev xterm \
       cpio file locales lz4 zstd procps libtinfo5
@@ -38,7 +38,7 @@ if [ ! -d \$AGL_TOP/needlefish ]; then\n\
 	repo sync\n\
 	git clone https://github.com/elisa-tech/meta-elisa.git\n\
 fi" > /bin/setup_elisa.sh
-RUN chmod a+x /bin/setup_elisa.sh
+RUN chmod a+x /bin/setup_elisa.sh && update-alternatives --install /usr/bin/python python /usr/bin/python3.7m 3
 
 ARG UNAME=elisa
 ARG UID=1000
