@@ -1,8 +1,8 @@
-FROM debian:buster-slim
+FROM debian:bookworm-slim
 
 ARG DEBIAN_FRONTEND=noninteractive
 RUN set -x && apt-get update && apt-get upgrade -y \
-  && apt-get install -y curl python \
+  && apt-get install -y curl python3 \
     gawk wget git-core diffstat unzip texinfo gcc-multilib \
      build-essential chrpath socat libsdl1.2-dev xterm \
       cpio file locales lz4 zstd procps libtinfo5
@@ -34,11 +34,11 @@ export AGL_TOP=\$HOME/AGL\n\
 if [ ! -d \$AGL_TOP/needlefish ]; then\n\
 	mkdir -p \$AGL_TOP/needlefish\n\
 	cd \$AGL_TOP/needlefish\n\
-	repo init -b needlefish -u https://gerrit.automotivelinux.org/gerrit/AGL/AGL-repo\n\
+	repo init -b ricefish -u https://gerrit.automotivelinux.org/gerrit/AGL/AGL-repo\n\
 	repo sync\n\
 	git clone https://github.com/elisa-tech/meta-elisa.git\n\
 fi" > /bin/setup_elisa.sh
-RUN chmod a+x /bin/setup_elisa.sh && update-alternatives --install /usr/bin/python python /usr/bin/python3.7m 3
+RUN chmod a+x /bin/setup_elisa.sh
 
 ARG UNAME=elisa
 ARG UID=1000
