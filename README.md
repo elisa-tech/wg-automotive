@@ -1,4 +1,10 @@
 # ELISA Automotive WG
+
+> [!Caution]  
+> The Automotive WG is currently paused and **looking for a new Working Group Lead**!
+> 
+> Currently, Automotive activities are handled within the [ELISA Systems WG](https://github.com/elisa-tech/wg-systems/wiki)
+
 ## Mission statement
 The automotive workgroup discusses the conditions and prerequisites the automotive sector needs to integrate Linux into a safety critical system.
  
@@ -14,65 +20,26 @@ Subscribe to our mailing list:
 https://lists.elisa.tech/g/automotive
 
 ### Meetings
-The Automotive workgroup currently meets once per week.
-* Wednesday 10:00 AM CET/CEST (8:00/9:00 UTC)
 
-As meeting times may change always check the web calendar associated with the mailing list for up to date information about all workgroup meetings. Consider subscribing to keep up to date!
+No explicit Automotive meeting is currently conducted until a new host aka working group lead is found. 
 
-Meeting minutes are kept at 
-https://docs.google.com/document/d/1qgEkB6HBjq0ojoTSmI_E18BZco3lORK1ZZDrBH1YQo0/edit#heading=h.b7qah2h40uzb
+Join the [Systems WG](https://lists.elisa.tech/g/systems) meetings instead. They are scheduled weekly on Mondays alternating with Tuesdays every other week.
+
+See the public ELISA calendar to find the next meeting: https://elisa.tech/community/meetings/
+
+_Note: Use Chrome*ium engine in case the calendar is not properly rendered when following the link_
 
 ### Newcomer Onboarding Checklist
-We welcome newcomer. If you don't find your way forward, most likely it is on the WG to improve documentation. Just join one of the weekly meetings or drop a mail via the mailing list.
+We welcome newcomer. If you don't find your way forward, most likely it is on the WG to improve documentation. 
+
+If you are interested in becoming the the new Working Group Lead drop a mail on the [ELISA devel mailing list](https://lists.elisa.tech/g/main)
 
 Other than that, here is a checklist to get you started:
 * Sign up for [mailinglist and calendar](#mailing-list-calendar-etc)
 * Get to know the [contribution process](#contribution-workflow)
 * Check out this repository and explore, [Repo overview](#elisa-automotive-wg---navigation-and-file-locations)
-* Check out the meeting minutes and drop by our [weekly sync call](#meetings) 
 * [Developers] check out the meta-elisa repository to learn how to set up a build environment, build and run the [demo](#first-iteration-of-the-use-case)
 
-# ELISA Automotive WG - Navigation and file locations
-## Google drive workgroup folder
-The google drive is used for drafts, presentation and general material that has to be considered work in process. The gdrive also is used for the meeting minutes.  
-https://drive.google.com/drive/folders/1FCEzywCMfk3wY6lxBoMYjfQ_DQ44S5YS
-## Repo Orientation regarding the tell tale use case
-### Original considerations
-The originial considerations of the Use Case can be found in the subfolder "Initialy_discussed_system_scope" of this repository
-### First iteration of the use case (demo implemenation focused)
-The first iteration of the use case, that the meta-elisa demo is based on, can be found in the subfolder "AGL_cluster_demo_use_case" of this repository
-* Item definition
-* Safety Concept/Requirements
-
-Our Implementation on top of the preexisting AGL Cluster demo is split in two repositories:
-* The meta layer: (also includes build and running instructions)
-  * https://github.com/elisa-tech/meta-elisa
-* The sourcecode repository providing the actual code:
-  * https://github.com/elisa-tech/wg-automotive-safety-app
-
-### Second iteration of the use case (STPA analysis focused)
-The second iteration of the use case includes the ongoing STPA analysis can be found in the subfolder "Cluster_Display_Use_Case_v2"
-* Item definition [WIP]
-* SysML models [WIP]
-* STPA analysis [WIP]
-
-The models are also visible via github page deployment as online viewer at:
-
-https://elisa-tech.github.io/wg-automotive/ 
-
-_(Note: svg graphics cannot be rendered with every browser directly. Chrome engine may be a good choice. The html export might not always be up to date with the models, generation is not automated.)_
-
-# Tooling
-## Requirements
-Requirements and Safety concepts are stored and handled as Freeplane Mindmap using the Functional Safety Addon specifically developed for the task.
-* https://www.freeplane.org/wiki/index.php/Home
-* https://github.com/Jochen-Kall/Safety_concept_tool
-
-![Mindmap Example](documentation/Example_requirements.png)
-## SysML modeling
-SysML models are done with Eclipse Papyrus with SysML v1.6 Plugin
-* https://www.eclipse.org/papyrus/
-* https://marketplace.eclipse.org/content/papyrus-sysml-16
 
 # Contribution workflow
 The automotive working group uses the following github based workflow as base for contributions.
@@ -215,3 +182,4 @@ Pushing your rebased feature branch to your github fork requires the use of the 
 ```
 git push origin -force 
 ```
+
