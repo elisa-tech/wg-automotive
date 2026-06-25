@@ -33,9 +33,9 @@ Good starting points are simple:
 
 | Purpose | Channel |
 | --- | --- |
-| Announcements and discussion | [Automotive WG mailing list](https://lists.elisa.tech/g/automotive) |
-| Day-to-day chat | [ELISA chat server](https://chat.elisa.tech/), Automotive WG category |
-| Repository work | [GitHub issues and pull requests](https://github.com/elisa-tech/wg-automotive/issues) |
+| Announcements | [Automotive WG mailing list](https://lists.elisa.tech/g/automotive) |
+| Discussions | [ELISA chat server](https://chat.elisa.tech/), Automotive WG category |
+| Wiki and Meeting Notes | [Automotive WG wiki](https://github.com/elisa-tech/wg-automotive/wiki) |
 | Meeting registration and join details | [ELISA calendar](https://elisa.tech/community/meetings/) |
 
 ## Contributing
